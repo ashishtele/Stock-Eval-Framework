@@ -1,0 +1,161 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/ashishtele/Stock-Eval-Framework/schema/framework.schema.json",
+  "title": "Stock evaluation framework",
+  "type": "object",
+  "required": ["id", "name", "creator", "version", "status", "extracted_at", "sources", "criteria"],
+  "properties": {
+    "id": { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$" },
+    "name": { "type": "string", "minLength": 1 },
+    "creator": { "type": "string", "minLength": 1 },
+    "version": { "type": "string", "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$" },
+    "status": { "enum": ["draft", "validated", "retired"] },
+    "extracted_at": { "type": "string", "format": "date" },
+    "sources": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/source" }
+    },
+    "universe": {
+      "type": "object",
+      "properties": {
+        "in": { "type": "array", "items": { "type": "string" } },
+        "out": { "type": "array", "items": { "type": "string" } }
+      },
+      "additionalProperties": false
+    },
+    "criteria": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/criterion" }
+    },
+    "red_flags": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/redFlag" }
+    },
+    "heuristics": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/heuristic" }
+    },
+    "position_rules": { "type": "object" },
+    "sell_rules": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/rule" }
+    },
+    "tensions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["topic", "statement", "counter_evidence"],
+        "properties": {
+          "topic": { "type": "string" },
+          "statement": { "type": "string" },
+          "counter_evidence": { "type": "string" },
+          "evidence": { "type": "array", "items": { "$ref": "#/$defs/evidence" } }
+        }
+      }
+    },
+    "validation": {
+      "type": "object",
+      "properties": {
+        "status": { "enum": ["unvalidated", "partial", "validated"] },
+        "evals": { "type": "array", "items": { "type": "string" } },
+        "notes": { "type": "string" }
+      },
+      "additionalProperties": false
+    }
+  },
+  "$defs": {
+    "source": {
+      "type": "object",
+      "required": ["source_id", "url", "title"],
+      "properties": {
+        "source_id": { "type": "string" },
+        "url": { "type": "string", "format": "uri" },
+        "title": { "type": "string" },
+        "channel": { "type": "string" },
+        "published": { "type": "string" },
+        "transcript_path": { "type": "string" },
+        "transcript_sha256": { "type": "string" },
+        "fetched_at": { "type": "string" }
+      },
+      "additionalProperties": false
+    },
+    "evidence": {
+      "type": "object",
+      "required": ["quote", "timestamp", "source_id"],
+      "properties": {
+        "quote": { "type": "string", "minLength": 1 },
+        "timestamp": { "type": "string", "pattern": "^[0-9]{1,2}:[0-9]{2}(:[0-9]{2})?$" },
+        "source_id": { "type": "string" },
+        "speaker": { "type": "string" },
+        "note": { "type": "string" }
+      },
+      "additionalProperties": false
+    },
+    "threshold": {
+      "type": "object",
+      "required": ["metric", "operator"],
+      "properties": {
+        "metric": { "type": "string" },
+        "operator": { "enum": ["<", "<=", ">", ">=", "==", "between", "in", "trend"] },
+        "value": {},
+        "unit": { "type": "string" },
+        "window": { "type": "string" },
+        "note": { "type": "string" }
+      },
+      "additionalProperties": false
+    },
+    "criterion": {
+      "type": "object",
+      "required": ["id", "question", "kind", "evidence", "disqualifying"],
+      "properties": {
+        "id": { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$" },
+        "question": { "type": "string", "minLength": 1 },
+        "kind": { "enum": ["screen", "judgment"] },
+        "threshold": { "oneOf": [{ "$ref": "#/$defs/threshold" }, { "type": "null" }] },
+        "data_required": { "type": "array", "items": { "type": "string" } },
+        "evidence": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/evidence" } },
+        "rationale": { "type": "string" },
+        "disqualifying": { "type": "boolean" },
+        "weight": { "type": ["number", "null"] },
+        "verdict_scale": { "type": "array", "items": { "type": "string" } },
+        "unvalidated": { "type": "boolean" }
+      },
+      "additionalProperties": false
+    },
+    "redFlag": {
+      "type": "object",
+      "required": ["id", "flag", "severity", "evidence"],
+      "properties": {
+        "id": { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$" },
+        "flag": { "type": "string", "minLength": 1 },
+        "severity": { "enum": ["fatal", "serious", "caution"] },
+        "detect": { "type": "string" },
+        "evidence": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/evidence" } }
+      },
+      "additionalProperties": false
+    },
+    "heuristic": {
+      "type": "object",
+      "required": ["id", "heuristic", "why_not_testable", "evidence"],
+      "properties": {
+        "id": { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$" },
+        "heuristic": { "type": "string", "minLength": 1 },
+        "why_not_testable": { "type": "string" },
+        "evidence": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/evidence" } }
+      },
+      "additionalProperties": false
+    },
+    "rule": {
+      "type": "object",
+      "required": ["id", "rule", "evidence"],
+      "properties": {
+        "id": { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$" },
+        "rule": { "type": "string", "minLength": 1 },
+        "trigger": { "type": "string" },
+        "evidence": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/evidence" } }
+      },
+      "additionalProperties": false
+    }
+  }
+}

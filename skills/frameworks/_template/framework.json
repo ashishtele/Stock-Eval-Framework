@@ -1,0 +1,124 @@
+{
+  "id": "creator-topic",
+  "name": "Creator — Topic Framework",
+  "creator": "Creator Name",
+  "version": "0.1.0",
+  "status": "draft",
+  "extracted_at": "2026-01-01",
+  "sources": [
+    {
+      "source_id": "vid-XXXXXXXXXXX",
+      "url": "https://www.youtube.com/watch?v=XXXXXXXXXXX",
+      "title": "Talk title",
+      "channel": "Channel name",
+      "published": "2026-01-01",
+      "transcript_path": "transcripts/creator/20260101-talk-title.md",
+      "transcript_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "fetched_at": "2026-01-01T00:00:00Z"
+    }
+  ],
+  "universe": {
+    "in": ["Industries or situations this framework is meant for"],
+    "out": ["Sectors or situations it refuses or avoids"]
+  },
+  "criteria": [
+    {
+      "id": "example-screen-metric",
+      "question": "Does <metric> meet the stated threshold over <window>?",
+      "kind": "screen",
+      "threshold": {
+        "metric": "example.metric",
+        "operator": ">=",
+        "value": 0,
+        "unit": "percent",
+        "window": "5 years"
+      },
+      "data_required": ["example.metric"],
+      "evidence": [
+        {
+          "quote": "Replace with the creator's verbatim words.",
+          "timestamp": "00:00:00",
+          "source_id": "vid-XXXXXXXXXXX",
+          "speaker": "Creator Name"
+        }
+      ],
+      "rationale": "Why the creator cares, in their own terms.",
+      "disqualifying": false,
+      "weight": null,
+      "unvalidated": true
+    },
+    {
+      "id": "example-judgment-quality",
+      "question": "Does <qualitative test> hold, based on the filings?",
+      "kind": "judgment",
+      "threshold": null,
+      "data_required": ["filing.section"],
+      "evidence": [
+        {
+          "quote": "Replace with the creator's verbatim words.",
+          "timestamp": "00:00:00",
+          "source_id": "vid-XXXXXXXXXXX",
+          "speaker": "Creator Name"
+        }
+      ],
+      "rationale": "Why the creator cares, in their own terms.",
+      "disqualifying": true,
+      "weight": null,
+      "verdict_scale": ["PASS", "FAIL", "UNKNOWN"],
+      "unvalidated": true
+    }
+  ],
+  "red_flags": [
+    {
+      "id": "example-red-flag",
+      "flag": "State the observable red flag in one sentence.",
+      "severity": "serious",
+      "detect": "How to check it from data or a filing.",
+      "evidence": [
+        {
+          "quote": "Replace with the creator's verbatim words.",
+          "timestamp": "00:00:00",
+          "source_id": "vid-XXXXXXXXXXX",
+          "speaker": "Creator Name"
+        }
+      ]
+    }
+  ],
+  "heuristics": [
+    {
+      "id": "example-heuristic",
+      "heuristic": "An idea the creator uses that cannot be tested mechanically.",
+      "why_not_testable": "Explain the missing measurable definition.",
+      "evidence": [
+        {
+          "quote": "Replace with the creator's verbatim words.",
+          "timestamp": "00:00:00",
+          "source_id": "vid-XXXXXXXXXXX",
+          "speaker": "Creator Name"
+        }
+      ]
+    }
+  ],
+  "position_rules": {},
+  "sell_rules": [
+    {
+      "id": "example-sell-rule",
+      "rule": "Sell or trim when <condition>.",
+      "trigger": "Observable event or data change.",
+      "evidence": [
+        {
+          "quote": "Replace with the creator's verbatim words.",
+          "timestamp": "00:00:00",
+          "source_id": "vid-XXXXXXXXXXX",
+          "speaker": "Creator Name"
+        }
+      ]
+    }
+  ],
+  "tensions": [],
+  "validation": {
+    "status": "unvalidated",
+    "evals": [],
+    "notes": ""
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/ashishtele/Stock-Eval-Framework/schema/evaluation.schema.json",
+  "title": "Stock evaluation result",
+  "type": "object",
+  "required": ["ticker", "as_of", "framework", "rows", "summary", "disqualified"],
+  "properties": {
+    "ticker": { "type": "string", "minLength": 1 },
+    "as_of": { "type": "string", "format": "date" },
+    "framework": {
+      "type": "object",
+      "required": ["id", "version"],
+      "properties": {
+        "id": { "type": "string" },
+        "version": { "type": "string" }
+      },
+      "additionalProperties": false
+    },
+    "rows": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["criterion_id", "verdict"],
+        "properties": {
+          "criterion_id": { "type": "string" },
+          "verdict": { "enum": ["PASS", "FAIL", "UNKNOWN", "N/A"] },
+          "value": {},
+          "unit": { "type": "string" },
+          "as_of": { "type": "string" },
+          "source": { "type": "string" },
+          "note": { "type": "string" }
+        },
+        "if": {
+          "properties": { "verdict": { "enum": ["PASS", "FAIL"] } },
+          "required": ["verdict"]
+        },
+        "then": { "required": ["value", "source"] }
+      }
+    },
+    "summary": {
+      "type": "object",
+      "required": ["pass", "fail", "unknown", "na"],
+      "properties": {
+        "pass": { "type": "integer", "minimum": 0 },
+        "fail": { "type": "integer", "minimum": 0 },
+        "unknown": { "type": "integer", "minimum": 0 },
+        "na": { "type": "integer", "minimum": 0 },
+        "coverage": { "type": "number", "minimum": 0, "maximum": 1 },
+        "score": { "type": ["number", "null"] },
+        "score_method": { "type": "string" }
+      },
+      "additionalProperties": false
+    },
+    "disqualified": { "type": "boolean" },
+    "disqualifiers": { "type": "array", "items": { "type": "string" } },
+    "confidence": { "enum": ["low", "medium", "high"] },
+    "notes": { "type": "string" }
+  }
+}
