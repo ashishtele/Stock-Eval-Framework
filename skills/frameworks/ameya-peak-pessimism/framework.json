@@ -1,0 +1,538 @@
+{
+  "id": "ameya-peak-pessimism",
+  "name": "Ameya Deosthali — Pessimism Rate of Change Tracker",
+  "creator": "Ameya Deosthali",
+  "version": "0.1.0",
+  "status": "draft",
+  "extracted_at": "2026-10-22",
+  "sources": [
+    {
+      "source_id": "yt-rwThX801xWI",
+      "url": "https://www.youtube.com/watch?v=rwThX801xWI",
+      "title": "This 23-Year-Old Investor Looks for Stocks That Analysts Ignore! | Kushal Lodha #393",
+      "channel": "Kushal Lodha",
+      "published": "2026-10-13",
+      "transcript_path": "transcripts/kushal-lodha/20261013-this-23-year-old-investor-looks-for-stocks-that-analysts-ign.md",
+      "transcript_sha256": "4ee0e87e65144221608965d35d8a1ad65b347da176ec011ba1d7a3415981e1ac",
+      "fetched_at": "2026-10-22T23:37:20+00:00"
+    }
+  ],
+  "universe": {
+    "in": [
+      "Cyclical sectors in visible industry-wide pain: chemicals, pipes, EMS, microfinance",
+      "Regulated sectors hit by a specific shock: pharma on an FDA issue, financials on regulation",
+      "Situations where a capacity exit, spread bottom, or promoter buying is observable"
+    ],
+    "out": [
+      "Structural compounders where the edge is simply owning a good business over time",
+      "Cheap stocks with no identified recovery mechanism (value traps)"
+    ]
+  },
+  "criteria": [
+    {
+      "id": "sector-in-pain",
+      "question": "Is the sector in visible, industry-wide pain from overcapacity, competition, cost undercutting, or a regulatory shock?",
+      "kind": "judgment",
+      "threshold": null,
+      "data_required": [
+        "sector.capacity_utilisation",
+        "sector.competitive_entry",
+        "sector.regulatory_events"
+      ],
+      "evidence": [
+        {
+          "quote": "Every couple of years, one or five sectors, you know, five to six sectors are in a lot of pain, right? Because of a cycle peak or too much competition.",
+          "timestamp": "00:07:37",
+          "source_id": "yt-rwThX801xWI",
+          "speaker": "Ameya Deosthali"
+        },
+        {
+          "quote": "We start by identifying where the pain lies.",
+          "timestamp": "00:07:37",
+          "source_id": "yt-rwThX801xWI",
+          "speaker": "Ameya Deosthali"
+        }
+      ],
+      "rationale": "The tracker begins with sector pain, not with individual companies; the pain has to be observable at the industry level before any company is considered.",
+      "disqualifying": false,
+      "weight": null,
+      "verdict_scale": ["yes", "no", "unclear"],
+      "unvalidated": true
+    },
+    {
+      "id": "multiple-collapse",
+      "question": "Has the valuation multiple fallen by at least half from its cycle peak?",
+      "kind": "screen",
+      "threshold": {
+        "metric": "valuation.price_to_book",
+        "operator": "<=",
+        "value": 0.5,
+        "unit": "x prior peak multiple",
+        "window": "cycle peak to evaluation date"
+      },
+      "data_required": [
+        "valuation.price_to_book",
+        "valuation.price_to_book_at_cycle_peak"
+      ],
+      "evidence": [
+        {
+          "quote": "So suddenly, a company that was attractive at five times book value six months ago. Today, at two times book value, no one is even willing to look at it. Same company, same business, same management, only the time has changed.",
+          "timestamp": "00:08:54",
+          "source_id": "yt-rwThX801xWI",
+          "speaker": "Ameya Deosthali"
+        }
+      ],
+      "rationale": "Multiple compression is the measurable form of pessimism; the same business at half the multiple is the core of the rate-of-change idea.",
+      "disqualifying": false,
+      "weight": null,
+      "unvalidated": true
+    },
+    {
+      "id": "price-drawdown",
+      "question": "Has the stock fallen at least 50% from its cycle peak?",
+      "kind": "screen",
+      "threshold": {
+        "metric": "price.drawdown_from_peak",
+        "operator": ">=",
+        "value": 50,
+        "unit": "percent",
+        "window": "cycle peak to trough"
+      },
+      "data_required": ["price.history_adjusted"],
+      "evidence": [
+        {
+          "quote": "We saw corrections from 80 to 90%across many chemical names.",
+          "timestamp": "00:12:48",
+          "source_id": "yt-rwThX801xWI",
+          "speaker": "Ameya Deosthali"
+        },
+        {
+          "quote": "The stock kind of collapsed from 600 to 300.",
+          "timestamp": "00:21:53",
+          "source_id": "yt-rwThX801xWI",
+          "speaker": "Ameya Deosthali"
+        }
+      ],
+      "rationale": "The tracker is applied after a large drawdown, which is when multiples and sentiment are most depressed.",
+      "disqualifying": false,
+      "weight": null,
+      "unvalidated": true
+    },
+    {
+      "id": "earnings-call-brevity",
+      "question": "Is the latest earnings call shorter than roughly 30 minutes, indicating no analyst interest?",
+      "kind": "screen",
+      "threshold": {
+        "metric": "earnings_call.duration",
+        "operator": "<=",
+        "value": 30,
+        "unit": "minutes",
+        "window": "latest quarter"
+      },
+      "data_required": ["earnings_call.duration", "earnings_call.transcript"],
+      "evidence": [
+        {
+          "quote": "I have a very interesting filter to track this, meaning a lot of people don't check this: how short the conference call length is.",
+          "timestamp": "00:16:25",
+          "source_id": "yt-rwThX801xWI",
+          "speaker": "Ameya Deosthali"
+        },
+        {
+          "quote": "Look at chemical calls—30 minutes, 25 minutes—calls are so short, no analyst interest, no investor interest, barely any questions; that tells you a quick sentiment check.",
+          "timestamp": "00:17:05",
+          "source_id": "yt-rwThX801xWI",
+          "speaker": "Kushal Lodha"
+        }
+      ],
+      "rationale": "Call length is a cheap, observable proxy for analyst neglect; the creator offers it as a quick sentiment check.",
+      "disqualifying": false,
+      "weight": null,
+      "unvalidated": true
+    },
+    {
+      "id": "coverage-and-chatter-decline",
+      "question": "Has sell-side coverage and investor chatter about the company materially declined?",
+      "kind": "judgment",
+      "threshold": null,
+      "data_required": [
+        "coverage.analyst_count",
+        "coverage.research_notes",
+        "sentiment.social_and_media_mentions"
+      ],
+      "evidence": [
+        {
+          "quote": "So the multiples collapse, a lot of the typical sell-side research stops covering the companies, and the chatter ends. People don't talk about them on social media. There is pessimism in investing circles.",
+          "timestamp": "00:08:54",
+          "source_id": "yt-rwThX801xWI",
+          "speaker": "Ameya Deosthali"
+        }
+      ],
+      "rationale": "Neglect is part of the definition of peak pessimism; the creator looks for coverage dropping, not just price falling.",
+      "disqualifying": false,
+      "weight": null,
+      "verdict_scale": ["yes", "no", "unclear"],
+      "unvalidated": true
+    },
+    {
+      "id": "capacity-exit",
+      "question": "Have marginal producers exited, or has new capacity become uneconomic at current prices?",
+      "kind": "judgment",
+      "threshold": null,
+      "data_required": [
+        "industry.unorganised_capacity",
+        "industry.new_capex_announcements",
+        "industry.spreads"
+      ],
+      "evidence": [
+        {
+          "quote": "Meaning, a promoter would say that putting in new capacity at this price is not viable for me. Meaning the economics just wouldn't work out. That’s the time when the spreads bottomed out.",
+          "timestamp": "00:14:05",
+          "source_id": "yt-rwThX801xWI",
+          "speaker": "Ameya Deosthali"
+        },
+        {
+          "quote": "So, the low-price, low-quality players who cannot survive raw material cost inflation, they cannot survive in this business. Now, their resin cost has doubled in the last six months for pipe makers. So, the local manufacturers cannot buy because they rely on working capital.",
+          "timestamp": "00:25:25",
+          "source_id": "yt-rwThX801xWI",
+          "speaker": "Ameya Deosthali"
+        }
+      ],
+      "rationale": "Pain alone is not enough; the supply side has to clear for spreads to bottom and for survivors to gain share.",
+      "disqualifying": false,
+      "weight": null,
+      "verdict_scale": ["yes", "no", "unclear"],
+      "unvalidated": true
+    },
+    {
+      "id": "promoter-buying",
+      "question": "Have promoters been net buyers in the open market over the last four quarters?",
+      "kind": "screen",
+      "threshold": {
+        "metric": "insider.promoter_net_purchases",
+        "operator": ">",
+        "value": 0,
+        "unit": "INR net purchase",
+        "window": "trailing 4 quarters"
+      },
+      "data_required": [
+        "insider.promoter_transactions",
+        "shareholding.promoter_pattern"
+      ],
+      "evidence": [
+        {
+          "quote": "Because promoters are net buyers. Now, in a lot of the chemical companies, the promoter management has been buying. But the market is not willing to recognize that.",
+          "timestamp": "00:15:17",
+          "source_id": "yt-rwThX801xWI",
+          "speaker": "Ameya Deosthali"
+        },
+        {
+          "quote": "But here, promoters are buying at 300, and the market is ignoring it.",
+          "timestamp": "00:24:14",
+          "source_id": "yt-rwThX801xWI",
+          "speaker": "Ameya Deosthali"
+        }
+      ],
+      "rationale": "Promoter buying is the observable form of management confidence, and the creator treats the market's refusal to recognize it as the opportunity.",
+      "disqualifying": false,
+      "weight": null,
+      "unvalidated": true
+    },
+    {
+      "id": "management-bullish-analysts-skeptical",
+      "question": "Is management visibly bullish while analysts remain skeptical about the recovery?",
+      "kind": "judgment",
+      "threshold": null,
+      "data_required": [
+        "earnings_call.management_guidance",
+        "earnings_call.analyst_questions",
+        "coverage.analyst_estimates"
+      ],
+      "evidence": [
+        {
+          "quote": "Managements are optimistic, analysts are skeptical. Right? That is the point where you should get very interested.",
+          "timestamp": "00:15:51",
+          "source_id": "yt-rwThX801xWI",
+          "speaker": "Ameya Deosthali"
+        },
+        {
+          "quote": "Management is saying that we will deliver this growth, we will deliver this growth, but the market is not willing to listen.",
+          "timestamp": "00:33:57",
+          "source_id": "yt-rwThX801xWI",
+          "speaker": "Ameya Deosthali"
+        }
+      ],
+      "rationale": "The early-recovery signal is a mismatch between what management says and what the market is willing to believe.",
+      "disqualifying": false,
+      "weight": null,
+      "verdict_scale": ["yes", "no", "unclear"],
+      "unvalidated": true
+    },
+    {
+      "id": "shock-type-identified",
+      "question": "Is the recovery driven by a supply shock, a demand shock, or both, and which leg is still missing?",
+      "kind": "judgment",
+      "threshold": null,
+      "data_required": [
+        "industry.supply_events",
+        "industry.demand_drivers",
+        "industry.end_market_activity"
+      ],
+      "evidence": [
+        {
+          "quote": "Currently, this cycle has started due to a supply shock. Right? It’s not a demand shock. Cycles can also be put into two categories.",
+          "timestamp": "00:24:47",
+          "source_id": "yt-rwThX801xWI",
+          "speaker": "Ameya Deosthali"
+        },
+        {
+          "quote": "Right now, one part of the equation has solved—supply has solved.",
+          "timestamp": "00:25:25",
+          "source_id": "yt-rwThX801xWI",
+          "speaker": "Ameya Deosthali"
+        }
+      ],
+      "rationale": "A supply-only recovery is real but not durable; the creator separates the two legs to avoid calling a supply squeeze a full cycle.",
+      "disqualifying": false,
+      "weight": null,
+      "verdict_scale": ["supply-only", "demand-only", "both", "neither"],
+      "unvalidated": true
+    },
+    {
+      "id": "twelve-quarter-visibility",
+      "question": "Is there at least 12 quarters of combined demand and supply visibility?",
+      "kind": "screen",
+      "threshold": {
+        "metric": "industry.earnings_visibility",
+        "operator": ">=",
+        "value": 12,
+        "unit": "quarters",
+        "window": "forward"
+      },
+      "data_required": [
+        "industry.order_book",
+        "industry.capacity_pipeline",
+        "industry.demand_drivers"
+      ],
+      "evidence": [
+        {
+          "quote": "Because for a cycle to be durable, for cycle longevity, you need a mix of demand and supply for 12 quarters.",
+          "timestamp": "00:24:47",
+          "source_id": "yt-rwThX801xWI",
+          "speaker": "Ameya Deosthali"
+        }
+      ],
+      "rationale": "This is the creator's definition of a cycle having actually started; it gates conviction, not entry.",
+      "disqualifying": false,
+      "weight": null,
+      "unvalidated": true
+    },
+    {
+      "id": "worst-company-best-affected",
+      "question": "Is this a high-delta turnaround (worst company, best affected) rather than the sector's best-quality leader?",
+      "kind": "judgment",
+      "threshold": null,
+      "data_required": [
+        "company.relative_market_share",
+        "company.earnings_sensitivity",
+        "company.operating_leverage"
+      ],
+      "evidence": [
+        {
+          "quote": "So, when a cycle turns, you buy the company that is not the best in the industry. You buy the company that is going to make the most delta in earnings.",
+          "timestamp": "00:18:19",
+          "source_id": "yt-rwThX801xWI",
+          "speaker": "Ameya Deosthali"
+        }
+      ],
+      "rationale": "The return comes from the change in earnings, not from owning the highest-quality operator; the smaller, more levered name has the larger delta.",
+      "disqualifying": false,
+      "weight": null,
+      "verdict_scale": ["yes", "no", "unclear"],
+      "unvalidated": true
+    },
+    {
+      "id": "structural-viability",
+      "question": "Is the business structurally viable through the trough, that is, is this a cycle rather than a terminal decline?",
+      "kind": "judgment",
+      "threshold": null,
+      "data_required": [
+        "company.balance_sheet",
+        "company.cash_flow",
+        "industry.long_term_demand"
+      ],
+      "evidence": [
+        {
+          "quote": "Because just because a stock is cheap doesn't mean it's a good business to buy. So that point of peak pessimism seen on the chart is the point where the strategy changes to wait and watch.",
+          "timestamp": "00:10:51",
+          "source_id": "yt-rwThX801xWI",
+          "speaker": "Ameya Deosthali"
+        },
+        {
+          "quote": "And I keep saying, the actual strength of cyclical businesses is revealed in bad times.",
+          "timestamp": "00:26:01",
+          "source_id": "yt-rwThX801xWI",
+          "speaker": "Ameya Deosthali"
+        }
+      ],
+      "rationale": "The value-trap guard; if the business cannot survive the trough, a low multiple is not an opportunity.",
+      "disqualifying": true,
+      "weight": null,
+      "verdict_scale": ["viable-cyclical", "structural-decline", "unclear"],
+      "unvalidated": true
+    }
+  ],
+  "red_flags": [
+    {
+      "id": "inventory-gain-recovery",
+      "flag": "The apparent recovery comes from inventory gains rather than sustainable spreads.",
+      "severity": "serious",
+      "detect": "Compare gross margin expansion with volume growth and realised spread data; inventory gains reverse when raw-material prices stabilise.",
+      "evidence": [
+        {
+          "quote": "And in Q1, they saw good numbers, but those are largely inventory gains; what was already lying in the factory, you were able to sell off at higher prices.",
+          "timestamp": "00:15:17",
+          "source_id": "yt-rwThX801xWI",
+          "speaker": "Ameya Deosthali"
+        }
+      ]
+    },
+    {
+      "id": "structural-decline-misread-as-cycle",
+      "flag": "A terminal decline is being treated as a cyclical trough.",
+      "severity": "fatal",
+      "detect": "Check whether end demand is structurally shrinking and whether the balance sheet can fund the trough; the framework explicitly guards against value traps.",
+      "evidence": [
+        {
+          "quote": "Because just because a stock is cheap doesn't mean it's a good business to buy.",
+          "timestamp": "00:10:51",
+          "source_id": "yt-rwThX801xWI",
+          "speaker": "Ameya Deosthali"
+        }
+      ]
+    },
+    {
+      "id": "promoter-selling-at-peak",
+      "flag": "Promoters are selling or raising aggressive capital at the same time the story looks good.",
+      "severity": "serious",
+      "detect": "Read promoter transactions and QIP activity; the creator applies the same lens in reverse at cycle peaks.",
+      "evidence": [
+        {
+          "quote": "Of course, all this happens at the top too. When a promoter sells via QIP or gives aggressive guidance, we have to look at both lenses.",
+          "timestamp": "00:23:39",
+          "source_id": "yt-rwThX801xWI",
+          "speaker": "Ameya Deosthali"
+        }
+      ]
+    },
+    {
+      "id": "entry-after-courage-returns",
+      "flag": "Entry happens after the stock has already re-rated, when the margin of safety has been consumed.",
+      "severity": "caution",
+      "detect": "Compare the current multiple with the trough multiple and with the creator's stated early-recovery band.",
+      "evidence": [
+        {
+          "quote": "At peak pessimism, margin of safety is available in bulk, but courage is not available.",
+          "timestamp": "00:28:21",
+          "source_id": "yt-rwThX801xWI",
+          "speaker": "Ameya Deosthali"
+        }
+      ]
+    }
+  ],
+  "heuristics": [
+    {
+      "id": "cycle-over-business-model",
+      "heuristic": "A good cycle for a business counts for more than a good business model.",
+      "why_not_testable": "The relative contribution of cycle versus business model is not a measurable quantity; it is a portfolio-philosophy statement.",
+      "evidence": [
+        {
+          "quote": "That’s why the core philosophy of this pessimism rate-of-change tracker is that a good cycle for a business counts for far more than a good business model.",
+          "timestamp": "00:09:30",
+          "source_id": "yt-rwThX801xWI",
+          "speaker": "Ameya Deosthali"
+        }
+      ]
+    },
+    {
+      "id": "opportunity-cost-is-the-biggest-cost",
+      "heuristic": "Opportunity cost, not drawdown, is the biggest cost; time in a dead cycle is the risk.",
+      "why_not_testable": "Depends on the foregone alternative, which is portfolio-specific and not observable in company data.",
+      "evidence": [
+        {
+          "quote": "Because two things are important. Opportunity cost is the biggest cost. Time is the biggest variable here.",
+          "timestamp": "00:21:53",
+          "source_id": "yt-rwThX801xWI",
+          "speaker": "Ameya Deosthali"
+        }
+      ]
+    },
+    {
+      "id": "management-looks-worse-in-bad-cycles",
+      "heuristic": "In a bad cycle, management looks worse than it is because much is outside its control.",
+      "why_not_testable": "Requires separating controllable execution from exogenous cycle effects, which is a judgment rather than a metric.",
+      "evidence": [
+        {
+          "quote": "So optically, managements look a lot worse than they actually are.",
+          "timestamp": "00:10:13",
+          "source_id": "yt-rwThX801xWI",
+          "speaker": "Ameya Deosthali"
+        }
+      ]
+    }
+  ],
+  "position_rules": {
+    "entry": "Do not buy on pessimism alone. Peak pessimism is wait-and-watch; enter when an inflection (promoter buying, capacity exit, bullish management against skeptical analysts) appears.",
+    "margin_of_safety": "The move from peak pessimism to early recovery is what builds the margin of safety; the creator accepts paying up for that confirmation.",
+    "timing": "Windows are short; the creator tracks prices closely because these opportunities do not stay available for long."
+  },
+  "sell_rules": [
+    {
+      "id": "data-reversal",
+      "rule": "Exit or reduce when the data that justified the rate-of-change bet reverses: spreads fail to sustain, promoter buying stops, or management guidance breaks.",
+      "trigger": "Spread, volume, or guidance data diverging from the early-recovery thesis.",
+      "evidence": [
+        {
+          "quote": "So now, if those spreads sustain, then it will again move up to that peak cycle situation.",
+          "timestamp": "00:16:25",
+          "source_id": "yt-rwThX801xWI",
+          "speaker": "Ameya Deosthali"
+        },
+        {
+          "quote": "So you build that safety through peak pessimism and the rate of change, and then you play that cycle if it plays out as and when the data changes.",
+          "timestamp": "00:28:54",
+          "source_id": "yt-rwThX801xWI",
+          "speaker": "Ameya Deosthali"
+        }
+      ]
+    }
+  ],
+  "tensions": [
+    {
+      "topic": "Cycle versus business quality",
+      "statement": "The speaker says a good cycle matters far more than a good business model, but the trajectory-pivot framework makes management and capability quality the number-one variable.",
+      "counter_evidence": "The two frameworks are presented as separate tools for different situations: rate-of-change bets are explicitly cyclical, while pivots are capability-led. The tension is in how to classify a name that fits both.",
+      "evidence": [
+        {
+          "quote": "That’s why the core philosophy of this pessimism rate-of-change tracker is that a good cycle for a business counts for far more than a good business model.",
+          "timestamp": "00:09:30",
+          "source_id": "yt-rwThX801xWI",
+          "speaker": "Ameya Deosthali"
+        },
+        {
+          "quote": "So here, management quality is number one.",
+          "timestamp": "00:39:24",
+          "source_id": "yt-rwThX801xWI",
+          "speaker": "Ameya Deosthali"
+        }
+      ]
+    }
+  ],
+  "validation": {
+    "status": "unvalidated",
+    "evals": [
+      "evals/ameya-peak-pessimism/APOLLOPIPE-2026-01-21-replay.json",
+      "evals/ameya-peak-pessimism/APOLLOPIPE-2026-10-13-scored.json"
+    ],
+    "notes": "Extracted from one auto-captioned interview. Speaker attribution was checked against the caption turn markers; the call-length example at 00:17:05 is the host's, while the filter itself at 00:16:25 is the guest's. The two Apollo evaluations are provisional: coverage is 58%, so call brevity, coverage, capacity exit, management-versus-analyst tone, and 12-quarter visibility are still UNKNOWN. The 2026-01-21 run is a replay of a later Screener capture using only periods published by that date."
+  }
+}

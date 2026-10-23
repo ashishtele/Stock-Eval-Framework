@@ -1,0 +1,2855 @@
+[
+  {
+    "company": "Peak Pessimism Co",
+    "ticker": "PEAKPESS",
+    "sector": "Building Materials",
+    "as_of": "2026-05-20",
+    "price": {
+      "current": 300,
+      "high_3y": 620,
+      "low_52w": 280
+    },
+    "valuation": {
+      "pb_current": 1.8,
+      "pb_history": [
+        5.6,
+        5.0,
+        4.4,
+        3.8,
+        3.2,
+        2.7,
+        2.4,
+        2.1
+      ]
+    },
+    "quarterly": [
+      {
+        "period_end": "2023-06-30",
+        "revenue": 100,
+        "ebitda": 13
+      },
+      {
+        "period_end": "2023-09-30",
+        "revenue": 100,
+        "ebitda": 12.5
+      },
+      {
+        "period_end": "2023-12-31",
+        "revenue": 100,
+        "ebitda": 12
+      },
+      {
+        "period_end": "2024-03-31",
+        "revenue": 100,
+        "ebitda": 11
+      },
+      {
+        "period_end": "2024-06-30",
+        "revenue": 100,
+        "ebitda": 10
+      },
+      {
+        "period_end": "2024-09-30",
+        "revenue": 100,
+        "ebitda": 9
+      },
+      {
+        "period_end": "2024-12-31",
+        "revenue": 100,
+        "ebitda": 8
+      },
+      {
+        "period_end": "2025-03-31",
+        "revenue": 100,
+        "ebitda": 7
+      },
+      {
+        "period_end": "2025-06-30",
+        "revenue": 100,
+        "ebitda": 6.5
+      },
+      {
+        "period_end": "2025-09-30",
+        "revenue": 100,
+        "ebitda": 6.2
+      },
+      {
+        "period_end": "2025-12-31",
+        "revenue": 100,
+        "ebitda": 6.1
+      },
+      {
+        "period_end": "2026-03-31",
+        "revenue": 100,
+        "ebitda": 6.0
+      }
+    ],
+    "annual": [
+      {
+        "period_end": "2021-03-31",
+        "revenue": 400,
+        "ebitda": 52,
+        "cfo": 60,
+        "debt": 60,
+        "capex": 20,
+        "equity": 300
+      },
+      {
+        "period_end": "2022-03-31",
+        "revenue": 400,
+        "ebitda": 52,
+        "cfo": 55,
+        "debt": 65,
+        "capex": 20,
+        "equity": 320
+      },
+      {
+        "period_end": "2023-03-31",
+        "revenue": 400,
+        "ebitda": 40,
+        "cfo": 45,
+        "debt": 70,
+        "capex": 22,
+        "equity": 340
+      },
+      {
+        "period_end": "2024-03-31",
+        "revenue": 400,
+        "ebitda": 30,
+        "cfo": 32,
+        "debt": 75,
+        "capex": 24,
+        "equity": 360
+      },
+      {
+        "period_end": "2025-03-31",
+        "revenue": 420,
+        "ebitda": 26,
+        "cfo": 26,
+        "debt": 80,
+        "capex": 26,
+        "equity": 380
+      }
+    ],
+    "shareholding": [
+      {
+        "period_end": "2023-06-30",
+        "promoter": 50,
+        "fii": 18,
+        "dii": 8
+      },
+      {
+        "period_end": "2023-09-30",
+        "promoter": 50,
+        "fii": 18,
+        "dii": 8
+      },
+      {
+        "period_end": "2023-12-31",
+        "promoter": 50,
+        "fii": 18,
+        "dii": 8
+      },
+      {
+        "period_end": "2024-03-31",
+        "promoter": 50,
+        "fii": 18,
+        "dii": 8
+      },
+      {
+        "period_end": "2024-06-30",
+        "promoter": 50,
+        "fii": 18,
+        "dii": 8
+      },
+      {
+        "period_end": "2024-09-30",
+        "promoter": 50,
+        "fii": 18,
+        "dii": 8
+      },
+      {
+        "period_end": "2024-12-31",
+        "promoter": 50,
+        "fii": 18,
+        "dii": 8
+      },
+      {
+        "period_end": "2025-03-31",
+        "promoter": 50,
+        "fii": 18,
+        "dii": 8
+      },
+      {
+        "period_end": "2025-06-30",
+        "promoter": 50,
+        "fii": 17,
+        "dii": 8
+      },
+      {
+        "period_end": "2025-09-30",
+        "promoter": 50,
+        "fii": 16,
+        "dii": 8
+      },
+      {
+        "period_end": "2025-12-31",
+        "promoter": 50,
+        "fii": 15,
+        "dii": 8
+      },
+      {
+        "period_end": "2026-03-31",
+        "promoter": 50,
+        "fii": 14,
+        "dii": 8
+      }
+    ],
+    "insider_trades": [],
+    "corporate_actions": [],
+    "peers": [
+      {
+        "company": "P1",
+        "drawdown_from_3y_high_pct": 55
+      },
+      {
+        "company": "P2",
+        "drawdown_from_3y_high_pct": 50
+      },
+      {
+        "company": "P3",
+        "drawdown_from_3y_high_pct": 45
+      },
+      {
+        "company": "P4",
+        "drawdown_from_3y_high_pct": 42
+      },
+      {
+        "company": "P5",
+        "drawdown_from_3y_high_pct": 35
+      }
+    ],
+    "qualitative": {
+      "concalls": [
+        {
+          "date": "2025-11-15",
+          "duration_min": 40,
+          "analyst_questions": 9,
+          "mgmt_tone": 2,
+          "analyst_skepticism": 4,
+          "prior_guidance_met": true,
+          "aggressive_guidance": false,
+          "evidence": [
+            "synthetic acceptance-test input"
+          ],
+          "market_share_gain_claimed": false
+        },
+        {
+          "date": "2026-02-15",
+          "duration_min": 35,
+          "analyst_questions": 7,
+          "mgmt_tone": 2,
+          "analyst_skepticism": 4.5,
+          "prior_guidance_met": true,
+          "aggressive_guidance": false,
+          "evidence": [
+            "synthetic acceptance-test input"
+          ],
+          "market_share_gain_claimed": false
+        },
+        {
+          "date": "2026-05-10",
+          "duration_min": 30,
+          "analyst_questions": 5,
+          "mgmt_tone": 2,
+          "analyst_skepticism": 5,
+          "prior_guidance_met": true,
+          "aggressive_guidance": false,
+          "evidence": [
+            "synthetic acceptance-test input"
+          ],
+          "market_share_gain_claimed": false
+        }
+      ]
+    },
+    "expected": {
+      "stage": "PEAK_PESSIMISM"
+    }
+  },
+  {
+    "company": "Early Recovery Co",
+    "ticker": "EARLY",
+    "sector": "Building Materials",
+    "as_of": "2026-05-20",
+    "price": {
+      "current": 420,
+      "high_3y": 620,
+      "low_52w": 280
+    },
+    "valuation": {
+      "pb_current": 2.4,
+      "pb_history": [
+        5.6,
+        5.2,
+        4.8,
+        4.4,
+        4.0,
+        3.6,
+        3.2,
+        2.8,
+        2.4,
+        2.2,
+        2.1
+      ]
+    },
+    "quarterly": [
+      {
+        "period_end": "2023-06-30",
+        "revenue": 100,
+        "ebitda": 13,
+        "volume": 100
+      },
+      {
+        "period_end": "2023-09-30",
+        "revenue": 100,
+        "ebitda": 12,
+        "volume": 100
+      },
+      {
+        "period_end": "2023-12-31",
+        "revenue": 100,
+        "ebitda": 10,
+        "volume": 100
+      },
+      {
+        "period_end": "2024-03-31",
+        "revenue": 100,
+        "ebitda": 8,
+        "volume": 100
+      },
+      {
+        "period_end": "2024-06-30",
+        "revenue": 100,
+        "ebitda": 7,
+        "volume": 100
+      },
+      {
+        "period_end": "2024-09-30",
+        "revenue": 100,
+        "ebitda": 6.5,
+        "volume": 100
+      },
+      {
+        "period_end": "2024-12-31",
+        "revenue": 100,
+        "ebitda": 6.2,
+        "volume": 100
+      },
+      {
+        "period_end": "2025-03-31",
+        "revenue": 100,
+        "ebitda": 6.0,
+        "volume": 100
+      },
+      {
+        "period_end": "2025-06-30",
+        "revenue": 116,
+        "ebitda": 6.5,
+        "volume": 100
+      },
+      {
+        "period_end": "2025-09-30",
+        "revenue": 116,
+        "ebitda": 7.5,
+        "volume": 100
+      },
+      {
+        "period_end": "2025-12-31",
+        "revenue": 116,
+        "ebitda": 9,
+        "volume": 100
+      },
+      {
+        "period_end": "2026-03-31",
+        "revenue": 116,
+        "ebitda": 11,
+        "volume": 100
+      },
+      {
+        "period_end": "2026-06-30",
+        "revenue": 120,
+        "ebitda": 13,
+        "volume": 100
+      }
+    ],
+    "annual": [
+      {
+        "period_end": "2021-03-31",
+        "revenue": 400,
+        "ebitda": 80,
+        "cfo": 70,
+        "debt": 50,
+        "capex": 20,
+        "equity": 300
+      },
+      {
+        "period_end": "2022-03-31",
+        "revenue": 400,
+        "ebitda": 52,
+        "cfo": 55,
+        "debt": 60,
+        "capex": 20,
+        "equity": 330
+      },
+      {
+        "period_end": "2023-03-31",
+        "revenue": 400,
+        "ebitda": 40,
+        "cfo": 40,
+        "debt": 70,
+        "capex": 25,
+        "equity": 360
+      },
+      {
+        "period_end": "2024-03-31",
+        "revenue": 400,
+        "ebitda": 30,
+        "cfo": 25,
+        "debt": 80,
+        "capex": 30,
+        "equity": 380
+      },
+      {
+        "period_end": "2025-03-31",
+        "revenue": 440,
+        "ebitda": 30,
+        "cfo": 20,
+        "debt": 80,
+        "capex": 35,
+        "equity": 390
+      }
+    ],
+    "shareholding": [
+      {
+        "period_end": "2023-06-30",
+        "promoter": 40,
+        "fii": 18,
+        "dii": 8
+      },
+      {
+        "period_end": "2023-09-30",
+        "promoter": 40,
+        "fii": 18,
+        "dii": 8
+      },
+      {
+        "period_end": "2023-12-31",
+        "promoter": 41,
+        "fii": 18,
+        "dii": 8
+      },
+      {
+        "period_end": "2024-03-31",
+        "promoter": 41,
+        "fii": 17,
+        "dii": 8
+      },
+      {
+        "period_end": "2024-06-30",
+        "promoter": 42,
+        "fii": 17,
+        "dii": 8
+      },
+      {
+        "period_end": "2024-09-30",
+        "promoter": 42,
+        "fii": 17,
+        "dii": 8
+      },
+      {
+        "period_end": "2024-12-31",
+        "promoter": 43,
+        "fii": 17,
+        "dii": 8
+      },
+      {
+        "period_end": "2025-03-31",
+        "promoter": 43,
+        "fii": 16,
+        "dii": 8
+      },
+      {
+        "period_end": "2025-06-30",
+        "promoter": 43,
+        "fii": 16,
+        "dii": 8
+      },
+      {
+        "period_end": "2025-09-30",
+        "promoter": 44,
+        "fii": 16,
+        "dii": 8
+      },
+      {
+        "period_end": "2025-12-31",
+        "promoter": 45,
+        "fii": 16,
+        "dii": 8
+      },
+      {
+        "period_end": "2026-03-31",
+        "promoter": 45,
+        "fii": 16,
+        "dii": 8
+      }
+    ],
+    "insider_trades": [
+      {
+        "date": "2026-03-01",
+        "person_category": "promoter",
+        "type": "buy",
+        "value_cr": 12,
+        "mode": "open_market"
+      },
+      {
+        "date": "2026-04-15",
+        "person_category": "promoter",
+        "type": "buy",
+        "value_cr": 6,
+        "mode": "open_market"
+      }
+    ],
+    "corporate_actions": [],
+    "peers": [
+      {
+        "company": "P1",
+        "drawdown_from_3y_high_pct": 55
+      },
+      {
+        "company": "P2",
+        "drawdown_from_3y_high_pct": 48
+      },
+      {
+        "company": "P3",
+        "drawdown_from_3y_high_pct": 42
+      },
+      {
+        "company": "P4",
+        "drawdown_from_3y_high_pct": 30
+      },
+      {
+        "company": "P5",
+        "drawdown_from_3y_high_pct": 20
+      }
+    ],
+    "qualitative": {
+      "concalls": [
+        {
+          "date": "2025-11-10",
+          "duration_min": 40,
+          "analyst_questions": 8,
+          "mgmt_tone": 3,
+          "analyst_skepticism": 4,
+          "prior_guidance_met": true,
+          "aggressive_guidance": false,
+          "evidence": [
+            "synthetic acceptance-test input"
+          ],
+          "market_share_gain_claimed": true
+        },
+        {
+          "date": "2026-02-10",
+          "duration_min": 38,
+          "analyst_questions": 7,
+          "mgmt_tone": 4,
+          "analyst_skepticism": 4,
+          "prior_guidance_met": true,
+          "aggressive_guidance": false,
+          "evidence": [
+            "synthetic acceptance-test input"
+          ],
+          "market_share_gain_claimed": true
+        },
+        {
+          "date": "2026-05-05",
+          "duration_min": 35,
+          "analyst_questions": 6,
+          "mgmt_tone": 5,
+          "analyst_skepticism": 4,
+          "prior_guidance_met": true,
+          "aggressive_guidance": false,
+          "evidence": [
+            "synthetic acceptance-test input"
+          ],
+          "market_share_gain_claimed": true
+        },
+        {
+          "date": "2026-06-10",
+          "duration_min": 30,
+          "analyst_questions": 5,
+          "mgmt_tone": 5,
+          "analyst_skepticism": 3,
+          "prior_guidance_met": true,
+          "aggressive_guidance": false,
+          "evidence": [
+            "synthetic acceptance-test input"
+          ],
+          "market_share_gain_claimed": true
+        }
+      ],
+      "shock_type": "supply_shock"
+    },
+    "expected": {
+      "stage": "EARLY_RECOVERY",
+      "score1_min": 60
+    }
+  },
+  {
+    "company": "Peak Optimism Co",
+    "ticker": "PEAKOPT",
+    "sector": "Consumer",
+    "as_of": "2026-05-20",
+    "price": {
+      "current": 1000,
+      "high_3y": 1010,
+      "low_52w": 500
+    },
+    "valuation": {
+      "pb_current": 11,
+      "pb_history": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    "quarterly": [
+      {
+        "period_end": "2023-06-30",
+        "revenue": 100,
+        "ebitda": 10
+      },
+      {
+        "period_end": "2023-09-30",
+        "revenue": 100,
+        "ebitda": 10.5
+      },
+      {
+        "period_end": "2023-12-31",
+        "revenue": 100,
+        "ebitda": 11
+      },
+      {
+        "period_end": "2024-03-31",
+        "revenue": 100,
+        "ebitda": 11.5
+      },
+      {
+        "period_end": "2024-06-30",
+        "revenue": 100,
+        "ebitda": 12.5
+      },
+      {
+        "period_end": "2024-09-30",
+        "revenue": 100,
+        "ebitda": 13
+      },
+      {
+        "period_end": "2024-12-31",
+        "revenue": 100,
+        "ebitda": 14
+      },
+      {
+        "period_end": "2025-03-31",
+        "revenue": 100,
+        "ebitda": 15
+      },
+      {
+        "period_end": "2025-06-30",
+        "revenue": 100,
+        "ebitda": 16
+      },
+      {
+        "period_end": "2025-09-30",
+        "revenue": 100,
+        "ebitda": 17
+      },
+      {
+        "period_end": "2025-12-31",
+        "revenue": 100,
+        "ebitda": 18
+      },
+      {
+        "period_end": "2026-03-31",
+        "revenue": 100,
+        "ebitda": 19
+      }
+    ],
+    "annual": [
+      {
+        "period_end": "2021-03-31",
+        "revenue": 400,
+        "ebitda": 40,
+        "cfo": 30,
+        "debt": 40,
+        "capex": 20,
+        "equity": 300
+      },
+      {
+        "period_end": "2022-03-31",
+        "revenue": 400,
+        "ebitda": 40,
+        "cfo": 35,
+        "debt": 45,
+        "capex": 20,
+        "equity": 320
+      },
+      {
+        "period_end": "2023-03-31",
+        "revenue": 400,
+        "ebitda": 48,
+        "cfo": 40,
+        "debt": 50,
+        "capex": 20,
+        "equity": 340
+      },
+      {
+        "period_end": "2024-03-31",
+        "revenue": 400,
+        "ebitda": 56,
+        "cfo": 50,
+        "debt": 55,
+        "capex": 22,
+        "equity": 370
+      },
+      {
+        "period_end": "2025-03-31",
+        "revenue": 400,
+        "ebitda": 64,
+        "cfo": 60,
+        "debt": 60,
+        "capex": 24,
+        "equity": 400
+      }
+    ],
+    "shareholding": [
+      {
+        "period_end": "2023-06-30",
+        "promoter": 60,
+        "fii": 12,
+        "dii": 8
+      },
+      {
+        "period_end": "2023-09-30",
+        "promoter": 60,
+        "fii": 12,
+        "dii": 8
+      },
+      {
+        "period_end": "2023-12-31",
+        "promoter": 60,
+        "fii": 13,
+        "dii": 8
+      },
+      {
+        "period_end": "2024-03-31",
+        "promoter": 59,
+        "fii": 13,
+        "dii": 8
+      },
+      {
+        "period_end": "2024-06-30",
+        "promoter": 59,
+        "fii": 13,
+        "dii": 8
+      },
+      {
+        "period_end": "2024-09-30",
+        "promoter": 58,
+        "fii": 14,
+        "dii": 8
+      },
+      {
+        "period_end": "2024-12-31",
+        "promoter": 58,
+        "fii": 14,
+        "dii": 8
+      },
+      {
+        "period_end": "2025-03-31",
+        "promoter": 57,
+        "fii": 14,
+        "dii": 8
+      },
+      {
+        "period_end": "2025-06-30",
+        "promoter": 57,
+        "fii": 15,
+        "dii": 8
+      },
+      {
+        "period_end": "2025-09-30",
+        "promoter": 57,
+        "fii": 15,
+        "dii": 8
+      },
+      {
+        "period_end": "2025-12-31",
+        "promoter": 55,
+        "fii": 15,
+        "dii": 8
+      },
+      {
+        "period_end": "2026-03-31",
+        "promoter": 53,
+        "fii": 15,
+        "dii": 8
+      }
+    ],
+    "insider_trades": [
+      {
+        "date": "2026-02-01",
+        "person_category": "promoter",
+        "type": "sell",
+        "value_cr": 300,
+        "mode": "open_market"
+      }
+    ],
+    "corporate_actions": [
+      {
+        "date": "2026-01-15",
+        "type": "qip",
+        "value_cr": 500
+      }
+    ],
+    "peers": [
+      {
+        "company": "P1",
+        "drawdown_from_3y_high_pct": 10
+      },
+      {
+        "company": "P2",
+        "drawdown_from_3y_high_pct": 8
+      },
+      {
+        "company": "P3",
+        "drawdown_from_3y_high_pct": 5
+      }
+    ],
+    "qualitative": {
+      "concalls": [
+        {
+          "date": "2025-11-01",
+          "duration_min": 110,
+          "analyst_questions": 25,
+          "mgmt_tone": 5,
+          "analyst_skepticism": 1,
+          "prior_guidance_met": true,
+          "aggressive_guidance": true,
+          "evidence": [
+            "synthetic acceptance-test input"
+          ],
+          "market_share_gain_claimed": false
+        },
+        {
+          "date": "2026-02-01",
+          "duration_min": 115,
+          "analyst_questions": 28,
+          "mgmt_tone": 5,
+          "analyst_skepticism": 1,
+          "prior_guidance_met": true,
+          "aggressive_guidance": true,
+          "evidence": [
+            "synthetic acceptance-test input"
+          ],
+          "market_share_gain_claimed": false
+        },
+        {
+          "date": "2026-05-01",
+          "duration_min": 120,
+          "analyst_questions": 30,
+          "mgmt_tone": 5,
+          "analyst_skepticism": 1,
+          "prior_guidance_met": true,
+          "aggressive_guidance": true,
+          "evidence": [
+            "synthetic acceptance-test input"
+          ],
+          "market_share_gain_claimed": false
+        }
+      ]
+    },
+    "expected": {
+      "stage": "PEAK_OPTIMISM",
+      "score1_max": 50
+    }
+  },
+  {
+    "company": "Value Trap Co",
+    "ticker": "TRAP",
+    "sector": "Chemicals",
+    "as_of": "2026-05-20",
+    "price": {
+      "current": 100,
+      "high_3y": 300,
+      "low_52w": 95
+    },
+    "valuation": {
+      "pb_current": 0.8,
+      "pb_history": [
+        3.0,
+        2.5,
+        2.0,
+        1.5,
+        1.2,
+        1.0
+      ]
+    },
+    "quarterly": [
+      {
+        "period_end": "2023-06-30",
+        "revenue": 100,
+        "ebitda": 15
+      },
+      {
+        "period_end": "2023-09-30",
+        "revenue": 100,
+        "ebitda": 14
+      },
+      {
+        "period_end": "2023-12-31",
+        "revenue": 100,
+        "ebitda": 13
+      },
+      {
+        "period_end": "2024-03-31",
+        "revenue": 100,
+        "ebitda": 12
+      },
+      {
+        "period_end": "2024-06-30",
+        "revenue": 100,
+        "ebitda": 11
+      },
+      {
+        "period_end": "2024-09-30",
+        "revenue": 100,
+        "ebitda": 10
+      },
+      {
+        "period_end": "2024-12-31",
+        "revenue": 100,
+        "ebitda": 9
+      },
+      {
+        "period_end": "2025-03-31",
+        "revenue": 100,
+        "ebitda": 8
+      },
+      {
+        "period_end": "2025-06-30",
+        "revenue": 100,
+        "ebitda": 7
+      },
+      {
+        "period_end": "2025-09-30",
+        "revenue": 100,
+        "ebitda": 6
+      },
+      {
+        "period_end": "2025-12-31",
+        "revenue": 100,
+        "ebitda": 5
+      },
+      {
+        "period_end": "2026-03-31",
+        "revenue": 100,
+        "ebitda": 4
+      }
+    ],
+    "annual": [
+      {
+        "period_end": "2021-03-31",
+        "revenue": 400,
+        "ebitda": 40,
+        "cfo": -10,
+        "debt": 100,
+        "capex": 30
+      },
+      {
+        "period_end": "2022-03-31",
+        "revenue": 400,
+        "ebitda": 30,
+        "cfo": -20,
+        "debt": 150,
+        "capex": 30
+      },
+      {
+        "period_end": "2023-03-31",
+        "revenue": 400,
+        "ebitda": 20,
+        "cfo": -30,
+        "debt": 200,
+        "capex": 25
+      },
+      {
+        "period_end": "2024-03-31",
+        "revenue": 400,
+        "ebitda": 10,
+        "cfo": -40,
+        "debt": 250,
+        "capex": 20
+      },
+      {
+        "period_end": "2025-03-31",
+        "revenue": 400,
+        "ebitda": 2,
+        "cfo": -45,
+        "debt": 300,
+        "capex": 10
+      }
+    ],
+    "shareholding": [
+      {
+        "period_end": "2023-06-30",
+        "promoter": 50,
+        "fii": 20,
+        "dii": 8,
+        "pledge_pct": 30
+      },
+      {
+        "period_end": "2023-09-30",
+        "promoter": 50,
+        "fii": 20,
+        "dii": 8,
+        "pledge_pct": 30
+      },
+      {
+        "period_end": "2023-12-31",
+        "promoter": 50,
+        "fii": 19,
+        "dii": 8,
+        "pledge_pct": 30
+      },
+      {
+        "period_end": "2024-03-31",
+        "promoter": 50,
+        "fii": 19,
+        "dii": 8,
+        "pledge_pct": 30
+      },
+      {
+        "period_end": "2024-06-30",
+        "promoter": 50,
+        "fii": 18,
+        "dii": 8,
+        "pledge_pct": 30
+      },
+      {
+        "period_end": "2024-09-30",
+        "promoter": 50,
+        "fii": 18,
+        "dii": 8,
+        "pledge_pct": 30
+      },
+      {
+        "period_end": "2024-12-31",
+        "promoter": 50,
+        "fii": 17,
+        "dii": 8,
+        "pledge_pct": 30
+      },
+      {
+        "period_end": "2025-03-31",
+        "promoter": 50,
+        "fii": 17,
+        "dii": 8,
+        "pledge_pct": 30
+      },
+      {
+        "period_end": "2025-06-30",
+        "promoter": 50,
+        "fii": 16,
+        "dii": 8,
+        "pledge_pct": 35
+      },
+      {
+        "period_end": "2025-09-30",
+        "promoter": 50,
+        "fii": 16,
+        "dii": 8,
+        "pledge_pct": 38
+      },
+      {
+        "period_end": "2025-12-31",
+        "promoter": 50,
+        "fii": 15,
+        "dii": 8,
+        "pledge_pct": 40
+      },
+      {
+        "period_end": "2026-03-31",
+        "promoter": 50,
+        "fii": 15,
+        "dii": 8,
+        "pledge_pct": 40
+      }
+    ],
+    "insider_trades": [],
+    "corporate_actions": [],
+    "peers": [
+      {
+        "company": "P1",
+        "drawdown_from_3y_high_pct": 60
+      },
+      {
+        "company": "P2",
+        "drawdown_from_3y_high_pct": 55
+      },
+      {
+        "company": "P3",
+        "drawdown_from_3y_high_pct": 50
+      }
+    ],
+    "qualitative": {
+      "lost_share_in_downturn": true
+    },
+    "expected": {
+      "score1_max": 30,
+      "stage": [
+        "PEAK_PESSIMISM",
+        "DECLINE",
+        "MIXED"
+      ]
+    }
+  },
+  {
+    "company": "Pivot Co",
+    "ticker": "PIVOT",
+    "sector": "Pharmaceuticals",
+    "as_of": "2026-05-20",
+    "price": {
+      "current": 500,
+      "high_3y": 700,
+      "low_52w": 420
+    },
+    "valuation": {
+      "ev_ebitda_current": 22,
+      "ev_ebitda_history": [
+        30,
+        28,
+        26,
+        24,
+        22,
+        20
+      ]
+    },
+    "quarterly": [
+      {
+        "period_end": "2023-06-30",
+        "revenue": 100,
+        "ebitda": 14.399999999999999
+      },
+      {
+        "period_end": "2023-09-30",
+        "revenue": 100,
+        "ebitda": 14.705454545454547
+      },
+      {
+        "period_end": "2023-12-31",
+        "revenue": 100,
+        "ebitda": 15.010909090909092
+      },
+      {
+        "period_end": "2024-03-31",
+        "revenue": 100,
+        "ebitda": 15.316363636363636
+      },
+      {
+        "period_end": "2024-06-30",
+        "revenue": 100,
+        "ebitda": 15.621818181818181
+      },
+      {
+        "period_end": "2024-09-30",
+        "revenue": 100,
+        "ebitda": 15.92727272727273
+      },
+      {
+        "period_end": "2024-12-31",
+        "revenue": 100,
+        "ebitda": 16.232727272727274
+      },
+      {
+        "period_end": "2025-03-31",
+        "revenue": 100,
+        "ebitda": 16.53818181818182
+      },
+      {
+        "period_end": "2025-06-30",
+        "revenue": 100,
+        "ebitda": 16.843636363636364
+      },
+      {
+        "period_end": "2025-09-30",
+        "revenue": 100,
+        "ebitda": 17.14909090909091
+      },
+      {
+        "period_end": "2025-12-31",
+        "revenue": 100,
+        "ebitda": 17.454545454545453
+      },
+      {
+        "period_end": "2026-03-31",
+        "revenue": 100,
+        "ebitda": 17.76
+      }
+    ],
+    "annual": [
+      {
+        "period_end": "2021-03-31",
+        "revenue": 400,
+        "ebitda": 60,
+        "cfo": 50,
+        "debt": 80,
+        "capex": 20,
+        "equity": 400
+      },
+      {
+        "period_end": "2022-03-31",
+        "revenue": 400,
+        "ebitda": 58,
+        "cfo": 48,
+        "debt": 90,
+        "capex": 20,
+        "equity": 410
+      },
+      {
+        "period_end": "2023-03-31",
+        "revenue": 400,
+        "ebitda": 56,
+        "cfo": 46,
+        "debt": 100,
+        "capex": 40,
+        "equity": 420
+      },
+      {
+        "period_end": "2024-03-31",
+        "revenue": 400,
+        "ebitda": 60,
+        "cfo": 50,
+        "debt": 110,
+        "capex": 48,
+        "equity": 440
+      },
+      {
+        "period_end": "2025-03-31",
+        "revenue": 400,
+        "ebitda": 64,
+        "cfo": 54,
+        "debt": 120,
+        "capex": 56,
+        "equity": 460
+      }
+    ],
+    "shareholding": [
+      {
+        "period_end": "2023-06-30",
+        "promoter": 60,
+        "fii": 12,
+        "dii": 8
+      },
+      {
+        "period_end": "2023-09-30",
+        "promoter": 60,
+        "fii": 12,
+        "dii": 8
+      },
+      {
+        "period_end": "2023-12-31",
+        "promoter": 60,
+        "fii": 12,
+        "dii": 8
+      },
+      {
+        "period_end": "2024-03-31",
+        "promoter": 60,
+        "fii": 12,
+        "dii": 8
+      },
+      {
+        "period_end": "2024-06-30",
+        "promoter": 60,
+        "fii": 12,
+        "dii": 8
+      },
+      {
+        "period_end": "2024-09-30",
+        "promoter": 60,
+        "fii": 12,
+        "dii": 8
+      },
+      {
+        "period_end": "2024-12-31",
+        "promoter": 60,
+        "fii": 12,
+        "dii": 8
+      },
+      {
+        "period_end": "2025-03-31",
+        "promoter": 60,
+        "fii": 12,
+        "dii": 8
+      },
+      {
+        "period_end": "2025-06-30",
+        "promoter": 60,
+        "fii": 12,
+        "dii": 8
+      },
+      {
+        "period_end": "2025-09-30",
+        "promoter": 60,
+        "fii": 12,
+        "dii": 8
+      },
+      {
+        "period_end": "2025-12-31",
+        "promoter": 60,
+        "fii": 12,
+        "dii": 8
+      },
+      {
+        "period_end": "2026-03-31",
+        "promoter": 60,
+        "fii": 12,
+        "dii": 8
+      }
+    ],
+    "insider_trades": [],
+    "corporate_actions": [],
+    "segments": [
+      {
+        "period_end": "2023-06-30",
+        "name": "New",
+        "revenue": 15.0,
+        "ebit": 4.2
+      },
+      {
+        "period_end": "2023-06-30",
+        "name": "Base",
+        "revenue": 85.0,
+        "ebit": 10.2
+      },
+      {
+        "period_end": "2023-09-30",
+        "name": "New",
+        "revenue": 16.90909090909091,
+        "ebit": 4.734545454545455
+      },
+      {
+        "period_end": "2023-09-30",
+        "name": "Base",
+        "revenue": 83.0909090909091,
+        "ebit": 9.97090909090909
+      },
+      {
+        "period_end": "2023-12-31",
+        "name": "New",
+        "revenue": 18.81818181818182,
+        "ebit": 5.26909090909091
+      },
+      {
+        "period_end": "2023-12-31",
+        "name": "Base",
+        "revenue": 81.18181818181819,
+        "ebit": 9.741818181818182
+      },
+      {
+        "period_end": "2024-03-31",
+        "name": "New",
+        "revenue": 20.727272727272727,
+        "ebit": 5.803636363636364
+      },
+      {
+        "period_end": "2024-03-31",
+        "name": "Base",
+        "revenue": 79.27272727272728,
+        "ebit": 9.512727272727274
+      },
+      {
+        "period_end": "2024-06-30",
+        "name": "New",
+        "revenue": 22.636363636363637,
+        "ebit": 6.338181818181819
+      },
+      {
+        "period_end": "2024-06-30",
+        "name": "Base",
+        "revenue": 77.36363636363636,
+        "ebit": 9.283636363636363
+      },
+      {
+        "period_end": "2024-09-30",
+        "name": "New",
+        "revenue": 24.545454545454547,
+        "ebit": 6.872727272727274
+      },
+      {
+        "period_end": "2024-09-30",
+        "name": "Base",
+        "revenue": 75.45454545454545,
+        "ebit": 9.054545454545455
+      },
+      {
+        "period_end": "2024-12-31",
+        "name": "New",
+        "revenue": 26.454545454545453,
+        "ebit": 7.407272727272727
+      },
+      {
+        "period_end": "2024-12-31",
+        "name": "Base",
+        "revenue": 73.54545454545455,
+        "ebit": 8.825454545454546
+      },
+      {
+        "period_end": "2025-03-31",
+        "name": "New",
+        "revenue": 28.363636363636363,
+        "ebit": 7.941818181818182
+      },
+      {
+        "period_end": "2025-03-31",
+        "name": "Base",
+        "revenue": 71.63636363636364,
+        "ebit": 8.596363636363636
+      },
+      {
+        "period_end": "2025-06-30",
+        "name": "New",
+        "revenue": 30.272727272727273,
+        "ebit": 8.476363636363637
+      },
+      {
+        "period_end": "2025-06-30",
+        "name": "Base",
+        "revenue": 69.72727272727272,
+        "ebit": 8.367272727272725
+      },
+      {
+        "period_end": "2025-09-30",
+        "name": "New",
+        "revenue": 32.18181818181819,
+        "ebit": 9.010909090909093
+      },
+      {
+        "period_end": "2025-09-30",
+        "name": "Base",
+        "revenue": 67.81818181818181,
+        "ebit": 8.138181818181817
+      },
+      {
+        "period_end": "2025-12-31",
+        "name": "New",
+        "revenue": 34.09090909090909,
+        "ebit": 9.545454545454547
+      },
+      {
+        "period_end": "2025-12-31",
+        "name": "Base",
+        "revenue": 65.9090909090909,
+        "ebit": 7.909090909090908
+      },
+      {
+        "period_end": "2026-03-31",
+        "name": "New",
+        "revenue": 36.0,
+        "ebit": 10.080000000000002
+      },
+      {
+        "period_end": "2026-03-31",
+        "name": "Base",
+        "revenue": 64.0,
+        "ebit": 7.68
+      }
+    ],
+    "pivot": {
+      "new_segments": [
+        "New"
+      ],
+      "segment_period": "quarter",
+      "target_revenue": 1500,
+      "target_margin_pct": 30,
+      "target_source": "management guidance",
+      "pure_play_multiple": 45,
+      "multiple_type": "ev_ebitda",
+      "capability_proof": 4,
+      "capability_built_vs_bought": "built",
+      "management_track_record": 4,
+      "external_tailwind": 4
+    },
+    "expected": {
+      "score2_min": 70
+    }
+  },
+  {
+    "company": "Weak Management Co",
+    "ticker": "WEAK",
+    "sector": "Pharmaceuticals",
+    "as_of": "2026-05-20",
+    "price": {
+      "current": 500,
+      "high_3y": 700,
+      "low_52w": 420
+    },
+    "valuation": {
+      "ev_ebitda_current": 22,
+      "ev_ebitda_history": [
+        30,
+        28,
+        26,
+        24,
+        22,
+        20
+      ]
+    },
+    "quarterly": [
+      {
+        "period_end": "2023-06-30",
+        "revenue": 100,
+        "ebitda": 14.399999999999999
+      },
+      {
+        "period_end": "2023-09-30",
+        "revenue": 100,
+        "ebitda": 14.705454545454547
+      },
+      {
+        "period_end": "2023-12-31",
+        "revenue": 100,
+        "ebitda": 15.010909090909092
+      },
+      {
+        "period_end": "2024-03-31",
+        "revenue": 100,
+        "ebitda": 15.316363636363636
+      },
+      {
+        "period_end": "2024-06-30",
+        "revenue": 100,
+        "ebitda": 15.621818181818181
+      },
+      {
+        "period_end": "2024-09-30",
+        "revenue": 100,
+        "ebitda": 15.92727272727273
+      },
+      {
+        "period_end": "2024-12-31",
+        "revenue": 100,
+        "ebitda": 16.232727272727274
+      },
+      {
+        "period_end": "2025-03-31",
+        "revenue": 100,
+        "ebitda": 16.53818181818182
+      },
+      {
+        "period_end": "2025-06-30",
+        "revenue": 100,
+        "ebitda": 16.843636363636364
+      },
+      {
+        "period_end": "2025-09-30",
+        "revenue": 100,
+        "ebitda": 17.14909090909091
+      },
+      {
+        "period_end": "2025-12-31",
+        "revenue": 100,
+        "ebitda": 17.454545454545453
+      },
+      {
+        "period_end": "2026-03-31",
+        "revenue": 100,
+        "ebitda": 17.76
+      }
+    ],
+    "annual": [
+      {
+        "period_end": "2021-03-31",
+        "revenue": 400,
+        "ebitda": 60,
+        "cfo": 50,
+        "debt": 80,
+        "capex": 20,
+        "equity": 400
+      },
+      {
+        "period_end": "2022-03-31",
+        "revenue": 400,
+        "ebitda": 58,
+        "cfo": 48,
+        "debt": 90,
+        "capex": 20,
+        "equity": 410
+      },
+      {
+        "period_end": "2023-03-31",
+        "revenue": 400,
+        "ebitda": 56,
+        "cfo": 46,
+        "debt": 100,
+        "capex": 40,
+        "equity": 420
+      },
+      {
+        "period_end": "2024-03-31",
+        "revenue": 400,
+        "ebitda": 60,
+        "cfo": 50,
+        "debt": 110,
+        "capex": 48,
+        "equity": 440
+      },
+      {
+        "period_end": "2025-03-31",
+        "revenue": 400,
+        "ebitda": 64,
+        "cfo": 54,
+        "debt": 120,
+        "capex": 56,
+        "equity": 460
+      }
+    ],
+    "shareholding": [
+      {
+        "period_end": "2023-06-30",
+        "promoter": 60,
+        "fii": 12,
+        "dii": 8
+      },
+      {
+        "period_end": "2023-09-30",
+        "promoter": 60,
+        "fii": 12,
+        "dii": 8
+      },
+      {
+        "period_end": "2023-12-31",
+        "promoter": 60,
+        "fii": 12,
+        "dii": 8
+      },
+      {
+        "period_end": "2024-03-31",
+        "promoter": 60,
+        "fii": 12,
+        "dii": 8
+      },
+      {
+        "period_end": "2024-06-30",
+        "promoter": 60,
+        "fii": 12,
+        "dii": 8
+      },
+      {
+        "period_end": "2024-09-30",
+        "promoter": 60,
+        "fii": 12,
+        "dii": 8
+      },
+      {
+        "period_end": "2024-12-31",
+        "promoter": 60,
+        "fii": 12,
+        "dii": 8
+      },
+      {
+        "period_end": "2025-03-31",
+        "promoter": 60,
+        "fii": 12,
+        "dii": 8
+      },
+      {
+        "period_end": "2025-06-30",
+        "promoter": 60,
+        "fii": 12,
+        "dii": 8
+      },
+      {
+        "period_end": "2025-09-30",
+        "promoter": 60,
+        "fii": 12,
+        "dii": 8
+      },
+      {
+        "period_end": "2025-12-31",
+        "promoter": 60,
+        "fii": 12,
+        "dii": 8
+      },
+      {
+        "period_end": "2026-03-31",
+        "promoter": 60,
+        "fii": 12,
+        "dii": 8
+      }
+    ],
+    "insider_trades": [],
+    "corporate_actions": [],
+    "segments": [
+      {
+        "period_end": "2023-06-30",
+        "name": "New",
+        "revenue": 15.0,
+        "ebit": 4.2
+      },
+      {
+        "period_end": "2023-06-30",
+        "name": "Base",
+        "revenue": 85.0,
+        "ebit": 10.2
+      },
+      {
+        "period_end": "2023-09-30",
+        "name": "New",
+        "revenue": 16.90909090909091,
+        "ebit": 4.734545454545455
+      },
+      {
+        "period_end": "2023-09-30",
+        "name": "Base",
+        "revenue": 83.0909090909091,
+        "ebit": 9.97090909090909
+      },
+      {
+        "period_end": "2023-12-31",
+        "name": "New",
+        "revenue": 18.81818181818182,
+        "ebit": 5.26909090909091
+      },
+      {
+        "period_end": "2023-12-31",
+        "name": "Base",
+        "revenue": 81.18181818181819,
+        "ebit": 9.741818181818182
+      },
+      {
+        "period_end": "2024-03-31",
+        "name": "New",
+        "revenue": 20.727272727272727,
+        "ebit": 5.803636363636364
+      },
+      {
+        "period_end": "2024-03-31",
+        "name": "Base",
+        "revenue": 79.27272727272728,
+        "ebit": 9.512727272727274
+      },
+      {
+        "period_end": "2024-06-30",
+        "name": "New",
+        "revenue": 22.636363636363637,
+        "ebit": 6.338181818181819
+      },
+      {
+        "period_end": "2024-06-30",
+        "name": "Base",
+        "revenue": 77.36363636363636,
+        "ebit": 9.283636363636363
+      },
+      {
+        "period_end": "2024-09-30",
+        "name": "New",
+        "revenue": 24.545454545454547,
+        "ebit": 6.872727272727274
+      },
+      {
+        "period_end": "2024-09-30",
+        "name": "Base",
+        "revenue": 75.45454545454545,
+        "ebit": 9.054545454545455
+      },
+      {
+        "period_end": "2024-12-31",
+        "name": "New",
+        "revenue": 26.454545454545453,
+        "ebit": 7.407272727272727
+      },
+      {
+        "period_end": "2024-12-31",
+        "name": "Base",
+        "revenue": 73.54545454545455,
+        "ebit": 8.825454545454546
+      },
+      {
+        "period_end": "2025-03-31",
+        "name": "New",
+        "revenue": 28.363636363636363,
+        "ebit": 7.941818181818182
+      },
+      {
+        "period_end": "2025-03-31",
+        "name": "Base",
+        "revenue": 71.63636363636364,
+        "ebit": 8.596363636363636
+      },
+      {
+        "period_end": "2025-06-30",
+        "name": "New",
+        "revenue": 30.272727272727273,
+        "ebit": 8.476363636363637
+      },
+      {
+        "period_end": "2025-06-30",
+        "name": "Base",
+        "revenue": 69.72727272727272,
+        "ebit": 8.367272727272725
+      },
+      {
+        "period_end": "2025-09-30",
+        "name": "New",
+        "revenue": 32.18181818181819,
+        "ebit": 9.010909090909093
+      },
+      {
+        "period_end": "2025-09-30",
+        "name": "Base",
+        "revenue": 67.81818181818181,
+        "ebit": 8.138181818181817
+      },
+      {
+        "period_end": "2025-12-31",
+        "name": "New",
+        "revenue": 34.09090909090909,
+        "ebit": 9.545454545454547
+      },
+      {
+        "period_end": "2025-12-31",
+        "name": "Base",
+        "revenue": 65.9090909090909,
+        "ebit": 7.909090909090908
+      },
+      {
+        "period_end": "2026-03-31",
+        "name": "New",
+        "revenue": 36.0,
+        "ebit": 10.080000000000002
+      },
+      {
+        "period_end": "2026-03-31",
+        "name": "Base",
+        "revenue": 64.0,
+        "ebit": 7.68
+      }
+    ],
+    "pivot": {
+      "new_segments": [
+        "New"
+      ],
+      "segment_period": "quarter",
+      "target_revenue": 1500,
+      "target_margin_pct": 30,
+      "target_source": "management guidance",
+      "pure_play_multiple": 45,
+      "multiple_type": "ev_ebitda",
+      "capability_proof": 4,
+      "capability_built_vs_bought": "built",
+      "management_track_record": 1,
+      "external_tailwind": 4
+    },
+    "expected": {
+      "score2_max": 40
+    }
+  },
+  {
+    "company": "Thin Data Co",
+    "ticker": "THIN",
+    "sector": "Unknown",
+    "as_of": "2026-05-20",
+    "price": {
+      "current": 100,
+      "high_3y": 220,
+      "low_52w": 95
+    },
+    "valuation": {
+      "pb_current": 1.0,
+      "pb_history": [
+        3.0,
+        2.5,
+        2.0,
+        1.5
+      ]
+    },
+    "expected": {
+      "runs": true,
+      "stage": [
+        "PEAK_PESSIMISM",
+        "MIXED"
+      ]
+    }
+  },
+  {
+    "company": "Guidance Miss Co",
+    "ticker": "MISS",
+    "sector": "Building Materials",
+    "as_of": "2026-05-20",
+    "price": {
+      "current": 420,
+      "high_3y": 620,
+      "low_52w": 280
+    },
+    "valuation": {
+      "pb_current": 2.4,
+      "pb_history": [
+        5.6,
+        5.2,
+        4.8,
+        4.4,
+        4.0,
+        3.6,
+        3.2,
+        2.8,
+        2.4,
+        2.2,
+        2.1
+      ]
+    },
+    "quarterly": [
+      {
+        "period_end": "2023-06-30",
+        "revenue": 100,
+        "ebitda": 13,
+        "volume": 100
+      },
+      {
+        "period_end": "2023-09-30",
+        "revenue": 100,
+        "ebitda": 12,
+        "volume": 100
+      },
+      {
+        "period_end": "2023-12-31",
+        "revenue": 100,
+        "ebitda": 10,
+        "volume": 100
+      },
+      {
+        "period_end": "2024-03-31",
+        "revenue": 100,
+        "ebitda": 8,
+        "volume": 100
+      },
+      {
+        "period_end": "2024-06-30",
+        "revenue": 100,
+        "ebitda": 7,
+        "volume": 100
+      },
+      {
+        "period_end": "2024-09-30",
+        "revenue": 100,
+        "ebitda": 6.5,
+        "volume": 100
+      },
+      {
+        "period_end": "2024-12-31",
+        "revenue": 100,
+        "ebitda": 6.2,
+        "volume": 100
+      },
+      {
+        "period_end": "2025-03-31",
+        "revenue": 100,
+        "ebitda": 6.0,
+        "volume": 100
+      },
+      {
+        "period_end": "2025-06-30",
+        "revenue": 116,
+        "ebitda": 6.5,
+        "volume": 100
+      },
+      {
+        "period_end": "2025-09-30",
+        "revenue": 116,
+        "ebitda": 7.5,
+        "volume": 100
+      },
+      {
+        "period_end": "2025-12-31",
+        "revenue": 116,
+        "ebitda": 9,
+        "volume": 100
+      },
+      {
+        "period_end": "2026-03-31",
+        "revenue": 116,
+        "ebitda": 11,
+        "volume": 100
+      },
+      {
+        "period_end": "2026-06-30",
+        "revenue": 120,
+        "ebitda": 13,
+        "volume": 100
+      }
+    ],
+    "annual": [
+      {
+        "period_end": "2021-03-31",
+        "revenue": 400,
+        "ebitda": 80,
+        "cfo": 70,
+        "debt": 50,
+        "capex": 20,
+        "equity": 300
+      },
+      {
+        "period_end": "2022-03-31",
+        "revenue": 400,
+        "ebitda": 52,
+        "cfo": 55,
+        "debt": 60,
+        "capex": 20,
+        "equity": 330
+      },
+      {
+        "period_end": "2023-03-31",
+        "revenue": 400,
+        "ebitda": 40,
+        "cfo": 40,
+        "debt": 70,
+        "capex": 25,
+        "equity": 360
+      },
+      {
+        "period_end": "2024-03-31",
+        "revenue": 400,
+        "ebitda": 30,
+        "cfo": 25,
+        "debt": 80,
+        "capex": 30,
+        "equity": 380
+      },
+      {
+        "period_end": "2025-03-31",
+        "revenue": 440,
+        "ebitda": 30,
+        "cfo": 20,
+        "debt": 80,
+        "capex": 35,
+        "equity": 390
+      }
+    ],
+    "shareholding": [
+      {
+        "period_end": "2023-06-30",
+        "promoter": 40,
+        "fii": 18,
+        "dii": 8
+      },
+      {
+        "period_end": "2023-09-30",
+        "promoter": 40,
+        "fii": 18,
+        "dii": 8
+      },
+      {
+        "period_end": "2023-12-31",
+        "promoter": 41,
+        "fii": 18,
+        "dii": 8
+      },
+      {
+        "period_end": "2024-03-31",
+        "promoter": 41,
+        "fii": 17,
+        "dii": 8
+      },
+      {
+        "period_end": "2024-06-30",
+        "promoter": 42,
+        "fii": 17,
+        "dii": 8
+      },
+      {
+        "period_end": "2024-09-30",
+        "promoter": 42,
+        "fii": 17,
+        "dii": 8
+      },
+      {
+        "period_end": "2024-12-31",
+        "promoter": 43,
+        "fii": 17,
+        "dii": 8
+      },
+      {
+        "period_end": "2025-03-31",
+        "promoter": 43,
+        "fii": 16,
+        "dii": 8
+      },
+      {
+        "period_end": "2025-06-30",
+        "promoter": 43,
+        "fii": 16,
+        "dii": 8
+      },
+      {
+        "period_end": "2025-09-30",
+        "promoter": 44,
+        "fii": 16,
+        "dii": 8
+      },
+      {
+        "period_end": "2025-12-31",
+        "promoter": 45,
+        "fii": 16,
+        "dii": 8
+      },
+      {
+        "period_end": "2026-03-31",
+        "promoter": 45,
+        "fii": 16,
+        "dii": 8
+      }
+    ],
+    "insider_trades": [
+      {
+        "date": "2026-03-01",
+        "person_category": "promoter",
+        "type": "buy",
+        "value_cr": 12,
+        "mode": "open_market"
+      },
+      {
+        "date": "2026-04-15",
+        "person_category": "promoter",
+        "type": "buy",
+        "value_cr": 6,
+        "mode": "open_market"
+      }
+    ],
+    "corporate_actions": [],
+    "peers": [
+      {
+        "company": "P1",
+        "drawdown_from_3y_high_pct": 55
+      },
+      {
+        "company": "P2",
+        "drawdown_from_3y_high_pct": 48
+      },
+      {
+        "company": "P3",
+        "drawdown_from_3y_high_pct": 42
+      },
+      {
+        "company": "P4",
+        "drawdown_from_3y_high_pct": 30
+      },
+      {
+        "company": "P5",
+        "drawdown_from_3y_high_pct": 20
+      }
+    ],
+    "qualitative": {
+      "concalls": [
+        {
+          "date": "2025-11-10",
+          "duration_min": 40,
+          "analyst_questions": 8,
+          "mgmt_tone": 3,
+          "analyst_skepticism": 4,
+          "prior_guidance_met": true,
+          "aggressive_guidance": false,
+          "evidence": [
+            "synthetic acceptance-test input"
+          ],
+          "market_share_gain_claimed": true
+        },
+        {
+          "date": "2026-02-10",
+          "duration_min": 38,
+          "analyst_questions": 7,
+          "mgmt_tone": 4,
+          "analyst_skepticism": 4,
+          "prior_guidance_met": false,
+          "aggressive_guidance": false,
+          "evidence": [
+            "synthetic acceptance-test input"
+          ],
+          "market_share_gain_claimed": true
+        },
+        {
+          "date": "2026-05-05",
+          "duration_min": 35,
+          "analyst_questions": 6,
+          "mgmt_tone": 5,
+          "analyst_skepticism": 4,
+          "prior_guidance_met": false,
+          "aggressive_guidance": false,
+          "evidence": [
+            "synthetic acceptance-test input"
+          ],
+          "market_share_gain_claimed": true
+        },
+        {
+          "date": "2026-06-10",
+          "duration_min": 30,
+          "analyst_questions": 5,
+          "mgmt_tone": 5,
+          "analyst_skepticism": 3,
+          "prior_guidance_met": true,
+          "aggressive_guidance": false,
+          "evidence": [
+            "synthetic acceptance-test input"
+          ],
+          "market_share_gain_claimed": true
+        }
+      ],
+      "shock_type": "supply_shock"
+    },
+    "expected": {
+      "stage": "EARLY_RECOVERY",
+      "score1_max": 80
+    }
+  },
+  {
+    "company": "No Promoter Co",
+    "ticker": "NOPROM",
+    "sector": "Building Materials",
+    "as_of": "2026-05-20",
+    "price": {
+      "current": 420,
+      "high_3y": 620,
+      "low_52w": 280
+    },
+    "valuation": {
+      "pb_current": 2.4,
+      "pb_history": [
+        5.6,
+        5.2,
+        4.8,
+        4.4,
+        4.0,
+        3.6,
+        3.2,
+        2.8,
+        2.4,
+        2.2,
+        2.1
+      ]
+    },
+    "quarterly": [
+      {
+        "period_end": "2023-06-30",
+        "revenue": 100,
+        "ebitda": 13,
+        "volume": 100
+      },
+      {
+        "period_end": "2023-09-30",
+        "revenue": 100,
+        "ebitda": 12,
+        "volume": 100
+      },
+      {
+        "period_end": "2023-12-31",
+        "revenue": 100,
+        "ebitda": 10,
+        "volume": 100
+      },
+      {
+        "period_end": "2024-03-31",
+        "revenue": 100,
+        "ebitda": 8,
+        "volume": 100
+      },
+      {
+        "period_end": "2024-06-30",
+        "revenue": 100,
+        "ebitda": 7,
+        "volume": 100
+      },
+      {
+        "period_end": "2024-09-30",
+        "revenue": 100,
+        "ebitda": 6.5,
+        "volume": 100
+      },
+      {
+        "period_end": "2024-12-31",
+        "revenue": 100,
+        "ebitda": 6.2,
+        "volume": 100
+      },
+      {
+        "period_end": "2025-03-31",
+        "revenue": 100,
+        "ebitda": 6.0,
+        "volume": 100
+      },
+      {
+        "period_end": "2025-06-30",
+        "revenue": 116,
+        "ebitda": 6.5,
+        "volume": 100
+      },
+      {
+        "period_end": "2025-09-30",
+        "revenue": 116,
+        "ebitda": 7.5,
+        "volume": 100
+      },
+      {
+        "period_end": "2025-12-31",
+        "revenue": 116,
+        "ebitda": 9,
+        "volume": 100
+      },
+      {
+        "period_end": "2026-03-31",
+        "revenue": 116,
+        "ebitda": 11,
+        "volume": 100
+      },
+      {
+        "period_end": "2026-06-30",
+        "revenue": 120,
+        "ebitda": 13,
+        "volume": 100
+      }
+    ],
+    "annual": [
+      {
+        "period_end": "2021-03-31",
+        "revenue": 400,
+        "ebitda": 80,
+        "cfo": 70,
+        "debt": 50,
+        "capex": 20,
+        "equity": 300
+      },
+      {
+        "period_end": "2022-03-31",
+        "revenue": 400,
+        "ebitda": 52,
+        "cfo": 55,
+        "debt": 60,
+        "capex": 20,
+        "equity": 330
+      },
+      {
+        "period_end": "2023-03-31",
+        "revenue": 400,
+        "ebitda": 40,
+        "cfo": 40,
+        "debt": 70,
+        "capex": 25,
+        "equity": 360
+      },
+      {
+        "period_end": "2024-03-31",
+        "revenue": 400,
+        "ebitda": 30,
+        "cfo": 25,
+        "debt": 80,
+        "capex": 30,
+        "equity": 380
+      },
+      {
+        "period_end": "2025-03-31",
+        "revenue": 440,
+        "ebitda": 30,
+        "cfo": 20,
+        "debt": 80,
+        "capex": 35,
+        "equity": 390
+      }
+    ],
+    "shareholding": [
+      {
+        "period_end": "2023-06-30",
+        "promoter": 0,
+        "fii": 12,
+        "dii": 8
+      },
+      {
+        "period_end": "2023-09-30",
+        "promoter": 0,
+        "fii": 12,
+        "dii": 8
+      },
+      {
+        "period_end": "2023-12-31",
+        "promoter": 0,
+        "fii": 12,
+        "dii": 8
+      },
+      {
+        "period_end": "2024-03-31",
+        "promoter": 0,
+        "fii": 12,
+        "dii": 8
+      },
+      {
+        "period_end": "2024-06-30",
+        "promoter": 0,
+        "fii": 12,
+        "dii": 8
+      },
+      {
+        "period_end": "2024-09-30",
+        "promoter": 0,
+        "fii": 12,
+        "dii": 8
+      },
+      {
+        "period_end": "2024-12-31",
+        "promoter": 0,
+        "fii": 12,
+        "dii": 8
+      },
+      {
+        "period_end": "2025-03-31",
+        "promoter": 0,
+        "fii": 12,
+        "dii": 8
+      },
+      {
+        "period_end": "2025-06-30",
+        "promoter": 0,
+        "fii": 12,
+        "dii": 8
+      },
+      {
+        "period_end": "2025-09-30",
+        "promoter": 0,
+        "fii": 12,
+        "dii": 8
+      },
+      {
+        "period_end": "2025-12-31",
+        "promoter": 0,
+        "fii": 12,
+        "dii": 8
+      },
+      {
+        "period_end": "2026-03-31",
+        "promoter": 0,
+        "fii": 12,
+        "dii": 8
+      }
+    ],
+    "insider_trades": [],
+    "corporate_actions": [],
+    "peers": [
+      {
+        "company": "P1",
+        "drawdown_from_3y_high_pct": 55
+      },
+      {
+        "company": "P2",
+        "drawdown_from_3y_high_pct": 48
+      },
+      {
+        "company": "P3",
+        "drawdown_from_3y_high_pct": 42
+      },
+      {
+        "company": "P4",
+        "drawdown_from_3y_high_pct": 30
+      },
+      {
+        "company": "P5",
+        "drawdown_from_3y_high_pct": 20
+      }
+    ],
+    "qualitative": {
+      "concalls": [
+        {
+          "date": "2025-11-10",
+          "duration_min": 40,
+          "analyst_questions": 8,
+          "mgmt_tone": 3,
+          "analyst_skepticism": 4,
+          "prior_guidance_met": true,
+          "aggressive_guidance": false,
+          "evidence": [
+            "synthetic acceptance-test input"
+          ],
+          "market_share_gain_claimed": true
+        },
+        {
+          "date": "2026-02-10",
+          "duration_min": 38,
+          "analyst_questions": 7,
+          "mgmt_tone": 4,
+          "analyst_skepticism": 4,
+          "prior_guidance_met": true,
+          "aggressive_guidance": false,
+          "evidence": [
+            "synthetic acceptance-test input"
+          ],
+          "market_share_gain_claimed": true
+        },
+        {
+          "date": "2026-05-05",
+          "duration_min": 35,
+          "analyst_questions": 6,
+          "mgmt_tone": 5,
+          "analyst_skepticism": 4,
+          "prior_guidance_met": true,
+          "aggressive_guidance": false,
+          "evidence": [
+            "synthetic acceptance-test input"
+          ],
+          "market_share_gain_claimed": true
+        },
+        {
+          "date": "2026-06-10",
+          "duration_min": 30,
+          "analyst_questions": 5,
+          "mgmt_tone": 5,
+          "analyst_skepticism": 3,
+          "prior_guidance_met": true,
+          "aggressive_guidance": false,
+          "evidence": [
+            "synthetic acceptance-test input"
+          ],
+          "market_share_gain_claimed": true
+        }
+      ],
+      "shock_type": "supply_shock"
+    },
+    "expected": {
+      "stage": "EARLY_RECOVERY",
+      "score1_min": 75,
+      "promoter_na": true
+    },
+    "no_promoter": true
+  },
+  {
+    "company": "Promoter Exit Co",
+    "ticker": "EXIT",
+    "sector": "Building Materials",
+    "as_of": "2026-05-20",
+    "price": {
+      "current": 420,
+      "high_3y": 620,
+      "low_52w": 280
+    },
+    "valuation": {
+      "pb_current": 2.4,
+      "pb_history": [
+        5.6,
+        5.2,
+        4.8,
+        4.4,
+        4.0,
+        3.6,
+        3.2,
+        2.8,
+        2.4,
+        2.2,
+        2.1
+      ]
+    },
+    "quarterly": [
+      {
+        "period_end": "2023-06-30",
+        "revenue": 100,
+        "ebitda": 13,
+        "volume": 100
+      },
+      {
+        "period_end": "2023-09-30",
+        "revenue": 100,
+        "ebitda": 12,
+        "volume": 100
+      },
+      {
+        "period_end": "2023-12-31",
+        "revenue": 100,
+        "ebitda": 10,
+        "volume": 100
+      },
+      {
+        "period_end": "2024-03-31",
+        "revenue": 100,
+        "ebitda": 8,
+        "volume": 100
+      },
+      {
+        "period_end": "2024-06-30",
+        "revenue": 100,
+        "ebitda": 7,
+        "volume": 100
+      },
+      {
+        "period_end": "2024-09-30",
+        "revenue": 100,
+        "ebitda": 6.5,
+        "volume": 100
+      },
+      {
+        "period_end": "2024-12-31",
+        "revenue": 100,
+        "ebitda": 6.2,
+        "volume": 100
+      },
+      {
+        "period_end": "2025-03-31",
+        "revenue": 100,
+        "ebitda": 6.0,
+        "volume": 100
+      },
+      {
+        "period_end": "2025-06-30",
+        "revenue": 116,
+        "ebitda": 6.5,
+        "volume": 100
+      },
+      {
+        "period_end": "2025-09-30",
+        "revenue": 116,
+        "ebitda": 7.5,
+        "volume": 100
+      },
+      {
+        "period_end": "2025-12-31",
+        "revenue": 116,
+        "ebitda": 9,
+        "volume": 100
+      },
+      {
+        "period_end": "2026-03-31",
+        "revenue": 116,
+        "ebitda": 11,
+        "volume": 100
+      },
+      {
+        "period_end": "2026-06-30",
+        "revenue": 120,
+        "ebitda": 13,
+        "volume": 100
+      }
+    ],
+    "annual": [
+      {
+        "period_end": "2021-03-31",
+        "revenue": 400,
+        "ebitda": 80,
+        "cfo": 70,
+        "debt": 50,
+        "capex": 20,
+        "equity": 300
+      },
+      {
+        "period_end": "2022-03-31",
+        "revenue": 400,
+        "ebitda": 52,
+        "cfo": 55,
+        "debt": 60,
+        "capex": 20,
+        "equity": 330
+      },
+      {
+        "period_end": "2023-03-31",
+        "revenue": 400,
+        "ebitda": 40,
+        "cfo": 40,
+        "debt": 70,
+        "capex": 25,
+        "equity": 360
+      },
+      {
+        "period_end": "2024-03-31",
+        "revenue": 400,
+        "ebitda": 30,
+        "cfo": 25,
+        "debt": 80,
+        "capex": 30,
+        "equity": 380
+      },
+      {
+        "period_end": "2025-03-31",
+        "revenue": 440,
+        "ebitda": 30,
+        "cfo": 20,
+        "debt": 80,
+        "capex": 35,
+        "equity": 390
+      }
+    ],
+    "shareholding": [
+      {
+        "period_end": "2023-06-30",
+        "promoter": 60,
+        "fii": 12,
+        "dii": 8
+      },
+      {
+        "period_end": "2023-09-30",
+        "promoter": 60,
+        "fii": 12,
+        "dii": 8
+      },
+      {
+        "period_end": "2023-12-31",
+        "promoter": 60,
+        "fii": 12,
+        "dii": 8
+      },
+      {
+        "period_end": "2024-03-31",
+        "promoter": 60,
+        "fii": 12,
+        "dii": 8
+      },
+      {
+        "period_end": "2024-06-30",
+        "promoter": 60,
+        "fii": 12,
+        "dii": 8
+      },
+      {
+        "period_end": "2024-09-30",
+        "promoter": 60,
+        "fii": 12,
+        "dii": 8
+      },
+      {
+        "period_end": "2024-12-31",
+        "promoter": 60,
+        "fii": 12,
+        "dii": 8
+      },
+      {
+        "period_end": "2025-03-31",
+        "promoter": 60,
+        "fii": 12,
+        "dii": 8
+      },
+      {
+        "period_end": "2025-06-30",
+        "promoter": 60,
+        "fii": 12,
+        "dii": 8
+      },
+      {
+        "period_end": "2025-09-30",
+        "promoter": 60,
+        "fii": 12,
+        "dii": 8
+      },
+      {
+        "period_end": "2025-12-31",
+        "promoter": 55,
+        "fii": 12,
+        "dii": 8
+      },
+      {
+        "period_end": "2026-03-31",
+        "promoter": 50,
+        "fii": 12,
+        "dii": 8
+      }
+    ],
+    "insider_trades": [],
+    "corporate_actions": [],
+    "peers": [
+      {
+        "company": "P1",
+        "drawdown_from_3y_high_pct": 55
+      },
+      {
+        "company": "P2",
+        "drawdown_from_3y_high_pct": 48
+      },
+      {
+        "company": "P3",
+        "drawdown_from_3y_high_pct": 42
+      },
+      {
+        "company": "P4",
+        "drawdown_from_3y_high_pct": 30
+      },
+      {
+        "company": "P5",
+        "drawdown_from_3y_high_pct": 20
+      }
+    ],
+    "qualitative": {
+      "concalls": [
+        {
+          "date": "2025-11-10",
+          "duration_min": 40,
+          "analyst_questions": 8,
+          "mgmt_tone": 3,
+          "analyst_skepticism": 4,
+          "prior_guidance_met": true,
+          "aggressive_guidance": false,
+          "evidence": [
+            "synthetic acceptance-test input"
+          ],
+          "market_share_gain_claimed": true
+        },
+        {
+          "date": "2026-02-10",
+          "duration_min": 38,
+          "analyst_questions": 7,
+          "mgmt_tone": 4,
+          "analyst_skepticism": 4,
+          "prior_guidance_met": true,
+          "aggressive_guidance": false,
+          "evidence": [
+            "synthetic acceptance-test input"
+          ],
+          "market_share_gain_claimed": true
+        },
+        {
+          "date": "2026-05-05",
+          "duration_min": 35,
+          "analyst_questions": 6,
+          "mgmt_tone": 5,
+          "analyst_skepticism": 4,
+          "prior_guidance_met": true,
+          "aggressive_guidance": false,
+          "evidence": [
+            "synthetic acceptance-test input"
+          ],
+          "market_share_gain_claimed": true
+        },
+        {
+          "date": "2026-06-10",
+          "duration_min": 30,
+          "analyst_questions": 5,
+          "mgmt_tone": 5,
+          "analyst_skepticism": 3,
+          "prior_guidance_met": true,
+          "aggressive_guidance": false,
+          "evidence": [
+            "synthetic acceptance-test input"
+          ],
+          "market_share_gain_claimed": true
+        }
+      ],
+      "shock_type": "supply_shock"
+    },
+    "expected": {
+      "stage": [
+        "PEAK_PESSIMISM",
+        "MIXED"
+      ]
+    }
+  }
+]

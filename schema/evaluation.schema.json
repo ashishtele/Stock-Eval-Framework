@@ -28,7 +28,11 @@
           "unit": { "type": "string" },
           "as_of": { "type": "string" },
           "source": { "type": "string" },
-          "note": { "type": "string" }
+          "note": { "type": "string" },
+          "metric_id": { "type": "string" },
+          "score_0_100": { "type": "number", "minimum": 0, "maximum": 100 },
+          "basis": { "enum": ["creator_stated", "derived", "proxy"] },
+          "confidence": { "enum": ["low", "medium", "high"] }
         },
         "if": {
           "properties": { "verdict": { "enum": ["PASS", "FAIL"] } },
@@ -47,7 +51,19 @@
         "na": { "type": "integer", "minimum": 0 },
         "coverage": { "type": "number", "minimum": 0, "maximum": 1 },
         "score": { "type": ["number", "null"] },
-        "score_method": { "type": "string" }
+        "score_method": { "type": "string" },
+        "score_derived": { "type": "boolean" },
+        "weights": { "type": "string" },
+        "weight_basis": { "type": "string" },
+        "criteria_scored": { "type": "integer", "minimum": 0 },
+        "criteria_total": { "type": "integer", "minimum": 0 },
+        "hit_rate": { "type": ["number", "null"], "minimum": 0, "maximum": 1 },
+        "state": { "enum": ["CANDIDATE", "WATCH", "NOT_APPLICABLE", "DISQUALIFIED", "INSUFFICIENT"] },
+        "insufficient_evidence": { "type": "boolean" },
+        "gates": {
+          "type": "object",
+          "additionalProperties": { "enum": ["pass", "fail", "unknown"] }
+        }
       },
       "additionalProperties": false
     },

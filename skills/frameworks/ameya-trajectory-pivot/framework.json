@@ -1,0 +1,414 @@
+{
+  "id": "ameya-trajectory-pivot",
+  "name": "Ameya Deosthali — Value Equity Trajectory Pivot",
+  "creator": "Ameya Deosthali",
+  "version": "0.1.0",
+  "status": "draft",
+  "extracted_at": "2026-10-22",
+  "sources": [
+    {
+      "source_id": "yt-rwThX801xWI",
+      "url": "https://www.youtube.com/watch?v=rwThX801xWI",
+      "title": "This 23-Year-Old Investor Looks for Stocks That Analysts Ignore! | Kushal Lodha #393",
+      "channel": "Kushal Lodha",
+      "published": "2026-10-13",
+      "transcript_path": "transcripts/kushal-lodha/20261013-this-23-year-old-investor-looks-for-stocks-that-analysts-ignor.md",
+      "transcript_sha256": "4ee0e87e65144221608965d35d8a1ad65b347da176ec011ba1d7a3415981e1ac",
+      "fetched_at": "2026-10-22T23:37:20+00:00"
+    }
+  ],
+  "universe": {
+    "in": [
+      "Companies moving capacity into a different product line or a genuinely new capability",
+      "Pivots large enough that success changes the earnings trajectory, not just the growth rate",
+      "Pharma, aerospace and defense, semiconductors, and other capability-led industries"
+    ],
+    "out": [
+      "Companies adding capacity in the same product line (ordinary capex)",
+      "Pivots that cannot materially change the earnings base even if they succeed"
+    ]
+  },
+  "criteria": [
+    {
+      "id": "different-product-line",
+      "question": "Is the new investment in a different product line or capability, rather than more of the existing product?",
+      "kind": "judgment",
+      "threshold": null,
+      "data_required": [
+        "company.segment_revenue",
+        "company.capex_projects",
+        "annual_report.business_description"
+      ],
+      "evidence": [
+        {
+          "quote": "It's that the existing base business is evolving. Either they are adding new capacity, but in a different product line, not the same product line.",
+          "timestamp": "00:37:41",
+          "source_id": "yt-rwThX801xWI",
+          "speaker": "Ameya Deosthali"
+        }
+      ],
+      "rationale": "Ordinary capex compounds the existing business; a trajectory pivot changes what the business is.",
+      "disqualifying": false,
+      "weight": null,
+      "verdict_scale": ["yes", "no", "unclear"],
+      "unvalidated": true
+    },
+    {
+      "id": "trajectory-scale",
+      "question": "If the pivot succeeds even partially, can it change the earnings trajectory (for example, take earnings from roughly 100 crore to 400 crore)?",
+      "kind": "judgment",
+      "threshold": null,
+      "data_required": [
+        "company.base_earnings",
+        "company.pivot_capacity",
+        "company.pivot_expected_revenue"
+      ],
+      "evidence": [
+        {
+          "quote": "So, trajectory pivot basically identifies those companies that are making pivots so large that if they work out, they will change the earnings trajectory of the company.",
+          "timestamp": "00:38:15",
+          "source_id": "yt-rwThX801xWI",
+          "speaker": "Ameya Deosthali"
+        },
+        {
+          "quote": "Can that 100 become 400? Not because of the base business, but because of the new business, better margins, better operating leverage.",
+          "timestamp": "00:38:47",
+          "source_id": "yt-rwThX801xWI",
+          "speaker": "Ameya Deosthali"
+        }
+      ],
+      "rationale": "The size of the prize must be asymmetric relative to the base business; otherwise the pivot is not worth the execution risk.",
+      "disqualifying": false,
+      "weight": null,
+      "verdict_scale": ["yes", "no", "unclear"],
+      "unvalidated": true
+    },
+    {
+      "id": "management-depth",
+      "question": "Is management top-grade, with a demonstrated track record of executing leaps of this kind?",
+      "kind": "judgment",
+      "threshold": null,
+      "data_required": [
+        "management.track_record",
+        "annual_report.history",
+        "management.capital_allocation_history"
+      ],
+      "evidence": [
+        {
+          "quote": "See, one thing is important here: when a pivot happens, when the trajectory changes, the number one variable here is management. Nothing else is important here.",
+          "timestamp": "00:39:24",
+          "source_id": "yt-rwThX801xWI",
+          "speaker": "Ameya Deosthali"
+        },
+        {
+          "quote": "You have to identify that, you have to see the track record.",
+          "timestamp": "00:40:04",
+          "source_id": "yt-rwThX801xWI",
+          "speaker": "Ameya Deosthali"
+        }
+      ],
+      "rationale": "Capital is abundant; the scarce input in a large pivot is management depth. The creator calls this the number one variable.",
+      "disqualifying": true,
+      "weight": null,
+      "verdict_scale": ["yes", "no", "unclear"],
+      "unvalidated": true
+    },
+    {
+      "id": "capex-ahead-of-revenue",
+      "question": "Is the company investing ahead of revenue, with capex well above depreciation and rising debt, so reported profit looks weak while assets build?",
+      "kind": "screen",
+      "threshold": {
+        "metric": "cash_flow.capex_to_depreciation",
+        "operator": ">=",
+        "value": 1.5,
+        "unit": "x",
+        "window": "last 2-3 years"
+      },
+      "data_required": [
+        "cash_flow.fixed_assets_purchased",
+        "cash_flow.depreciation",
+        "balance_sheet.borrowings",
+        "income_statement.interest_expense"
+      ],
+      "evidence": [
+        {
+          "quote": "They are taking on debt. Interest costs are rising. The P and L is looking uglier every quarter, the balance sheet is looking better because you are actually building real assets and they were investing ahead of time.",
+          "timestamp": "00:41:23",
+          "source_id": "yt-rwThX801xWI",
+          "speaker": "Ameya Deosthali"
+        }
+      ],
+      "rationale": "The pivot is visible in the accounts as a temporary divergence: weak P&L, stronger asset base, rising leverage.",
+      "disqualifying": false,
+      "weight": null,
+      "unvalidated": true
+    },
+    {
+      "id": "capability-evidence",
+      "question": "Is the claimed capability verifiable in public filings or certifications rather than only in investor presentations?",
+      "kind": "judgment",
+      "threshold": null,
+      "data_required": [
+        "regulatory.dmf_filings",
+        "certifications.as9100",
+        "certifications.nadcap",
+        "customers.tier_qualification"
+      ],
+      "evidence": [
+        {
+          "quote": "So, what are their filings with the US FDA? I always tell people to look at US FDA DMF filings to see what the company is filing.",
+          "timestamp": "00:45:03",
+          "source_id": "yt-rwThX801xWI",
+          "speaker": "Ameya Deosthali"
+        },
+        {
+          "quote": "But you have to look for these few certifications. Like AS 9100, NADCAP certifications.",
+          "timestamp": "00:51:39",
+          "source_id": "yt-rwThX801xWI",
+          "speaker": "Ameya Deosthali"
+        }
+      ],
+      "rationale": "Narrative is cheap and technical language intimidates newcomers; filings and certifications are the exam result.",
+      "disqualifying": false,
+      "weight": null,
+      "verdict_scale": ["verified", "claimed-only", "unclear"],
+      "unvalidated": true
+    },
+    {
+      "id": "mix-shift",
+      "question": "Is the new segment's share of revenue rising materially over time?",
+      "kind": "screen",
+      "threshold": {
+        "metric": "company.new_segment_revenue_share",
+        "operator": "trend",
+        "value": "rising",
+        "unit": "percent of revenue",
+        "window": "3-5 years"
+      },
+      "data_required": [
+        "company.segment_revenue",
+        "company.segment_mix_history"
+      ],
+      "evidence": [
+        {
+          "quote": "So, it is very important in this to see whether the business mix has changed or not. So that changed drastically for them.",
+          "timestamp": "00:49:19",
+          "source_id": "yt-rwThX801xWI",
+          "speaker": "Ameya Deosthali"
+        }
+      ],
+      "rationale": "The pivot has to show up in the mix, not only in management commentary.",
+      "disqualifying": false,
+      "weight": null,
+      "unvalidated": true
+    },
+    {
+      "id": "margin-delta",
+      "question": "Is the new segment's margin materially higher than the base business (roughly 1.5x or more in the cited case)?",
+      "kind": "screen",
+      "threshold": {
+        "metric": "company.new_segment_ebitda_margin_to_base",
+        "operator": ">=",
+        "value": 1.5,
+        "unit": "x",
+        "window": "latest reported"
+      },
+      "data_required": [
+        "company.segment_ebitda",
+        "company.segment_revenue"
+      ],
+      "evidence": [
+        {
+          "quote": "Now the margin in the ADS is almost 1.5 to 1.8 times that of the auto end business.",
+          "timestamp": "00:52:17",
+          "source_id": "yt-rwThX801xWI",
+          "speaker": "Ameya Deosthali"
+        }
+      ],
+      "rationale": "The earnings delta comes from mix shift into a structurally higher-margin business.",
+      "disqualifying": false,
+      "weight": null,
+      "unvalidated": true
+    },
+    {
+      "id": "top-tier-customers",
+      "question": "Are the customers or OEMs top-tier, and is there evidence of commitment (qualification, schedules, contracts)?",
+      "kind": "judgment",
+      "threshold": null,
+      "data_required": [
+        "customers.names",
+        "customers.qualification_status",
+        "orders.backlog"
+      ],
+      "evidence": [
+        {
+          "quote": "It also matters the quality of the OEM, right? Because what happened in between? Boeing started having so many issues, right? With safety norms. But they have been with Airbus Commercial and Boeing Defense.",
+          "timestamp": "00:57:47",
+          "source_id": "yt-rwThX801xWI",
+          "speaker": "Ameya Deosthali"
+        },
+        {
+          "quote": "In the first quarter of FY27, they started the A320 deliveries.",
+          "timestamp": "00:56:00",
+          "source_id": "yt-rwThX801xWI",
+          "speaker": "Ameya Deosthali"
+        }
+      ],
+      "rationale": "Customer quality and qualification are a proxy for whether the capability is real and monetisable.",
+      "disqualifying": false,
+      "weight": null,
+      "verdict_scale": ["yes", "no", "unclear"],
+      "unvalidated": true
+    },
+    {
+      "id": "built-over-years",
+      "question": "Was the capability built over years, as evidenced in old annual reports, rather than announced in the last few quarters?",
+      "kind": "judgment",
+      "threshold": null,
+      "data_required": [
+        "annual_report.history",
+        "company.capex_history",
+        "certifications.history"
+      ],
+      "evidence": [
+        {
+          "quote": "So here, I started reading the annual reports from 2006. Because I wanted to know about their capability, that's why I titled it that way. That capability was built through grit and persistence.",
+          "timestamp": "00:54:49",
+          "source_id": "yt-rwThX801xWI",
+          "speaker": "Ameya Deosthali"
+        },
+        {
+          "quote": "Because you don't just walk in as a Tier 1 supplier, you build that slow and steady, you know.",
+          "timestamp": "00:56:36",
+          "source_id": "yt-rwThX801xWI",
+          "speaker": "Ameya Deosthali"
+        }
+      ],
+      "rationale": "This is the anti-hype check: late entrants announcing a pivot today are years behind a capability that was built quietly.",
+      "disqualifying": false,
+      "weight": null,
+      "verdict_scale": ["built", "recently-announced", "unclear"],
+      "unvalidated": true
+    },
+    {
+      "id": "incremental-earnings-quality",
+      "question": "Is the valuation defensible on the quality of incremental earnings rather than the headline multiple?",
+      "kind": "judgment",
+      "threshold": null,
+      "data_required": [
+        "valuation.forward_pe",
+        "company.incremental_roce",
+        "company.segment_margins"
+      ],
+      "evidence": [
+        {
+          "quote": "But a 40-50 P/E in today’s context, if you look at forward P/E—and forward P/E not just in the estimates, as people normally say that in the next two years it will obviously look lower —but the quality of the P/E; people don't talk about the fact that the incremental earnings quality has substantially increased.",
+          "timestamp": "00:52:57",
+          "source_id": "yt-rwThX801xWI",
+          "speaker": "Ameya Deosthali"
+        }
+      ],
+      "rationale": "A high headline multiple can still be cheap if the mix shift raises the quality and durability of incremental earnings.",
+      "disqualifying": false,
+      "weight": null,
+      "verdict_scale": ["justified", "not-justified", "unclear"],
+      "unvalidated": true
+    }
+  ],
+  "red_flags": [
+    {
+      "id": "pivot-label-without-certification",
+      "flag": "The company calls itself an aerospace, defense, or technology business without the certifications or customer qualifications in its annual report.",
+      "severity": "fatal",
+      "detect": "Search the latest annual report for AS 9100, NADCAP, customer approvals, and segment disclosure; look beyond investor-presentation language.",
+      "evidence": [
+        {
+          "quote": "But if you go and look at their annual report, they don't even have the certifications. Right? So, they might be making a small screw for a part and they classify themselves as aerospace.",
+          "timestamp": "00:51:03",
+          "source_id": "yt-rwThX801xWI",
+          "speaker": "Ameya Deosthali"
+        }
+      ]
+    },
+    {
+      "id": "capital-without-management-depth",
+      "flag": "The pivot is funded and announced, but management has no record of executing a leap of this kind.",
+      "severity": "fatal",
+      "detect": "Compare prior capex/acquisition cycles with outcomes; check whether the current management built or only bought capability.",
+      "evidence": [
+        {
+          "quote": "Because when you take a leap, money cannot help you. Money is available in abundance everywhere today. But it's the depth of the management, the management capability.",
+          "timestamp": "00:39:24",
+          "source_id": "yt-rwThX801xWI",
+          "speaker": "Ameya Deosthali"
+        }
+      ]
+    },
+    {
+      "id": "announced-but-unfunded",
+      "flag": "The pivot is announced in commentary but does not appear in capex, segment mix, or hiring.",
+      "severity": "serious",
+      "detect": "Check capex, segment disclosure, and certifications over the following two to four quarters.",
+      "evidence": [
+        {
+          "quote": "Heavy Capex started per quarter, you know, a huge amount of capacity is being set up, multifold capacity was being set up.",
+          "timestamp": "00:43:11",
+          "source_id": "yt-rwThX801xWI",
+          "speaker": "Ameya Deosthali"
+        }
+      ]
+    }
+  ],
+  "heuristics": [
+    {
+      "id": "buy-versus-build",
+      "heuristic": "Buying capability with money is easy; building it yields depth and precision that cannot be bought.",
+      "why_not_testable": "The durability of built versus acquired capability is not observable in a single metric and is a qualitative judgment.",
+      "evidence": [
+        {
+          "quote": "It’s very easy to buy capabilities with money. But you can't get that same level of precision and that depth that you get with building.",
+          "timestamp": "00:57:47",
+          "source_id": "yt-rwThX801xWI",
+          "speaker": "Ameya Deosthali"
+        }
+      ]
+    },
+    {
+      "id": "read-old-annual-reports",
+      "heuristic": "Read many years of old annual reports to learn how a capability was actually built.",
+      "why_not_testable": "A research method, not a screening criterion.",
+      "evidence": [
+        {
+          "quote": "I went through the last 20 years of annual reports. Whatever I could find in them.",
+          "timestamp": "00:56:00",
+          "source_id": "yt-rwThX801xWI",
+          "speaker": "Ameya Deosthali"
+        }
+      ]
+    },
+    {
+      "id": "follow-global-innovators",
+      "heuristic": "In pharma, follow where global innovators are investing, because the Indian supplier's growth is linked to that therapy choice.",
+      "why_not_testable": "Requires cross-reading global company disclosures; it is a research direction rather than a threshold.",
+      "evidence": [
+        {
+          "quote": "So you look at the global innovators, you look at those in the US, right? The big names like Eli Lilly, right? Or you can track their investor presentations, all of it is available online. See where they are investing, because the growth here is linked to that.",
+          "timestamp": "00:47:27",
+          "source_id": "yt-rwThX801xWI",
+          "speaker": "Ameya Deosthali"
+        }
+      ]
+    }
+  ],
+  "position_rules": {
+    "entry": "Buy when a validated capability pivot coincides with a depressed P&L and an unloved stock; the capex cycle itself is what creates the entry point.",
+    "patience": "The monetisation phase, not the announcement, is when the rate of change begins; the creator tracked Laurus for one to two years before buying."
+  },
+  "sell_rules": [],
+  "tensions": [],
+  "validation": {
+    "status": "unvalidated",
+    "evals": [],
+    "notes": "Extracted from one auto-captioned interview. No explicit sell rule was stated for this framework; the field is intentionally empty rather than invented."
+  }
+}

@@ -1,0 +1,637 @@
+{
+  "company": "Example Industries",
+  "ticker": "EXAMPLE",
+  "sector": "Building Materials",
+  "as_of": "2026-05-20",
+  "price": {
+    "current": 420,
+    "high_3y": 620,
+    "low_52w": 280,
+    "history": [
+      {
+        "date": "2023-06-30",
+        "close": 480
+      },
+      {
+        "date": "2024-02-09",
+        "close": 620
+      },
+      {
+        "date": "2024-12-31",
+        "close": 430
+      },
+      {
+        "date": "2025-06-30",
+        "close": 320
+      },
+      {
+        "date": "2026-01-21",
+        "close": 280
+      },
+      {
+        "date": "2026-05-19",
+        "close": 420
+      }
+    ]
+  },
+  "valuation": {
+    "pb_current": 2.4,
+    "pb_history": [
+      {
+        "date": "2023-06-30",
+        "value": 5.6
+      },
+      {
+        "date": "2023-12-31",
+        "value": 4.4
+      },
+      {
+        "date": "2024-06-30",
+        "value": 3.6
+      },
+      {
+        "date": "2024-12-31",
+        "value": 3.0
+      },
+      {
+        "date": "2025-06-30",
+        "value": 2.8
+      },
+      {
+        "date": "2025-12-31",
+        "value": 2.4
+      },
+      {
+        "date": "2026-03-31",
+        "value": 2.2
+      },
+      {
+        "date": "2026-05-19",
+        "value": 2.4
+      }
+    ],
+    "ev_ebitda_current": 9.5,
+    "ev_ebitda_history": [
+      12,
+      11,
+      10.5,
+      10,
+      9.8,
+      9.5
+    ],
+    "pe_current": 18,
+    "pe_history": [
+      30,
+      26,
+      23,
+      21,
+      19,
+      18
+    ],
+    "pe_forward": 14
+  },
+  "quarterly": [
+    {
+      "period_end": "2023-06-30",
+      "revenue": 100,
+      "ebitda": 13,
+      "volume": 100,
+      "depreciation": 5,
+      "interest": 4,
+      "pat": 3,
+      "gross_profit": 35,
+      "reported_on": "2023-08-09"
+    },
+    {
+      "period_end": "2023-09-30",
+      "revenue": 100,
+      "ebitda": 12,
+      "volume": 100,
+      "depreciation": 5,
+      "interest": 4,
+      "pat": 2,
+      "gross_profit": 34,
+      "reported_on": "2023-11-09"
+    },
+    {
+      "period_end": "2023-12-31",
+      "revenue": 100,
+      "ebitda": 10,
+      "volume": 100,
+      "depreciation": 5,
+      "interest": 4,
+      "pat": 0,
+      "gross_profit": 33,
+      "reported_on": "2024-02-09"
+    },
+    {
+      "period_end": "2024-03-31",
+      "revenue": 100,
+      "ebitda": 8,
+      "volume": 100,
+      "depreciation": 5,
+      "interest": 4,
+      "pat": 0,
+      "gross_profit": 32,
+      "reported_on": "2024-05-10"
+    },
+    {
+      "period_end": "2024-06-30",
+      "revenue": 100,
+      "ebitda": 7,
+      "volume": 100,
+      "depreciation": 5,
+      "interest": 4,
+      "pat": 0,
+      "gross_profit": 31,
+      "reported_on": "2024-08-09"
+    },
+    {
+      "period_end": "2024-09-30",
+      "revenue": 100,
+      "ebitda": 6.5,
+      "volume": 100,
+      "depreciation": 5,
+      "interest": 4,
+      "pat": 0,
+      "gross_profit": 30,
+      "reported_on": "2024-11-09"
+    },
+    {
+      "period_end": "2024-12-31",
+      "revenue": 100,
+      "ebitda": 6.2,
+      "volume": 100,
+      "depreciation": 5,
+      "interest": 4,
+      "pat": 0,
+      "gross_profit": 29,
+      "reported_on": "2025-02-09"
+    },
+    {
+      "period_end": "2025-03-31",
+      "revenue": 100,
+      "ebitda": 6.0,
+      "volume": 100,
+      "depreciation": 5,
+      "interest": 4,
+      "pat": 0,
+      "gross_profit": 28,
+      "reported_on": "2025-05-10"
+    },
+    {
+      "period_end": "2025-06-30",
+      "revenue": 116,
+      "ebitda": 6.5,
+      "volume": 100,
+      "depreciation": 5,
+      "interest": 4,
+      "pat": 0,
+      "gross_profit": 32,
+      "reported_on": "2025-08-09"
+    },
+    {
+      "period_end": "2025-09-30",
+      "revenue": 116,
+      "ebitda": 7.5,
+      "volume": 100,
+      "depreciation": 5,
+      "interest": 4,
+      "pat": 0,
+      "gross_profit": 36,
+      "reported_on": "2025-11-09"
+    },
+    {
+      "period_end": "2025-12-31",
+      "revenue": 116,
+      "ebitda": 9,
+      "volume": 100,
+      "depreciation": 5,
+      "interest": 4,
+      "pat": 0,
+      "gross_profit": 40,
+      "reported_on": "2026-02-09"
+    },
+    {
+      "period_end": "2026-03-31",
+      "revenue": 116,
+      "ebitda": 11,
+      "volume": 100,
+      "depreciation": 5,
+      "interest": 4,
+      "pat": 1,
+      "gross_profit": 44,
+      "reported_on": "2026-05-10"
+    }
+  ],
+  "annual": [
+    {
+      "period_end": "2021-03-31",
+      "revenue": 400,
+      "ebitda": 80,
+      "cfo": 70,
+      "debt": 50,
+      "capex": 20,
+      "equity": 300,
+      "cash": 30,
+      "reported_on": "2021-05-20"
+    },
+    {
+      "period_end": "2022-03-31",
+      "revenue": 400,
+      "ebitda": 52,
+      "cfo": 55,
+      "debt": 60,
+      "capex": 20,
+      "equity": 330,
+      "cash": 35,
+      "reported_on": "2022-05-20"
+    },
+    {
+      "period_end": "2023-03-31",
+      "revenue": 400,
+      "ebitda": 40,
+      "cfo": 40,
+      "debt": 70,
+      "capex": 25,
+      "equity": 360,
+      "cash": 40,
+      "reported_on": "2023-05-20"
+    },
+    {
+      "period_end": "2024-03-31",
+      "revenue": 400,
+      "ebitda": 30,
+      "cfo": 25,
+      "debt": 80,
+      "capex": 30,
+      "equity": 380,
+      "cash": 45,
+      "reported_on": "2024-05-20"
+    },
+    {
+      "period_end": "2025-03-31",
+      "revenue": 440,
+      "ebitda": 30,
+      "cfo": 20,
+      "debt": 80,
+      "capex": 35,
+      "equity": 390,
+      "cash": 50,
+      "reported_on": "2025-05-20"
+    }
+  ],
+  "shareholding": [
+    {
+      "period_end": "2023-06-30",
+      "promoter": 40,
+      "fii": 18,
+      "dii": 8,
+      "pledge_pct": 0
+    },
+    {
+      "period_end": "2023-09-30",
+      "promoter": 40,
+      "fii": 18,
+      "dii": 8,
+      "pledge_pct": 0
+    },
+    {
+      "period_end": "2023-12-31",
+      "promoter": 41,
+      "fii": 18,
+      "dii": 8,
+      "pledge_pct": 0
+    },
+    {
+      "period_end": "2024-03-31",
+      "promoter": 41,
+      "fii": 17,
+      "dii": 8,
+      "pledge_pct": 0
+    },
+    {
+      "period_end": "2024-06-30",
+      "promoter": 42,
+      "fii": 17,
+      "dii": 8,
+      "pledge_pct": 0
+    },
+    {
+      "period_end": "2024-09-30",
+      "promoter": 42,
+      "fii": 17,
+      "dii": 8,
+      "pledge_pct": 0
+    },
+    {
+      "period_end": "2024-12-31",
+      "promoter": 43,
+      "fii": 17,
+      "dii": 8,
+      "pledge_pct": 0
+    },
+    {
+      "period_end": "2025-03-31",
+      "promoter": 43,
+      "fii": 16,
+      "dii": 8,
+      "pledge_pct": 0
+    },
+    {
+      "period_end": "2025-06-30",
+      "promoter": 43,
+      "fii": 16,
+      "dii": 8,
+      "pledge_pct": 0
+    },
+    {
+      "period_end": "2025-09-30",
+      "promoter": 44,
+      "fii": 16,
+      "dii": 8,
+      "pledge_pct": 0
+    },
+    {
+      "period_end": "2025-12-31",
+      "promoter": 45,
+      "fii": 16,
+      "dii": 8,
+      "pledge_pct": 0
+    },
+    {
+      "period_end": "2026-03-31",
+      "promoter": 45,
+      "fii": 16,
+      "dii": 8,
+      "pledge_pct": 0
+    }
+  ],
+  "insider_trades": [
+    {
+      "date": "2026-03-01",
+      "person_category": "promoter",
+      "type": "buy",
+      "value_cr": 12,
+      "mode": "open_market"
+    },
+    {
+      "date": "2026-04-15",
+      "person_category": "promoter",
+      "type": "buy",
+      "value_cr": 6,
+      "mode": "open_market"
+    }
+  ],
+  "corporate_actions": [
+    {
+      "date": "2022-06-01",
+      "type": "acquisition",
+      "value_cr": 50
+    }
+  ],
+  "peers": [
+    {
+      "company": "P1",
+      "drawdown_from_3y_high_pct": 55
+    },
+    {
+      "company": "P2",
+      "drawdown_from_3y_high_pct": 48
+    },
+    {
+      "company": "P3",
+      "drawdown_from_3y_high_pct": 42
+    },
+    {
+      "company": "P4",
+      "drawdown_from_3y_high_pct": 30
+    },
+    {
+      "company": "P5",
+      "drawdown_from_3y_high_pct": 20
+    }
+  ],
+  "qualitative": {
+    "concalls": [
+      {
+        "date": "2025-11-10",
+        "duration_min": 40,
+        "analyst_questions": 8,
+        "mgmt_tone": 3,
+        "analyst_skepticism": 4,
+        "prior_guidance_met": true,
+        "aggressive_guidance": false,
+        "evidence": [
+          "synthetic acceptance-test input"
+        ],
+        "market_share_gain_claimed": true
+      },
+      {
+        "date": "2026-02-10",
+        "duration_min": 38,
+        "analyst_questions": 7,
+        "mgmt_tone": 4,
+        "analyst_skepticism": 4,
+        "prior_guidance_met": true,
+        "aggressive_guidance": false,
+        "evidence": [
+          "synthetic acceptance-test input"
+        ],
+        "market_share_gain_claimed": true
+      },
+      {
+        "date": "2026-05-05",
+        "duration_min": 35,
+        "analyst_questions": 6,
+        "mgmt_tone": 5,
+        "analyst_skepticism": 4,
+        "prior_guidance_met": true,
+        "aggressive_guidance": false,
+        "evidence": [
+          "synthetic acceptance-test input"
+        ],
+        "market_share_gain_claimed": true
+      }
+    ],
+    "shock_type": "supply_shock",
+    "capability_evidence": [
+      "New line qualified with two named customers.",
+      "Management showed a repeat order from a top-tier client."
+    ],
+    "management_evidence": [
+      "Guidance delivered within 10% for four consecutive quarters."
+    ],
+    "tailwind_evidence": [
+      "Global peers report multi-year capacity shortages in the new segment."
+    ],
+    "capability_proof": 4,
+    "capability_built_vs_bought": "built",
+    "management_track_record": 4,
+    "external_tailwind": 4,
+    "lost_share_in_downturn": false,
+    "governance_flags": []
+  },
+  "no_promoter": false,
+  "segments": [
+    {
+      "period_end": "2023-06-30",
+      "name": "New",
+      "revenue": 15.0,
+      "ebit": 4.2
+    },
+    {
+      "period_end": "2023-06-30",
+      "name": "Base",
+      "revenue": 85.0,
+      "ebit": 10.2
+    },
+    {
+      "period_end": "2023-09-30",
+      "name": "New",
+      "revenue": 16.90909090909091,
+      "ebit": 4.734545454545455
+    },
+    {
+      "period_end": "2023-09-30",
+      "name": "Base",
+      "revenue": 83.0909090909091,
+      "ebit": 9.97090909090909
+    },
+    {
+      "period_end": "2023-12-31",
+      "name": "New",
+      "revenue": 18.81818181818182,
+      "ebit": 5.26909090909091
+    },
+    {
+      "period_end": "2023-12-31",
+      "name": "Base",
+      "revenue": 81.18181818181819,
+      "ebit": 9.741818181818182
+    },
+    {
+      "period_end": "2024-03-31",
+      "name": "New",
+      "revenue": 20.727272727272727,
+      "ebit": 5.803636363636364
+    },
+    {
+      "period_end": "2024-03-31",
+      "name": "Base",
+      "revenue": 79.27272727272728,
+      "ebit": 9.512727272727274
+    },
+    {
+      "period_end": "2024-06-30",
+      "name": "New",
+      "revenue": 22.636363636363637,
+      "ebit": 6.338181818181819
+    },
+    {
+      "period_end": "2024-06-30",
+      "name": "Base",
+      "revenue": 77.36363636363636,
+      "ebit": 9.283636363636363
+    },
+    {
+      "period_end": "2024-09-30",
+      "name": "New",
+      "revenue": 24.545454545454547,
+      "ebit": 6.872727272727274
+    },
+    {
+      "period_end": "2024-09-30",
+      "name": "Base",
+      "revenue": 75.45454545454545,
+      "ebit": 9.054545454545455
+    },
+    {
+      "period_end": "2024-12-31",
+      "name": "New",
+      "revenue": 26.454545454545453,
+      "ebit": 7.407272727272727
+    },
+    {
+      "period_end": "2024-12-31",
+      "name": "Base",
+      "revenue": 73.54545454545455,
+      "ebit": 8.825454545454546
+    },
+    {
+      "period_end": "2025-03-31",
+      "name": "New",
+      "revenue": 28.363636363636363,
+      "ebit": 7.941818181818182
+    },
+    {
+      "period_end": "2025-03-31",
+      "name": "Base",
+      "revenue": 71.63636363636364,
+      "ebit": 8.596363636363636
+    },
+    {
+      "period_end": "2025-06-30",
+      "name": "New",
+      "revenue": 30.272727272727273,
+      "ebit": 8.476363636363637
+    },
+    {
+      "period_end": "2025-06-30",
+      "name": "Base",
+      "revenue": 69.72727272727272,
+      "ebit": 8.367272727272725
+    },
+    {
+      "period_end": "2025-09-30",
+      "name": "New",
+      "revenue": 32.18181818181819,
+      "ebit": 9.010909090909093
+    },
+    {
+      "period_end": "2025-09-30",
+      "name": "Base",
+      "revenue": 67.81818181818181,
+      "ebit": 8.138181818181817
+    },
+    {
+      "period_end": "2025-12-31",
+      "name": "New",
+      "revenue": 34.09090909090909,
+      "ebit": 9.545454545454547
+    },
+    {
+      "period_end": "2025-12-31",
+      "name": "Base",
+      "revenue": 65.9090909090909,
+      "ebit": 7.909090909090908
+    },
+    {
+      "period_end": "2026-03-31",
+      "name": "New",
+      "revenue": 36.0,
+      "ebit": 10.080000000000002
+    },
+    {
+      "period_end": "2026-03-31",
+      "name": "Base",
+      "revenue": 64.0,
+      "ebit": 7.68
+    }
+  ],
+  "pivot": {
+    "new_segments": [
+      "New"
+    ],
+    "segment_period": "quarter",
+    "target_revenue": 1500,
+    "target_margin_pct": 30,
+    "target_source": "management guidance",
+    "pure_play_multiple": 45,
+    "multiple_type": "ev_ebitda",
+    "capability_proof": 4,
+    "capability_built_vs_bought": "built",
+    "management_track_record": 4,
+    "external_tailwind": 4
+  }
+}

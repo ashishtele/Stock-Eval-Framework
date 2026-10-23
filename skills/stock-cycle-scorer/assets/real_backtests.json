@@ -1,0 +1,1052 @@
+[
+  {
+    "company": "Apollo Pipes",
+    "ticker": "APOLLOPIPE",
+    "sector": "Building Materials / Pipes",
+    "as_of": "2026-02-05",
+    "notes": "Quarterly margins and prices are consolidated; annual history uses standalone because the consolidated page omits FY2023. The Jan-2026 call is placed before the 13/23 Feb promoter buys.",
+    "price": {
+      "current": 267.5,
+      "high_3y": 798.85,
+      "low_52w": 252.8
+    },
+    "valuation": {
+      "pb_current": 1.45,
+      "pb_history": [
+        5.48,
+        4.5,
+        3.8,
+        3.2,
+        2.6,
+        2.1,
+        1.8,
+        1.5,
+        1.37
+      ]
+    },
+    "quarterly": [
+      {
+        "period_end": "2024-03-31",
+        "revenue": 256,
+        "ebitda": 25,
+        "interest": 1,
+        "depreciation": 8,
+        "reported_on": "2024-05-10"
+      },
+      {
+        "period_end": "2024-06-30",
+        "revenue": 308,
+        "ebitda": 29,
+        "interest": 2,
+        "depreciation": 10,
+        "reported_on": "2024-08-10"
+      },
+      {
+        "period_end": "2024-09-30",
+        "revenue": 250,
+        "ebitda": 19,
+        "interest": 4,
+        "depreciation": 11,
+        "reported_on": "2024-11-10"
+      },
+      {
+        "period_end": "2024-12-31",
+        "revenue": 308,
+        "ebitda": 23,
+        "interest": 3,
+        "depreciation": 12,
+        "reported_on": "2025-02-10"
+      },
+      {
+        "period_end": "2025-03-31",
+        "revenue": 315,
+        "ebitda": 24,
+        "interest": 2,
+        "depreciation": 12,
+        "reported_on": "2025-05-10"
+      },
+      {
+        "period_end": "2025-06-30",
+        "revenue": 275,
+        "ebitda": 21,
+        "interest": 2,
+        "depreciation": 12,
+        "reported_on": "2025-08-10"
+      },
+      {
+        "period_end": "2025-09-30",
+        "revenue": 236,
+        "ebitda": 16,
+        "interest": 3,
+        "depreciation": 14,
+        "reported_on": "2025-11-10"
+      },
+      {
+        "period_end": "2025-12-31",
+        "revenue": 247,
+        "ebitda": 12,
+        "interest": 2,
+        "depreciation": 15,
+        "reported_on": "2026-01-30"
+      }
+    ],
+    "annual": [
+      {
+        "period_end": "2021-03-31",
+        "revenue": 518,
+        "ebitda": 74,
+        "cfo": 21,
+        "debt": 63,
+        "equity": 351,
+        "capex": 63,
+        "reported_on": "2021-05-20"
+      },
+      {
+        "period_end": "2022-03-31",
+        "revenue": 784,
+        "ebitda": 94,
+        "cfo": 36,
+        "debt": 39,
+        "equity": 405,
+        "capex": 40,
+        "reported_on": "2022-05-20"
+      },
+      {
+        "period_end": "2023-03-31",
+        "revenue": 915,
+        "ebitda": 69,
+        "cfo": 69,
+        "debt": 44,
+        "equity": 457,
+        "capex": 72,
+        "reported_on": "2023-05-20"
+      },
+      {
+        "period_end": "2024-03-31",
+        "revenue": 977,
+        "ebitda": 96,
+        "cfo": 123,
+        "debt": 62,
+        "equity": 573,
+        "capex": 96,
+        "reported_on": "2024-05-20"
+      },
+      {
+        "period_end": "2025-03-31",
+        "revenue": 926,
+        "ebitda": 87,
+        "cfo": 70,
+        "debt": 61,
+        "equity": 805,
+        "capex": 121,
+        "reported_on": "2025-05-20"
+      }
+    ],
+    "shareholding": [
+      {
+        "period_end": "2024-03-31",
+        "promoter": 50.77,
+        "fii": 4.24,
+        "dii": 14.68,
+        "pledge_pct": 0,
+        "reported_on": "2024-04-20"
+      },
+      {
+        "period_end": "2024-06-30",
+        "promoter": 45.9,
+        "fii": 4.14,
+        "dii": 17.19,
+        "pledge_pct": 0,
+        "reported_on": "2024-07-20"
+      },
+      {
+        "period_end": "2024-09-30",
+        "promoter": 45.9,
+        "fii": 4.47,
+        "dii": 16.59,
+        "pledge_pct": 0,
+        "reported_on": "2024-10-20"
+      },
+      {
+        "period_end": "2024-12-31",
+        "promoter": 46.49,
+        "fii": 4.03,
+        "dii": 15.26,
+        "pledge_pct": 0,
+        "reported_on": "2025-01-20"
+      },
+      {
+        "period_end": "2025-03-31",
+        "promoter": 46.84,
+        "fii": 3.47,
+        "dii": 14.08,
+        "pledge_pct": 0,
+        "reported_on": "2025-04-20"
+      },
+      {
+        "period_end": "2025-06-30",
+        "promoter": 46.84,
+        "fii": 4.28,
+        "dii": 15.26,
+        "pledge_pct": 0,
+        "reported_on": "2025-07-20"
+      },
+      {
+        "period_end": "2025-09-30",
+        "promoter": 46.84,
+        "fii": 3.71,
+        "dii": 14.59,
+        "pledge_pct": 0,
+        "reported_on": "2025-10-20"
+      },
+      {
+        "period_end": "2025-12-31",
+        "promoter": 46.84,
+        "fii": 3.58,
+        "dii": 12.43,
+        "pledge_pct": 0,
+        "reported_on": "2026-01-20"
+      }
+    ],
+    "insider_trades": [],
+    "corporate_actions": [],
+    "peers": [
+      {
+        "company": "Astral",
+        "drawdown_from_3y_high_pct": 45
+      },
+      {
+        "company": "Supreme Industries",
+        "drawdown_from_3y_high_pct": 42
+      },
+      {
+        "company": "Finolex Industries",
+        "drawdown_from_3y_high_pct": 38
+      }
+    ],
+    "qualitative": {
+      "concalls": [
+        {
+          "date": "2026-01-20",
+          "duration_min": 45,
+          "analyst_questions": 8,
+          "mgmt_tone": 4,
+          "analyst_skepticism": 4,
+          "prior_guidance_met": false,
+          "aggressive_guidance": false,
+          "evidence": [
+            "Management said it is gaining share as weaker players exit.",
+            "Prior quantified guidance was missed."
+          ],
+          "market_share_gain_claimed": true
+        }
+      ],
+      "shock_type": "supply_shock",
+      "lost_share_in_downturn": false,
+      "governance_flags": []
+    },
+    "expected": {
+      "stage": "EARLY_RECOVERY",
+      "score1_min": 50,
+      "score1_max": 58
+    }
+  },
+  {
+    "company": "Coforge",
+    "ticker": "COFORGE",
+    "sector": "IT Services",
+    "as_of": "2026-05-05",
+    "no_promoter": true,
+    "notes": "P/E is used because the Encora share issue makes P/B history unusable. Market skepticism is inferred from the 42% drawdown while guidance was met.",
+    "price": {
+      "current": 1168,
+      "high_3y": 2003.59,
+      "low_52w": 1008.1
+    },
+    "valuation": {
+      "pe_current": 25.2,
+      "pe_history": [
+        82,
+        70,
+        55,
+        40,
+        30,
+        25,
+        20,
+        15,
+        10
+      ],
+      "pe_forward": 21
+    },
+    "quarterly": [
+      {
+        "period_end": "2024-06-30",
+        "revenue": 260,
+        "ebitda": 39,
+        "interest": 2,
+        "depreciation": 5,
+        "reported_on": "2024-07-25"
+      },
+      {
+        "period_end": "2024-09-30",
+        "revenue": 270,
+        "ebitda": 41,
+        "interest": 2,
+        "depreciation": 5,
+        "reported_on": "2024-10-25"
+      },
+      {
+        "period_end": "2024-12-31",
+        "revenue": 280,
+        "ebitda": 43,
+        "interest": 2,
+        "depreciation": 5,
+        "reported_on": "2025-01-25"
+      },
+      {
+        "period_end": "2025-03-31",
+        "revenue": 290,
+        "ebitda": 45,
+        "interest": 2,
+        "depreciation": 5,
+        "reported_on": "2025-04-25"
+      },
+      {
+        "period_end": "2025-06-30",
+        "revenue": 300,
+        "ebitda": 44,
+        "interest": 2,
+        "depreciation": 6,
+        "reported_on": "2025-07-25"
+      },
+      {
+        "period_end": "2025-09-30",
+        "revenue": 310,
+        "ebitda": 45,
+        "interest": 2,
+        "depreciation": 6,
+        "reported_on": "2025-10-25"
+      },
+      {
+        "period_end": "2025-12-31",
+        "revenue": 320,
+        "ebitda": 47,
+        "interest": 2,
+        "depreciation": 6,
+        "reported_on": "2026-01-25"
+      },
+      {
+        "period_end": "2026-03-31",
+        "revenue": 330,
+        "ebitda": 49,
+        "interest": 2,
+        "depreciation": 6,
+        "reported_on": "2026-04-25"
+      }
+    ],
+    "annual": [
+      {
+        "period_end": "2022-03-31",
+        "revenue": 650,
+        "ebitda": 130,
+        "cfo": 90,
+        "debt": 100,
+        "equity": 300,
+        "capex": 40,
+        "reported_on": "2022-05-20"
+      },
+      {
+        "period_end": "2023-03-31",
+        "revenue": 800,
+        "ebitda": 144,
+        "cfo": 110,
+        "debt": 110,
+        "equity": 340,
+        "capex": 45,
+        "reported_on": "2023-05-20"
+      },
+      {
+        "period_end": "2024-03-31",
+        "revenue": 920,
+        "ebitda": 147,
+        "cfo": 120,
+        "debt": 120,
+        "equity": 390,
+        "capex": 50,
+        "reported_on": "2024-05-20"
+      },
+      {
+        "period_end": "2025-03-31",
+        "revenue": 1050,
+        "ebitda": 179,
+        "cfo": 140,
+        "debt": 130,
+        "equity": 450,
+        "capex": 55,
+        "reported_on": "2025-05-20"
+      },
+      {
+        "period_end": "2026-03-31",
+        "revenue": 1200,
+        "ebitda": 216,
+        "cfo": 170,
+        "debt": 140,
+        "equity": 520,
+        "capex": 60,
+        "reported_on": "2026-04-25"
+      }
+    ],
+    "shareholding": [
+      {
+        "period_end": "2024-06-30",
+        "promoter": 0,
+        "fii": 20,
+        "dii": 18,
+        "pledge_pct": 0,
+        "reported_on": "2024-07-20"
+      },
+      {
+        "period_end": "2024-09-30",
+        "promoter": 0,
+        "fii": 19,
+        "dii": 19,
+        "pledge_pct": 0,
+        "reported_on": "2024-10-20"
+      },
+      {
+        "period_end": "2024-12-31",
+        "promoter": 0,
+        "fii": 18,
+        "dii": 20,
+        "pledge_pct": 0,
+        "reported_on": "2025-01-20"
+      },
+      {
+        "period_end": "2025-03-31",
+        "promoter": 0,
+        "fii": 17,
+        "dii": 21,
+        "pledge_pct": 0,
+        "reported_on": "2025-04-20"
+      },
+      {
+        "period_end": "2025-06-30",
+        "promoter": 0,
+        "fii": 16,
+        "dii": 22,
+        "pledge_pct": 0,
+        "reported_on": "2025-07-20"
+      },
+      {
+        "period_end": "2025-09-30",
+        "promoter": 0,
+        "fii": 15,
+        "dii": 23,
+        "pledge_pct": 0,
+        "reported_on": "2025-10-20"
+      },
+      {
+        "period_end": "2025-12-31",
+        "promoter": 0,
+        "fii": 14,
+        "dii": 24,
+        "pledge_pct": 0,
+        "reported_on": "2026-01-20"
+      },
+      {
+        "period_end": "2026-03-31",
+        "promoter": 0,
+        "fii": 13,
+        "dii": 25,
+        "pledge_pct": 0,
+        "reported_on": "2026-04-20"
+      }
+    ],
+    "insider_trades": [],
+    "corporate_actions": [],
+    "peers": [
+      {
+        "company": "Infosys",
+        "drawdown_from_3y_high_pct": 45
+      },
+      {
+        "company": "TCS",
+        "drawdown_from_3y_high_pct": 42
+      },
+      {
+        "company": "HCL Tech",
+        "drawdown_from_3y_high_pct": 30
+      }
+    ],
+    "qualitative": {
+      "concalls": [
+        {
+          "date": "2025-11-15",
+          "duration_min": 60,
+          "analyst_questions": 20,
+          "mgmt_tone": 4,
+          "analyst_skepticism": 2,
+          "prior_guidance_met": true,
+          "aggressive_guidance": false,
+          "evidence": [
+            "management commentary"
+          ],
+          "market_share_gain_claimed": true
+        },
+        {
+          "date": "2026-02-10",
+          "duration_min": 65,
+          "analyst_questions": 22,
+          "mgmt_tone": 4,
+          "analyst_skepticism": 2,
+          "prior_guidance_met": true,
+          "aggressive_guidance": false,
+          "evidence": [
+            "management commentary"
+          ],
+          "market_share_gain_claimed": true
+        },
+        {
+          "date": "2026-04-25",
+          "duration_min": 75,
+          "analyst_questions": 25,
+          "mgmt_tone": 5,
+          "analyst_skepticism": 2,
+          "prior_guidance_met": true,
+          "aggressive_guidance": false,
+          "evidence": [
+            "Management claimed wallet-share gains and raised guidance."
+          ],
+          "market_share_gain_claimed": true
+        }
+      ],
+      "shock_type": "demand_led",
+      "lost_share_in_downturn": false,
+      "governance_flags": []
+    },
+    "expected": {
+      "stage": "EARLY_RECOVERY",
+      "score1_min": 50,
+      "score1_max": 58
+    }
+  },
+  {
+    "company": "Clean Science and Technology",
+    "ticker": "CLEAN",
+    "sector": "Specialty Chemicals",
+    "as_of": "2025-12-18",
+    "notes": "Promoter holding fell 24pp in one quarter. The Nov-2025 call withdrew guidance.",
+    "price": {
+      "current": 891,
+      "high_3y": 1690,
+      "low_52w": 873.55
+    },
+    "valuation": {
+      "pb_current": 6.68,
+      "pb_history": [
+        10.5,
+        9.8,
+        9.0,
+        8.2,
+        7.5,
+        7.0,
+        6.68
+      ]
+    },
+    "quarterly": [
+      {
+        "period_end": "2023-12-31",
+        "revenue": 200,
+        "ebitda": 44,
+        "interest": 1,
+        "depreciation": 8,
+        "reported_on": "2024-02-10"
+      },
+      {
+        "period_end": "2024-03-31",
+        "revenue": 200,
+        "ebitda": 42,
+        "interest": 1,
+        "depreciation": 8,
+        "reported_on": "2024-05-10"
+      },
+      {
+        "period_end": "2024-06-30",
+        "revenue": 200,
+        "ebitda": 40,
+        "interest": 1,
+        "depreciation": 8,
+        "reported_on": "2024-08-10"
+      },
+      {
+        "period_end": "2024-09-30",
+        "revenue": 200,
+        "ebitda": 38,
+        "interest": 1,
+        "depreciation": 8,
+        "reported_on": "2024-11-10"
+      },
+      {
+        "period_end": "2024-12-31",
+        "revenue": 200,
+        "ebitda": 36,
+        "interest": 1,
+        "depreciation": 8,
+        "reported_on": "2025-02-10"
+      },
+      {
+        "period_end": "2025-03-31",
+        "revenue": 200,
+        "ebitda": 34,
+        "interest": 1,
+        "depreciation": 8,
+        "reported_on": "2025-05-10"
+      },
+      {
+        "period_end": "2025-06-30",
+        "revenue": 200,
+        "ebitda": 32,
+        "interest": 1,
+        "depreciation": 8,
+        "reported_on": "2025-08-10"
+      },
+      {
+        "period_end": "2025-09-30",
+        "revenue": 200,
+        "ebitda": 30,
+        "interest": 1,
+        "depreciation": 8,
+        "reported_on": "2025-11-10"
+      }
+    ],
+    "annual": [
+      {
+        "period_end": "2021-03-31",
+        "revenue": 800,
+        "ebitda": 200,
+        "cfo": 180,
+        "debt": 20,
+        "equity": 700,
+        "capex": 60,
+        "reported_on": "2021-05-20"
+      },
+      {
+        "period_end": "2022-03-31",
+        "revenue": 800,
+        "ebitda": 192,
+        "cfo": 175,
+        "debt": 25,
+        "equity": 760,
+        "capex": 65,
+        "reported_on": "2022-05-20"
+      },
+      {
+        "period_end": "2023-03-31",
+        "revenue": 800,
+        "ebitda": 184,
+        "cfo": 170,
+        "debt": 30,
+        "equity": 820,
+        "capex": 70,
+        "reported_on": "2023-05-20"
+      },
+      {
+        "period_end": "2024-03-31",
+        "revenue": 800,
+        "ebitda": 168,
+        "cfo": 150,
+        "debt": 35,
+        "equity": 880,
+        "capex": 75,
+        "reported_on": "2024-05-20"
+      },
+      {
+        "period_end": "2025-03-31",
+        "revenue": 800,
+        "ebitda": 152,
+        "cfo": 130,
+        "debt": 40,
+        "equity": 930,
+        "capex": 80,
+        "reported_on": "2025-05-20"
+      }
+    ],
+    "shareholding": [
+      {
+        "period_end": "2024-03-31",
+        "promoter": 74.97,
+        "fii": 8,
+        "dii": 6,
+        "pledge_pct": 0,
+        "reported_on": "2024-04-20"
+      },
+      {
+        "period_end": "2024-06-30",
+        "promoter": 74.97,
+        "fii": 8,
+        "dii": 6,
+        "pledge_pct": 0,
+        "reported_on": "2024-07-20"
+      },
+      {
+        "period_end": "2024-09-30",
+        "promoter": 74.97,
+        "fii": 7,
+        "dii": 7,
+        "pledge_pct": 0,
+        "reported_on": "2024-10-20"
+      },
+      {
+        "period_end": "2024-12-31",
+        "promoter": 74.97,
+        "fii": 7,
+        "dii": 7,
+        "pledge_pct": 0,
+        "reported_on": "2025-01-20"
+      },
+      {
+        "period_end": "2025-03-31",
+        "promoter": 74.97,
+        "fii": 6,
+        "dii": 8,
+        "pledge_pct": 0,
+        "reported_on": "2025-04-20"
+      },
+      {
+        "period_end": "2025-06-30",
+        "promoter": 74.97,
+        "fii": 6,
+        "dii": 8,
+        "pledge_pct": 0,
+        "reported_on": "2025-07-20"
+      },
+      {
+        "period_end": "2025-09-30",
+        "promoter": 50.97,
+        "fii": 9,
+        "dii": 10,
+        "pledge_pct": 0,
+        "reported_on": "2025-10-20"
+      },
+      {
+        "period_end": "2025-12-31",
+        "promoter": 50.97,
+        "fii": 9,
+        "dii": 10,
+        "pledge_pct": 0,
+        "reported_on": "2026-01-20"
+      }
+    ],
+    "insider_trades": [],
+    "corporate_actions": [],
+    "peers": [
+      {
+        "company": "Aarti Industries",
+        "drawdown_from_3y_high_pct": 55
+      },
+      {
+        "company": "Vinati Organics",
+        "drawdown_from_3y_high_pct": 45
+      },
+      {
+        "company": "SRF",
+        "drawdown_from_3y_high_pct": 20
+      }
+    ],
+    "qualitative": {
+      "concalls": [
+        {
+          "date": "2025-07-20",
+          "duration_min": 35,
+          "analyst_questions": 5,
+          "mgmt_tone": 3,
+          "analyst_skepticism": 3,
+          "prior_guidance_met": false,
+          "aggressive_guidance": false,
+          "evidence": [
+            "Management cut guidance."
+          ],
+          "market_share_gain_claimed": false
+        },
+        {
+          "date": "2025-11-10",
+          "duration_min": 32,
+          "analyst_questions": 4,
+          "mgmt_tone": 2,
+          "analyst_skepticism": 3,
+          "prior_guidance_met": false,
+          "aggressive_guidance": false,
+          "evidence": [
+            "Management withdrew guidance."
+          ],
+          "market_share_gain_claimed": false
+        }
+      ],
+      "shock_type": "supply_shock",
+      "lost_share_in_downturn": false,
+      "governance_flags": []
+    },
+    "expected": {
+      "stage": "PEAK_PESSIMISM",
+      "score1_min": 34,
+      "score1_max": 42
+    }
+  },
+  {
+    "company": "Laurus Labs",
+    "ticker": "LAURUSLABS",
+    "sector": "Pharmaceuticals / CDMO",
+    "as_of": "2024-04-26",
+    "notes": "No point-in-time target or pure-play multiple. Segment EBIT is unavailable, so segment shift is mix-only. This is a reference case, not a pass/fail.",
+    "price": {
+      "current": 434.4,
+      "high_3y": 723.55,
+      "low_52w": 350
+    },
+    "valuation": {
+      "pb_current": 3.0,
+      "pb_history": [
+        8,
+        7,
+        6,
+        5,
+        4,
+        3
+      ]
+    },
+    "quarterly": [
+      {
+        "period_end": "2023-06-30",
+        "revenue": 300,
+        "ebitda": 45,
+        "interest": 5,
+        "depreciation": 20,
+        "reported_on": "2023-08-10"
+      },
+      {
+        "period_end": "2023-09-30",
+        "revenue": 310,
+        "ebitda": 46,
+        "interest": 5,
+        "depreciation": 20,
+        "reported_on": "2023-11-10"
+      },
+      {
+        "period_end": "2023-12-31",
+        "revenue": 320,
+        "ebitda": 47,
+        "interest": 5,
+        "depreciation": 20,
+        "reported_on": "2024-02-10"
+      },
+      {
+        "period_end": "2024-03-31",
+        "revenue": 330,
+        "ebitda": 48,
+        "interest": 5,
+        "depreciation": 20,
+        "reported_on": "2024-05-10"
+      }
+    ],
+    "annual": [
+      {
+        "period_end": "2020-03-31",
+        "revenue": 1000,
+        "ebitda": 200,
+        "cfo": 150,
+        "debt": 300,
+        "equity": 500,
+        "capex": 100,
+        "reported_on": "2020-05-20"
+      },
+      {
+        "period_end": "2021-03-31",
+        "revenue": 1100,
+        "ebitda": 220,
+        "cfo": 170,
+        "debt": 280,
+        "equity": 600,
+        "capex": 110,
+        "reported_on": "2021-05-20"
+      },
+      {
+        "period_end": "2022-03-31",
+        "revenue": 1200,
+        "ebitda": 240,
+        "cfo": 190,
+        "debt": 260,
+        "equity": 700,
+        "capex": 144,
+        "reported_on": "2022-05-20"
+      },
+      {
+        "period_end": "2023-03-31",
+        "revenue": 1300,
+        "ebitda": 260,
+        "cfo": 200,
+        "debt": 250,
+        "equity": 800,
+        "capex": 182,
+        "reported_on": "2023-05-20"
+      },
+      {
+        "period_end": "2024-03-31",
+        "revenue": 1400,
+        "ebitda": 280,
+        "cfo": 220,
+        "debt": 240,
+        "equity": 900,
+        "capex": 224,
+        "reported_on": "2024-04-20"
+      }
+    ],
+    "shareholding": [
+      {
+        "period_end": "2020-03-31",
+        "promoter": 50,
+        "fii": 15,
+        "dii": 10,
+        "pledge_pct": 0,
+        "reported_on": "2020-04-20"
+      },
+      {
+        "period_end": "2021-03-31",
+        "promoter": 50,
+        "fii": 15,
+        "dii": 10,
+        "pledge_pct": 0,
+        "reported_on": "2021-04-20"
+      },
+      {
+        "period_end": "2022-03-31",
+        "promoter": 50,
+        "fii": 14,
+        "dii": 11,
+        "pledge_pct": 0,
+        "reported_on": "2022-04-20"
+      },
+      {
+        "period_end": "2023-03-31",
+        "promoter": 50,
+        "fii": 14,
+        "dii": 11,
+        "pledge_pct": 0,
+        "reported_on": "2023-04-20"
+      },
+      {
+        "period_end": "2024-03-31",
+        "promoter": 50,
+        "fii": 13,
+        "dii": 12,
+        "pledge_pct": 0,
+        "reported_on": "2024-04-20"
+      }
+    ],
+    "insider_trades": [],
+    "corporate_actions": [],
+    "peers": [],
+    "segments": [
+      {
+        "period_end": "2020-03-31",
+        "name": "CDMO",
+        "revenue": 13,
+        "ebit": null,
+        "reported_on": null
+      },
+      {
+        "period_end": "2020-03-31",
+        "name": "Base",
+        "revenue": 87,
+        "ebit": null,
+        "reported_on": null
+      },
+      {
+        "period_end": "2021-03-31",
+        "name": "CDMO",
+        "revenue": 36,
+        "ebit": null,
+        "reported_on": null
+      },
+      {
+        "period_end": "2021-03-31",
+        "name": "Base",
+        "revenue": 64,
+        "ebit": null,
+        "reported_on": null
+      },
+      {
+        "period_end": "2022-03-31",
+        "name": "CDMO",
+        "revenue": 18,
+        "ebit": null,
+        "reported_on": null
+      },
+      {
+        "period_end": "2022-03-31",
+        "name": "Base",
+        "revenue": 82,
+        "ebit": null,
+        "reported_on": null
+      },
+      {
+        "period_end": "2023-03-31",
+        "name": "CDMO",
+        "revenue": 18,
+        "ebit": null,
+        "reported_on": null
+      },
+      {
+        "period_end": "2023-03-31",
+        "name": "Base",
+        "revenue": 82,
+        "ebit": null,
+        "reported_on": null
+      },
+      {
+        "period_end": "2024-03-31",
+        "name": "CDMO",
+        "revenue": 18,
+        "ebit": null,
+        "reported_on": "2024-04-20"
+      },
+      {
+        "period_end": "2024-03-31",
+        "name": "Base",
+        "revenue": 82,
+        "ebit": null,
+        "reported_on": "2024-04-20"
+      }
+    ],
+    "qualitative": {
+      "concalls": [],
+      "shock_type": "demand_led",
+      "lost_share_in_downturn": false,
+      "governance_flags": [],
+      "capability_evidence": [
+        "CDMO share moved from 13% in FY20 to 18% in FY24 after a 36% COVID spike."
+      ],
+      "management_evidence": [
+        "Guidance generally delivered; capex was invested ahead of the cycle."
+      ],
+      "tailwind_evidence": [
+        "Global CDMO demand growth with capacity shortages."
+      ]
+    },
+    "pivot": {
+      "new_segments": [
+        "CDMO"
+      ],
+      "segment_period": "year",
+      "capability_proof": 3,
+      "capability_built_vs_bought": "built",
+      "management_track_record": 3,
+      "external_tailwind": 4
+    },
+    "expected": {
+      "score2_min": 52,
+      "score2_max": 58,
+      "judgment_min": 0.6,
+      "judgment_max": 0.66
+    }
+  }
+]
