@@ -1,0 +1,264 @@
+{
+  "slug": "SYNTH",
+  "variant": "consolidated",
+  "url": "https://www.screener.in/company/SYNTH/consolidated/",
+  "as_of": "2026-10-22",
+  "fetched_at": "2026-10-22T00:00:00+00:00",
+  "ratios": {
+    "Market Cap": "Rs 1,000",
+    "Current Price": "Rs 500",
+    "High / Low": "Rs 510 / Rs 290",
+    "Stock P/E": "33.3",
+    "Book Value": "Rs 122",
+    "Dividend Yield": "0.00",
+    "ROCE": "30.0",
+    "ROE": "25.0",
+    "Face Value": "Rs 10.0"
+  },
+  "tables": {
+    "profit-loss": [
+      {
+        "label": "Sales\u00a0+",
+        "values": {
+          "Mar 2023": 100,
+          "Mar 2024": 120,
+          "Mar 2025": 150,
+          "Mar 2026": 200,
+          "TTM": 220
+        }
+      },
+      {
+        "label": "Operating Profit",
+        "values": {
+          "Mar 2023": 15,
+          "Mar 2024": 20,
+          "Mar 2025": 28,
+          "Mar 2026": 45,
+          "TTM": 50
+        }
+      },
+      {
+        "label": "OPM %",
+        "values": {
+          "Mar 2023": 15,
+          "Mar 2024": 16.7,
+          "Mar 2025": 18.7,
+          "Mar 2026": 22.5,
+          "TTM": 22.7
+        }
+      },
+      {
+        "label": "Interest",
+        "values": {
+          "Mar 2023": 1,
+          "Mar 2024": 1,
+          "Mar 2025": 1,
+          "Mar 2026": 1,
+          "TTM": 1
+        }
+      },
+      {
+        "label": "Net Profit\u00a0+",
+        "values": {
+          "Mar 2023": 10,
+          "Mar 2024": 15,
+          "Mar 2025": 22,
+          "Mar 2026": 35,
+          "TTM": 40
+        }
+      },
+      {
+        "label": "EPS in Rs",
+        "values": {
+          "Mar 2023": 5,
+          "Mar 2024": 7,
+          "Mar 2025": 10,
+          "Mar 2026": 15,
+          "TTM": 17
+        }
+      }
+    ],
+    "quarters": [
+      {
+        "label": "Sales\u00a0+",
+        "values": {
+          "Jun 2024": 30,
+          "Sep 2024": 32,
+          "Dec 2024": 35,
+          "Mar 2025": 40,
+          "Jun 2025": 45,
+          "Sep 2025": 50,
+          "Dec 2025": 55,
+          "Mar 2026": 60,
+          "Jun 2026": 60
+        }
+      },
+      {
+        "label": "Operating Profit",
+        "values": {
+          "Jun 2024": 4.2,
+          "Sep 2024": 5.25,
+          "Dec 2024": 6.4,
+          "Mar 2025": 6.8,
+          "Jun 2025": 9,
+          "Sep 2025": 10.5,
+          "Dec 2025": 12.1,
+          "Mar 2026": 13.8,
+          "Jun 2026": 14.1
+        }
+      },
+      {
+        "label": "OPM %",
+        "values": {
+          "Jun 2024": 14,
+          "Sep 2024": 15,
+          "Dec 2024": 16,
+          "Mar 2025": 17,
+          "Jun 2025": 20,
+          "Sep 2025": 21,
+          "Dec 2025": 22,
+          "Mar 2026": 23,
+          "Jun 2026": 23.5
+        }
+      },
+      {
+        "label": "Interest",
+        "values": {
+          "Jun 2024": 0.25,
+          "Sep 2024": 0.25,
+          "Dec 2024": 0.25,
+          "Mar 2025": 0.25,
+          "Jun 2025": 0.25,
+          "Sep 2025": 0.25,
+          "Dec 2025": 0.25,
+          "Mar 2026": 0.25,
+          "Jun 2026": 0.25
+        }
+      },
+      {
+        "label": "Net Profit\u00a0+",
+        "values": {
+          "Jun 2024": 3,
+          "Sep 2024": 3.5,
+          "Dec 2024": 4,
+          "Mar 2025": 5,
+          "Jun 2025": 6,
+          "Sep 2025": 7,
+          "Dec 2025": 8,
+          "Mar 2026": 9,
+          "Jun 2026": 9.5
+        }
+      },
+      {
+        "label": "EPS in Rs",
+        "values": {
+          "Jun 2024": 1,
+          "Sep 2024": 1.2,
+          "Dec 2024": 1.4,
+          "Mar 2025": 1.7,
+          "Jun 2025": 2,
+          "Sep 2025": 2.3,
+          "Dec 2025": 2.7,
+          "Mar 2026": 3,
+          "Jun 2026": 3.2
+        }
+      }
+    ],
+    "balance-sheet": [
+      {
+        "label": "Equity Capital",
+        "values": {
+          "Mar 2023": 10,
+          "Mar 2024": 10,
+          "Mar 2025": 10,
+          "Mar 2026": 10,
+          "TTM": 10
+        }
+      },
+      {
+        "label": "Reserves",
+        "values": {
+          "Mar 2023": 40,
+          "Mar 2024": 55,
+          "Mar 2025": 77,
+          "Mar 2026": 112,
+          "TTM": 112
+        }
+      },
+      {
+        "label": "Borrowings\u00a0+",
+        "values": {
+          "Mar 2023": 30,
+          "Mar 2024": 28,
+          "Mar 2025": 25,
+          "Mar 2026": 20,
+          "TTM": 20
+        }
+      },
+      {
+        "label": "CWIP",
+        "values": {
+          "Mar 2023": 2,
+          "Mar 2024": 3,
+          "Mar 2025": 8,
+          "Mar 2026": 15,
+          "TTM": 15
+        }
+      },
+      {
+        "label": "Fixed Assets\u00a0+",
+        "values": {
+          "Mar 2023": 50,
+          "Mar 2024": 55,
+          "Mar 2025": 65,
+          "Mar 2026": 80,
+          "TTM": 80
+        }
+      }
+    ],
+    "cash-flow": [
+      {
+        "label": "Cash from Operating Activity\u00a0+",
+        "values": {
+          "Mar 2023": 8,
+          "Mar 2024": 12,
+          "Mar 2025": 20,
+          "Mar 2026": 40,
+          "TTM": 45
+        }
+      }
+    ],
+    "shareholding": [
+      {
+        "label": "Promoters\u00a0+",
+        "values": {
+          "Jun 2025": 50,
+          "Sep 2025": 50,
+          "Dec 2025": 50,
+          "Mar 2026": 51,
+          "Jun 2026": 52
+        }
+      },
+      {
+        "label": "FIIs\u00a0+",
+        "values": {
+          "Jun 2025": 10,
+          "Sep 2025": 11,
+          "Dec 2025": 12,
+          "Mar 2026": 12,
+          "Jun 2026": 13
+        }
+      },
+      {
+        "label": "DIIs\u00a0+",
+        "values": {
+          "Jun 2025": 5,
+          "Sep 2025": 5,
+          "Dec 2025": 6,
+          "Mar 2026": 6,
+          "Jun 2026": 7
+        }
+      }
+    ]
+  }
+}

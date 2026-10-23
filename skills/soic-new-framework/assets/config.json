@@ -1,0 +1,40 @@
+{
+  "id": "soic-new-framework",
+  "version": "0.1.0",
+  "creator": "Ishmohit Arora (SOIC), with Siddharth Bhandari",
+  "source": "https://www.youtube.com/watch?v=O_TndKzToCI",
+  "horizon_years": 3,
+  "thresholds": {
+    "sales_yoy": 0.20,
+    "pat_yoy": 0.30,
+    "opm_delta_rel": 0.10,
+    "opm_delta_pp": 1.0,
+    "return_since_result": 0.05,
+    "ema_weeks": 30,
+    "result_lag_days": 45,
+    "interest_cover": 2.0,
+    "debt_to_equity": 2.0,
+    "cfo_conversion": 0.0,
+    "cwip_to_sales": 0.05,
+    "cwip_growth": 0.25,
+    "coverage_gate": 0.6
+  },
+  "catalyst_types": [
+    "large_order",
+    "new_capex",
+    "new_product",
+    "new_management",
+    "approval_policy",
+    "turnaround",
+    "theme_tailwind",
+    "acquisition_alliance",
+    "year_zero",
+    "switch"
+  ],
+  "notes": [
+    "The J-curve thresholds are the creator's scan conditions as stated in the video.",
+    "The quality gates and stage rules are derived by this repository, not stated by the creator.",
+    "Screener-only mode cannot observe orders, products, management, themes or interviews.",
+    "This is a research screen, not investment advice."
+  ]
+}

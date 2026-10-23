@@ -24,6 +24,7 @@ skills/
   apply-framework/         framework + financial data -> evaluation.json
   stock-memo/              evaluation.json -> written memo
   stock-cycle-scorer/      standalone Pessimism RoC + Trajectory Pivot scorer
+  soic-new-framework/      NEW / J-curve / Train B-C Screener screen
   frameworks/
     _template/             copy this to start a new framework
     <creator>-<slug>/      one skill per framework, self-contained
@@ -141,6 +142,24 @@ The synthetic cases A-J and the four real backtests are in
 - This is calibration and mechanical validation, not proof of predictive edge.
   Score 2 is not usable without segment, pivot and qualitative inputs. Treat the
   skill as a research checklist and deep-dive aid, not an automated stock filter.
+
+## SOIC NEW screen
+
+`skills/soic-new-framework/` implements the J-curve scan from Ishmohit Arora's
+SOIC conversation: sales growth, PAT growth, operating-margin expansion, return
+since the latest result, and price above the 30-week EMA. It adds derived quality
+gates and a Train A/B/C stage. Catalysts are supplied manually from announcements,
+concalls or interviews; the Screener-only mode never guesses them.
+
+```
+python skills/soic-new-framework/scripts/screen_screener.py \
+  data/screener/APOLLOPIPE/2026-10-13/screener-consolidated.json \
+  --price-json data/prices/APOLLOPIPE.NS/2026-10-13/prices.json --summary
+```
+
+The J-curve thresholds are creator-stated; the quality gates and stage rules are
+this repository's operationalization. It is a candidate filter, not investment
+advice.
 
 ## Installing into another project
 
