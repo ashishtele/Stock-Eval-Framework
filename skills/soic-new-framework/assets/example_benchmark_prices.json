@@ -1,0 +1,20 @@
+{
+  "symbol": "NIFTY",
+  "as_of": "2026-10-22",
+  "fetched_at": "2026-10-22T00:00:00+00:00",
+  "currency": "INR",
+  "source_url": "synthetic fixture",
+  "lookback_years": 1.0,
+  "points": [
+    {"date": "2026-01-02", "close": 100.0, "adjusted": 100.0},
+    {"date": "2026-02-02", "close": 101.0, "adjusted": 101.0},
+    {"date": "2026-03-02", "close": 102.0, "adjusted": 102.0},
+    {"date": "2026-04-02", "close": 103.0, "adjusted": 103.0},
+    {"date": "2026-05-02", "close": 105.0, "adjusted": 105.0},
+    {"date": "2026-06-02", "close": 106.0, "adjusted": 106.0},
+    {"date": "2026-07-02", "close": 107.0, "adjusted": 107.0},
+    {"date": "2026-08-03", "close": 108.0, "adjusted": 108.0},
+    {"date": "2026-09-02", "close": 109.0, "adjusted": 109.0},
+    {"date": "2026-10-02", "close": 110.0, "adjusted": 110.0}
+  ]
+}

@@ -161,6 +161,20 @@ The J-curve thresholds are creator-stated; the quality gates and stage rules are
 this repository's operationalization. It is a candidate filter, not investment
 advice.
 
+An optional context layer records the parts Screener cannot see: theme expiry,
+relative strength, ownership change, base formation, concall sentiment, entry
+discipline and valuation notes. It reports `SUPPORTIVE / NEUTRAL / WARNING` and
+never changes the deterministic stage.
+
+```
+python skills/soic-new-framework/scripts/screen_screener.py \
+  skills/soic-new-framework/assets/example_screener.json \
+  --price-json skills/soic-new-framework/assets/example_prices.json \
+  --benchmark-json skills/soic-new-framework/assets/example_benchmark_prices.json \
+  --context skills/soic-new-framework/assets/example_context.json \
+  --result-date 2026-08-14 --catalyst new_capex --summary
+```
+
 ## Installing into another project
 
 This repo follows the `skills/<name>/SKILL.md` layout, so any agent that supports

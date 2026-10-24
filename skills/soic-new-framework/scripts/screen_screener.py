@@ -159,6 +159,20 @@ def growth(current, previous):
     return current / previous - 1.0
 
 
+def ttm_sum(values: dict[str, float | None] | None, as_of: str, periods: int = 4):
+    if not values:
+        return None, None, None
+    days = sorted(
+        day
+        for day, value in values.items()
+        if day <= as_of and value is not None
+    )
+    if len(days) < periods:
+        return None, None, None
+    window = days[-periods:]
+    return sum(values[day] for day in window), window[0], window[-1]
+
+
 def safe_div(numerator, denominator):
     if numerator is None or denominator is None or denominator == 0:
         return None
@@ -274,6 +288,195 @@ def load_prices(path: str | Path | None, as_of: str, ema_weeks: int) -> dict | N
     }
 
 
+def period_return(points: list[tuple[str, float]], as_of: str, months: float):
+    if not points or not months:
+        return None
+    end_day, end_price = points[-1]
+    cutoff = date.fromisoformat(as_of) - timedelta(days=round(float(months) * 30.44))
+    candidates = [
+        (day, close)
+        for day, close in points
+        if date.fromisoformat(day) >= cutoff
+    ]
+    if not candidates:
+        return None
+    start_day, start_price = candidates[0]
+    if start_price == 0:
+        return None
+    return {
+        "start_date": start_day,
+        "end_date": end_day,
+        "return": end_price / start_price - 1.0,
+    }
+
+
+def load_context(path: str | Path | None) -> dict:
+    if not path:
+        return {}
+    payload = load_json(path)
+    if not isinstance(payload, dict):
+        raise ValueError("context JSON must be an object")
+    return payload
+
+
+def build_context(
+    context: dict,
+    result: dict,
+    price: dict | None,
+    benchmark: dict | None,
+    as_of: str,
+) -> dict:
+    context = context or {}
+    theme = context.get("theme") or {}
+    relative = context.get("relative_strength") or {}
+    ownership = context.get("ownership") or {}
+    base = context.get("base") or {}
+    concall = context.get("concall") or {}
+    entry = context.get("entry") or {}
+    valuation = context.get("valuation") or {}
+    metrics = result.get("metrics") or {}
+
+    months = relative.get("period_months", 6)
+    auto = {}
+    if price:
+        auto["high_52w"] = price.get("high_52w")
+        auto["distance_from_52w_high"] = (
+            price["current_price"] / price["high_52w"] - 1.0
+            if price.get("current_price") is not None and price.get("high_52w")
+            else None
+        )
+        high_5y = max((close for _, close in price.get("points") or []), default=None)
+        auto["high_5y"] = high_5y
+        auto["distance_from_5y_high"] = (
+            price["current_price"] / high_5y - 1.0
+            if price.get("current_price") is not None and high_5y
+            else None
+        )
+        auto["price_vs_ema"] = result.get("price", {}).get("price_vs_ema")
+    auto["ttm_sales"] = metrics.get("ttm_sales")
+    auto["ttm_pat"] = metrics.get("ttm_pat")
+    auto["ttm_period"] = metrics.get("ttm_period")
+
+    stock_period = period_return(price.get("points") or [], as_of, months) if price else None
+    benchmark_period = (
+        period_return(benchmark.get("points") or [], as_of, months) if benchmark else None
+    )
+    stock_return = relative.get("stock_return")
+    benchmark_return = relative.get("benchmark_return")
+    if stock_return is None and stock_period:
+        stock_return = stock_period["return"]
+    if benchmark_return is None and benchmark_period:
+        benchmark_return = benchmark_period["return"]
+    relative_return = relative.get("relative_return")
+    if relative_return is None and stock_return is not None and benchmark_return is not None:
+        relative_return = stock_return - benchmark_return
+
+    relative_out = {
+        "benchmark": relative.get("benchmark") or (benchmark.get("symbol") if benchmark else None),
+        "period_months": months,
+        "stock_return": stock_return,
+        "benchmark_return": benchmark_return,
+        "relative_return": relative_return,
+        "start_date": relative.get("start_date")
+        or (stock_period["start_date"] if stock_period else None),
+        "end_date": relative.get("end_date")
+        or (stock_period["end_date"] if stock_period else None),
+        "source": relative.get("source")
+        or ("computed from price files" if stock_period and benchmark_period else None),
+    }
+
+    ownership_out = {
+        "promoter_change_4q": ownership.get("promoter_change_4q", metrics.get("promoter_delta")),
+        "institutional_change_4q": ownership.get(
+            "institutional_change_4q", metrics.get("institutional_delta")
+        ),
+        "fii_change_4q": ownership.get("fii_change_4q"),
+        "dii_change_4q": ownership.get("dii_change_4q"),
+        "source": ownership.get("source") or "Screener shareholding",
+    }
+
+    base_out = {
+        "start": base.get("start"),
+        "end": base.get("end"),
+        "breakout": base.get("breakout"),
+        "volume_multiple": base.get("volume_multiple"),
+        "support": base.get("support"),
+        "resistance": base.get("resistance"),
+        "source": base.get("source"),
+    }
+    concall_out = {
+        "date": concall.get("date"),
+        "congrats_count": concall.get("congrats_count"),
+        "guidance": concall.get("guidance"),
+        "source": concall.get("source"),
+    }
+    entry_out = {
+        "first_inflection": entry.get("first_inflection"),
+        "return_since": entry.get("return_since"),
+        "extended": entry.get("extended"),
+        "plan": entry.get("plan"),
+        "source": entry.get("source"),
+    }
+    valuation_out = {
+        "pe": valuation.get("pe"),
+        "note": valuation.get("note"),
+    }
+
+    warnings = []
+    if theme.get("expiry_risk") == "high":
+        warnings.append("theme expiry risk is high")
+    if relative_out["relative_return"] is not None and relative_out["relative_return"] < 0:
+        warnings.append("relative strength is negative")
+    if concall_out.get("guidance") == "cut":
+        warnings.append("management cut guidance")
+    if entry_out.get("extended") is True:
+        warnings.append("entry is extended")
+
+    positives = 0
+    if theme.get("name") and theme.get("expiry_risk") in {"low", "medium"}:
+        positives += 1
+    if relative_out["relative_return"] is not None and relative_out["relative_return"] > 0:
+        positives += 1
+    if base_out.get("breakout") is True:
+        positives += 1
+    if concall_out.get("guidance") == "raised":
+        positives += 1
+    if entry_out.get("first_inflection") and not entry_out.get("extended"):
+        positives += 1
+
+    if not context and not benchmark:
+        status = "MISSING"
+    elif warnings:
+        status = "WARNING"
+    elif positives >= 2:
+        status = "SUPPORTIVE"
+    else:
+        status = "NEUTRAL"
+
+    return {
+        "status": status,
+        "theme": {
+            "name": theme.get("name"),
+            "stage": theme.get("stage"),
+            "expiry_risk": theme.get("expiry_risk"),
+            "evidence": theme.get("evidence"),
+        },
+        "relative_strength": relative_out,
+        "ownership": ownership_out,
+        "base": base_out,
+        "concall": concall_out,
+        "entry": entry_out,
+        "valuation": valuation_out,
+        "time_horizon_years": context.get(
+            "time_horizon_years", result.get("framework", {}).get("horizon_years")
+        ),
+        "market_stage": context.get("market_stage"),
+        "auto": auto,
+        "warnings": warnings,
+        "notes": context.get("notes") or [],
+    }
+
+
 def return_since(points: list[tuple[str, float]], result_date: str | None):
     if not points or not result_date:
         return None, None
@@ -377,6 +580,8 @@ def extract_screener(path: str | Path, as_of: str, thresholds: dict | None = Non
     prior_q_pat = q_prior(q_np) if q_np else None
     latest_q_opm = latest_value(q_opm, as_of)[1] if q_opm else None
     prior_q_opm = q_prior(q_opm) if q_opm else None
+    ttm_sales, ttm_sales_start, ttm_sales_end = ttm_sum(q_sales, as_of)
+    ttm_pat, ttm_pat_start, ttm_pat_end = ttm_sum(q_np, as_of)
 
     latest_annual_pat = latest_value(annual_np, as_of)[1] if annual_np else None
     latest_annual_op = latest_value(annual_op, as_of)[1] if annual_op else None
@@ -458,6 +663,13 @@ def extract_screener(path: str | Path, as_of: str, thresholds: dict | None = Non
             "previous_annual": prev_annual_day,
             "latest_quarter": latest_q_day,
             "prior_year_quarter": prior_q_day,
+            "ttm_sales": ttm_sales,
+            "ttm_pat": ttm_pat,
+            "ttm_period": (
+                {"start": ttm_sales_start, "end": ttm_sales_end}
+                if ttm_sales_start and ttm_sales_end
+                else None
+            ),
             "sales": latest_sales,
             "sales_growth": sales_growth,
             "sales_growth_basis": "latest quarter YoY" if q_sales_growth is not None else "latest annual YoY",
@@ -494,7 +706,9 @@ def build_payload(args) -> dict:
     screener = extract_screener(args.screener, args.as_of, thresholds)
     metrics = screener["metrics"]
     as_of = args.as_of
-    price = load_prices(args.price_json, as_of, int(args.ema_weeks or thresholds["ema_weeks"]))
+    ema_weeks = int(args.ema_weeks or thresholds["ema_weeks"])
+    price = load_prices(args.price_json, as_of, ema_weeks)
+    benchmark = load_prices(args.benchmark_json, as_of, ema_weeks) if args.benchmark_json else None
 
     result_date = args.result_date
     result_basis = "explicit"
@@ -648,7 +862,7 @@ def build_payload(args) -> dict:
     notes.append("Screener-only mode is a candidate filter, not a reproduction of the full framework.")
     notes.append("A J-curve PASS is not a buy signal; quality and catalyst evidence still gate the stage.")
 
-    return {
+    result = {
         "framework": {
             "id": config.get("id"),
             "version": config.get("version"),
@@ -671,6 +885,7 @@ def build_payload(args) -> dict:
             "high_52w": price.get("high_52w") if price else None,
             "price_vs_ema": price_vs_ema,
         },
+        "ratios": screener.get("ratios") or {},
         "result": {
             "result_date": result_date,
             "result_date_basis": result_basis,
@@ -692,10 +907,19 @@ def build_payload(args) -> dict:
         "unknowns": unknowns,
         "notes": notes,
     }
+    if args.context or args.benchmark_json:
+        result["context"] = build_context(
+            load_context(args.context),
+            result,
+            price,
+            benchmark,
+            as_of,
+        )
+    return result
 
 
 def summary_line(payload: dict) -> str:
-    return (
+    line = (
         f"{payload['ticker']:<14} {payload['stage']:<13} "
         f"J={payload['j_count']}/{len(payload['j_curve'])} known={payload['j_known']} "
         f"Q={payload['quality_status']:<7} cov={payload['coverage']:.0%} "
@@ -704,6 +928,107 @@ def summary_line(payload: dict) -> str:
         f"opm={fmt_pct(payload['metrics'].get('opm_delta_rel'))} "
         f"catalysts={','.join(payload['catalysts']) or '-'}"
     )
+    context = payload.get("context")
+    if context:
+        line += f" ctx={context.get('status')}"
+    return line
+
+
+def context_markdown(context: dict) -> list[str]:
+    theme = context.get("theme") or {}
+    relative = context.get("relative_strength") or {}
+    ownership = context.get("ownership") or {}
+    base = context.get("base") or {}
+    concall = context.get("concall") or {}
+    entry = context.get("entry") or {}
+    valuation = context.get("valuation") or {}
+    auto = context.get("auto") or {}
+
+    lines = [
+        "",
+        "## Context layer",
+        "",
+        f"- Status: **{context.get('status')}**",
+    ]
+    if theme.get("name") or theme.get("stage") or theme.get("expiry_risk"):
+        lines.append(
+            "- Theme: "
+            f"{theme.get('name') or 'unknown'}"
+            f" — stage {theme.get('stage') or 'unknown'}"
+            f", expiry risk {theme.get('expiry_risk') or 'unknown'}"
+        )
+    if relative.get("relative_return") is not None:
+        lines.append(
+            "- Relative strength: "
+            f"{fmt_pct(relative.get('relative_return'))}"
+            f" vs {relative.get('benchmark') or 'benchmark'}"
+            f" over {relative.get('period_months')} months"
+            f" (stock {fmt_pct(relative.get('stock_return'))},"
+            f" benchmark {fmt_pct(relative.get('benchmark_return'))})"
+        )
+    elif relative.get("stock_return") is not None:
+        lines.append(
+            "- Stock return: "
+            f"{fmt_pct(relative.get('stock_return'))}"
+            f" over {relative.get('period_months')} months"
+        )
+    if auto.get("distance_from_52w_high") is not None:
+        lines.append(
+            f"- Distance from 52-week high: {fmt_pct(auto.get('distance_from_52w_high'))}"
+        )
+    if auto.get("ttm_sales") is not None or auto.get("ttm_pat") is not None:
+        period = auto.get("ttm_period") or {}
+        lines.append(
+            "- TTM run-rate: "
+            f"sales {fmt_num(auto.get('ttm_sales'))}"
+            f", PAT {fmt_num(auto.get('ttm_pat'))}"
+            f" ({period.get('start') or '?'} to {period.get('end') or '?'})"
+        )
+    if ownership.get("promoter_change_4q") is not None or ownership.get("institutional_change_4q") is not None:
+        lines.append(
+            "- Ownership change (4 quarters): "
+            f"promoter {fmt_num(ownership.get('promoter_change_4q'))} pp,"
+            f" institutional {fmt_num(ownership.get('institutional_change_4q'))} pp"
+        )
+    if base.get("start") or base.get("end") or base.get("breakout") is not None:
+        breakout = base.get("breakout")
+        breakout_text = "yes" if breakout is True else "no" if breakout is False else "unknown"
+        lines.append(
+            "- Base: "
+            f"{base.get('start') or '?'} to {base.get('end') or '?'}"
+            f", breakout {breakout_text}"
+            f", volume {fmt_num(base.get('volume_multiple'))}x"
+        )
+    if concall.get("date") or concall.get("congrats_count") is not None or concall.get("guidance"):
+        lines.append(
+            "- Concall: "
+            f"{concall.get('date') or 'date unknown'}"
+            f", {concall.get('congrats_count') if concall.get('congrats_count') is not None else '?'} congrats"
+            f", guidance {concall.get('guidance') or 'unknown'}"
+        )
+    if entry.get("first_inflection") or entry.get("return_since") is not None:
+        extended = entry.get("extended")
+        extended_text = "yes" if extended is True else "no" if extended is False else "unknown"
+        lines.append(
+            "- Entry: "
+            f"first inflection {entry.get('first_inflection') or 'unknown'}"
+            f", {fmt_pct(entry.get('return_since'))} since"
+            f", extended {extended_text}"
+        )
+    if valuation.get("pe") is not None or valuation.get("note"):
+        lines.append(
+            f"- Valuation: P/E {fmt_num(valuation.get('pe'))}"
+            f" — {valuation.get('note') or 'context only, not a gate'}"
+        )
+    if context.get("time_horizon_years") is not None:
+        lines.append(f"- Time horizon: {context.get('time_horizon_years')} years")
+    if context.get("market_stage"):
+        lines.append(f"- Market stage: {context.get('market_stage')}")
+    if context.get("warnings"):
+        lines.append("- Warnings: " + "; ".join(context["warnings"]))
+    if context.get("notes"):
+        lines.extend(f"- {item}" for item in context["notes"])
+    return lines
 
 
 def markdown(payload: dict) -> str:
@@ -748,6 +1073,8 @@ def markdown(payload: dict) -> str:
         "",
     ]
     lines += [f"- {item}" for item in payload["unknowns"]] or ["- none"]
+    if payload.get("context"):
+        lines += context_markdown(payload["context"])
     lines += [
         "",
         "## Notes",
@@ -768,6 +1095,8 @@ def main() -> int:
     parser.add_argument("screener", nargs="?", help="Screener JSON file produced by scripts/fetch_screener.py")
     parser.add_argument("--as-of", dest="as_of", default=None, help="Point-in-time date (YYYY-MM-DD)")
     parser.add_argument("--price-json", dest="price_json", default=None, help="Price JSON from scripts/fetch_prices.py")
+    parser.add_argument("--benchmark-json", dest="benchmark_json", default=None, help="Benchmark price JSON for relative strength")
+    parser.add_argument("--context", default=None, help="Optional qualitative context JSON")
     parser.add_argument("--result-date", dest="result_date", default=None, help="Latest result date (YYYY-MM-DD)")
     parser.add_argument("--catalyst", action="append", default=[], help="Catalyst tag; repeatable")
     parser.add_argument("--config", default=None, help="Config JSON (default: assets/config.json)")

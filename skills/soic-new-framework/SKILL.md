@@ -90,6 +90,12 @@ tool never guesses a train stage.
    changes, themes and interviews are not in Screener. Do not infer them from a
    shareholding change or a price move.
 
+6. **Optionally encode the qualitative layer in a context file.** Use
+   `--context context.json` for theme, base formation, concall sentiment, entry
+   discipline and valuation notes. Use `--benchmark-json` to compute relative
+   strength from two price files. The context layer never changes the stage; it
+   adds a separate `SUPPORTIVE / NEUTRAL / WARNING / MISSING` status.
+
 ## Commands
 
 ```
@@ -97,9 +103,16 @@ python skills/soic-new-framework/scripts/screen_screener.py SCREENER.json --summ
 python skills/soic-new-framework/scripts/screen_screener.py SCREENER.json \
   --price-json PRICES.json --result-date YYYY-MM-DD \
   --catalyst large_order --json out.json --md out.md
+python skills/soic-new-framework/scripts/screen_screener.py SCREENER.json \
+  --price-json PRICES.json --benchmark-json BENCHMARK.json \
+  --context CONTEXT.json --result-date YYYY-MM-DD --summary
 python skills/soic-new-framework/scripts/screen_screener.py --list-catalysts
 python skills/soic-new-framework/scripts/screen_screener.py --print-config
 ```
+
+The context file is optional. Its schema is illustrated by
+`assets/example_context.json`; the benchmark fixture is
+`assets/example_benchmark_prices.json`.
 
 ## Output contract
 
@@ -112,6 +125,8 @@ The JSON contains:
 - `catalysts`, `catalyst_count`, `capex_signal`
 - `stage`
 - `unknowns[]`
+- `context` (optional): status, theme, relative strength, ownership, base,
+  concall, entry, valuation, market stage, warnings, notes
 - `notes[]`
 
 Report, in order:
@@ -121,13 +136,18 @@ Report, in order:
 3. quality gates
 4. coverage and unknowns
 5. catalysts and their evidence, if supplied
-6. “Screening aid only — not investment advice.”
+6. context layer, if supplied, with its separate status
+7. “Screening aid only — not investment advice.”
 
 ## Hard rules
 
 - Do not call this Ishmohit's exact score. The J-curve thresholds are his; the
   quality gates and stage rules are ours.
 - Do not invent a catalyst to upgrade `CANDIDATE` to `TRAIN_C`.
+- Do not let the context layer change the stage. It is a separate risk/quality
+  note, not a hidden score.
+- Do not invent context fields. If a theme, base, concall or entry observation is
+  not sourced, leave it out or mark it unknown.
 - Do not use post-`as_of` data. Screener snapshots and price files must be dated.
 - Do not estimate missing values. `UNKNOWN` is a valid result.
 - Do not use P/E as a gate. The video explicitly says not to lead with
@@ -145,10 +165,21 @@ scripts/screen_screener.py       deterministic Screener-only screen
 assets/config.json               thresholds, catalyst tags, notes
 assets/example_screener.json     synthetic J-curve example
 assets/example_prices.json       synthetic price history
+assets/example_context.json      synthetic qualitative context
+assets/example_benchmark_prices.json synthetic benchmark history
+references/context-schema.md     optional context JSON schema
 references/screener-variables.md variable mapping and formulas
 references/j-curve-rules.md      creator-stated thresholds and timestamps
 references/catalyst-taxonomy.md  the video's catalyst types
 references/train-stages.md       Train A/B/C definitions
+references/convexity-and-new.md  convexity and the NEW taxonomy
+references/theme-expiry.md       theme expiry and capital-cycle risk
+references/relative-strength.md  benchmark-relative returns
+references/funnel-and-watchlist.md theme-to-watchlist process
+references/entry-and-base-formation.md entry discipline and bases
+references/concall-sentiment.md  concall reading and “Congrats Index”
+references/time-horizon-and-valuation.md three-year view and valuation caution
+references/market-stage.md       market/index Train stage and theme win-rate
 references/methodology.md        limitations and reproducibility notes
 ```
 
@@ -171,6 +202,20 @@ python skills/soic-new-framework/scripts/screen_screener.py \
 Expected: `WATCH`, J-curve passes 3 of 5 known conditions, coverage below 100%,
 because price-dependent conditions are UNKNOWN.
 
+Context-layer smoke test:
+
+```
+python skills/soic-new-framework/scripts/screen_screener.py \
+  skills/soic-new-framework/assets/example_screener.json \
+  --price-json skills/soic-new-framework/assets/example_prices.json \
+  --benchmark-json skills/soic-new-framework/assets/example_benchmark_prices.json \
+  --context skills/soic-new-framework/assets/example_context.json \
+  --result-date 2026-08-14 --catalyst new_capex --summary
+```
+
+Expected: the same `TRAIN_C`, `J=5/5`, `Q=PASS`, `cov=100%`, plus
+`ctx=SUPPORTIVE`. The context layer must not change the stage.
+
 Real-data smoke test:
 
 ```
@@ -189,5 +234,8 @@ python skills/soic-new-framework/scripts/screen_screener.py \
   fact.
 - The quality gates are generic and will misclassify financials and some
   asset-light businesses.
+- The context layer is manually sourced. It does not detect themes, bases,
+  concall sentiment or entry points by itself. `--benchmark-json` only computes
+  relative return; it does not choose the benchmark or the window for you.
 - This is a candidate filter. It does not reproduce the full discretionary
   framework and is not investment advice.

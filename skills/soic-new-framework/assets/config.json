@@ -1,6 +1,6 @@
 {
   "id": "soic-new-framework",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "creator": "Ishmohit Arora (SOIC), with Siddharth Bhandari",
   "source": "https://www.youtube.com/watch?v=O_TndKzToCI",
   "horizon_years": 3,
@@ -35,6 +35,7 @@
     "The J-curve thresholds are the creator's scan conditions as stated in the video.",
     "The quality gates and stage rules are derived by this repository, not stated by the creator.",
     "Screener-only mode cannot observe orders, products, management, themes or interviews.",
+    "The context layer is manually sourced and does not change the stage.",
     "This is a research screen, not investment advice."
   ]
 }

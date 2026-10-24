@@ -1,0 +1,51 @@
+{
+  "theme": {
+    "name": "Synthetic EMS",
+    "stage": "TRAIN_C",
+    "expiry_risk": "medium",
+    "evidence": "Synthetic fixture only"
+  },
+  "relative_strength": {
+    "benchmark": "NIFTY",
+    "period_months": 6,
+    "source": "Synthetic fixture; computed with example_benchmark_prices.json"
+  },
+  "ownership": {
+    "promoter_change_4q": 0.0,
+    "institutional_change_4q": 3.0,
+    "fii_change_4q": 2.0,
+    "dii_change_4q": 1.0,
+    "source": "Synthetic fixture"
+  },
+  "base": {
+    "start": "2026-06-01",
+    "end": "2026-09-01",
+    "breakout": true,
+    "volume_multiple": 1.8,
+    "support": 430.0,
+    "resistance": 480.0,
+    "source": "Synthetic fixture"
+  },
+  "concall": {
+    "date": "2026-08-14",
+    "congrats_count": 7,
+    "guidance": "raised",
+    "source": "Synthetic fixture"
+  },
+  "entry": {
+    "first_inflection": "2026-08-14",
+    "return_since": 0.18,
+    "extended": false,
+    "plan": "buy on first base breakout",
+    "source": "Synthetic fixture"
+  },
+  "valuation": {
+    "pe": 33.3,
+    "note": "context only, not a gate"
+  },
+  "time_horizon_years": 3,
+  "market_stage": "TRAIN_B",
+  "notes": [
+    "Synthetic context fixture; replace every field with sourced evidence."
+  ]
+}
