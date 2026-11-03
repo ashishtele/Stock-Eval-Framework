@@ -1,0 +1,132 @@
+{
+  "company": "Force Motors (consolidated) - as of June 2022, FY22 data",
+  "as_of": "2022-06-30",
+  "units": "INR crore",
+  "business_type": "cyclical",
+  "market": {
+    "market_cap": 1449,
+    "total_debt": 1069,
+    "cash_and_investments": 111
+  },
+  "annual": [
+    {
+      "year": 2015,
+      "sales": 2364,
+      "ebitda": 147,
+      "depreciation": 81,
+      "interest": 7,
+      "pat": 102,
+      "net_worth": 1319,
+      "total_debt": 11,
+      "cash": 0,
+      "ocf": 226,
+      "receivables": 110.1
+    },
+    {
+      "year": 2016,
+      "sales": 3025,
+      "ebitda": 274,
+      "depreciation": 92,
+      "interest": 5,
+      "pat": 179,
+      "net_worth": 1489,
+      "total_debt": 14,
+      "cash": 14,
+      "ocf": 256,
+      "receivables": 149.2
+    },
+    {
+      "year": 2017,
+      "sales": 3069,
+      "ebitda": 268,
+      "depreciation": 113,
+      "interest": 6,
+      "pat": 180,
+      "net_worth": 1667,
+      "total_debt": 199,
+      "cash": 9,
+      "ocf": 471,
+      "receivables": 117.7
+    },
+    {
+      "year": 2018,
+      "sales": 3423,
+      "ebitda": 268,
+      "depreciation": 129,
+      "interest": 7,
+      "pat": 147,
+      "net_worth": 1801,
+      "total_debt": 0,
+      "cash": 10,
+      "ocf": 256,
+      "receivables": 243.8
+    },
+    {
+      "year": 2019,
+      "sales": 3652,
+      "ebitda": 275,
+      "depreciation": 151,
+      "interest": 15,
+      "pat": 143,
+      "net_worth": 1933,
+      "total_debt": 286,
+      "cash": 23,
+      "ocf": 314,
+      "receivables": 170.1
+    },
+    {
+      "year": 2020,
+      "sales": 3081,
+      "ebitda": 261,
+      "depreciation": 195,
+      "interest": 28,
+      "pat": 50,
+      "net_worth": 1965,
+      "total_debt": 310,
+      "cash": 78,
+      "ocf": 409,
+      "receivables": 168.8
+    },
+    {
+      "year": 2021,
+      "sales": 1988,
+      "ebitda": 24,
+      "depreciation": 174,
+      "interest": 28,
+      "pat": -124,
+      "net_worth": 1838,
+      "total_debt": 642,
+      "cash": 100,
+      "ocf": 7,
+      "receivables": 125.3
+    },
+    {
+      "year": 2022,
+      "sales": 3240,
+      "ebitda": 50,
+      "depreciation": 191,
+      "interest": 41,
+      "pat": -91,
+      "net_worth": 1748,
+      "total_debt": 1069,
+      "cash": 111,
+      "ocf": 18,
+      "receivables": 186.4
+    }
+  ],
+  "qualitative": {
+    "change_identified": true,
+    "seller_concern": "cyclical",
+    "ai_disruption_risk": "low",
+    "optionality": [
+      "EV capex Rs 400 cr",
+      "Rolls-Royce/OEM engine business"
+    ],
+    "base_business_protects_value": true
+  },
+  "governance": {
+    "years_listed": 20,
+    "credible_board_or_investors": true
+  },
+  "_source": "Financials: Screener.in consolidated pages fetched 3 Nov 2026. Market cap at purchase = share price quoted in the video x share count. Thesis inputs = only what the investor stated in the video."
+}

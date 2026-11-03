@@ -1,0 +1,108 @@
+{
+  "company": "Apar Industries (consolidated) - as of July 2020, FY20 data",
+  "as_of": "2020-07-31",
+  "units": "INR crore",
+  "business_type": "cyclical",
+  "market": {
+    "market_cap": 957,
+    "total_debt": 372,
+    "cash_and_investments": 0
+  },
+  "annual": [
+    {
+      "year": 2015,
+      "sales": 5108,
+      "ebitda": 264,
+      "depreciation": 31,
+      "interest": 162,
+      "pat": 49,
+      "net_worth": 729,
+      "total_debt": 494,
+      "cash": 5,
+      "ocf": 298,
+      "receivables": 1273.5
+    },
+    {
+      "year": 2016,
+      "sales": 5078,
+      "ebitda": 380,
+      "depreciation": 38,
+      "interest": 175,
+      "pat": 122,
+      "net_worth": 853,
+      "total_debt": 384,
+      "cash": 112,
+      "ocf": 412,
+      "receivables": 1085.2
+    },
+    {
+      "year": 2017,
+      "sales": 4832,
+      "ebitda": 434,
+      "depreciation": 45,
+      "interest": 131,
+      "pat": 177,
+      "net_worth": 1036,
+      "total_debt": 305,
+      "cash": 119,
+      "ocf": 312,
+      "receivables": 1257.6
+    },
+    {
+      "year": 2018,
+      "sales": 5818,
+      "ebitda": 426,
+      "depreciation": 56,
+      "interest": 158,
+      "pat": 145,
+      "net_worth": 1108,
+      "total_debt": 363,
+      "cash": 0,
+      "ocf": 225,
+      "receivables": 1737.4
+    },
+    {
+      "year": 2019,
+      "sales": 7964,
+      "ebitda": 491,
+      "depreciation": 67,
+      "interest": 223,
+      "pat": 136,
+      "net_worth": 1202,
+      "total_debt": 253,
+      "cash": 187,
+      "ocf": 632,
+      "receivables": 2138.3
+    },
+    {
+      "year": 2020,
+      "sales": 7425,
+      "ebitda": 495,
+      "depreciation": 87,
+      "interest": 254,
+      "pat": 135,
+      "net_worth": 1166,
+      "total_debt": 372,
+      "cash": 0,
+      "ocf": 94,
+      "receivables": 1891.8
+    }
+  ],
+  "forward": {
+    "years_out": 2,
+    "pat": 233,
+    "normalised_roe_pct": 20,
+    "basis": "Video: July-2020 call guided 20% ROE in 2 yrs; 20% x FY20 net worth 1,166"
+  },
+  "qualitative": {
+    "change_identified": true,
+    "drawdown_from_3y_high_pct": 55,
+    "seller_concern": "cyclical",
+    "ai_disruption_risk": "low"
+  },
+  "governance": {
+    "years_listed": 7,
+    "guidance_track_record": "good"
+  },
+  "_source": "Financials: Screener.in consolidated pages fetched 3 Nov 2026. Market cap at purchase = share price quoted in the video x share count. Thesis inputs = only what the investor stated in the video."
+}

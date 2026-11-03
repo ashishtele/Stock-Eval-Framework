@@ -1,0 +1,598 @@
+{
+  "company": "TruAlt Bioenergy Ltd",
+  "result": {
+    "score": 44.2,
+    "raw_score_before_kill_cap": 44.2,
+    "coverage": 0.77,
+    "verdict": "PASS - framework does not support it today",
+    "classification": "CHEAP AND UNDERVALUED - cheap, with an identified change the market is missing",
+    "kill_switches": [],
+    "pillars": {
+      "valuation": {
+        "earned": 17.0,
+        "possible": 17.0,
+        "max": 25,
+        "pct": 100.0,
+        "rules": [
+          {
+            "metric": "forward_pe",
+            "label": "Forward P/E (trailing P/E ignored: upfront capex costs distort it)",
+            "value": 11.615,
+            "points": 10,
+            "max": 10,
+            "rule": [
+              [
+                12,
+                10
+              ],
+              [
+                20,
+                6
+              ],
+              [
+                30,
+                3
+              ]
+            ]
+          },
+          {
+            "metric": "pctile_ev_sales",
+            "label": "EV/Sales percentile vs own history",
+            "value": null,
+            "points": null,
+            "max": 8,
+            "rule": [
+              [
+                50,
+                8
+              ],
+              [
+                75,
+                4
+              ]
+            ]
+          },
+          {
+            "metric": "peg",
+            "label": "PEG ratio",
+            "value": 0.968,
+            "points": 7,
+            "max": 7,
+            "rule": [
+              [
+                1.0,
+                7
+              ],
+              [
+                1.5,
+                3
+              ]
+            ]
+          }
+        ]
+      },
+      "earnings_quality": {
+        "earned": 2.0,
+        "possible": 12.0,
+        "max": 15,
+        "pct": 16.7,
+        "rules": [
+          {
+            "metric": "ocf_ebitda_conversion_5y",
+            "label": "OCF / EBITDA conversion (5 yr)",
+            "value": 0.352,
+            "points": 0,
+            "max": 6,
+            "rule": [
+              [
+                0.8,
+                6
+              ],
+              [
+                0.6,
+                4
+              ],
+              [
+                0.4,
+                2
+              ]
+            ]
+          },
+          {
+            "metric": "receivables_minus_sales_growth_pp",
+            "label": "Receivables growth minus sales growth (pp, last yr)",
+            "value": 29.135,
+            "points": 0,
+            "max": 4,
+            "rule": [
+              [
+                0,
+                4
+              ],
+              [
+                5,
+                2
+              ]
+            ]
+          },
+          {
+            "metric": "expense_flag_count",
+            "label": "Expense anomalies (margin-boosting cuts / peer outliers)",
+            "value": null,
+            "points": null,
+            "max": 3,
+            "rule": [
+              [
+                0,
+                3
+              ],
+              [
+                1,
+                1
+              ]
+            ]
+          },
+          {
+            "metric": "ocf_at_peak",
+            "label": "Current OCF not an abnormal peak",
+            "value": false,
+            "points": 2,
+            "max": 2,
+            "rule": {
+              "true": 0,
+              "false": 2
+            }
+          }
+        ]
+      },
+      "balance_sheet": {
+        "earned": 2.0,
+        "possible": 10.0,
+        "max": 10,
+        "pct": 20.0,
+        "rules": [
+          {
+            "metric": "net_debt_to_ebitda",
+            "label": "Net debt / normalised EBITDA",
+            "value": 3.125,
+            "points": 0,
+            "max": 4,
+            "rule": [
+              [
+                0,
+                4
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                2.5,
+                1
+              ]
+            ]
+          },
+          {
+            "metric": "debt_change_3y_pct",
+            "label": "Debt change over 3 yrs (%)",
+            "value": 43.597,
+            "points": 0,
+            "max": 3,
+            "rule": [
+              [
+                0,
+                3
+              ],
+              [
+                10,
+                1
+              ]
+            ]
+          },
+          {
+            "metric": "roe_normalised",
+            "label": "Normalised ROE (%)",
+            "value": 17.43,
+            "points": 2,
+            "max": 3,
+            "rule": [
+              [
+                18,
+                3
+              ],
+              [
+                12,
+                2
+              ],
+              [
+                8,
+                1
+              ]
+            ]
+          }
+        ]
+      },
+      "growth_and_earnings_gap": {
+        "earned": 3.0,
+        "possible": 13.0,
+        "max": 15,
+        "pct": 23.1,
+        "rules": [
+          {
+            "metric": "earnings_gap_pp",
+            "label": "Earnings gap: forward PAT CAGR minus past 3-yr PAT CAGR (pp)",
+            "value": -33.589,
+            "points": 0,
+            "max": 6,
+            "rule": [
+              [
+                10,
+                6
+              ],
+              [
+                0,
+                3
+              ]
+            ]
+          },
+          {
+            "metric": "forward_pat_cagr_pct",
+            "label": "Forward PAT CAGR (%)",
+            "value": 6.876,
+            "points": 0,
+            "max": 4,
+            "rule": [
+              [
+                25,
+                4
+              ],
+              [
+                15,
+                3
+              ],
+              [
+                10,
+                1
+              ]
+            ]
+          },
+          {
+            "metric": "change_identified",
+            "label": "Specific industry/company change identified",
+            "value": true,
+            "points": 3,
+            "max": 3,
+            "rule": {
+              "true": 3,
+              "false": 0
+            }
+          },
+          {
+            "metric": "new_product_share_gain_pp",
+            "label": "New-product share of sales gained (pp, ~3 yrs)",
+            "value": null,
+            "points": null,
+            "max": 2,
+            "rule": [
+              [
+                10,
+                2
+              ],
+              [
+                5,
+                1
+              ]
+            ]
+          }
+        ]
+      },
+      "cycle_and_sentiment": {
+        "earned": 3.0,
+        "possible": 10.0,
+        "max": 10,
+        "pct": 30.0,
+        "rules": [
+          {
+            "metric": "sector_underperformed_10y",
+            "label": "Sector underperformed broad index over ~10 yrs",
+            "value": false,
+            "points": 0,
+            "max": 3,
+            "rule": {
+              "true": 3,
+              "false": 0
+            }
+          },
+          {
+            "metric": "capital_exiting_sector",
+            "label": "Capital exiting / weak players shutting (capital cycle)",
+            "value": false,
+            "points": 0,
+            "max": 3,
+            "rule": {
+              "true": 3,
+              "false": 0
+            }
+          },
+          {
+            "metric": "drawdown_from_3y_high_pct",
+            "label": "Drawdown from 3-yr high (%)",
+            "value": 33.6,
+            "points": 1,
+            "max": 2,
+            "rule": [
+              [
+                40,
+                2
+              ],
+              [
+                25,
+                1
+              ]
+            ]
+          },
+          {
+            "metric": "seller_concern",
+            "label": "Why sellers are selling",
+            "value": "temporary",
+            "points": 2,
+            "max": 2,
+            "rule": {
+              "cyclical": 2,
+              "temporary": 2,
+              "neglected": 2,
+              "growth": 1,
+              "management": 0,
+              "structural": 0
+            }
+          }
+        ]
+      },
+      "asymmetry_and_optionality": {
+        "earned": 5.0,
+        "possible": 10.0,
+        "max": 10,
+        "pct": 50.0,
+        "rules": [
+          {
+            "metric": "upside_multiple",
+            "label": "Upside: forward PAT x exit P/E / market cap",
+            "value": 1.722,
+            "points": 1,
+            "max": 4,
+            "rule": [
+              [
+                3,
+                4
+              ],
+              [
+                2,
+                3
+              ],
+              [
+                1.5,
+                1
+              ]
+            ]
+          },
+          {
+            "metric": "downside_pct",
+            "label": "Downside to floor value (%)",
+            "value": 39.701,
+            "points": 1,
+            "max": 3,
+            "rule": [
+              [
+                20,
+                3
+              ],
+              [
+                35,
+                2
+              ],
+              [
+                50,
+                1
+              ]
+            ]
+          },
+          {
+            "metric": "optionality",
+            "label": "Optionality (free if base business protects value)",
+            "value": "protected",
+            "points": 2,
+            "max": 2,
+            "rule": {
+              "protected": 2,
+              "unprotected": 1,
+              "none": 0
+            }
+          },
+          {
+            "metric": "ai_disruption_risk",
+            "label": "AI disruption risk",
+            "value": "low",
+            "points": 1,
+            "max": 1,
+            "rule": {
+              "low": 1,
+              "medium": 0,
+              "high": 0
+            }
+          }
+        ]
+      },
+      "governance_and_history": {
+        "earned": 2.0,
+        "possible": 5.0,
+        "max": 15,
+        "pct": 40.0,
+        "rules": [
+          {
+            "metric": "years_listed",
+            "label": "Years listed (history to verify promises)",
+            "value": 1.0,
+            "points": 0,
+            "max": 3,
+            "rule": [
+              [
+                10,
+                3
+              ],
+              [
+                5,
+                2
+              ]
+            ]
+          },
+          {
+            "metric": "guidance_track_record",
+            "label": "Management delivered past guidance / AR narrative",
+            "value": null,
+            "points": null,
+            "max": 4,
+            "rule": {
+              "good": 4,
+              "mixed": 2,
+              "poor": 0
+            }
+          },
+          {
+            "metric": "credible_board_or_investors",
+            "label": "Credible independent directors / investors",
+            "value": null,
+            "points": null,
+            "max": 2,
+            "rule": {
+              "true": 2,
+              "false": 0
+            }
+          },
+          {
+            "metric": "related_party_clean",
+            "label": "No related-party / unrelated loss-making business concerns",
+            "value": null,
+            "points": null,
+            "max": 2,
+            "rule": {
+              "true": 2,
+              "false": 0
+            }
+          },
+          {
+            "metric": "lavish_spend_pct_mcap",
+            "label": "Promoter vanity spend as % of market cap",
+            "value": null,
+            "points": null,
+            "max": 2,
+            "rule": [
+              [
+                2,
+                2
+              ],
+              [
+                5,
+                1
+              ]
+            ]
+          },
+          {
+            "metric": "auditor_clean",
+            "label": "Auditor reputable, no unexplained changes",
+            "value": true,
+            "points": 2,
+            "max": 2,
+            "rule": {
+              "true": 2,
+              "false": 0
+            }
+          }
+        ]
+      }
+    }
+  },
+  "metrics": {
+    "tax_rate_used": 0.25,
+    "market_cap": 3078.0,
+    "debt_ex_lease": 1646.86,
+    "cash": 93.83,
+    "ev": 4631.03,
+    "ev_ebitda": 9.317967806841045,
+    "ev_ebit": 11.491389578163771,
+    "pe": 13.267241379310345,
+    "ev_ocf": null,
+    "ps": 1.1204950855478704,
+    "ev_sales": 1.6858500182016745,
+    "trailing_adj_pat": 232.0,
+    "trailing_adj_pe": 13.267241379310345,
+    "cyclically_adjusted_pat": null,
+    "cyclically_adjusted_pe": null,
+    "forward_pat": 265.0,
+    "forward_years_out": 2.0,
+    "forward_pe": 11.615094339622642,
+    "forward_pat_cagr_pct": 6.875693181861742,
+    "peg": 0.9679245283018868,
+    "peg_basis": "forward P/E / long-term growth",
+    "past3y_pat_cagr_pct": 40.46492661722094,
+    "past3y_sales_cagr_pct": 31.380100253867372,
+    "earnings_gap_pp": -33.5892334353592,
+    "pb": 2.024560457269146,
+    "roe_10y_avg_pct": 13.035704381761478,
+    "roe_normalised": 17.43042628902936,
+    "roe_basis": "forward PAT / current net worth",
+    "implied_pe_from_book": 11.61509433962264,
+    "ocf_ebitda_conversion_5y": 0.35201793721973096,
+    "avg_ocf_5y": 78.5,
+    "ev_ocf_normalised": 58.9940127388535,
+    "ocf_at_peak": false,
+    "receivables_growth_pct": 19.701122999381028,
+    "sales_growth_pct": -9.433962264150942,
+    "receivables_minus_sales_growth_pp": 29.13508526353197,
+    "receivables_fell_while_sales_grew": false,
+    "receivable_days_latest": 85.78133680555555,
+    "net_debt": 1553.03,
+    "net_debt_to_ebitda": 3.1248088531187124,
+    "debt_change_3y_pct": 43.59707851491176,
+    "history": {},
+    "pctile_ev_sales": null,
+    "pctile_pe": null,
+    "pctile_ev_ebitda": null,
+    "pctile_pb": null,
+    "expense_flags": [],
+    "expense_flag_count": null,
+    "segments": null,
+    "exit_pe_used": 20,
+    "floor_pe_used": 8,
+    "floor_pb_used": 0.7,
+    "upside_multiple": 1.7218973359324237,
+    "earnings_floor": 1856.0,
+    "book_floor": 1064.231,
+    "floor_value": 1856.0,
+    "downside_pct": 39.70110461338532,
+    "change_identified": true,
+    "new_product_share_gain_pp": null,
+    "sector_underperformed_10y": false,
+    "capital_exiting_sector": false,
+    "drawdown_from_3y_high_pct": 33.6,
+    "seller_concern": "temporary",
+    "ai_disruption_risk": "low",
+    "optionality": "protected",
+    "optionality_items": [
+      "Compressed biogas (CBG)",
+      "Sustainable aviation fuel (SAF)",
+      "Higher ethanol blending (E20/E100)"
+    ],
+    "years_listed": 1.0,
+    "guidance_track_record": null,
+    "credible_board_or_investors": null,
+    "related_party_clean": null,
+    "lavish_spend_pct_mcap": null,
+    "auditor_clean": true
+  },
+  "notes": [
+    "Lease liabilities of 4.65 removed from debt (not real borrowing).",
+    "ev_ocf not meaningful (denominator missing or <= 0).",
+    "Cyclically adjusted P/E needs >= 5 years of sales+EBITDA."
+  ],
+  "config_version": "1.0"
+}

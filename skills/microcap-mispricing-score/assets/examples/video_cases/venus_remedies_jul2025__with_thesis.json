@@ -1,0 +1,169 @@
+{
+  "company": "Venus Remedies (consolidated) - as of July 2025, FY25 data",
+  "as_of": "2025-07-15",
+  "units": "INR crore",
+  "business_type": "stable",
+  "market": {
+    "market_cap": 602,
+    "total_debt": 2,
+    "cash_and_investments": 84
+  },
+  "annual": [
+    {
+      "year": 2015,
+      "sales": 455,
+      "ebitda": 89,
+      "depreciation": 46,
+      "interest": 41,
+      "pat": 5,
+      "net_worth": 456,
+      "total_debt": 321,
+      "cash": 0,
+      "ocf": 68,
+      "receivables": 63.6
+    },
+    {
+      "year": 2016,
+      "sales": 407,
+      "ebitda": 81,
+      "depreciation": 42,
+      "interest": 38,
+      "pat": 2,
+      "net_worth": 437,
+      "total_debt": 335,
+      "cash": 0,
+      "ocf": 47,
+      "receivables": 61.3
+    },
+    {
+      "year": 2017,
+      "sales": 400,
+      "ebitda": 51,
+      "depreciation": 40,
+      "interest": 34,
+      "pat": -17,
+      "net_worth": 388,
+      "total_debt": 312,
+      "cash": 0,
+      "ocf": 59,
+      "receivables": 47.1
+    },
+    {
+      "year": 2018,
+      "sales": 372,
+      "ebitda": 39,
+      "depreciation": 34,
+      "interest": 35,
+      "pat": -31,
+      "net_worth": 362,
+      "total_debt": 307,
+      "cash": 0,
+      "ocf": 31,
+      "receivables": 46.9
+    },
+    {
+      "year": 2019,
+      "sales": 322,
+      "ebitda": 33,
+      "depreciation": 34,
+      "interest": 25,
+      "pat": -29,
+      "net_worth": 332,
+      "total_debt": 298,
+      "cash": 0,
+      "ocf": 45,
+      "receivables": 37.9
+    },
+    {
+      "year": 2020,
+      "sales": 335,
+      "ebitda": 41,
+      "depreciation": 32,
+      "interest": 13,
+      "pat": -10,
+      "net_worth": 323,
+      "total_debt": 220,
+      "cash": 0,
+      "ocf": 78,
+      "receivables": 30.3
+    },
+    {
+      "year": 2021,
+      "sales": 544,
+      "ebitda": 54,
+      "depreciation": 35,
+      "interest": 13,
+      "pat": 62,
+      "net_worth": 400,
+      "total_debt": 51,
+      "cash": 0,
+      "ocf": 132,
+      "receivables": 31.3
+    },
+    {
+      "year": 2022,
+      "sales": 597,
+      "ebitda": 62,
+      "depreciation": 34,
+      "interest": 0,
+      "pat": 41,
+      "net_worth": 440,
+      "total_debt": 43,
+      "cash": 0,
+      "ocf": 41,
+      "receivables": 39.3
+    },
+    {
+      "year": 2023,
+      "sales": 552,
+      "ebitda": 60,
+      "depreciation": 32,
+      "interest": 0,
+      "pat": 27,
+      "net_worth": 460,
+      "total_debt": 42,
+      "cash": 20,
+      "ocf": 37,
+      "receivables": 77.1
+    },
+    {
+      "year": 2024,
+      "sales": 596,
+      "ebitda": 60,
+      "depreciation": 26,
+      "interest": 0,
+      "pat": 28,
+      "net_worth": 487,
+      "total_debt": 41,
+      "cash": 19,
+      "ocf": 37,
+      "receivables": 80.0
+    },
+    {
+      "year": 2025,
+      "sales": 645,
+      "ebitda": 69,
+      "depreciation": 23,
+      "interest": 0,
+      "pat": 45,
+      "net_worth": 561,
+      "total_debt": 2,
+      "cash": 84,
+      "ocf": 86,
+      "receivables": 113.1
+    }
+  ],
+  "qualitative": {
+    "change_identified": true,
+    "seller_concern": "neglected",
+    "ai_disruption_risk": "low",
+    "optionality": [
+      "VRP-034 phase-1 drug, out-licensable"
+    ],
+    "base_business_protects_value": true
+  },
+  "governance": {
+    "years_listed": 20
+  },
+  "_source": "Financials: Screener.in consolidated pages fetched 3 Nov 2026. Market cap at purchase = share price quoted in the video x share count. Thesis inputs = only what the investor stated in the video."
+}

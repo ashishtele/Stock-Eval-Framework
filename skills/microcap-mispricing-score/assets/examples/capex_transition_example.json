@@ -1,0 +1,210 @@
+{
+  "company": "Hypothetical Motor Components Ltd (illustrative, not a real company)",
+  "as_of": "2026-09-30",
+  "units": "INR crore",
+  "business_type": "capex_transition",
+  "market": {
+    "market_cap": 2600,
+    "total_debt": 350,
+    "lease_liabilities": 40,
+    "cash_and_investments": 40
+  },
+  "annual": [
+    {
+      "year": 2018,
+      "sales": 300,
+      "ebitda": 42.0,
+      "depreciation": 12,
+      "interest": 6,
+      "pat": 18.0,
+      "ocf": 29.4,
+      "net_worth": 266.2,
+      "total_debt": 50,
+      "cash": 40,
+      "receivables": 54.0,
+      "market_cap_year_end": 600,
+      "segments": {
+        "legacy_components": 270.0,
+        "new_motors": 30.0
+      }
+    },
+    {
+      "year": 2019,
+      "sales": 360,
+      "ebitda": 50.4,
+      "depreciation": 12,
+      "interest": 6,
+      "pat": 24.3,
+      "ocf": 35.3,
+      "net_worth": 288.1,
+      "total_debt": 50,
+      "cash": 40,
+      "receivables": 64.8,
+      "market_cap_year_end": 700,
+      "segments": {
+        "legacy_components": 306.0,
+        "new_motors": 54.0
+      }
+    },
+    {
+      "year": 2020,
+      "sales": 420,
+      "ebitda": 63.0,
+      "depreciation": 12,
+      "interest": 6,
+      "pat": 33.8,
+      "ocf": 44.1,
+      "net_worth": 318.5,
+      "total_debt": 50,
+      "cash": 40,
+      "receivables": 75.6,
+      "market_cap_year_end": 1100,
+      "segments": {
+        "legacy_components": 336.0,
+        "new_motors": 84.0
+      }
+    },
+    {
+      "year": 2021,
+      "sales": 520,
+      "ebitda": 78.0,
+      "depreciation": 12,
+      "interest": 6,
+      "pat": 45.0,
+      "ocf": 54.6,
+      "net_worth": 359.0,
+      "total_debt": 50,
+      "cash": 40,
+      "receivables": 93.6,
+      "market_cap_year_end": 1800,
+      "segments": {
+        "legacy_components": 390.0,
+        "new_motors": 130.0
+      }
+    },
+    {
+      "year": 2022,
+      "sales": 640,
+      "ebitda": 89.6,
+      "depreciation": 12,
+      "interest": 6,
+      "pat": 53.7,
+      "ocf": 62.7,
+      "net_worth": 407.3,
+      "total_debt": 50,
+      "cash": 40,
+      "receivables": 115.2,
+      "market_cap_year_end": 2200,
+      "segments": {
+        "legacy_components": 448.0,
+        "new_motors": 192.0
+      }
+    },
+    {
+      "year": 2023,
+      "sales": 780,
+      "ebitda": 117.0,
+      "depreciation": 12,
+      "interest": 6,
+      "pat": 74.2,
+      "ocf": 81.9,
+      "net_worth": 474.1,
+      "total_debt": 50,
+      "cash": 40,
+      "receivables": 140.4,
+      "market_cap_year_end": 2600,
+      "segments": {
+        "legacy_components": 507.0,
+        "new_motors": 273.0
+      }
+    },
+    {
+      "year": 2024,
+      "sales": 900,
+      "ebitda": 135.0,
+      "depreciation": 12,
+      "interest": 6,
+      "pat": 87.8,
+      "ocf": 94.5,
+      "net_worth": 553.1,
+      "total_debt": 350,
+      "cash": 40,
+      "receivables": 162.0,
+      "market_cap_year_end": 3000,
+      "segments": {
+        "legacy_components": 540.0,
+        "new_motors": 360.0
+      }
+    },
+    {
+      "year": 2025,
+      "sales": 980,
+      "ebitda": 107.8,
+      "depreciation": 35,
+      "interest": 30,
+      "pat": 32.1,
+      "ocf": 75.5,
+      "net_worth": 582.0,
+      "total_debt": 350,
+      "cash": 40,
+      "receivables": 176.4,
+      "market_cap_year_end": 2800,
+      "segments": {
+        "legacy_components": 539.0,
+        "new_motors": 441.0
+      }
+    },
+    {
+      "year": 2026,
+      "sales": 1050,
+      "ebitda": 94.5,
+      "depreciation": 35,
+      "interest": 30,
+      "pat": 22.1,
+      "ocf": 66.1,
+      "net_worth": 601.9,
+      "total_debt": 350,
+      "cash": 40,
+      "receivables": 189.0,
+      "market_cap_year_end": null,
+      "segments": {
+        "legacy_components": 525.0,
+        "new_motors": 525.0
+      }
+    }
+  ],
+  "forward": {
+    "years_out": 2,
+    "sales": 1700,
+    "ebitda_margin_pct": 15,
+    "depreciation": 40,
+    "interest": 25,
+    "basis": "New plant complete; utilisation ramps as channel inventory clears",
+    "long_term_growth_pct": 25
+  },
+  "qualitative": {
+    "change_identified": true,
+    "new_product_share_pct_now": 50,
+    "new_product_share_pct_3y_ago": 30,
+    "sector_underperformed_10y": false,
+    "capital_exiting_sector": false,
+    "drawdown_from_3y_high_pct": 20,
+    "seller_concern": "temporary",
+    "ai_disruption_risk": "low",
+    "optionality": [
+      "import substitution in motors"
+    ],
+    "base_business_protects_value": true
+  },
+  "governance": {
+    "years_listed": 8,
+    "guidance_track_record": "mixed",
+    "credible_board_or_investors": true,
+    "related_party_clean": true,
+    "auditor_clean": true,
+    "promoter_vanity_spend": 0
+  },
+  "target": {
+    "exit_pe": 30
+  }
+}

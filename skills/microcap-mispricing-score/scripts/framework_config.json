@@ -1,0 +1,681 @@
+{
+  "_comment": "Every weight and threshold the scorer uses lives here. Edit this file to tune the framework; the script has no hidden constants except formula definitions. Bands: for lower_better, the first [threshold, points] pair where value <= threshold wins; for higher_better, value >= threshold.",
+  "version": "1.0",
+  "tax_rate": 0.25,
+  "cyclical_history_years": 15,
+  "min_history_years_for_percentiles": 5,
+  "ocf_normalisation_years": 5,
+  "ocf_peak_multiple": 1.5,
+  "exclude_lease_liabilities_from_debt": true,
+  "default_exit_pe": 20,
+  "default_floor_pe": 8,
+  "default_floor_pb": 0.7,
+  "expense_habit": {
+    "min_years": 5,
+    "relative_deviation": 0.3,
+    "persistent_years": 3,
+    "peer_low_ratio": 0.5,
+    "peer_high_ratio": 1.5
+  },
+  "kill_switches": {
+    "flags": [
+      "revenue_inflation_found",
+      "auditor_linked_to_fraud_companies",
+      "merchant_banker_regulatory_action",
+      "plant_claims_contradicted_on_visit",
+      "operator_or_fake_volumes_suspected"
+    ],
+    "lavish_spend_pct_of_mcap": 15,
+    "score_cap": 20,
+    "vanity_spend_recent_years": 5
+  },
+  "verdict_bands": [
+    [
+      75,
+      "STRONG CANDIDATE - worth a full deep-dive"
+    ],
+    [
+      60,
+      "WATCHLIST - promising, verify the open questions"
+    ],
+    [
+      45,
+      "MONITOR - some merit, thesis not yet there"
+    ],
+    [
+      0,
+      "PASS - framework does not support it today"
+    ]
+  ],
+  "min_coverage_warning": 0.7,
+  "classification": {
+    "cheap_valuation_pct": 60,
+    "change_growth_pct": 50,
+    "garp_peg_max": 1.0
+  },
+  "valuation_rules": {
+    "cyclical": [
+      {
+        "metric": "cyclically_adjusted_pe",
+        "label": "Cyclically adjusted P/E (single digit is the target)",
+        "direction": "lower_better",
+        "bands": [
+          [
+            10,
+            10
+          ],
+          [
+            15,
+            6
+          ],
+          [
+            20,
+            3
+          ]
+        ],
+        "max": 10
+      },
+      {
+        "metric": "pctile_ev_sales",
+        "label": "EV/Sales percentile vs own history",
+        "direction": "lower_better",
+        "bands": [
+          [
+            25,
+            8
+          ],
+          [
+            50,
+            4
+          ]
+        ],
+        "max": 8
+      },
+      {
+        "metric": "implied_pe_from_book",
+        "label": "Implied P/E = P/B / normalised ROE",
+        "direction": "lower_better",
+        "bands": [
+          [
+            7,
+            7
+          ],
+          [
+            10,
+            4
+          ],
+          [
+            15,
+            2
+          ]
+        ],
+        "max": 7
+      }
+    ],
+    "stable": [
+      {
+        "metric": "pctile_pe",
+        "label": "Adjusted P/E percentile vs own history",
+        "direction": "lower_better",
+        "bands": [
+          [
+            25,
+            10
+          ],
+          [
+            50,
+            5
+          ]
+        ],
+        "max": 10
+      },
+      {
+        "metric": "pctile_ev_ebitda",
+        "label": "EV/EBITDA percentile vs own history",
+        "direction": "lower_better",
+        "bands": [
+          [
+            25,
+            8
+          ],
+          [
+            50,
+            4
+          ]
+        ],
+        "max": 8
+      },
+      {
+        "metric": "ev_ocf_normalised",
+        "label": "EV / 5-yr average OCF",
+        "direction": "lower_better",
+        "bands": [
+          [
+            15,
+            7
+          ],
+          [
+            25,
+            3
+          ]
+        ],
+        "max": 7
+      }
+    ],
+    "growth": [
+      {
+        "metric": "peg",
+        "label": "PEG ratio",
+        "direction": "lower_better",
+        "bands": [
+          [
+            0.75,
+            10
+          ],
+          [
+            1.0,
+            7
+          ],
+          [
+            1.5,
+            3
+          ]
+        ],
+        "max": 10
+      },
+      {
+        "metric": "forward_pe",
+        "label": "Forward P/E",
+        "direction": "lower_better",
+        "bands": [
+          [
+            15,
+            8
+          ],
+          [
+            25,
+            5
+          ],
+          [
+            35,
+            2
+          ]
+        ],
+        "max": 8
+      },
+      {
+        "metric": "ev_ocf_normalised",
+        "label": "EV / 5-yr average OCF",
+        "direction": "lower_better",
+        "bands": [
+          [
+            25,
+            7
+          ],
+          [
+            40,
+            3
+          ]
+        ],
+        "max": 7
+      }
+    ],
+    "capex_transition": [
+      {
+        "metric": "forward_pe",
+        "label": "Forward P/E (trailing P/E ignored: upfront capex costs distort it)",
+        "direction": "lower_better",
+        "bands": [
+          [
+            12,
+            10
+          ],
+          [
+            20,
+            6
+          ],
+          [
+            30,
+            3
+          ]
+        ],
+        "max": 10
+      },
+      {
+        "metric": "pctile_ev_sales",
+        "label": "EV/Sales percentile vs own history",
+        "direction": "lower_better",
+        "bands": [
+          [
+            50,
+            8
+          ],
+          [
+            75,
+            4
+          ]
+        ],
+        "max": 8
+      },
+      {
+        "metric": "peg",
+        "label": "PEG ratio",
+        "direction": "lower_better",
+        "bands": [
+          [
+            1.0,
+            7
+          ],
+          [
+            1.5,
+            3
+          ]
+        ],
+        "max": 7
+      }
+    ],
+    "new_age": [
+      {
+        "metric": "forward_pe",
+        "label": "Forward P/E on your 2-3 yr PAT assumption",
+        "direction": "lower_better",
+        "bands": [
+          [
+            25,
+            12
+          ],
+          [
+            40,
+            6
+          ],
+          [
+            60,
+            2
+          ]
+        ],
+        "max": 12
+      },
+      {
+        "metric": "peg",
+        "label": "PEG ratio",
+        "direction": "lower_better",
+        "bands": [
+          [
+            1.0,
+            13
+          ],
+          [
+            1.5,
+            6
+          ]
+        ],
+        "max": 13
+      }
+    ]
+  },
+  "pillars": {
+    "earnings_quality": [
+      {
+        "metric": "ocf_ebitda_conversion_5y",
+        "label": "OCF / EBITDA conversion (5 yr)",
+        "direction": "higher_better",
+        "bands": [
+          [
+            0.8,
+            6
+          ],
+          [
+            0.6,
+            4
+          ],
+          [
+            0.4,
+            2
+          ]
+        ],
+        "max": 6
+      },
+      {
+        "metric": "receivables_minus_sales_growth_pp",
+        "label": "Receivables growth minus sales growth (pp, last yr)",
+        "direction": "lower_better",
+        "bands": [
+          [
+            0,
+            4
+          ],
+          [
+            5,
+            2
+          ]
+        ],
+        "max": 4
+      },
+      {
+        "metric": "expense_flag_count",
+        "label": "Expense anomalies (margin-boosting cuts / peer outliers)",
+        "direction": "lower_better",
+        "bands": [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "max": 3
+      },
+      {
+        "metric": "ocf_at_peak",
+        "label": "Current OCF not an abnormal peak",
+        "type": "bool",
+        "true_points": 0,
+        "false_points": 2,
+        "max": 2
+      }
+    ],
+    "balance_sheet": [
+      {
+        "metric": "net_debt_to_ebitda",
+        "label": "Net debt / normalised EBITDA",
+        "direction": "lower_better",
+        "bands": [
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2.5,
+            1
+          ]
+        ],
+        "max": 4
+      },
+      {
+        "metric": "debt_change_3y_pct",
+        "label": "Debt change over 3 yrs (%)",
+        "direction": "lower_better",
+        "bands": [
+          [
+            0,
+            3
+          ],
+          [
+            10,
+            1
+          ]
+        ],
+        "max": 3
+      },
+      {
+        "metric": "roe_normalised",
+        "label": "Normalised ROE (%)",
+        "direction": "higher_better",
+        "bands": [
+          [
+            18,
+            3
+          ],
+          [
+            12,
+            2
+          ],
+          [
+            8,
+            1
+          ]
+        ],
+        "max": 3
+      }
+    ],
+    "growth_and_earnings_gap": [
+      {
+        "metric": "earnings_gap_pp",
+        "label": "Earnings gap: forward PAT CAGR minus past 3-yr PAT CAGR (pp)",
+        "direction": "higher_better",
+        "bands": [
+          [
+            10,
+            6
+          ],
+          [
+            0,
+            3
+          ]
+        ],
+        "max": 6
+      },
+      {
+        "metric": "forward_pat_cagr_pct",
+        "label": "Forward PAT CAGR (%)",
+        "direction": "higher_better",
+        "bands": [
+          [
+            25,
+            4
+          ],
+          [
+            15,
+            3
+          ],
+          [
+            10,
+            1
+          ]
+        ],
+        "max": 4
+      },
+      {
+        "metric": "change_identified",
+        "label": "Specific industry/company change identified",
+        "type": "bool",
+        "true_points": 3,
+        "false_points": 0,
+        "max": 3
+      },
+      {
+        "metric": "new_product_share_gain_pp",
+        "label": "New-product share of sales gained (pp, ~3 yrs)",
+        "direction": "higher_better",
+        "bands": [
+          [
+            10,
+            2
+          ],
+          [
+            5,
+            1
+          ]
+        ],
+        "max": 2
+      }
+    ],
+    "cycle_and_sentiment": [
+      {
+        "metric": "sector_underperformed_10y",
+        "label": "Sector underperformed broad index over ~10 yrs",
+        "type": "bool",
+        "true_points": 3,
+        "false_points": 0,
+        "max": 3
+      },
+      {
+        "metric": "capital_exiting_sector",
+        "label": "Capital exiting / weak players shutting (capital cycle)",
+        "type": "bool",
+        "true_points": 3,
+        "false_points": 0,
+        "max": 3
+      },
+      {
+        "metric": "drawdown_from_3y_high_pct",
+        "label": "Drawdown from 3-yr high (%)",
+        "direction": "higher_better",
+        "bands": [
+          [
+            40,
+            2
+          ],
+          [
+            25,
+            1
+          ]
+        ],
+        "max": 2
+      },
+      {
+        "metric": "seller_concern",
+        "label": "Why sellers are selling",
+        "type": "category",
+        "map": {
+          "cyclical": 2,
+          "temporary": 2,
+          "neglected": 2,
+          "growth": 1,
+          "management": 0,
+          "structural": 0
+        },
+        "max": 2
+      }
+    ],
+    "asymmetry_and_optionality": [
+      {
+        "metric": "upside_multiple",
+        "label": "Upside: forward PAT x exit P/E / market cap",
+        "direction": "higher_better",
+        "bands": [
+          [
+            3,
+            4
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            1.5,
+            1
+          ]
+        ],
+        "max": 4
+      },
+      {
+        "metric": "downside_pct",
+        "label": "Downside to floor value (%)",
+        "direction": "lower_better",
+        "bands": [
+          [
+            20,
+            3
+          ],
+          [
+            35,
+            2
+          ],
+          [
+            50,
+            1
+          ]
+        ],
+        "max": 3
+      },
+      {
+        "metric": "optionality",
+        "label": "Optionality (free if base business protects value)",
+        "type": "category",
+        "map": {
+          "protected": 2,
+          "unprotected": 1,
+          "none": 0
+        },
+        "max": 2
+      },
+      {
+        "metric": "ai_disruption_risk",
+        "label": "AI disruption risk",
+        "type": "category",
+        "map": {
+          "low": 1,
+          "medium": 0,
+          "high": 0
+        },
+        "max": 1
+      }
+    ],
+    "governance_and_history": [
+      {
+        "metric": "years_listed",
+        "label": "Years listed (history to verify promises)",
+        "direction": "higher_better",
+        "bands": [
+          [
+            10,
+            3
+          ],
+          [
+            5,
+            2
+          ]
+        ],
+        "max": 3
+      },
+      {
+        "metric": "guidance_track_record",
+        "label": "Management delivered past guidance / AR narrative",
+        "type": "category",
+        "map": {
+          "good": 4,
+          "mixed": 2,
+          "poor": 0
+        },
+        "max": 4
+      },
+      {
+        "metric": "credible_board_or_investors",
+        "label": "Credible independent directors / investors",
+        "type": "bool",
+        "true_points": 2,
+        "false_points": 0,
+        "max": 2
+      },
+      {
+        "metric": "related_party_clean",
+        "label": "No related-party / unrelated loss-making business concerns",
+        "type": "bool",
+        "true_points": 2,
+        "false_points": 0,
+        "max": 2
+      },
+      {
+        "metric": "lavish_spend_pct_mcap",
+        "label": "Promoter vanity spend as % of market cap",
+        "direction": "lower_better",
+        "bands": [
+          [
+            2,
+            2
+          ],
+          [
+            5,
+            1
+          ]
+        ],
+        "max": 2
+      },
+      {
+        "metric": "auditor_clean",
+        "label": "Auditor reputable, no unexplained changes",
+        "type": "bool",
+        "true_points": 2,
+        "false_points": 0,
+        "max": 2
+      }
+    ]
+  }
+}

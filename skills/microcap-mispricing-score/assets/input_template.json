@@ -1,0 +1,93 @@
+{
+  "_help": "Fill what you can; anything missing is skipped and the score is re-based (coverage is reported). Amounts in ONE unit (e.g. INR crore). Percents as plain numbers (25 = 25%). Keys starting with _ are ignored.",
+  "company": "",
+  "as_of": "YYYY-MM-DD",
+  "units": "INR crore",
+  "tax_rate_pct": null,
+  "_tax_help": "Optional effective tax rate override; default 25%.",
+  "business_type": "cyclical | stable | growth | capex_transition | new_age",
+  "_business_type_help": "cyclical = margins swing with commodity/industry cycle (textiles, paper, sugar, chemicals); stable = steady margins (consumer); growth = profitable compounder; capex_transition = just finished big capex so trailing P/E is distorted by upfront costs; new_age = little or no profit history.",
+
+  "market": {
+    "market_cap": null,
+    "total_debt": null,
+    "lease_liabilities": null,
+    "cash_and_investments": null
+  },
+
+  "annual": [
+    {
+      "year": 2016,
+      "sales": null,
+      "ebitda": null,
+      "depreciation": null,
+      "interest": null,
+      "pat": null,
+      "ocf": null,
+      "net_worth": null,
+      "total_debt": null,
+      "lease_liabilities": null,
+      "cash": null,
+      "receivables": null,
+      "inventory": null,
+      "market_cap_year_end": null,
+      "expense_items": {"advertising": null, "packaging": null, "warranty": null},
+      "segments": {"segment_a": null, "segment_b": null}
+    }
+  ],
+  "_annual_help": "Oldest to newest, ideally 10-15 years. EBITDA should exclude other income. market_cap_year_end enables own-history percentiles. expense_items and segments are optional (absolute amounts, same unit).",
+
+  "ttm": {"sales": null, "ebitda": null, "depreciation": null, "interest": null, "pat": null, "ocf": null},
+
+  "one_offs": [
+    {"description": "e.g. plant fire compensation", "amount": null, "type": "expense | gain", "tax_effected": false}
+  ],
+
+  "forward": {
+    "years_out": 2,
+    "pat": null,
+    "sales": null,
+    "ebitda_margin_pct": null,
+    "depreciation": null,
+    "interest": null,
+    "pat_cagr_pct": null,
+    "normalised_roe_pct": null,
+    "long_term_growth_pct": null,
+    "basis": "Write the assumption: capex already done, utilisation ramp, guidance, etc."
+  },
+
+  "peers": [
+    {"name": "", "expense_pct": {"advertising": null, "packaging": null}}
+  ],
+
+  "qualitative": {
+    "change_identified": null,
+    "change_description": "",
+    "new_product_share_pct_now": null,
+    "new_product_share_pct_3y_ago": null,
+    "sector_underperformed_10y": null,
+    "capital_exiting_sector": null,
+    "drawdown_from_3y_high_pct": null,
+    "seller_concern": "cyclical | temporary | neglected | growth | management | structural",
+    "ai_disruption_risk": "low | medium | high",
+    "optionality": [],
+    "base_business_protects_value": null
+  },
+
+  "governance": {
+    "years_listed": null,
+    "guidance_track_record": "good | mixed | poor",
+    "credible_board_or_investors": null,
+    "related_party_clean": null,
+    "auditor_clean": null,
+    "promoter_vanity_spend": null,
+    "promoter_vanity_spend_years_ago": null,
+    "revenue_inflation_found": false,
+    "auditor_linked_to_fraud_companies": false,
+    "merchant_banker_regulatory_action": false,
+    "plant_claims_contradicted_on_visit": false,
+    "operator_or_fake_volumes_suspected": false
+  },
+
+  "target": {"exit_pe": null, "floor_pe": null}
+}

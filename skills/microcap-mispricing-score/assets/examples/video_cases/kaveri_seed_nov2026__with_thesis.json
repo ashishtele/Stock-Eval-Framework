@@ -1,0 +1,203 @@
+{
+  "company": "Kaveri Seed Co (consolidated) - scored as of 3 Nov 2026",
+  "as_of": "2026-11-03",
+  "units": "INR crore",
+  "business_type": "cyclical",
+  "tax_rate_pct": 5,
+  "market": {
+    "market_cap": 3440,
+    "total_debt": 4,
+    "cash_and_investments": 206
+  },
+  "annual": [
+    {
+      "year": 2015,
+      "sales": 1159,
+      "ebitda": 310,
+      "depreciation": 15,
+      "interest": 0,
+      "pat": 301,
+      "net_worth": 755,
+      "total_debt": 1,
+      "cash": 295,
+      "ocf": 145,
+      "receivables": 117.5
+    },
+    {
+      "year": 2016,
+      "sales": 743,
+      "ebitda": 188,
+      "depreciation": 27,
+      "interest": 0,
+      "pat": 167,
+      "net_worth": 927,
+      "total_debt": 2,
+      "cash": 506,
+      "ocf": 246,
+      "receivables": 79.4
+    },
+    {
+      "year": 2017,
+      "sales": 703,
+      "ebitda": 140,
+      "depreciation": 30,
+      "interest": 0,
+      "pat": 77,
+      "net_worth": 1015,
+      "total_debt": 5,
+      "cash": 657,
+      "ocf": 218,
+      "receivables": 84.7
+    },
+    {
+      "year": 2018,
+      "sales": 818,
+      "ebitda": 222,
+      "depreciation": 25,
+      "interest": 1,
+      "pat": 211,
+      "net_worth": 1012,
+      "total_debt": 3,
+      "cash": 623,
+      "ocf": 148,
+      "receivables": 85.2,
+      "segments": {
+        "cotton": 450,
+        "other_crops": 368
+      }
+    },
+    {
+      "year": 2019,
+      "sales": 808,
+      "ebitda": 212,
+      "depreciation": 23,
+      "interest": 1,
+      "pat": 217,
+      "net_worth": 1007,
+      "total_debt": 7,
+      "cash": 510,
+      "ocf": 128,
+      "receivables": 84.1
+    },
+    {
+      "year": 2020,
+      "sales": 929,
+      "ebitda": 253,
+      "depreciation": 26,
+      "interest": 0,
+      "pat": 260,
+      "net_worth": 959,
+      "total_debt": 6,
+      "cash": 384,
+      "ocf": 192,
+      "receivables": 117.1
+    },
+    {
+      "year": 2021,
+      "sales": 1033,
+      "ebitda": 298,
+      "depreciation": 22,
+      "interest": 1,
+      "pat": 311,
+      "net_worth": 1244,
+      "total_debt": 2,
+      "cash": 599,
+      "ocf": 252,
+      "receivables": 104.7
+    },
+    {
+      "year": 2022,
+      "sales": 968,
+      "ebitda": 203,
+      "depreciation": 21,
+      "interest": 0,
+      "pat": 213,
+      "net_worth": 1281,
+      "total_debt": 1,
+      "cash": 517,
+      "ocf": 110,
+      "receivables": 111.4
+    },
+    {
+      "year": 2023,
+      "sales": 1068,
+      "ebitda": 252,
+      "depreciation": 21,
+      "interest": 0,
+      "pat": 273,
+      "net_worth": 1365,
+      "total_debt": 1,
+      "cash": 562,
+      "ocf": 297,
+      "receivables": 134.6
+    },
+    {
+      "year": 2024,
+      "sales": 1146,
+      "ebitda": 286,
+      "depreciation": 28,
+      "interest": 0,
+      "pat": 300,
+      "net_worth": 1232,
+      "total_debt": 0,
+      "cash": 476,
+      "ocf": 389,
+      "receivables": 113.0
+    },
+    {
+      "year": 2025,
+      "sales": 1202,
+      "ebitda": 291,
+      "depreciation": 40,
+      "interest": 0,
+      "pat": 282,
+      "net_worth": 1499,
+      "total_debt": 0,
+      "cash": 613,
+      "ocf": 197,
+      "receivables": 92.2
+    },
+    {
+      "year": 2026,
+      "sales": 1392,
+      "ebitda": 337,
+      "depreciation": 60,
+      "interest": 0,
+      "pat": 296,
+      "net_worth": 1756,
+      "total_debt": 0,
+      "cash": 401,
+      "ocf": -6,
+      "receivables": 110.6,
+      "segments": {
+        "cotton": 153,
+        "other_crops": 1239
+      }
+    }
+  ],
+  "ttm": {
+    "sales": 1304,
+    "ebitda": 299,
+    "depreciation": 59,
+    "interest": 0,
+    "pat": 256
+  },
+  "forward": {
+    "years_out": 2,
+    "pat": 350,
+    "basis": "Video: 'already doing 300-350-400 cr PAT'; normal monsoon + base effect. Mid-point 350."
+  },
+  "qualitative": {
+    "change_identified": true,
+    "new_product_share_pct_now": 35,
+    "new_product_share_pct_3y_ago": 17,
+    "drawdown_from_3y_high_pct": 50,
+    "seller_concern": "growth",
+    "ai_disruption_risk": "low",
+    "optionality": []
+  },
+  "governance": {
+    "years_listed": 19
+  },
+  "_source": "Financials: Screener.in consolidated pages fetched 3 Nov 2026. Market cap at purchase = share price quoted in the video x share count. Thesis inputs = only what the investor stated in the video."
+}
