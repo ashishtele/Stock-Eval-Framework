@@ -1,0 +1,205 @@
+{
+  "_note": "ILLUSTRATIVE FICTIONAL COMPANY. Annual arrays oldest -> latest with fy_labels (6-11 yrs; null allowed). Rs crore. Quarterly arrays: last 8 quarters oldest -> latest. mode: auto|normal|turnaround.",
+  "company": "ExampleCo Precision Ltd",
+  "ticker": "EXAMPLECO",
+  "as_of": "2026-11-08",
+  "cmp": 500,
+  "market_cap_cr": 2750,
+  "mode": "auto",
+  "business_type": "global_long_cycle",
+  "financials": {
+    "fy_labels": [
+      "Mar 2021",
+      "Mar 2022",
+      "Mar 2023",
+      "Mar 2024",
+      "Mar 2025",
+      "Mar 2026"
+    ],
+    "sales": [
+      210,
+      240,
+      300,
+      380,
+      450,
+      540
+    ],
+    "pat": [
+      18,
+      22,
+      30,
+      42,
+      52,
+      66
+    ],
+    "opm_pct": [
+      17,
+      18,
+      19,
+      20,
+      19,
+      20
+    ],
+    "roce_pct": [
+      16,
+      18,
+      21,
+      24,
+      25,
+      26
+    ],
+    "roe_pct": [
+      13,
+      15,
+      17,
+      20,
+      20,
+      21
+    ],
+    "ebit": [
+      30,
+      36,
+      48,
+      64,
+      78,
+      96
+    ],
+    "capital_employed": [
+      190,
+      205,
+      230,
+      265,
+      310,
+      365
+    ],
+    "cfo": [
+      15,
+      20,
+      24,
+      35,
+      45,
+      58
+    ],
+    "borrowings": [
+      40,
+      35,
+      30,
+      25,
+      18,
+      10
+    ],
+    "debtor_days": [
+      70,
+      68,
+      72,
+      70,
+      74,
+      75
+    ],
+    "cash_and_investments": 45,
+    "total_assets": 520,
+    "quarterly_sales": [
+      110,
+      115,
+      122,
+      133,
+      135,
+      140,
+      150,
+      160
+    ],
+    "quarterly_pat": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ]
+  },
+  "valuation": {
+    "pe": 38,
+    "pe_5y_median": 32,
+    "expected_growth_pct": 22,
+    "peer_median_pe": 40,
+    "peer_median_growth_pct": 15,
+    "peer_median_opm_pct": 15,
+    "addressable_market_cr": 6000,
+    "hurdle_rate_pct": 13,
+    "exit_pe": 20,
+    "horizon_years": 10,
+    "high_52w": 560,
+    "industry_growth_pct": 12,
+    "industry_growth_source": "Industry report / rating rationale citing end-market growth"
+  },
+  "ownership": {
+    "promoter_holding_pct_now": 64.5,
+    "promoter_holding_pct_1y_ago": 63.8,
+    "pledge_pct": 0,
+    "promoter_buy_price_24m": 460
+  },
+  "qualitative": {
+    "niche_leadership": {
+      "value": "global_leader",
+      "evidence": "FY26 annual report p.12: #2 global share in thermal bimetal strips; customer list in investor PPT Q2FY27"
+    },
+    "critical_low_cost_share": {
+      "value": true,
+      "evidence": "Component <1% of breaker BOM but failure = product recall (concall Q1FY27)"
+    },
+    "process_knowhow_barrier": {
+      "value": true,
+      "evidence": "25 yrs metallurgy know-how; 2 global competitors only; OEM qualification takes 2-3 yrs"
+    },
+    "structural_tailwind": {
+      "value": true,
+      "evidence": "EV / smart-meter / switchgear volumes; govt smart-meter target 250m units"
+    },
+    "promoter_hunger": {
+      "value": true,
+      "evidence": "Rs 150 cr capex for new plant announced Aug-2026 board meeting"
+    },
+    "volume_inflection": {
+      "value": true,
+      "evidence": "Utilisation 68% -> 82% per Q2FY27 concall"
+    },
+    "new_product_adoption": {
+      "value": false,
+      "evidence": ""
+    },
+    "unlock_trigger": {
+      "value": false,
+      "evidence": ""
+    },
+    "structural_headwind": {
+      "value": false,
+      "evidence": ""
+    }
+  },
+  "flags": {
+    "auditor_qualification_or_resignation": false,
+    "unexplained_cash_or_related_party": false,
+    "accounting_concerns": false
+  },
+  "scuttlebutt": [
+    {
+      "type": "agm_attended",
+      "evidence": "AGM Sep-2026 notes: mgmt confirmed export order pipeline"
+    },
+    {
+      "type": "trade_data",
+      "evidence": "Shipment tracking shows rising exports to a large Tier-1 supplier"
+    },
+    {
+      "type": "customer_check",
+      "evidence": "2 switchgear OEM purchase managers confirmed single-source status"
+    }
+  ],
+  "holding": {
+    "own": false,
+    "buy_price": null,
+    "better_alternative_available": false
+  }
+}
