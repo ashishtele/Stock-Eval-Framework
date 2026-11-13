@@ -1,0 +1,87 @@
+{
+  "company": "Frontier Springs Ltd",
+  "ticker": "FRONTSP",
+  "as_of": "2023-04-15",
+  "inputs": {
+    "sales_cagr_3y_pct": {
+      "value": 0.4,
+      "source": "Screener https://www.screener.in/company/FRONTSP/ (standalone) [P&L Sales CAGR Mar 2019..Mar 2022: 83 -> 84] fetched 2026-11-12"
+    },
+    "eps_cagr_3y_pct": {
+      "value": -3.7,
+      "source": "Screener https://www.screener.in/company/FRONTSP/ (standalone) [P&L EPS CAGR Mar 2019..Mar 2022: 7.12 -> 6.36] fetched 2026-11-12"
+    },
+    "pat_cagr_3y_pct": {
+      "value": 0.0,
+      "source": "Screener https://www.screener.in/company/FRONTSP/ (standalone) [P&L Net Profit CAGR Mar 2019..Mar 2022: 8 -> 8] fetched 2026-11-12"
+    },
+    "sales_cagr_10y_pct": {
+      "value": 13.3,
+      "source": "Screener https://www.screener.in/company/FRONTSP/ (standalone) [P&L Sales CAGR over 7y Mar 2015 35 -> Mar 2022 84 (longest available up to 10y)] fetched 2026-11-12"
+    },
+    "opm_change_3y_pp": {
+      "value": -1.0,
+      "source": "Screener https://www.screener.in/company/FRONTSP/ (standalone) [P&L OPM % Mar 2019 16 -> Mar 2022 15] fetched 2026-11-12"
+    },
+    "roce_3y_avg_pct": {
+      "value": 22.7,
+      "source": "Screener https://www.screener.in/company/FRONTSP/ (standalone) [Ratios ROCE % avg of Mar 2020, Mar 2021, Mar 2022: [35.0, 18.0, 15.0]] fetched 2026-11-12"
+    },
+    "cfo_to_pat_3y": {
+      "value": 1.03,
+      "source": "Screener https://www.screener.in/company/FRONTSP/ (standalone) [Cash Flow CFO sum 31 / Net Profit sum 30, Mar 2020..Mar 2022] fetched 2026-11-12"
+    },
+    "ttm_pat_cr": {
+      "value": 8.0,
+      "source": "Screener https://www.screener.in/company/FRONTSP/ (standalone) [P&L Net Profit Mar 2022, annual proxy Mar 2022 vs Mar 2021 (fewer than 8 published quarters)] fetched 2026-11-12"
+    },
+    "ttm_sales_cr": {
+      "value": 84.0,
+      "source": "Screener https://www.screener.in/company/FRONTSP/ (standalone) [P&L Sales Mar 2022, annual proxy Mar 2022 vs Mar 2021 (fewer than 8 published quarters)] fetched 2026-11-12"
+    },
+    "ttm_sales_growth_pct": {
+      "value": 9.1,
+      "source": "Screener https://www.screener.in/company/FRONTSP/ (standalone) [Sales 84 vs 77, annual proxy Mar 2022 vs Mar 2021 (fewer than 8 published quarters)] fetched 2026-11-12"
+    },
+    "ttm_pat_growth_pct": {
+      "value": 0.0,
+      "source": "Screener https://www.screener.in/company/FRONTSP/ (standalone) [Net Profit 8 vs 8, annual proxy Mar 2022 vs Mar 2021 (fewer than 8 published quarters)] fetched 2026-11-12"
+    },
+    "debt_to_equity": {
+      "value": 0.04,
+      "source": "Screener https://www.screener.in/company/FRONTSP/ (standalone) [Balance Sheet Mar 2022: Borrowings 3 - leases 0 / (Equity+Reserves) 67] fetched 2026-11-12"
+    },
+    "drawdown_from_high_pct": {
+      "value": 21.6,
+      "source": "Screener https://www.screener.in/company/FRONTSP/ (standalone) [Price chart close 130.43 on 2023-04-13 vs all-time high 166.35 on 2022-11-25] fetched 2026-11-12"
+    },
+    "market_cap_cr": {
+      "value": 165,
+      "source": "Screener https://www.screener.in/company/FRONTSP/ (standalone) [today's mcap 1839 x adjusted price 130.43 (2023-04-13) / 1556.3 (2026-11-12) x share ratio 1.070 (NP/EPS Mar 2022 vs Mar 2026); cross-check MCap/Sales x TTM Sales = 151] fetched 2026-11-12"
+    },
+    "pe": {
+      "value": 22.1,
+      "source": "Screener https://www.screener.in/company/FRONTSP/ (standalone) [P/E chart value at 2023-04-15] fetched 2026-11-12"
+    },
+    "pe_percentile_5y": {
+      "value": 90.4,
+      "source": "Screener https://www.screener.in/company/FRONTSP/ (standalone) [P/E chart percentile within 5y to 2023-04-15 (261 points)] fetched 2026-11-12"
+    },
+    "current_price": {
+      "value": 130.43,
+      "source": "Yahoo FRONTSP.BO daily [close on 2023-04-13] fetched 2026-11-12"
+    },
+    "pct_below_52w_high": {
+      "value": 27.5,
+      "source": "Yahoo FRONTSP.BO daily [close 130.43 on 2023-04-13 vs 52w high 179.98] fetched 2026-11-12"
+    },
+    "volume_ratio_10d_vs_50d": {
+      "value": 1.66,
+      "source": "Yahoo FRONTSP.BO daily [avg volume last 10 sessions / prior 50 to 2023-04-13] fetched 2026-11-12"
+    },
+    "price_vs_200dma_pct": {
+      "value": -2.3,
+      "source": "Yahoo FRONTSP.BO daily [close vs 200-session average to 2023-04-13] fetched 2026-11-12"
+    }
+  }
+}

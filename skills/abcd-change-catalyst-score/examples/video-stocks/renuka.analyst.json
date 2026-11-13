@@ -1,0 +1,14 @@
+{
+  "inputs": {
+    "incorporation_year": { "value": 1995, "source": "AGENT RECALL: Shree Renuka Sugars incorporated 1995. Verify in annual report / MCA master data." },
+    "tailwind_evidence": {
+      "value": ["policy_or_regulatory_mandate"],
+      "source": "Transcript 18:37-18:56: government focus on ethanol as an energy substitute."
+    },
+    "change_catalysts": {
+      "value": ["policy_or_regulation_change"],
+      "source": "AGENT ASSESSMENT: E20 ethanol blending target advanced to 2025 (June 2021 roadmap), within 24 months of Apr 2023. Transcript 18:44 mentions ethanol focus only."
+    }
+  },
+  "_note": "Transcript 18:21-18:44: D-category example - original family sold its stake, new promoter holds > 60%, stock at Rs 8."
+}

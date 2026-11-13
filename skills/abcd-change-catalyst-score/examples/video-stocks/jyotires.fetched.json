@@ -1,0 +1,103 @@
+{
+  "company": "Jyoti Resins and Adhesives Ltd",
+  "ticker": "JYOTIRES",
+  "as_of": "2026-11-12",
+  "inputs": {
+    "sales_cagr_3y_pct": {
+      "value": 6.5,
+      "source": "Screener https://www.screener.in/company/JYOTIRES/ (standalone) [P&L Sales CAGR Mar 2023..Mar 2026: 261 -> 315] fetched 2026-11-12"
+    },
+    "eps_cagr_3y_pct": {
+      "value": 14.6,
+      "source": "Screener https://www.screener.in/company/JYOTIRES/ (standalone) [P&L EPS CAGR Mar 2023..Mar 2026: 38.7 -> 58.32] fetched 2026-11-12"
+    },
+    "pat_cagr_3y_pct": {
+      "value": 15.0,
+      "source": "Screener https://www.screener.in/company/JYOTIRES/ (standalone) [P&L Net Profit CAGR Mar 2023..Mar 2026: 46 -> 70] fetched 2026-11-12"
+    },
+    "sales_cagr_10y_pct": {
+      "value": 21.2,
+      "source": "Screener https://www.screener.in/company/JYOTIRES/ (standalone) [P&L Sales CAGR over 10y Mar 2016 46 -> Mar 2026 315 (longest available up to 10y)] fetched 2026-11-12"
+    },
+    "opm_change_3y_pp": {
+      "value": 4.0,
+      "source": "Screener https://www.screener.in/company/JYOTIRES/ (standalone) [P&L OPM % Mar 2023 23 -> Mar 2026 27] fetched 2026-11-12"
+    },
+    "roce_3y_avg_pct": {
+      "value": 50.7,
+      "source": "Screener https://www.screener.in/company/JYOTIRES/ (standalone) [Ratios ROCE % avg of Mar 2024, Mar 2025, Mar 2026: [66.0, 50.0, 36.0]] fetched 2026-11-12"
+    },
+    "cfo_to_pat_3y": {
+      "value": 0.43,
+      "source": "Screener https://www.screener.in/company/JYOTIRES/ (standalone) [Cash Flow CFO sum 90 / Net Profit sum 211, Mar 2024..Mar 2026] fetched 2026-11-12"
+    },
+    "ttm_pat_cr": {
+      "value": 65.0,
+      "source": "Screener https://www.screener.in/company/JYOTIRES/ (standalone) [Quarterly Net Profit sum Dec 2025..Sep 2026] fetched 2026-11-12"
+    },
+    "ttm_sales_cr": {
+      "value": 351.0,
+      "source": "Screener https://www.screener.in/company/JYOTIRES/ (standalone) [Quarterly Sales sum Dec 2025..Sep 2026] fetched 2026-11-12"
+    },
+    "ttm_sales_growth_pct": {
+      "value": 17.4,
+      "source": "Screener https://www.screener.in/company/JYOTIRES/ (standalone) [TTM Sales 351 vs 299, quarters Dec 2025..Sep 2026 vs Dec 2024..Sep 2025] fetched 2026-11-12"
+    },
+    "ttm_pat_growth_pct": {
+      "value": -11.0,
+      "source": "Screener https://www.screener.in/company/JYOTIRES/ (standalone) [TTM Net Profit 65 vs 73, quarters Dec 2025..Sep 2026 vs Dec 2024..Sep 2025] fetched 2026-11-12"
+    },
+    "debt_to_equity": {
+      "value": 0.0,
+      "source": "Screener https://www.screener.in/company/JYOTIRES/ (standalone) [Balance Sheet Mar 2026: Borrowings 0 - leases 0 / (Equity+Reserves) 289] fetched 2026-11-12"
+    },
+    "drawdown_from_high_pct": {
+      "value": 46.6,
+      "source": "Screener https://www.screener.in/company/JYOTIRES/ (standalone) [Price chart close 931.05 on 2026-11-12 vs all-time high 1744.85 on 2022-09-23] fetched 2026-11-12"
+    },
+    "market_cap_cr": {
+      "value": 1117.0,
+      "source": "Screener https://www.screener.in/company/JYOTIRES/ (standalone) [Top ratios Market Cap] fetched 2026-11-12"
+    },
+    "pe": {
+      "value": 17.0,
+      "source": "Screener https://www.screener.in/company/JYOTIRES/ (standalone) [P/E chart value at 2026-11-12] fetched 2026-11-12"
+    },
+    "pe_percentile_5y": {
+      "value": 14.2,
+      "source": "Screener https://www.screener.in/company/JYOTIRES/ (standalone) [P/E chart percentile within 5y to 2026-11-12 (261 points)] fetched 2026-11-12"
+    },
+    "promoter_holding_pct": {
+      "value": 54.75,
+      "source": "Screener https://www.screener.in/company/JYOTIRES/ (standalone) [Shareholding Promoters Oct 2026] fetched 2026-11-12"
+    },
+    "promoter_holding_change_3y_pp": {
+      "value": 3.92,
+      "source": "Screener https://www.screener.in/company/JYOTIRES/ (standalone) [Shareholding Promoters Mar 2024 50.83 -> Oct 2026 54.75] fetched 2026-11-12"
+    },
+    "promoter_pledge_pct": {
+      "value": 0.0,
+      "source": "Screener https://www.screener.in/company/JYOTIRES/ (standalone) [Pros/cons pledge flag absent; verify in exchange shareholding pattern] fetched 2026-11-12"
+    },
+    "institutional_holding_pct": {
+      "value": 0.2,
+      "source": "Screener https://www.screener.in/company/JYOTIRES/ (standalone) [Shareholding FIIs + DIIs Oct 2026] fetched 2026-11-12"
+    },
+    "current_price": {
+      "value": 918.2,
+      "source": "Yahoo JYOTIRES.BO daily [close on 2026-11-11] fetched 2026-11-12"
+    },
+    "pct_below_52w_high": {
+      "value": 26.2,
+      "source": "Yahoo JYOTIRES.BO daily [close 918.20 on 2026-11-11 vs 52w high 1244.95] fetched 2026-11-12"
+    },
+    "volume_ratio_10d_vs_50d": {
+      "value": 0.55,
+      "source": "Yahoo JYOTIRES.BO daily [avg volume last 10 sessions / prior 50 to 2026-11-11] fetched 2026-11-12"
+    },
+    "price_vs_200dma_pct": {
+      "value": 2.9,
+      "source": "Yahoo JYOTIRES.BO daily [close vs 200-session average to 2026-11-11] fetched 2026-11-12"
+    }
+  }
+}

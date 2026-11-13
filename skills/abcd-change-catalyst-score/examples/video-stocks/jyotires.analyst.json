@@ -1,0 +1,16 @@
+{
+  "inputs": {
+    "incorporation_year": { "value": 1993, "source": "AGENT RECALL: Jyoti Resins & Adhesives incorporated 1993 (Ahmedabad). Verify in annual report / MCA master data." },
+    "entry_barrier_checks": {
+      "value": ["dealer_or_channel_lock_in"],
+      "source": "Transcript 49:48-50:21: no advertising; volume too small for ads, so the company rewards the carpenter channel instead. Partly garbled in auto-transcript - verify in annual report."
+    },
+    "customer_credit_quality": { "value": "diversified_retail_or_dealers", "source": "Transcript 48:56-49:43: product bought by carpenters through dealers." },
+    "change_catalysts": { "value": [], "source": "Transcript 47:57-51:42 describes a ~2016 discovery; no catalyst dated within 24 months of Apr 2023 is mentioned." },
+    "business_focus": { "value": "single_product_or_niche", "source": "Transcript 49:33: wood adhesive competing with Fevicol." },
+    "ground_checks": {
+      "value": ["end_user_or_tradesman_feedback", "management_meeting_or_agm", "factory_or_office_visit"],
+      "source": "Transcript 48:56-49:20 carpenter used it for 15 years and preferred it; 49:48 met management who explained the model; 50:43-50:49 visited again ~6 months before the episode, office had moved."
+    }
+  }
+}

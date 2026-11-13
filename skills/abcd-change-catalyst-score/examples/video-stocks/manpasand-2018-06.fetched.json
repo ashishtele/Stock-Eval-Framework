@@ -1,0 +1,67 @@
+{
+  "company": "Manpasand Beverages Ltd",
+  "ticker": "MANPASAND",
+  "as_of": "2018-06-15",
+  "inputs": {
+    "sales_cagr_3y_pct": {
+      "value": 38.6,
+      "source": "Screener https://www.screener.in/company/MANPASAND/ (standalone) [P&L Sales CAGR Mar 2015..Mar 2018: 356 -> 948] fetched 2026-11-12"
+    },
+    "eps_cagr_3y_pct": {
+      "value": 29.9,
+      "source": "Screener https://www.screener.in/company/MANPASAND/ (standalone) [P&L EPS CAGR Mar 2015..Mar 2018: 3.99 -> 8.74] fetched 2026-11-12"
+    },
+    "pat_cagr_3y_pct": {
+      "value": 49.4,
+      "source": "Screener https://www.screener.in/company/MANPASAND/ (standalone) [P&L Net Profit CAGR Mar 2015..Mar 2018: 30 -> 100] fetched 2026-11-12"
+    },
+    "opm_change_3y_pp": {
+      "value": 1.0,
+      "source": "Screener https://www.screener.in/company/MANPASAND/ (standalone) [P&L OPM % Mar 2015 18 -> Mar 2018 19] fetched 2026-11-12"
+    },
+    "roce_3y_avg_pct": {
+      "value": 10.7,
+      "source": "Screener https://www.screener.in/company/MANPASAND/ (standalone) [Ratios ROCE % avg of Mar 2016, Mar 2017, Mar 2018: [14.0, 9.0, 9.0]] fetched 2026-11-12"
+    },
+    "cfo_to_pat_3y": {
+      "value": 1.19,
+      "source": "Screener https://www.screener.in/company/MANPASAND/ (standalone) [Cash Flow CFO sum 265 / Net Profit sum 223, Mar 2016..Mar 2018] fetched 2026-11-12"
+    },
+    "ttm_pat_cr": {
+      "value": 100.0,
+      "source": "Screener https://www.screener.in/company/MANPASAND/ (standalone) [P&L Net Profit Mar 2018, annual proxy Mar 2018 vs Mar 2017 (fewer than 8 published quarters)] fetched 2026-11-12"
+    },
+    "ttm_sales_cr": {
+      "value": 948.0,
+      "source": "Screener https://www.screener.in/company/MANPASAND/ (standalone) [P&L Sales Mar 2018, annual proxy Mar 2018 vs Mar 2017 (fewer than 8 published quarters)] fetched 2026-11-12"
+    },
+    "ttm_sales_growth_pct": {
+      "value": 35.2,
+      "source": "Screener https://www.screener.in/company/MANPASAND/ (standalone) [Sales 948 vs 701, annual proxy Mar 2018 vs Mar 2017 (fewer than 8 published quarters)] fetched 2026-11-12"
+    },
+    "ttm_pat_growth_pct": {
+      "value": 37.0,
+      "source": "Screener https://www.screener.in/company/MANPASAND/ (standalone) [Net Profit 100 vs 73, annual proxy Mar 2018 vs Mar 2017 (fewer than 8 published quarters)] fetched 2026-11-12"
+    },
+    "debt_to_equity": {
+      "value": 0.08,
+      "source": "Screener https://www.screener.in/company/MANPASAND/ (standalone) [Balance Sheet Mar 2018: Borrowings 96 - leases 0 / (Equity+Reserves) 1246] fetched 2026-11-12"
+    },
+    "drawdown_from_high_pct": {
+      "value": 67.7,
+      "source": "Screener https://www.screener.in/company/MANPASAND/ (standalone) [Price chart close 157.7 on 2018-06-15 vs all-time high 488.2 on 2017-09-22] fetched 2026-11-12"
+    },
+    "market_cap_cr": {
+      "value": 1828,
+      "source": "Screener https://www.screener.in/company/MANPASAND/ (standalone) [Market Cap to Sales chart x TTM Sales chart at 2018-06-15 (ratio has 1 decimal)] fetched 2026-11-12"
+    },
+    "pe": {
+      "value": 20.5,
+      "source": "Screener https://www.screener.in/company/MANPASAND/ (standalone) [P/E chart value at 2018-06-15] fetched 2026-11-12"
+    },
+    "pe_percentile_5y": {
+      "value": 0.6,
+      "source": "Screener https://www.screener.in/company/MANPASAND/ (standalone) [P/E chart percentile within 5y to 2018-06-15 (154 points)] fetched 2026-11-12"
+    }
+  }
+}

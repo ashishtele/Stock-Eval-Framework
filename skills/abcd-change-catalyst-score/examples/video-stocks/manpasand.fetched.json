@@ -1,0 +1,63 @@
+{
+  "company": "Manpasand Beverages Ltd",
+  "ticker": "MANPASAND",
+  "as_of": "2026-11-12",
+  "inputs": {
+    "sales_cagr_3y_pct": {
+      "value": -61.2,
+      "source": "Screener https://www.screener.in/company/MANPASAND/ (standalone) [P&L Sales CAGR Mar 2017..Mar 2020: 701 -> 41] fetched 2026-11-12"
+    },
+    "sales_cagr_10y_pct": {
+      "value": -22.1,
+      "source": "Screener https://www.screener.in/company/MANPASAND/ (standalone) [P&L Sales CAGR over 7y Mar 2013 235 -> Mar 2020 41 (longest available up to 10y)] fetched 2026-11-12"
+    },
+    "opm_change_3y_pp": {
+      "value": -110.0,
+      "source": "Screener https://www.screener.in/company/MANPASAND/ (standalone) [P&L OPM % Mar 2017 20 -> Mar 2020 -90] fetched 2026-11-12"
+    },
+    "roce_3y_avg_pct": {
+      "value": -9.7,
+      "source": "Screener https://www.screener.in/company/MANPASAND/ (standalone) [Ratios ROCE % avg of Mar 2018, Mar 2019, Mar 2020: [9.0, -19.0, -19.0]] fetched 2026-11-12"
+    },
+    "ttm_pat_cr": {
+      "value": -172.0,
+      "source": "Screener https://www.screener.in/company/MANPASAND/ (standalone) [Quarterly Net Profit sum Mar 2020..Dec 2020] fetched 2026-11-12"
+    },
+    "ttm_sales_cr": {
+      "value": 6.0,
+      "source": "Screener https://www.screener.in/company/MANPASAND/ (standalone) [Quarterly Sales sum Mar 2020..Dec 2020] fetched 2026-11-12"
+    },
+    "ttm_sales_growth_pct": {
+      "value": -96.6,
+      "source": "Screener https://www.screener.in/company/MANPASAND/ (standalone) [TTM Sales 6 vs 174, quarters Mar 2020..Dec 2020 vs Mar 2019..Dec 2019] fetched 2026-11-12"
+    },
+    "debt_to_equity": {
+      "value": 0.06,
+      "source": "Screener https://www.screener.in/company/MANPASAND/ (standalone) [Balance Sheet Mar 2020: Borrowings 29 - leases 0 / (Equity+Reserves) 457] fetched 2026-11-12"
+    },
+    "drawdown_from_high_pct": {
+      "value": 98.8,
+      "source": "Screener https://www.screener.in/company/MANPASAND/ (standalone) [Price chart close 5.85 on 2020-06-29 vs all-time high 488.2 on 2017-09-22] fetched 2026-11-12"
+    },
+    "market_cap_cr": {
+      "value": 67.0,
+      "source": "Screener https://www.screener.in/company/MANPASAND/ (standalone) [Top ratios Market Cap] fetched 2026-11-12"
+    },
+    "promoter_holding_pct": {
+      "value": 44.33,
+      "source": "Screener https://www.screener.in/company/MANPASAND/ (standalone) [Shareholding Promoters Mar 2025] fetched 2026-11-12"
+    },
+    "promoter_holding_change_3y_pp": {
+      "value": 0.0,
+      "source": "Screener https://www.screener.in/company/MANPASAND/ (standalone) [Shareholding Promoters Jun 2022 44.33 -> Mar 2025 44.33] fetched 2026-11-12"
+    },
+    "promoter_pledge_pct": {
+      "value": 0.0,
+      "source": "Screener https://www.screener.in/company/MANPASAND/ (standalone) [Pros/cons pledge flag absent; verify in exchange shareholding pattern] fetched 2026-11-12"
+    },
+    "institutional_holding_pct": {
+      "value": 5.85,
+      "source": "Screener https://www.screener.in/company/MANPASAND/ (standalone) [Shareholding FIIs + DIIs Mar 2025] fetched 2026-11-12"
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "inputs": {
+    "incorporation_year": { "value": 1990, "source": "AGENT RECALL: Galaxy Bearings (Rajkot) incorporated around 1990. Verify in annual report / MCA master data before relying on the ABCD category." },
+    "business_focus": { "value": "single_product_or_niche", "source": "Transcript 47:15: bearings maker, Rajkot." }
+  },
+  "_note": "Transcript 47:15-47:31: a veteran investor bought at Rs 8-10, stock later ~Rs 1,200."
+}

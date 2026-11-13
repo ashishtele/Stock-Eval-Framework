@@ -1,0 +1,87 @@
+{
+  "company": "Larsen & Toubro Ltd",
+  "ticker": "LT",
+  "as_of": "2023-04-15",
+  "inputs": {
+    "sales_cagr_3y_pct": {
+      "value": 5.0,
+      "source": "Screener https://www.screener.in/company/LT/consolidated/ (consolidated) [P&L Sales CAGR Mar 2019..Mar 2022: 135220 -> 156521] fetched 2026-11-12"
+    },
+    "eps_cagr_3y_pct": {
+      "value": -0.9,
+      "source": "Screener https://www.screener.in/company/LT/consolidated/ (consolidated) [P&L EPS CAGR Mar 2019..Mar 2022: 63.48 -> 61.7] fetched 2026-11-12"
+    },
+    "pat_cagr_3y_pct": {
+      "value": 0.7,
+      "source": "Screener https://www.screener.in/company/LT/consolidated/ (consolidated) [P&L Net Profit CAGR Mar 2019..Mar 2022: 10217 -> 10419] fetched 2026-11-12"
+    },
+    "sales_cagr_10y_pct": {
+      "value": 7.9,
+      "source": "Screener https://www.screener.in/company/LT/consolidated/ (consolidated) [P&L Sales CAGR over 7y Mar 2015 91929 -> Mar 2022 156521 (longest available up to 10y)] fetched 2026-11-12"
+    },
+    "opm_change_3y_pp": {
+      "value": -1.0,
+      "source": "Screener https://www.screener.in/company/LT/consolidated/ (consolidated) [P&L OPM % Mar 2019 17 -> Mar 2022 16] fetched 2026-11-12"
+    },
+    "roce_3y_avg_pct": {
+      "value": 10.7,
+      "source": "Screener https://www.screener.in/company/LT/consolidated/ (consolidated) [Ratios ROCE % avg of Mar 2020, Mar 2021, Mar 2022: [12.0, 10.0, 10.0]] fetched 2026-11-12"
+    },
+    "cfo_to_pat_3y": {
+      "value": 1.43,
+      "source": "Screener https://www.screener.in/company/LT/consolidated/ (consolidated) [Cash Flow CFO sum 48932 / Net Profit sum 34234, Mar 2020..Mar 2022] fetched 2026-11-12"
+    },
+    "ttm_pat_cr": {
+      "value": 10419.0,
+      "source": "Screener https://www.screener.in/company/LT/consolidated/ (consolidated) [P&L Net Profit Mar 2022, annual proxy Mar 2022 vs Mar 2021 (fewer than 8 published quarters)] fetched 2026-11-12"
+    },
+    "ttm_sales_cr": {
+      "value": 156521.0,
+      "source": "Screener https://www.screener.in/company/LT/consolidated/ (consolidated) [P&L Sales Mar 2022, annual proxy Mar 2022 vs Mar 2021 (fewer than 8 published quarters)] fetched 2026-11-12"
+    },
+    "ttm_sales_growth_pct": {
+      "value": 15.1,
+      "source": "Screener https://www.screener.in/company/LT/consolidated/ (consolidated) [Sales 156521 vs 135979, annual proxy Mar 2022 vs Mar 2021 (fewer than 8 published quarters)] fetched 2026-11-12"
+    },
+    "ttm_pat_growth_pct": {
+      "value": -19.4,
+      "source": "Screener https://www.screener.in/company/LT/consolidated/ (consolidated) [Net Profit 10419 vs 12921, annual proxy Mar 2022 vs Mar 2021 (fewer than 8 published quarters)] fetched 2026-11-12"
+    },
+    "debt_to_equity": {
+      "value": 1.5,
+      "source": "Screener https://www.screener.in/company/LT/consolidated/ (consolidated) [Balance Sheet Mar 2022: Borrowings 125508 - leases 2040 / (Equity+Reserves) 82408] fetched 2026-11-12"
+    },
+    "drawdown_from_high_pct": {
+      "value": 0.7,
+      "source": "Screener https://www.screener.in/company/LT/consolidated/ (consolidated) [Price chart close 2258.75 on 2023-04-13 vs all-time high 2274.25 on 2023-04-06] fetched 2026-11-12"
+    },
+    "market_cap_cr": {
+      "value": 323734,
+      "source": "Screener https://www.screener.in/company/LT/consolidated/ (consolidated) [today's mcap 572271 x adjusted price 2258.75 (2023-04-13) / 4159.2 (2026-11-12) x share ratio 1.042 (NP/EPS Mar 2022 vs Mar 2026); cross-check MCap/Sales x TTM Sales = 320,141] fetched 2026-11-12"
+    },
+    "pe": {
+      "value": 31.6,
+      "source": "Screener https://www.screener.in/company/LT/consolidated/ (consolidated) [P/E chart value at 2023-04-15] fetched 2026-11-12"
+    },
+    "pe_percentile_5y": {
+      "value": 96.6,
+      "source": "Screener https://www.screener.in/company/LT/consolidated/ (consolidated) [P/E chart percentile within 5y to 2023-04-15 (261 points)] fetched 2026-11-12"
+    },
+    "current_price": {
+      "value": 2258.75,
+      "source": "Yahoo LT.NS daily [close on 2023-04-13] fetched 2026-11-12"
+    },
+    "pct_below_52w_high": {
+      "value": 3.1,
+      "source": "Yahoo LT.NS daily [close 2258.75 on 2023-04-13 vs 52w high 2330.00] fetched 2026-11-12"
+    },
+    "volume_ratio_10d_vs_50d": {
+      "value": 0.79,
+      "source": "Yahoo LT.NS daily [avg volume last 10 sessions / prior 50 to 2023-04-13] fetched 2026-11-12"
+    },
+    "price_vs_200dma_pct": {
+      "value": 13.0,
+      "source": "Yahoo LT.NS daily [close vs 200-session average to 2023-04-13] fetched 2026-11-12"
+    }
+  }
+}

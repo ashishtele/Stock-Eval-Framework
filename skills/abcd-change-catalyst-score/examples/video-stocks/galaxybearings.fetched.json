@@ -1,0 +1,103 @@
+{
+  "company": "Galaxy Bearings Ltd",
+  "ticker": "526073",
+  "as_of": "2026-11-12",
+  "inputs": {
+    "sales_cagr_3y_pct": {
+      "value": -17.1,
+      "source": "Screener https://www.screener.in/company/526073/ (standalone) [P&L Sales CAGR Mar 2023..Mar 2026: 118.68 -> 67.51] fetched 2026-11-12"
+    },
+    "eps_cagr_3y_pct": {
+      "value": -40.8,
+      "source": "Screener https://www.screener.in/company/526073/ (standalone) [P&L EPS CAGR Mar 2023..Mar 2026: 50.16 -> 10.41] fetched 2026-11-12"
+    },
+    "pat_cagr_3y_pct": {
+      "value": -40.8,
+      "source": "Screener https://www.screener.in/company/526073/ (standalone) [P&L Net Profit CAGR Mar 2023..Mar 2026: 15.95 -> 3.31] fetched 2026-11-12"
+    },
+    "sales_cagr_10y_pct": {
+      "value": 6.3,
+      "source": "Screener https://www.screener.in/company/526073/ (standalone) [P&L Sales CAGR over 10y Mar 2016 36.69 -> Mar 2026 67.51 (longest available up to 10y)] fetched 2026-11-12"
+    },
+    "opm_change_3y_pp": {
+      "value": -8.1,
+      "source": "Screener https://www.screener.in/company/526073/ (standalone) [P&L OPM % Mar 2023 17.78 -> Mar 2026 9.64] fetched 2026-11-12"
+    },
+    "roce_3y_avg_pct": {
+      "value": 16.4,
+      "source": "Screener https://www.screener.in/company/526073/ (standalone) [Ratios ROCE % avg of Mar 2024, Mar 2025, Mar 2026: [27.69, 16.13, 5.24]] fetched 2026-11-12"
+    },
+    "cfo_to_pat_3y": {
+      "value": 0.65,
+      "source": "Screener https://www.screener.in/company/526073/ (standalone) [Cash Flow CFO sum 23.15 / Net Profit sum 35.86, Mar 2024..Mar 2026] fetched 2026-11-12"
+    },
+    "ttm_pat_cr": {
+      "value": 7.4,
+      "source": "Screener https://www.screener.in/company/526073/ (standalone) [Quarterly Net Profit sum Dec 2025..Sep 2026] fetched 2026-11-12"
+    },
+    "ttm_sales_cr": {
+      "value": 74.6,
+      "source": "Screener https://www.screener.in/company/526073/ (standalone) [Quarterly Sales sum Dec 2025..Sep 2026] fetched 2026-11-12"
+    },
+    "ttm_sales_growth_pct": {
+      "value": -3.8,
+      "source": "Screener https://www.screener.in/company/526073/ (standalone) [TTM Sales 74.57 vs 77.52, quarters Dec 2025..Sep 2026 vs Dec 2024..Sep 2025] fetched 2026-11-12"
+    },
+    "ttm_pat_growth_pct": {
+      "value": 20.3,
+      "source": "Screener https://www.screener.in/company/526073/ (standalone) [TTM Net Profit 7.35 vs 6.11, quarters Dec 2025..Sep 2026 vs Dec 2024..Sep 2025] fetched 2026-11-12"
+    },
+    "debt_to_equity": {
+      "value": 0.16,
+      "source": "Screener https://www.screener.in/company/526073/ (standalone) [Balance Sheet Mar 2026: Borrowings 18.14 - leases 0 / (Equity+Reserves) 110.08] fetched 2026-11-12"
+    },
+    "drawdown_from_high_pct": {
+      "value": 28.9,
+      "source": "Screener https://www.screener.in/company/526073/ (standalone) [Price chart close 1236.85 on 2026-11-12 vs all-time high 1739.5 on 2024-05-24] fetched 2026-11-12"
+    },
+    "market_cap_cr": {
+      "value": 393.0,
+      "source": "Screener https://www.screener.in/company/526073/ (standalone) [Top ratios Market Cap] fetched 2026-11-12"
+    },
+    "pe": {
+      "value": 53.5,
+      "source": "Screener https://www.screener.in/company/526073/ (standalone) [P/E chart value at 2026-11-12] fetched 2026-11-12"
+    },
+    "pe_percentile_5y": {
+      "value": 92.0,
+      "source": "Screener https://www.screener.in/company/526073/ (standalone) [P/E chart percentile within 5y to 2026-11-12 (261 points)] fetched 2026-11-12"
+    },
+    "promoter_holding_pct": {
+      "value": 46.82,
+      "source": "Screener https://www.screener.in/company/526073/ (standalone) [Shareholding Promoters Sep 2026] fetched 2026-11-12"
+    },
+    "promoter_holding_change_3y_pp": {
+      "value": -8.15,
+      "source": "Screener https://www.screener.in/company/526073/ (standalone) [Shareholding Promoters Dec 2023 54.97 -> Sep 2026 46.82] fetched 2026-11-12"
+    },
+    "promoter_pledge_pct": {
+      "value": 0.0,
+      "source": "Screener https://www.screener.in/company/526073/ (standalone) [Pros/cons pledge flag absent; verify in exchange shareholding pattern] fetched 2026-11-12"
+    },
+    "institutional_holding_pct": {
+      "value": 0.48,
+      "source": "Screener https://www.screener.in/company/526073/ (standalone) [Shareholding FIIs + DIIs Sep 2026] fetched 2026-11-12"
+    },
+    "current_price": {
+      "value": 1266.1,
+      "source": "Yahoo GALXBRG.BO daily [close on 2026-11-11] fetched 2026-11-12"
+    },
+    "pct_below_52w_high": {
+      "value": 7.8,
+      "source": "Yahoo GALXBRG.BO daily [close 1266.10 on 2026-11-11 vs 52w high 1372.90] fetched 2026-11-12"
+    },
+    "volume_ratio_10d_vs_50d": {
+      "value": 2.8,
+      "source": "Yahoo GALXBRG.BO daily [avg volume last 10 sessions / prior 50 to 2026-11-11] fetched 2026-11-12"
+    },
+    "price_vs_200dma_pct": {
+      "value": 80.4,
+      "source": "Yahoo GALXBRG.BO daily [close vs 200-session average to 2026-11-11] fetched 2026-11-12"
+    }
+  }
+}

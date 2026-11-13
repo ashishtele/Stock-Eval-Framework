@@ -1,0 +1,13 @@
+{
+  "inputs": {
+    "auditor_red_flag_3y": {
+      "value": true,
+      "source": "AGENT RECALL: statutory auditor (Deloitte Haskins & Sells) resigned in May 2019 citing non-receipt of information. Verify in the BSE/NSE announcement of May 2019."
+    },
+    "regulatory_action_against_promoters_or_kmp_3y": {
+      "value": true,
+      "source": "AGENT RECALL: promoters arrested by GST intelligence (DGGI) in 2019 over alleged fake invoicing. Verify in exchange disclosures / news archive."
+    }
+  },
+  "_note": "Hindsight overlay: what the gates show once the 2019 events are public."
+}

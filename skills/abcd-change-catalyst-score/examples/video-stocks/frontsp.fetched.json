@@ -1,0 +1,103 @@
+{
+  "company": "Frontier Springs Ltd",
+  "ticker": "FRONTSP",
+  "as_of": "2026-11-12",
+  "inputs": {
+    "sales_cagr_3y_pct": {
+      "value": 44.4,
+      "source": "Screener https://www.screener.in/company/FRONTSP/ (standalone) [P&L Sales CAGR Mar 2023..Mar 2026: 107 -> 322] fetched 2026-11-12"
+    },
+    "eps_cagr_3y_pct": {
+      "value": 103.7,
+      "source": "Screener https://www.screener.in/company/FRONTSP/ (standalone) [P&L EPS CAGR Mar 2023..Mar 2026: 6.14 -> 51.89] fetched 2026-11-12"
+    },
+    "pat_cagr_3y_pct": {
+      "value": 105.8,
+      "source": "Screener https://www.screener.in/company/FRONTSP/ (standalone) [P&L Net Profit CAGR Mar 2023..Mar 2026: 7 -> 61] fetched 2026-11-12"
+    },
+    "sales_cagr_10y_pct": {
+      "value": 23.5,
+      "source": "Screener https://www.screener.in/company/FRONTSP/ (standalone) [P&L Sales CAGR over 10y Mar 2016 39 -> Mar 2026 322 (longest available up to 10y)] fetched 2026-11-12"
+    },
+    "opm_change_3y_pp": {
+      "value": 15.0,
+      "source": "Screener https://www.screener.in/company/FRONTSP/ (standalone) [P&L OPM % Mar 2023 12 -> Mar 2026 27] fetched 2026-11-12"
+    },
+    "roce_3y_avg_pct": {
+      "value": 38.0,
+      "source": "Screener https://www.screener.in/company/FRONTSP/ (standalone) [Ratios ROCE % avg of Mar 2024, Mar 2025, Mar 2026: [21.0, 42.0, 51.0]] fetched 2026-11-12"
+    },
+    "cfo_to_pat_3y": {
+      "value": 0.6,
+      "source": "Screener https://www.screener.in/company/FRONTSP/ (standalone) [Cash Flow CFO sum 65 / Net Profit sum 109, Mar 2024..Mar 2026] fetched 2026-11-12"
+    },
+    "ttm_pat_cr": {
+      "value": 64.0,
+      "source": "Screener https://www.screener.in/company/FRONTSP/ (standalone) [Quarterly Net Profit sum Dec 2025..Sep 2026] fetched 2026-11-12"
+    },
+    "ttm_sales_cr": {
+      "value": 342.0,
+      "source": "Screener https://www.screener.in/company/FRONTSP/ (standalone) [Quarterly Sales sum Dec 2025..Sep 2026] fetched 2026-11-12"
+    },
+    "ttm_sales_growth_pct": {
+      "value": 19.6,
+      "source": "Screener https://www.screener.in/company/FRONTSP/ (standalone) [TTM Sales 342 vs 286, quarters Dec 2025..Sep 2026 vs Dec 2024..Sep 2025] fetched 2026-11-12"
+    },
+    "ttm_pat_growth_pct": {
+      "value": 23.1,
+      "source": "Screener https://www.screener.in/company/FRONTSP/ (standalone) [TTM Net Profit 64 vs 52, quarters Dec 2025..Sep 2026 vs Dec 2024..Sep 2025] fetched 2026-11-12"
+    },
+    "debt_to_equity": {
+      "value": 0.06,
+      "source": "Screener https://www.screener.in/company/FRONTSP/ (standalone) [Balance Sheet Mar 2026: Borrowings 11 - leases 0 / (Equity+Reserves) 184] fetched 2026-11-12"
+    },
+    "drawdown_from_high_pct": {
+      "value": 10.8,
+      "source": "Screener https://www.screener.in/company/FRONTSP/ (standalone) [Price chart close 1556.3 on 2026-11-12 vs all-time high 1744.95 on 2025-08-14] fetched 2026-11-12"
+    },
+    "market_cap_cr": {
+      "value": 1839.0,
+      "source": "Screener https://www.screener.in/company/FRONTSP/ (standalone) [Top ratios Market Cap] fetched 2026-11-12"
+    },
+    "pe": {
+      "value": 28.6,
+      "source": "Screener https://www.screener.in/company/FRONTSP/ (standalone) [P/E chart value at 2026-11-12] fetched 2026-11-12"
+    },
+    "pe_percentile_5y": {
+      "value": 45.2,
+      "source": "Screener https://www.screener.in/company/FRONTSP/ (standalone) [P/E chart percentile within 5y to 2026-11-12 (261 points)] fetched 2026-11-12"
+    },
+    "promoter_holding_pct": {
+      "value": 51.76,
+      "source": "Screener https://www.screener.in/company/FRONTSP/ (standalone) [Shareholding Promoters Sep 2026] fetched 2026-11-12"
+    },
+    "promoter_holding_change_3y_pp": {
+      "value": 0.0,
+      "source": "Screener https://www.screener.in/company/FRONTSP/ (standalone) [Shareholding Promoters Dec 2023 51.76 -> Sep 2026 51.76] fetched 2026-11-12"
+    },
+    "promoter_pledge_pct": {
+      "value": 0.0,
+      "source": "Screener https://www.screener.in/company/FRONTSP/ (standalone) [Pros/cons pledge flag absent; verify in exchange shareholding pattern] fetched 2026-11-12"
+    },
+    "institutional_holding_pct": {
+      "value": 0.55,
+      "source": "Screener https://www.screener.in/company/FRONTSP/ (standalone) [Shareholding FIIs + DIIs Sep 2026] fetched 2026-11-12"
+    },
+    "current_price": {
+      "value": 1481.45,
+      "source": "Yahoo FRONTSP.BO daily [close on 2026-11-11] fetched 2026-11-12"
+    },
+    "pct_below_52w_high": {
+      "value": 20.8,
+      "source": "Yahoo FRONTSP.BO daily [close 1481.45 on 2026-11-11 vs 52w high 1870.05] fetched 2026-11-12"
+    },
+    "volume_ratio_10d_vs_50d": {
+      "value": 0.49,
+      "source": "Yahoo FRONTSP.BO daily [avg volume last 10 sessions / prior 50 to 2026-11-11] fetched 2026-11-12"
+    },
+    "price_vs_200dma_pct": {
+      "value": 4.6,
+      "source": "Yahoo FRONTSP.BO daily [close vs 200-session average to 2026-11-11] fetched 2026-11-12"
+    }
+  }
+}
