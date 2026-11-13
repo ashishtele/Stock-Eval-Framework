@@ -24,6 +24,7 @@ skills/
   momentum-process-score/       price-only momentum ranking ("Process over Prediction")
   equal-stock-framework/        E-QUAL quality/growth/price scorer (Emkay)
   abcd-change-catalyst-score/   Atul Raval ABCD category + change-catalyst scorer
+  quality-contra-score/         Parag Thakkar "good company, bad time" contra scorer
   frameworks/
     _template/             copy this to start a new framework
     <creator>-<slug>/      one skill per framework, self-contained
@@ -217,6 +218,22 @@ pass; `python skills/abcd-change-catalyst-score/examples/video-stocks/calibrate.
 
 ```
 python skills/abcd-change-catalyst-score/scripts/score.py fetched.json analyst.json [--json]
+```
+
+### quality-contra-score
+
+Parag Thakkar's (Money Talks / Groww; built ICICI Pru Contra Fund, now Fort
+Capital) "good company, bad time" score for Indian non-financial stocks:
+Quality (60 — management, balance-sheet discipline, net debt/EBITDA ≤ 3.5,
+~15% 10y ROCE, real cash flow) vs Setup (35 — temporary market/sector/company
+problem at an attractive price; contra is not just cheap) — with gates,
+evidence coverage, a P/E-based buy zone, 10–12% max weight (3% for
+cyclicals/disruption) and a hold-the-full-ride / thesis-break plan
+(`skills/quality-contra-score/`). Verifies 35 episode cases
+(`python skills/quality-contra-score/examples/video-stocks/verify.py`).
+
+```
+python skills/quality-contra-score/scripts/score.py fetched.json analyst.json [--json]
 ```
 
 ## Installing into another project

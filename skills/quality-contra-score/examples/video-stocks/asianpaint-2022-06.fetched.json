@@ -1,0 +1,95 @@
+{
+  "company": "Asian Paints Ltd",
+  "ticker": "ASIANPAINT",
+  "as_of": "2022-06-30",
+  "inputs": {
+    "eps_cagr_5y_pct": {
+      "value": 9.3,
+      "source": "Screener https://www.screener.in/company/ASIANPAINT/consolidated/ (consolidated) [P&L EPS in Rs CAGR Mar 2017 20.22 -> Mar 2022 31.59] fetched 2026-11-12"
+    },
+    "roce_10y_avg_pct": {
+      "value": 35.9,
+      "source": "Screener https://www.screener.in/company/ASIANPAINT/consolidated/ (consolidated) [Ratios ROCE % avg of 8y Mar 2015..Mar 2022: 42, 42, 38, 36, 33, 33, 34, 29] fetched 2026-11-12"
+    },
+    "roce_pct_years_ge_15": {
+      "value": 100,
+      "source": "Screener https://www.screener.in/company/ASIANPAINT/consolidated/ (consolidated) [Ratios ROCE %: 8 of 8 years >= 15%] fetched 2026-11-12"
+    },
+    "cfo_to_pat_10y": {
+      "value": 0.93,
+      "source": "Screener https://www.screener.in/company/ASIANPAINT/consolidated/ (consolidated) [Cash Flow CFO sum 17,248 / P&L Net Profit sum 18,618, Mar 2015..Mar 2022 (8y)] fetched 2026-11-12"
+    },
+    "cfo_positive_years_pct": {
+      "value": 100,
+      "source": "Screener https://www.screener.in/company/ASIANPAINT/consolidated/ (consolidated) [Cash Flow CFO > 0 in 8 of 8 years, Mar 2015..Mar 2022 (8y)] fetched 2026-11-12"
+    },
+    "cfo_5y_cumulative_cr": {
+      "value": 12290,
+      "source": "Screener https://www.screener.in/company/ASIANPAINT/consolidated/ (consolidated) [Cash Flow CFO sum Mar 2018..Mar 2022] fetched 2026-11-12"
+    },
+    "net_debt_to_ebitda": {
+      "value": -0.02,
+      "source": "Screener https://www.screener.in/company/ASIANPAINT/consolidated/ (consolidated) [(Borrowings 1587 - leases 811 - cash equivalents 864) Mar 2022 / Operating Profit 4804 Mar 2022; investments not netted (conservative)] fetched 2026-11-12"
+    },
+    "interest_coverage": {
+      "value": 45.1,
+      "source": "Screener https://www.screener.in/company/ASIANPAINT/consolidated/ (consolidated) [(PBT 4188 + Interest 95) / Interest, Mar 2022; capped at 100] fetched 2026-11-12"
+    },
+    "dividend_payout_5y_avg_pct": {
+      "value": 49.4,
+      "source": "Screener https://www.screener.in/company/ASIANPAINT/consolidated/ (consolidated) [P&L Dividend Payout % avg Mar 2018..Mar 2022: 41, 47, 43, 55, 61] fetched 2026-11-12"
+    },
+    "current_price": {
+      "value": 2773.15,
+      "source": "Yahoo ASIANPAINT.NS daily [close on 2022-07-01] fetched 2026-11-12"
+    },
+    "drawdown_from_3y_high_pct": {
+      "value": 22.5,
+      "source": "Yahoo ASIANPAINT.NS daily [close 2773.15 on 2022-07-01 vs 3y closing high 3576.30] fetched 2026-11-12"
+    },
+    "price_vs_200dma_pct": {
+      "value": -11.1,
+      "source": "Yahoo ASIANPAINT.NS daily [close vs 200-session average to 2022-07-01] fetched 2026-11-12"
+    },
+    "price_cagr_5y_pct": {
+      "value": 20.2,
+      "source": "Yahoo ASIANPAINT.NS daily [close 1102.95 on 2017-06-30 -> 2773.15 on 2022-07-01] fetched 2026-11-12"
+    },
+    "rel_return_12m_vs_nifty_pp": {
+      "value": -8.7,
+      "source": "Yahoo ASIANPAINT.NS 12m return -8.2% minus ^NSEI 0.5% (2021-07-01 -> 2022-07-01), fetched 2026-11-12"
+    },
+    "market_cap_cr": {
+      "value": 266053,
+      "source": "Screener https://www.screener.in/company/ASIANPAINT/consolidated/ (consolidated) [Yahoo close x shares implied by Equity Capital Mar 2022 (approx)] fetched 2026-11-12"
+    },
+    "dividend_yield_pct": {
+      "value": 0.69,
+      "source": "Screener https://www.screener.in/company/ASIANPAINT/consolidated/ (consolidated) [DPS ~ EPS 31.59 x payout 61% (Mar 2022) / price 2773.15] fetched 2026-11-12"
+    },
+    "fcf_yield_pct": {
+      "value": 0.82,
+      "source": "Screener https://www.screener.in/company/ASIANPAINT/consolidated/ (consolidated) [Cash Flow Free Cash Flow avg Mar 2020..Mar 2022 (2661, 3422, 475) / mcap 266,053] fetched 2026-11-12"
+    },
+    "pe": {
+      "value": 86.0,
+      "source": "Screener https://www.screener.in/company/ASIANPAINT/consolidated/ (consolidated) [P/E chart value at 2022-06-24] fetched 2026-11-12"
+    },
+    "pe_percentile_10y": {
+      "value": 85.6,
+      "source": "Screener https://www.screener.in/company/ASIANPAINT/consolidated/ (consolidated) [percentile of current P/E in P/E chart 2012-07-06..2022-06-24 (521 points, positive P/E only)] fetched 2026-11-12"
+    },
+    "pe_median_10y": {
+      "value": 56.4,
+      "source": "Screener https://www.screener.in/company/ASIANPAINT/consolidated/ (consolidated) [median of P/E chart 2012-07-06..2022-06-24 (521 points, positive P/E only)] fetched 2026-11-12"
+    },
+    "pe_p20_10y": {
+      "value": 43.4,
+      "source": "Screener https://www.screener.in/company/ASIANPAINT/consolidated/ (consolidated) [20th percentile of P/E chart 2012-07-06..2022-06-24 (521 points, positive P/E only)] fetched 2026-11-12"
+    },
+    "pe_p40_10y": {
+      "value": 53.1,
+      "source": "Screener https://www.screener.in/company/ASIANPAINT/consolidated/ (consolidated) [40th percentile of P/E chart 2012-07-06..2022-06-24 (521 points, positive P/E only)] fetched 2026-11-12"
+    }
+  }
+}

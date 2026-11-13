@@ -1,0 +1,111 @@
+{
+  "company": "Mahindra & Mahindra Ltd",
+  "ticker": "M&M",
+  "as_of": "2026-11-12",
+  "inputs": {
+    "eps_cagr_5y_pct": {
+      "value": 73.8,
+      "source": "Screener https://www.screener.in/company/M&M/ (standalone) [P&L EPS in Rs CAGR Mar 2021 7.92 -> Mar 2026 125.76] fetched 2026-11-12"
+    },
+    "roce_10y_avg_pct": {
+      "value": 19.9,
+      "source": "Screener https://www.screener.in/company/M&M/ (standalone) [Ratios ROCE % avg of 10y Mar 2017..Mar 2026: 16, 18, 18, 14, 14, 15, 21, 26, 27, 30] fetched 2026-11-12"
+    },
+    "roce_pct_years_ge_15": {
+      "value": 80,
+      "source": "Screener https://www.screener.in/company/M&M/ (standalone) [Ratios ROCE %: 8 of 10 years >= 15%] fetched 2026-11-12"
+    },
+    "cfo_to_pat_10y": {
+      "value": 1.49,
+      "source": "Screener https://www.screener.in/company/M&M/ (standalone) [Cash Flow CFO sum 96,149 / P&L Net Profit sum 64,665, Mar 2017..Mar 2026 (10y)] fetched 2026-11-12"
+    },
+    "cfo_positive_years_pct": {
+      "value": 100,
+      "source": "Screener https://www.screener.in/company/M&M/ (standalone) [Cash Flow CFO > 0 in 10 of 10 years, Mar 2017..Mar 2026 (10y)] fetched 2026-11-12"
+    },
+    "cfo_5y_cumulative_cr": {
+      "value": 66955,
+      "source": "Screener https://www.screener.in/company/M&M/ (standalone) [Cash Flow CFO sum Mar 2022..Mar 2026] fetched 2026-11-12"
+    },
+    "net_debt_to_ebitda": {
+      "value": -0.77,
+      "source": "Screener https://www.screener.in/company/M&M/ (standalone) [(Borrowings 1653 - leases 597 - cash equivalents 18480) Mar 2026 / Operating Profit 22495 Mar 2026; investments not netted (conservative)] fetched 2026-11-12"
+    },
+    "interest_coverage": {
+      "value": 83.5,
+      "source": "Screener https://www.screener.in/company/M&M/ (standalone) [(PBT 20624 + Interest 250) / Interest, Mar 2026; capped at 100] fetched 2026-11-12"
+    },
+    "dividend_payout_5y_avg_pct": {
+      "value": 26.6,
+      "source": "Screener https://www.screener.in/company/M&M/ (standalone) [P&L Dividend Payout % avg Mar 2022..Mar 2026: 28, 30, 24, 26, 25] fetched 2026-11-12"
+    },
+    "current_price": {
+      "value": 3465.0,
+      "source": "Yahoo M&M.NS daily [close on 2026-11-11] fetched 2026-11-12"
+    },
+    "drawdown_from_3y_high_pct": {
+      "value": 8.9,
+      "source": "Yahoo M&M.NS daily [close 3465.00 on 2026-11-11 vs 3y closing high 3802.40] fetched 2026-11-12"
+    },
+    "price_vs_200dma_pct": {
+      "value": 8.8,
+      "source": "Yahoo M&M.NS daily [close vs 200-session average to 2026-11-11] fetched 2026-11-12"
+    },
+    "price_cagr_5y_pct": {
+      "value": 29.9,
+      "source": "Yahoo M&M.NS daily [close 937.80 on 2021-11-12 -> 3465.00 on 2026-11-11] fetched 2026-11-12"
+    },
+    "rel_return_12m_vs_nifty_pp": {
+      "value": -5.9,
+      "source": "Yahoo M&M.NS 12m return -7.6% minus ^NSEI -1.7% (2025-11-11 -> 2026-11-11), fetched 2026-11-12"
+    },
+    "market_cap_cr": {
+      "value": 422675.0,
+      "source": "Screener https://www.screener.in/company/M&M/ (standalone) [Top ratios Market Cap] fetched 2026-11-12"
+    },
+    "dividend_yield_pct": {
+      "value": 0.91,
+      "source": "Screener https://www.screener.in/company/M&M/ (standalone) [DPS ~ EPS 125.76 x payout 25% (Mar 2026) / price 3465.00] fetched 2026-11-12"
+    },
+    "fcf_yield_pct": {
+      "value": 2.78,
+      "source": "Screener https://www.screener.in/company/M&M/ (standalone) [Cash Flow Free Cash Flow avg Mar 2024..Mar 2026 (6628, 11968, 16680) / mcap 422,675] fetched 2026-11-12"
+    },
+    "pe": {
+      "value": 25.0,
+      "source": "Screener https://www.screener.in/company/M&M/ (standalone) [P/E chart value at 2026-11-12] fetched 2026-11-12"
+    },
+    "pe_percentile_10y": {
+      "value": 41.7,
+      "source": "Screener https://www.screener.in/company/M&M/ (standalone) [percentile of current P/E in P/E chart 2016-11-18..2026-11-12 (511 points, positive P/E only)] fetched 2026-11-12"
+    },
+    "pe_median_10y": {
+      "value": 25.9,
+      "source": "Screener https://www.screener.in/company/M&M/ (standalone) [median of P/E chart 2016-11-18..2026-11-12 (511 points, positive P/E only)] fetched 2026-11-12"
+    },
+    "pe_p20_10y": {
+      "value": 21.1,
+      "source": "Screener https://www.screener.in/company/M&M/ (standalone) [20th percentile of P/E chart 2016-11-18..2026-11-12 (511 points, positive P/E only)] fetched 2026-11-12"
+    },
+    "pe_p40_10y": {
+      "value": 24.8,
+      "source": "Screener https://www.screener.in/company/M&M/ (standalone) [40th percentile of P/E chart 2016-11-18..2026-11-12 (511 points, positive P/E only)] fetched 2026-11-12"
+    },
+    "promoter_holding_pct": {
+      "value": 18.39,
+      "source": "Screener https://www.screener.in/company/M&M/ (standalone) [Shareholding Promoters Sep 2026] fetched 2026-11-12"
+    },
+    "promoter_holding_change_3y_pp": {
+      "value": -0.94,
+      "source": "Screener https://www.screener.in/company/M&M/ (standalone) [Shareholding Promoters Dec 2023 -> Sep 2026] fetched 2026-11-12"
+    },
+    "promoter_pledge_pct": {
+      "value": 0.0,
+      "source": "Screener https://www.screener.in/company/M&M/ (standalone) [Pros/cons pledge flag absent; verify in exchange shareholding pattern] fetched 2026-11-12"
+    },
+    "institutional_change_4q_pp": {
+      "value": -0.46,
+      "source": "Screener https://www.screener.in/company/M&M/ (standalone) [Shareholding FIIs+DIIs Sep 2025 67.99 -> Sep 2026 67.53] fetched 2026-11-12"
+    }
+  }
+}

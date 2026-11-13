@@ -1,0 +1,43 @@
+{
+  "business_type": "non_financial",
+  "inputs": {
+    "moat_evidence": {
+      "value": ["brand_leader_top3_share", "pricing_power_passed_cost_inflation", "distribution_or_network_scale"],
+      "source": "Transcript 9:52-10:21: tax hike passed through via staggered price increases and cigarette-size tweaks. AGENT ASSESSMENT (unverified): dominant share of Indian legal cigarettes; national FMCG distribution reach."
+    },
+    "funding_backstop": {
+      "value": ["net_cash_ge_5pct_of_mcap"],
+      "source": "Screener consolidated balance sheet Mar 2026 (checked 2026-11-12): Investments 38,128 cr vs borrowings 2,399 cr = ~10% of 3.56 lakh cr market cap."
+    },
+    "governance_pedigree": {
+      "value": "professional_board_clean_record",
+      "source": "No promoter category on Screener shareholding; widely-held, board-run company (AGENT ASSESSMENT)."
+    },
+    "crisis_evidence": {
+      "value": ["operated_through_major_shock"],
+      "source": "AGENT ASSESSMENT: repeated cigarette tax shocks absorbed with CFO positive in 10 of 10 years (fetched cfo_positive_years_pct)."
+    },
+    "capital_allocation_evidence": {
+      "value": ["capex_funded_internally"],
+      "source": "Fetched: net debt/EBITDA -0.03 and positive FCF in each of FY24-FY26 (Screener Free Cash Flow 13,724 / 15,524 / 16,332)."
+    },
+    "insider_signals": {
+      "value": [],
+      "source": "Professionally managed, no promoter; AGENT ASSESSMENT: no buyback in the last 24 months."
+    },
+    "fall_cause": {
+      "value": "sector_temporary",
+      "source": "Transcript 9:26-9:52: stock 420 -> 280 because cigarette tax went up suddenly; quarter will be bad, volumes fall."
+    },
+    "temporariness_evidence": {
+      "value": ["management_corrective_actions_announced", "revenue_or_volume_base_intact"],
+      "source": "Transcript 10:03-10:21: staggered price hikes, size tweaks, rebuild share. 10:35-10:53: FMCG ~24,000 cr revenue, 20-25% of mcap, growing."
+    },
+    "sentiment_evidence": {
+      "value": ["institutions_cut_ge_1pp_4q", "negative_media_or_sector_out_of_favour"],
+      "source": "Fetched institutional_change_4q_pp -1.77. Transcript 9:45: 'everyone knows this quarter is going to be very bad'."
+    },
+    "disruption_risk": { "value": "low", "source": "AGENT ASSESSMENT: tobacco/FMCG not exposed to technology substitution; risk is regulatory (tax), captured in fall_cause." },
+    "cyclicality": { "value": "secular", "source": "Consumer staples." }
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "company": "Hindalco Industries Ltd",
+  "ticker": "HINDALCO",
+  "as_of": "2020-06-30",
+  "inputs": {
+    "eps_cagr_5y_pct": {
+      "value": 32.3,
+      "source": "Screener https://www.screener.in/company/HINDALCO/consolidated/ (consolidated) [P&L EPS in Rs CAGR Mar 2015 4.14 -> Mar 2020 16.77] fetched 2026-11-12"
+    },
+    "roce_10y_avg_pct": {
+      "value": 8.0,
+      "source": "Screener https://www.screener.in/company/HINDALCO/consolidated/ (consolidated) [Ratios ROCE % avg of 6y Mar 2015..Mar 2020: 6, 4, 8, 10, 11, 9] fetched 2026-11-12"
+    },
+    "roce_pct_years_ge_15": {
+      "value": 0,
+      "source": "Screener https://www.screener.in/company/HINDALCO/consolidated/ (consolidated) [Ratios ROCE %: 0 of 6 years >= 15%] fetched 2026-11-12"
+    },
+    "cfo_to_pat_10y": {
+      "value": 4.0,
+      "source": "Screener https://www.screener.in/company/HINDALCO/consolidated/ (consolidated) [Cash Flow CFO sum 67,058 / P&L Net Profit sum 16,784, Mar 2015..Mar 2020 (6y)] fetched 2026-11-12"
+    },
+    "cfo_positive_years_pct": {
+      "value": 100,
+      "source": "Screener https://www.screener.in/company/HINDALCO/consolidated/ (consolidated) [Cash Flow CFO > 0 in 6 of 6 years, Mar 2015..Mar 2020 (6y)] fetched 2026-11-12"
+    },
+    "cfo_5y_cumulative_cr": {
+      "value": 59915,
+      "source": "Screener https://www.screener.in/company/HINDALCO/consolidated/ (consolidated) [Cash Flow CFO sum Mar 2016..Mar 2020] fetched 2026-11-12"
+    },
+    "net_debt_to_ebitda": {
+      "value": 3.19,
+      "source": "Screener https://www.screener.in/company/HINDALCO/consolidated/ (consolidated) [(Borrowings 68399 - leases 1142 - cash equivalents 21569) Mar 2020 / Operating Profit 14306 Mar 2020; investments not netted (conservative)] fetched 2026-11-12"
+    },
+    "interest_coverage": {
+      "value": 2.4,
+      "source": "Screener https://www.screener.in/company/HINDALCO/consolidated/ (consolidated) [(PBT 5924 + Interest 4197) / Interest, Mar 2020; capped at 100] fetched 2026-11-12"
+    },
+    "dividend_payout_5y_avg_pct": {
+      "value": -10.8,
+      "source": "Screener https://www.screener.in/company/HINDALCO/consolidated/ (consolidated) [P&L Dividend Payout % avg Mar 2016..Mar 2020: -82, 13, 4, 5, 6] fetched 2026-11-12"
+    },
+    "current_price": {
+      "value": 147.55,
+      "source": "Yahoo HINDALCO.NS daily [close on 2020-07-01] fetched 2026-11-12"
+    },
+    "drawdown_from_3y_high_pct": {
+      "value": 47.3,
+      "source": "Yahoo HINDALCO.NS daily [close 147.55 on 2020-07-01 vs 3y closing high 279.80] fetched 2026-11-12"
+    },
+    "price_vs_200dma_pct": {
+      "value": -12.2,
+      "source": "Yahoo HINDALCO.NS daily [close vs 200-session average to 2020-07-01] fetched 2026-11-12"
+    },
+    "price_cagr_5y_pct": {
+      "value": 5.9,
+      "source": "Yahoo HINDALCO.NS daily [close 110.60 on 2015-07-03 -> 147.55 on 2020-07-01] fetched 2026-11-12"
+    },
+    "rel_return_12m_vs_nifty_pp": {
+      "value": -17.1,
+      "source": "Yahoo HINDALCO.NS 12m return -29.5% minus ^NSEI -12.4% (2019-07-02 -> 2020-07-01), fetched 2026-11-12"
+    },
+    "market_cap_cr": {
+      "value": 33158,
+      "source": "Screener https://www.screener.in/company/HINDALCO/consolidated/ (consolidated) [Yahoo close x shares implied by Equity Capital Mar 2020 (approx)] fetched 2026-11-12"
+    },
+    "dividend_yield_pct": {
+      "value": 0.68,
+      "source": "Screener https://www.screener.in/company/HINDALCO/consolidated/ (consolidated) [DPS ~ EPS 16.77 x payout 6% (Mar 2020) / price 147.55] fetched 2026-11-12"
+    },
+    "fcf_yield_pct": {
+      "value": 19.99,
+      "source": "Screener https://www.screener.in/company/HINDALCO/consolidated/ (consolidated) [Cash Flow Free Cash Flow avg Mar 2018..Mar 2020 (7942, 6009, 5933) / mcap 33,158] fetched 2026-11-12"
+    },
+    "pe": {
+      "value": 8.6,
+      "source": "Screener https://www.screener.in/company/HINDALCO/consolidated/ (consolidated) [P/E chart value at 2020-06-26] fetched 2026-11-12"
+    },
+    "pe_percentile_10y": {
+      "value": 24.8,
+      "source": "Screener https://www.screener.in/company/HINDALCO/consolidated/ (consolidated) [percentile of current P/E in P/E chart 2010-12-10..2020-06-26 (447 points, positive P/E only)] fetched 2026-11-12"
+    },
+    "pe_median_10y": {
+      "value": 10.2,
+      "source": "Screener https://www.screener.in/company/HINDALCO/consolidated/ (consolidated) [median of P/E chart 2010-12-10..2020-06-26 (447 points, positive P/E only)] fetched 2026-11-12"
+    },
+    "pe_p20_10y": {
+      "value": 8.2,
+      "source": "Screener https://www.screener.in/company/HINDALCO/consolidated/ (consolidated) [20th percentile of P/E chart 2010-12-10..2020-06-26 (447 points, positive P/E only)] fetched 2026-11-12"
+    },
+    "pe_p40_10y": {
+      "value": 9.6,
+      "source": "Screener https://www.screener.in/company/HINDALCO/consolidated/ (consolidated) [40th percentile of P/E chart 2010-12-10..2020-06-26 (447 points, positive P/E only)] fetched 2026-11-12"
+    }
+  }
+}

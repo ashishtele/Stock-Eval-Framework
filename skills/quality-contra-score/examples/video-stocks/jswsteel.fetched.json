@@ -1,0 +1,111 @@
+{
+  "company": "JSW Steel Ltd",
+  "ticker": "JSWSTEEL",
+  "as_of": "2026-11-12",
+  "inputs": {
+    "eps_cagr_5y_pct": {
+      "value": 22.8,
+      "source": "Screener https://www.screener.in/company/JSWSTEEL/consolidated/ (consolidated) [P&L EPS in Rs CAGR Mar 2021 32.73 -> Mar 2026 91.26] fetched 2026-11-12"
+    },
+    "roce_10y_avg_pct": {
+      "value": 14.4,
+      "source": "Screener https://www.screener.in/company/JSWSTEEL/consolidated/ (consolidated) [Ratios ROCE % avg of 10y Mar 2017..Mar 2026: 14, 18, 20, 9, 15, 28, 8, 13, 8, 11] fetched 2026-11-12"
+    },
+    "roce_pct_years_ge_15": {
+      "value": 40,
+      "source": "Screener https://www.screener.in/company/JSWSTEEL/consolidated/ (consolidated) [Ratios ROCE %: 4 of 10 years >= 15%] fetched 2026-11-12"
+    },
+    "cfo_to_pat_10y": {
+      "value": 1.9,
+      "source": "Screener https://www.screener.in/company/JSWSTEEL/consolidated/ (consolidated) [Cash Flow CFO sum 174,238 / P&L Net Profit sum 91,945, Mar 2017..Mar 2026 (10y)] fetched 2026-11-12"
+    },
+    "cfo_positive_years_pct": {
+      "value": 100,
+      "source": "Screener https://www.screener.in/company/JSWSTEEL/consolidated/ (consolidated) [Cash Flow CFO > 0 in 10 of 10 years, Mar 2017..Mar 2026 (10y)] fetched 2026-11-12"
+    },
+    "cfo_5y_cumulative_cr": {
+      "value": 107722,
+      "source": "Screener https://www.screener.in/company/JSWSTEEL/consolidated/ (consolidated) [Cash Flow CFO sum Mar 2022..Mar 2026] fetched 2026-11-12"
+    },
+    "net_debt_to_ebitda": {
+      "value": 1.85,
+      "source": "Screener https://www.screener.in/company/JSWSTEEL/consolidated/ (consolidated) [(Borrowings 99310 - leases 3778 - cash equivalents 40989) Mar 2026 / Operating Profit 29464 Mar 2026; investments not netted (conservative)] fetched 2026-11-12"
+    },
+    "interest_coverage": {
+      "value": 4.2,
+      "source": "Screener https://www.screener.in/company/JSWSTEEL/consolidated/ (consolidated) [(PBT 29250 + Interest 9102) / Interest, Mar 2026; capped at 100] fetched 2026-11-12"
+    },
+    "dividend_payout_5y_avg_pct": {
+      "value": 21.8,
+      "source": "Screener https://www.screener.in/company/JSWSTEEL/consolidated/ (consolidated) [P&L Dividend Payout % avg Mar 2022..Mar 2026: 25, 25, 25, 24, 10] fetched 2026-11-12"
+    },
+    "current_price": {
+      "value": 1353.3,
+      "source": "Yahoo JSWSTEEL.NS daily [close on 2026-11-11] fetched 2026-11-12"
+    },
+    "drawdown_from_3y_high_pct": {
+      "value": 0.3,
+      "source": "Yahoo JSWSTEEL.NS daily [close 1353.30 on 2026-11-11 vs 3y closing high 1357.10] fetched 2026-11-12"
+    },
+    "price_vs_200dma_pct": {
+      "value": 8.2,
+      "source": "Yahoo JSWSTEEL.NS daily [close vs 200-session average to 2026-11-11] fetched 2026-11-12"
+    },
+    "price_cagr_5y_pct": {
+      "value": 15.1,
+      "source": "Yahoo JSWSTEEL.NS daily [close 671.35 on 2021-11-12 -> 1353.30 on 2026-11-11] fetched 2026-11-12"
+    },
+    "rel_return_12m_vs_nifty_pp": {
+      "value": 15.3,
+      "source": "Yahoo JSWSTEEL.NS 12m return 13.6% minus ^NSEI -1.7% (2025-11-11 -> 2026-11-11), fetched 2026-11-12"
+    },
+    "market_cap_cr": {
+      "value": 330650.0,
+      "source": "Screener https://www.screener.in/company/JSWSTEEL/consolidated/ (consolidated) [Top ratios Market Cap] fetched 2026-11-12"
+    },
+    "dividend_yield_pct": {
+      "value": 0.67,
+      "source": "Screener https://www.screener.in/company/JSWSTEEL/consolidated/ (consolidated) [DPS ~ EPS 91.26 x payout 10% (Mar 2026) / price 1353.30] fetched 2026-11-12"
+    },
+    "fcf_yield_pct": {
+      "value": 1.55,
+      "source": "Screener https://www.screener.in/company/JSWSTEEL/consolidated/ (consolidated) [Cash Flow Free Cash Flow avg Mar 2024..Mar 2026 (-3469, 8264, 10610) / mcap 330,650] fetched 2026-11-12"
+    },
+    "pe": {
+      "value": 21.1,
+      "source": "Screener https://www.screener.in/company/JSWSTEEL/consolidated/ (consolidated) [P/E chart value at 2026-11-12] fetched 2026-11-12"
+    },
+    "pe_percentile_10y": {
+      "value": 55.4,
+      "source": "Screener https://www.screener.in/company/JSWSTEEL/consolidated/ (consolidated) [percentile of current P/E in P/E chart 2016-11-18..2026-11-12 (509 points, positive P/E only)] fetched 2026-11-12"
+    },
+    "pe_median_10y": {
+      "value": 19.8,
+      "source": "Screener https://www.screener.in/company/JSWSTEEL/consolidated/ (consolidated) [median of P/E chart 2016-11-18..2026-11-12 (509 points, positive P/E only)] fetched 2026-11-12"
+    },
+    "pe_p20_10y": {
+      "value": 9.0,
+      "source": "Screener https://www.screener.in/company/JSWSTEEL/consolidated/ (consolidated) [20th percentile of P/E chart 2016-11-18..2026-11-12 (509 points, positive P/E only)] fetched 2026-11-12"
+    },
+    "pe_p40_10y": {
+      "value": 15.6,
+      "source": "Screener https://www.screener.in/company/JSWSTEEL/consolidated/ (consolidated) [40th percentile of P/E chart 2016-11-18..2026-11-12 (509 points, positive P/E only)] fetched 2026-11-12"
+    },
+    "promoter_holding_pct": {
+      "value": 44.29,
+      "source": "Screener https://www.screener.in/company/JSWSTEEL/consolidated/ (consolidated) [Shareholding Promoters Sep 2026] fetched 2026-11-12"
+    },
+    "promoter_holding_change_3y_pp": {
+      "value": -0.52,
+      "source": "Screener https://www.screener.in/company/JSWSTEEL/consolidated/ (consolidated) [Shareholding Promoters Dec 2023 -> Sep 2026] fetched 2026-11-12"
+    },
+    "promoter_pledge_pct": {
+      "value": 0.0,
+      "source": "Screener https://www.screener.in/company/JSWSTEEL/consolidated/ (consolidated) [Pros/cons pledge flag absent; verify in exchange shareholding pattern] fetched 2026-11-12"
+    },
+    "institutional_change_4q_pp": {
+      "value": 1.14,
+      "source": "Screener https://www.screener.in/company/JSWSTEEL/consolidated/ (consolidated) [Shareholding FIIs+DIIs Sep 2025 36.43 -> Sep 2026 37.57] fetched 2026-11-12"
+    }
+  }
+}

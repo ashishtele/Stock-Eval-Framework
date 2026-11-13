@@ -1,0 +1,20 @@
+{
+  "business_type": "non_financial",
+  "inputs": {
+    "moat_evidence": {
+      "value": ["regulatory_licence_or_scarce_asset"],
+      "source": "AGENT ASSESSMENT (unverified): long-term port concessions. Transcript 48:55-49:20: ~60% of cargo is captive JSW Steel volume (3 t handled per t of steel)."
+    },
+    "funding_backstop": { "value": ["strong_group_parent"], "source": "Transcript 49:27-49:34: JSW Group." },
+    "governance_pedigree": { "value": "tried_tested_group_or_mnc", "source": "Transcript 9:04 and 49:27: JSW Group." },
+    "crisis_evidence": { "value": null, "source": "" },
+    "capital_allocation_evidence": { "value": null, "source": "" },
+    "insider_signals": { "value": null, "source": "" },
+    "fall_cause": { "value": "no_fall", "source": "Fetched drawdown 5.9%, 12m +23.7pp vs Nifty." },
+    "temporariness_evidence": { "value": [], "source": "No fall to diagnose." },
+    "sentiment_evidence": { "value": [], "source": "Fetched institutions +11.16pp in 4q." },
+    "disruption_risk": { "value": "low", "source": "AGENT ASSESSMENT: port infrastructure." },
+    "cyclicality": { "value": "secular", "source": "Captive cargo tied to steel volume growth." },
+    "group_extension_listing": { "value": true, "source": "Transcript 48:28-50:34: IPO at 119, 22,000 cr mcap, ~6% cash-flow yield, zero debt post-IPO, pre-tax ROCE 19-20%." }
+  }
+}

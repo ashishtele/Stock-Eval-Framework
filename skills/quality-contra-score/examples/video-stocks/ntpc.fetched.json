@@ -1,0 +1,111 @@
+{
+  "company": "NTPC Ltd",
+  "ticker": "NTPC",
+  "as_of": "2026-11-12",
+  "inputs": {
+    "eps_cagr_5y_pct": {
+      "value": 13.1,
+      "source": "Screener https://www.screener.in/company/NTPC/consolidated/ (consolidated) [P&L EPS in Rs CAGR Mar 2021 15.09 -> Mar 2026 27.9] fetched 2026-11-12"
+    },
+    "roce_10y_avg_pct": {
+      "value": 9.3,
+      "source": "Screener https://www.screener.in/company/NTPC/consolidated/ (consolidated) [Ratios ROCE % avg of 10y Mar 2017..Mar 2026: 9, 9, 7, 10, 9, 9, 10, 10, 11, 9] fetched 2026-11-12"
+    },
+    "roce_pct_years_ge_15": {
+      "value": 0,
+      "source": "Screener https://www.screener.in/company/NTPC/consolidated/ (consolidated) [Ratios ROCE %: 0 of 10 years >= 15%] fetched 2026-11-12"
+    },
+    "cfo_to_pat_10y": {
+      "value": 2.05,
+      "source": "Screener https://www.screener.in/company/NTPC/consolidated/ (consolidated) [Cash Flow CFO sum 345,979 / P&L Net Profit sum 169,033, Mar 2017..Mar 2026 (10y)] fetched 2026-11-12"
+    },
+    "cfo_positive_years_pct": {
+      "value": 100,
+      "source": "Screener https://www.screener.in/company/NTPC/consolidated/ (consolidated) [Cash Flow CFO > 0 in 10 of 10 years, Mar 2017..Mar 2026 (10y)] fetched 2026-11-12"
+    },
+    "cfo_5y_cumulative_cr": {
+      "value": 230429,
+      "source": "Screener https://www.screener.in/company/NTPC/consolidated/ (consolidated) [Cash Flow CFO sum Mar 2022..Mar 2026] fetched 2026-11-12"
+    },
+    "net_debt_to_ebitda": {
+      "value": 4.68,
+      "source": "Screener https://www.screener.in/company/NTPC/consolidated/ (consolidated) [(Borrowings 271005 - leases 3746 - cash equivalents 8004) Mar 2026 / Operating Profit 55438 Mar 2026; investments not netted (conservative)] fetched 2026-11-12"
+    },
+    "interest_coverage": {
+      "value": 2.8,
+      "source": "Screener https://www.screener.in/company/NTPC/consolidated/ (consolidated) [(PBT 24669 + Interest 13801) / Interest, Mar 2026; capped at 100] fetched 2026-11-12"
+    },
+    "dividend_payout_5y_avg_pct": {
+      "value": 37.2,
+      "source": "Screener https://www.screener.in/company/NTPC/consolidated/ (consolidated) [P&L Dividend Payout % avg Mar 2022..Mar 2026: 41, 42, 36, 35, 32] fetched 2026-11-12"
+    },
+    "current_price": {
+      "value": 327.0,
+      "source": "Yahoo NTPC.NS daily [close on 2026-11-11] fetched 2026-11-12"
+    },
+    "drawdown_from_3y_high_pct": {
+      "value": 26.2,
+      "source": "Yahoo NTPC.NS daily [close 327.00 on 2026-11-11 vs 3y closing high 443.20] fetched 2026-11-12"
+    },
+    "price_vs_200dma_pct": {
+      "value": -7.9,
+      "source": "Yahoo NTPC.NS daily [close vs 200-session average to 2026-11-11] fetched 2026-11-12"
+    },
+    "price_cagr_5y_pct": {
+      "value": 19.1,
+      "source": "Yahoo NTPC.NS daily [close 136.45 on 2021-11-12 -> 327.00 on 2026-11-11] fetched 2026-11-12"
+    },
+    "rel_return_12m_vs_nifty_pp": {
+      "value": 1.8,
+      "source": "Yahoo NTPC.NS 12m return 0.1% minus ^NSEI -1.7% (2025-11-11 -> 2026-11-11), fetched 2026-11-12"
+    },
+    "market_cap_cr": {
+      "value": 313202.0,
+      "source": "Screener https://www.screener.in/company/NTPC/consolidated/ (consolidated) [Top ratios Market Cap] fetched 2026-11-12"
+    },
+    "dividend_yield_pct": {
+      "value": 2.73,
+      "source": "Screener https://www.screener.in/company/NTPC/consolidated/ (consolidated) [DPS ~ EPS 27.9 x payout 32% (Mar 2026) / price 327.00] fetched 2026-11-12"
+    },
+    "fcf_yield_pct": {
+      "value": 2.73,
+      "source": "Screener https://www.screener.in/company/NTPC/consolidated/ (consolidated) [Cash Flow Free Cash Flow avg Mar 2024..Mar 2026 (9358, 9431, 6895) / mcap 313,202] fetched 2026-11-12"
+    },
+    "pe": {
+      "value": 10.5,
+      "source": "Screener https://www.screener.in/company/NTPC/consolidated/ (consolidated) [P/E chart value at 2026-11-12] fetched 2026-11-12"
+    },
+    "pe_percentile_10y": {
+      "value": 42.9,
+      "source": "Screener https://www.screener.in/company/NTPC/consolidated/ (consolidated) [percentile of current P/E in P/E chart 2016-11-18..2026-11-12 (522 points, positive P/E only)] fetched 2026-11-12"
+    },
+    "pe_median_10y": {
+      "value": 11.9,
+      "source": "Screener https://www.screener.in/company/NTPC/consolidated/ (consolidated) [median of P/E chart 2016-11-18..2026-11-12 (522 points, positive P/E only)] fetched 2026-11-12"
+    },
+    "pe_p20_10y": {
+      "value": 8.1,
+      "source": "Screener https://www.screener.in/company/NTPC/consolidated/ (consolidated) [20th percentile of P/E chart 2016-11-18..2026-11-12 (522 points, positive P/E only)] fetched 2026-11-12"
+    },
+    "pe_p40_10y": {
+      "value": 9.9,
+      "source": "Screener https://www.screener.in/company/NTPC/consolidated/ (consolidated) [40th percentile of P/E chart 2016-11-18..2026-11-12 (522 points, positive P/E only)] fetched 2026-11-12"
+    },
+    "promoter_holding_pct": {
+      "value": 51.1,
+      "source": "Screener https://www.screener.in/company/NTPC/consolidated/ (consolidated) [Shareholding Promoters Sep 2026] fetched 2026-11-12"
+    },
+    "promoter_holding_change_3y_pp": {
+      "value": 0.0,
+      "source": "Screener https://www.screener.in/company/NTPC/consolidated/ (consolidated) [Shareholding Promoters Dec 2023 -> Sep 2026] fetched 2026-11-12"
+    },
+    "promoter_pledge_pct": {
+      "value": 0.0,
+      "source": "Screener https://www.screener.in/company/NTPC/consolidated/ (consolidated) [Pros/cons pledge flag absent; verify in exchange shareholding pattern] fetched 2026-11-12"
+    },
+    "institutional_change_4q_pp": {
+      "value": 0.32,
+      "source": "Screener https://www.screener.in/company/NTPC/consolidated/ (consolidated) [Shareholding FIIs+DIIs Sep 2025 45.33 -> Sep 2026 45.65] fetched 2026-11-12"
+    }
+  }
+}

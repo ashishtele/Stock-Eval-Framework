@@ -1,0 +1,22 @@
+{
+  "business_type": "non_financial",
+  "inputs": {
+    "moat_evidence": {
+      "value": ["brand_leader_top3_share"],
+      "source": "AGENT ASSESSMENT (unverified): tractor market leader; transcript 25:36 'excellent execution'."
+    },
+    "funding_backstop": { "value": ["strong_group_parent"], "source": "Mahindra Group (transcript 29:38)." },
+    "governance_pedigree": { "value": "tried_tested_group_or_mnc", "source": "Transcript 21:59-22:10, 25:36-25:42: superb CEO Anish Shah." },
+    "crisis_evidence": { "value": null, "source": "" },
+    "capital_allocation_evidence": { "value": null, "source": "" },
+    "insider_signals": { "value": null, "source": "" },
+    "fall_cause": {
+      "value": "no_fall",
+      "source": "Transcript 25:23-26:27: monsoon failure is a hypothetical future trigger. Fetched drawdown 8.9%."
+    },
+    "temporariness_evidence": { "value": [], "source": "No fall to diagnose." },
+    "sentiment_evidence": { "value": [], "source": "Fetched institutions -0.46pp, 12m -5.9pp vs Nifty: no bad-news flow." },
+    "disruption_risk": { "value": "moderate", "source": "AGENT ASSESSMENT: auto EV transition." },
+    "cyclicality": { "value": "secular", "source": "Autos + farm equipment." }
+  }
+}

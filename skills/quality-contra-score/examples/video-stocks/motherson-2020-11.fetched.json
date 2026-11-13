@@ -1,0 +1,75 @@
+{
+  "company": "Samvardhana Motherson International Ltd",
+  "ticker": "MOTHERSON",
+  "as_of": "2020-11-10",
+  "inputs": {
+    "eps_cagr_5y_pct": {
+      "value": 5.0,
+      "source": "Screener https://www.screener.in/company/MOTHERSON/consolidated/ (consolidated) [P&L EPS in Rs CAGR Mar 2015 1.29 -> Mar 2020 1.65] fetched 2026-11-12"
+    },
+    "roce_10y_avg_pct": {
+      "value": 18.5,
+      "source": "Screener https://www.screener.in/company/MOTHERSON/consolidated/ (consolidated) [Ratios ROCE % avg of 6y Mar 2015..Mar 2020: 25, 24, 21, 18, 15, 8] fetched 2026-11-12"
+    },
+    "roce_pct_years_ge_15": {
+      "value": 83,
+      "source": "Screener https://www.screener.in/company/MOTHERSON/consolidated/ (consolidated) [Ratios ROCE %: 5 of 6 years >= 15%] fetched 2026-11-12"
+    },
+    "cfo_to_pat_10y": {
+      "value": 2.14,
+      "source": "Screener https://www.screener.in/company/MOTHERSON/consolidated/ (consolidated) [Cash Flow CFO sum 23,306 / P&L Net Profit sum 10,890, Mar 2015..Mar 2020 (6y)] fetched 2026-11-12"
+    },
+    "cfo_positive_years_pct": {
+      "value": 100,
+      "source": "Screener https://www.screener.in/company/MOTHERSON/consolidated/ (consolidated) [Cash Flow CFO > 0 in 6 of 6 years, Mar 2015..Mar 2020 (6y)] fetched 2026-11-12"
+    },
+    "cfo_5y_cumulative_cr": {
+      "value": 19916,
+      "source": "Screener https://www.screener.in/company/MOTHERSON/consolidated/ (consolidated) [Cash Flow CFO sum Mar 2016..Mar 2020] fetched 2026-11-12"
+    },
+    "net_debt_to_ebitda": {
+      "value": 1.48,
+      "source": "Screener https://www.screener.in/company/MOTHERSON/consolidated/ (consolidated) [(Borrowings 13136 - leases 1366 - cash equivalents 4879) Mar 2020 / Operating Profit 4654 Mar 2020; investments not netted (conservative)] fetched 2026-11-12"
+    },
+    "interest_coverage": {
+      "value": 4.3,
+      "source": "Screener https://www.screener.in/company/MOTHERSON/consolidated/ (consolidated) [(PBT 1983 + Interest 593) / Interest, Mar 2020; capped at 100] fetched 2026-11-12"
+    },
+    "dividend_payout_5y_avg_pct": {
+      "value": 28.6,
+      "source": "Screener https://www.screener.in/company/MOTHERSON/consolidated/ (consolidated) [P&L Dividend Payout % avg Mar 2016..Mar 2020: 26, 18, 30, 29, 40] fetched 2026-11-12"
+    },
+    "current_price": {
+      "value": 35.9,
+      "source": "Yahoo MOTHERSON.NS daily [close on 2020-11-11] fetched 2026-11-12"
+    },
+    "drawdown_from_3y_high_pct": {
+      "value": 49.8,
+      "source": "Yahoo MOTHERSON.NS daily [close 35.90 on 2020-11-11 vs 3y closing high 71.48] fetched 2026-11-12"
+    },
+    "price_vs_200dma_pct": {
+      "value": 30.9,
+      "source": "Yahoo MOTHERSON.NS daily [close vs 200-session average to 2020-11-11] fetched 2026-11-12"
+    },
+    "price_cagr_5y_pct": {
+      "value": 1.6,
+      "source": "Yahoo MOTHERSON.NS daily [close 33.19 on 2015-11-13 -> 35.90 on 2020-11-11] fetched 2026-11-12"
+    },
+    "rel_return_12m_vs_nifty_pp": {
+      "value": -9.1,
+      "source": "Yahoo MOTHERSON.NS 12m return -2.1% minus ^NSEI 7.0% (2019-11-11 -> 2020-11-11), fetched 2026-11-12"
+    },
+    "market_cap_cr": {
+      "value": 11449,
+      "source": "Screener https://www.screener.in/company/MOTHERSON/consolidated/ (consolidated) [Yahoo close x shares implied by Equity Capital Mar 2020 (approx)] fetched 2026-11-12"
+    },
+    "dividend_yield_pct": {
+      "value": 1.84,
+      "source": "Screener https://www.screener.in/company/MOTHERSON/consolidated/ (consolidated) [DPS ~ EPS 1.65 x payout 40% (Mar 2020) / price 35.90] fetched 2026-11-12"
+    },
+    "fcf_yield_pct": {
+      "value": 17.52,
+      "source": "Screener https://www.screener.in/company/MOTHERSON/consolidated/ (consolidated) [Cash Flow Free Cash Flow avg Mar 2018..Mar 2020 (233, 1627, 4158) / mcap 11,449] fetched 2026-11-12"
+    }
+  }
+}

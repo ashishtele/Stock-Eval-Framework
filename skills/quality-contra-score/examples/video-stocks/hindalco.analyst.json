@@ -1,0 +1,28 @@
+{
+  "business_type": "non_financial",
+  "inputs": {
+    "moat_evidence": {
+      "value": ["lowest_cost_producer"],
+      "source": "AGENT ASSESSMENT (unverified): integrated aluminium (captive bauxite/alumina) cost position; transcript gives no moat detail."
+    },
+    "funding_backstop": {
+      "value": ["promoter_or_parent_infused_capital_in_past_crisis", "strong_group_parent"],
+      "source": "Transcript 40:33-41:08: Kumar Mangalam Birla brings capital himself via rights issues; Hindalco rights at 95 during the GFC."
+    },
+    "governance_pedigree": { "value": "tried_tested_group_or_mnc", "source": "Transcript 9:04: Kumar Mangalam Birla group among tried-and-tested groups." },
+    "crisis_evidence": {
+      "value": ["operated_through_major_shock"],
+      "source": "Transcript 40:53-41:15: GFC rights issue, stock 45 then 950; 39:59-40:22 trade-war fall 185 -> 65 survived."
+    },
+    "capital_allocation_evidence": {
+      "value": [],
+      "source": "Fetched FCF yield -1.1% and net debt/EBITDA 2.35: capex (54:55: 50,000 cr under construction + 50,000 cr evaluated) not funded from internal cash; no buyback."
+    },
+    "insider_signals": { "value": null, "source": "" },
+    "fall_cause": { "value": "no_fall", "source": "Fetched drawdown 16.3%, 12m +22.9pp vs Nifty; transcript calls it a potential double, not a fallen stock." },
+    "temporariness_evidence": { "value": [], "source": "No fall to diagnose." },
+    "sentiment_evidence": { "value": ["institutions_cut_ge_1pp_4q"], "source": "Fetched institutional_change_4q_pp -1.1." },
+    "disruption_risk": { "value": "low", "source": "AGENT ASSESSMENT: aluminium/copper are physical commodities." },
+    "cyclicality": { "value": "cyclical_commodity", "source": "Transcript 1:00:31-1:00:45: commodity prices hard to predict, China dumping -> keep 2-3%." }
+  }
+}

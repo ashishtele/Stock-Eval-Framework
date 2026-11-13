@@ -1,0 +1,22 @@
+{
+  "business_type": "non_financial",
+  "inputs": {
+    "moat_evidence": {
+      "value": ["brand_leader_top3_share", "regulatory_licence_or_scarce_asset"],
+      "source": "Transcript 28:43-28:52 Taj brand. AGENT ASSESSMENT: iconic hotel locations."
+    },
+    "funding_backstop": { "value": ["strong_group_parent"], "source": "Transcript 28:43: Tata Group." },
+    "governance_pedigree": { "value": "tried_tested_group_or_mnc", "source": "Transcript 28:43; 29:38." },
+    "crisis_evidence": {
+      "value": ["operated_through_major_shock", "profit_regained_prior_peak_within_3y"],
+      "source": "Transcript 29:21-29:38: survived COVID, revenge consumption, room rates up sharply. Screener P&L: verify Net Profit FY23 above FY19-FY20."
+    },
+    "capital_allocation_evidence": { "value": null, "source": "" },
+    "insider_signals": { "value": null, "source": "" },
+    "fall_cause": { "value": "no_fall", "source": "Fetched drawdown 2.1%, 12m +26.8pp vs Nifty." },
+    "temporariness_evidence": { "value": [], "source": "No fall to diagnose." },
+    "sentiment_evidence": { "value": [], "source": "Fetched institutions +1.04pp in 4q." },
+    "disruption_risk": { "value": "low", "source": "AGENT ASSESSMENT: physical hospitality." },
+    "cyclicality": { "value": "secular", "source": "Hospitality." }
+  }
+}

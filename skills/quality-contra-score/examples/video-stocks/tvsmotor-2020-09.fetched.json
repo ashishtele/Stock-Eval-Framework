@@ -1,0 +1,95 @@
+{
+  "company": "TVS Motor Company Ltd",
+  "ticker": "TVSMOTOR",
+  "as_of": "2020-09-30",
+  "inputs": {
+    "eps_cagr_5y_pct": {
+      "value": 11.2,
+      "source": "Screener https://www.screener.in/company/TVSMOTOR/ (standalone) [P&L EPS in Rs CAGR Mar 2015 7.32 -> Mar 2020 12.47] fetched 2026-11-12"
+    },
+    "roce_10y_avg_pct": {
+      "value": 22.0,
+      "source": "Screener https://www.screener.in/company/TVSMOTOR/ (standalone) [Ratios ROCE % avg of 6y Mar 2015..Mar 2020: 21, 23, 23, 24, 24, 17] fetched 2026-11-12"
+    },
+    "roce_pct_years_ge_15": {
+      "value": 100,
+      "source": "Screener https://www.screener.in/company/TVSMOTOR/ (standalone) [Ratios ROCE %: 6 of 6 years >= 15%] fetched 2026-11-12"
+    },
+    "cfo_to_pat_10y": {
+      "value": 1.67,
+      "source": "Screener https://www.screener.in/company/TVSMOTOR/ (standalone) [Cash Flow CFO sum 5,539 / P&L Net Profit sum 3,320, Mar 2015..Mar 2020 (6y)] fetched 2026-11-12"
+    },
+    "cfo_positive_years_pct": {
+      "value": 100,
+      "source": "Screener https://www.screener.in/company/TVSMOTOR/ (standalone) [Cash Flow CFO > 0 in 6 of 6 years, Mar 2015..Mar 2020 (6y)] fetched 2026-11-12"
+    },
+    "cfo_5y_cumulative_cr": {
+      "value": 5454,
+      "source": "Screener https://www.screener.in/company/TVSMOTOR/ (standalone) [Cash Flow CFO sum Mar 2016..Mar 2020] fetched 2026-11-12"
+    },
+    "net_debt_to_ebitda": {
+      "value": 1.19,
+      "source": "Screener https://www.screener.in/company/TVSMOTOR/ (standalone) [(Borrowings 2132 - leases 110 - cash equivalents 419) Mar 2020 / Operating Profit 1346 Mar 2020; investments not netted (conservative)] fetched 2026-11-12"
+    },
+    "interest_coverage": {
+      "value": 8.4,
+      "source": "Screener https://www.screener.in/company/TVSMOTOR/ (standalone) [(PBT 754 + Interest 102) / Interest, Mar 2020; capped at 100] fetched 2026-11-12"
+    },
+    "dividend_payout_5y_avg_pct": {
+      "value": 24.4,
+      "source": "Screener https://www.screener.in/company/TVSMOTOR/ (standalone) [P&L Dividend Payout % avg Mar 2016..Mar 2020: 24, 21, 24, 25, 28] fetched 2026-11-12"
+    },
+    "current_price": {
+      "value": 479.9,
+      "source": "Yahoo TVSMOTOR.NS daily [close on 2020-10-01] fetched 2026-11-12"
+    },
+    "drawdown_from_3y_high_pct": {
+      "value": 38.9,
+      "source": "Yahoo TVSMOTOR.NS daily [close 479.90 on 2020-10-01 vs 3y closing high 785.05] fetched 2026-11-12"
+    },
+    "price_vs_200dma_pct": {
+      "value": 20.1,
+      "source": "Yahoo TVSMOTOR.NS daily [close vs 200-session average to 2020-10-01] fetched 2026-11-12"
+    },
+    "price_cagr_5y_pct": {
+      "value": 15.9,
+      "source": "Yahoo TVSMOTOR.NS daily [close 229.65 on 2015-10-01 -> 479.90 on 2020-10-01] fetched 2026-11-12"
+    },
+    "rel_return_12m_vs_nifty_pp": {
+      "value": 13.9,
+      "source": "Yahoo TVSMOTOR.NS 12m return 14.4% minus ^NSEI 0.5% (2019-10-01 -> 2020-10-01), fetched 2026-11-12"
+    },
+    "market_cap_cr": {
+      "value": 22799,
+      "source": "Screener https://www.screener.in/company/TVSMOTOR/ (standalone) [Yahoo close x shares implied by Equity Capital Mar 2020 (approx)] fetched 2026-11-12"
+    },
+    "dividend_yield_pct": {
+      "value": 0.73,
+      "source": "Screener https://www.screener.in/company/TVSMOTOR/ (standalone) [DPS ~ EPS 12.47 x payout 28% (Mar 2020) / price 479.90] fetched 2026-11-12"
+    },
+    "fcf_yield_pct": {
+      "value": 2.27,
+      "source": "Screener https://www.screener.in/company/TVSMOTOR/ (standalone) [Cash Flow Free Cash Flow avg Mar 2018..Mar 2020 (504, 369, 683) / mcap 22,799] fetched 2026-11-12"
+    },
+    "pe": {
+      "value": 64.3,
+      "source": "Screener https://www.screener.in/company/TVSMOTOR/ (standalone) [P/E chart value at 2020-09-25] fetched 2026-11-12"
+    },
+    "pe_percentile_10y": {
+      "value": 99.4,
+      "source": "Screener https://www.screener.in/company/TVSMOTOR/ (standalone) [percentile of current P/E in P/E chart 2010-10-08..2020-09-25 (521 points, positive P/E only)] fetched 2026-11-12"
+    },
+    "pe_median_10y": {
+      "value": 29.9,
+      "source": "Screener https://www.screener.in/company/TVSMOTOR/ (standalone) [median of P/E chart 2010-10-08..2020-09-25 (521 points, positive P/E only)] fetched 2026-11-12"
+    },
+    "pe_p20_10y": {
+      "value": 11.3,
+      "source": "Screener https://www.screener.in/company/TVSMOTOR/ (standalone) [20th percentile of P/E chart 2010-10-08..2020-09-25 (521 points, positive P/E only)] fetched 2026-11-12"
+    },
+    "pe_p40_10y": {
+      "value": 26.1,
+      "source": "Screener https://www.screener.in/company/TVSMOTOR/ (standalone) [40th percentile of P/E chart 2010-10-08..2020-09-25 (521 points, positive P/E only)] fetched 2026-11-12"
+    }
+  }
+}

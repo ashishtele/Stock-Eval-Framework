@@ -1,0 +1,111 @@
+{
+  "company": "Tata Consumer Products Ltd",
+  "ticker": "TATACONSUM",
+  "as_of": "2026-11-12",
+  "inputs": {
+    "eps_cagr_5y_pct": {
+      "value": 11.2,
+      "source": "Screener https://www.screener.in/company/TATACONSUM/consolidated/ (consolidated) [P&L EPS in Rs CAGR Mar 2021 9.18 -> Mar 2026 15.59] fetched 2026-11-12"
+    },
+    "roce_10y_avg_pct": {
+      "value": 9.0,
+      "source": "Screener https://www.screener.in/company/TATACONSUM/consolidated/ (consolidated) [Ratios ROCE % avg of 10y Mar 2017..Mar 2026: 9, 9, 8, 9, 8, 9, 9, 11, 9, 9] fetched 2026-11-12"
+    },
+    "roce_pct_years_ge_15": {
+      "value": 0,
+      "source": "Screener https://www.screener.in/company/TATACONSUM/consolidated/ (consolidated) [Ratios ROCE %: 0 of 10 years >= 15%] fetched 2026-11-12"
+    },
+    "cfo_to_pat_10y": {
+      "value": 1.45,
+      "source": "Screener https://www.screener.in/company/TATACONSUM/consolidated/ (consolidated) [Cash Flow CFO sum 13,438 / P&L Net Profit sum 9,242, Mar 2017..Mar 2026 (10y)] fetched 2026-11-12"
+    },
+    "cfo_positive_years_pct": {
+      "value": 100,
+      "source": "Screener https://www.screener.in/company/TATACONSUM/consolidated/ (consolidated) [Cash Flow CFO > 0 in 10 of 10 years, Mar 2017..Mar 2026 (10y)] fetched 2026-11-12"
+    },
+    "cfo_5y_cumulative_cr": {
+      "value": 9393,
+      "source": "Screener https://www.screener.in/company/TATACONSUM/consolidated/ (consolidated) [Cash Flow CFO sum Mar 2022..Mar 2026] fetched 2026-11-12"
+    },
+    "net_debt_to_ebitda": {
+      "value": -0.47,
+      "source": "Screener https://www.screener.in/company/TATACONSUM/consolidated/ (consolidated) [(Borrowings 2820 - leases 699 - cash equivalents 3420) Mar 2026 / Operating Profit 2792 Mar 2026; investments not netted (conservative)] fetched 2026-11-12"
+    },
+    "interest_coverage": {
+      "value": 16.9,
+      "source": "Screener https://www.screener.in/company/TATACONSUM/consolidated/ (consolidated) [(PBT 2173 + Interest 137) / Interest, Mar 2026; capped at 100] fetched 2026-11-12"
+    },
+    "dividend_payout_5y_avg_pct": {
+      "value": 63.4,
+      "source": "Screener https://www.screener.in/company/TATACONSUM/consolidated/ (consolidated) [P&L Dividend Payout % avg Mar 2022..Mar 2026: 60, 65, 64, 64, 64] fetched 2026-11-12"
+    },
+    "current_price": {
+      "value": 1093.0,
+      "source": "Yahoo TATACONSUM.NS daily [close on 2026-11-11] fetched 2026-11-12"
+    },
+    "drawdown_from_3y_high_pct": {
+      "value": 14.0,
+      "source": "Yahoo TATACONSUM.NS daily [close 1093.00 on 2026-11-11 vs 3y closing high 1271.00] fetched 2026-11-12"
+    },
+    "price_vs_200dma_pct": {
+      "value": 0.2,
+      "source": "Yahoo TATACONSUM.NS daily [close vs 200-session average to 2026-11-11] fetched 2026-11-12"
+    },
+    "price_cagr_5y_pct": {
+      "value": 5.2,
+      "source": "Yahoo TATACONSUM.NS daily [close 847.90 on 2021-11-12 -> 1093.00 on 2026-11-11] fetched 2026-11-12"
+    },
+    "rel_return_12m_vs_nifty_pp": {
+      "value": -3.8,
+      "source": "Yahoo TATACONSUM.NS 12m return -5.5% minus ^NSEI -1.7% (2025-11-11 -> 2026-11-11), fetched 2026-11-12"
+    },
+    "market_cap_cr": {
+      "value": 107412.0,
+      "source": "Screener https://www.screener.in/company/TATACONSUM/consolidated/ (consolidated) [Top ratios Market Cap] fetched 2026-11-12"
+    },
+    "dividend_yield_pct": {
+      "value": 0.91,
+      "source": "Screener https://www.screener.in/company/TATACONSUM/consolidated/ (consolidated) [DPS ~ EPS 15.59 x payout 64% (Mar 2026) / price 1093.00] fetched 2026-11-12"
+    },
+    "fcf_yield_pct": {
+      "value": 1.64,
+      "source": "Screener https://www.screener.in/company/TATACONSUM/consolidated/ (consolidated) [Cash Flow Free Cash Flow avg Mar 2024..Mar 2026 (1626, 1643, 2016) / mcap 107,412] fetched 2026-11-12"
+    },
+    "pe": {
+      "value": 62.5,
+      "source": "Screener https://www.screener.in/company/TATACONSUM/consolidated/ (consolidated) [P/E chart value at 2026-11-12] fetched 2026-11-12"
+    },
+    "pe_percentile_10y": {
+      "value": 41.4,
+      "source": "Screener https://www.screener.in/company/TATACONSUM/consolidated/ (consolidated) [percentile of current P/E in P/E chart 2016-11-18..2026-11-12 (522 points, positive P/E only)] fetched 2026-11-12"
+    },
+    "pe_median_10y": {
+      "value": 67.8,
+      "source": "Screener https://www.screener.in/company/TATACONSUM/consolidated/ (consolidated) [median of P/E chart 2016-11-18..2026-11-12 (522 points, positive P/E only)] fetched 2026-11-12"
+    },
+    "pe_p20_10y": {
+      "value": 33.0,
+      "source": "Screener https://www.screener.in/company/TATACONSUM/consolidated/ (consolidated) [20th percentile of P/E chart 2016-11-18..2026-11-12 (522 points, positive P/E only)] fetched 2026-11-12"
+    },
+    "pe_p40_10y": {
+      "value": 62.1,
+      "source": "Screener https://www.screener.in/company/TATACONSUM/consolidated/ (consolidated) [40th percentile of P/E chart 2016-11-18..2026-11-12 (522 points, positive P/E only)] fetched 2026-11-12"
+    },
+    "promoter_holding_pct": {
+      "value": 33.83,
+      "source": "Screener https://www.screener.in/company/TATACONSUM/consolidated/ (consolidated) [Shareholding Promoters Sep 2026] fetched 2026-11-12"
+    },
+    "promoter_holding_change_3y_pp": {
+      "value": -0.59,
+      "source": "Screener https://www.screener.in/company/TATACONSUM/consolidated/ (consolidated) [Shareholding Promoters Dec 2023 -> Sep 2026] fetched 2026-11-12"
+    },
+    "promoter_pledge_pct": {
+      "value": 0.0,
+      "source": "Screener https://www.screener.in/company/TATACONSUM/consolidated/ (consolidated) [Pros/cons pledge flag absent; verify in exchange shareholding pattern] fetched 2026-11-12"
+    },
+    "institutional_change_4q_pp": {
+      "value": 0.84,
+      "source": "Screener https://www.screener.in/company/TATACONSUM/consolidated/ (consolidated) [Shareholding FIIs+DIIs Sep 2025 44.26 -> Sep 2026 45.10] fetched 2026-11-12"
+    }
+  }
+}
