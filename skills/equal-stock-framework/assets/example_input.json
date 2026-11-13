@@ -1,0 +1,67 @@
+{
+  "company": "Sample Brands Ltd (ILLUSTRATIVE - fictional numbers)",
+  "as_of": "2026-11-11",
+  "sector_type": "structural",
+  "is_financial": false,
+  "market": {
+    "price": 1200,
+    "market_cap_cr": 24000,
+    "pe_ttm": 40,
+    "pat_ttm_cr": 600,
+    "exit_pe": 38,
+    "dividend_yield_pct": 0.8,
+    "adtv_6m_cr": 30,
+    "in_fno": false
+  },
+  "financials": { "revenue_cr": 4000 },
+  "integrity": {
+    "promoter_holding_pct": 62,
+    "no_identifiable_promoter": false,
+    "promoter_holding_change_3y_pp": 0.5,
+    "bonus_split_buyback_count_10y": 2,
+    "preferential_to_promoters_5y": false,
+    "proposed_dilution_pct": 0,
+    "pledge_pct_of_promoter_holding": 0,
+    "promoter_remuneration_cr": 9,
+    "md_to_median_employee_ratio": 180,
+    "auditor_tier": "big4",
+    "audit_fee_cr": 1.2,
+    "auditor_red_flag": false,
+    "rpt_pct_revenue": 1.5,
+    "sister_concern_same_business": false,
+    "royalty_pct_revenue": 0,
+    "royalty_recipient": "none"
+  },
+  "capability": {
+    "exports_pct_revenue": 8,
+    "imports_pct_revenue": 12,
+    "net_debt_to_equity": -0.2,
+    "gross_debt_to_equity": 0.05,
+    "unhedged_fx_debt_pct_of_debt": 0,
+    "debt_restructurings_count": 0,
+    "cost_of_debt_pct": 9.0,
+    "cost_of_equity_pct": 13.0,
+    "tax_rate_pct": 25.0,
+    "execution_hit_rate_pct": 80
+  },
+  "wealth": {
+    "payout_ratio_3y_avg_pct": 32,
+    "dividend_years_paid_last5": 5,
+    "unrelated_investments_pct_networth": 0,
+    "largest_acquisition_pct_networth_5y": 8
+  },
+  "communication": {
+    "earnings_calls_per_year": 4,
+    "investor_presentation": true,
+    "investor_day_or_plant_visit_2y": false,
+    "dedicated_ir": true
+  },
+  "growth": {
+    "roce_3y_avg_pct": 28,
+    "pat_cagr_5y_hist_pct": 19,
+    "pat_cagr_fwd_pct": 21,
+    "fwd_basis": "illustrative",
+    "growth_visibility_years": 5
+  },
+  "sources": { "all": "Fictional numbers for demonstrating the scorer" }
+}

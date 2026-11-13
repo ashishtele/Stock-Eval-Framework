@@ -1,0 +1,82 @@
+{
+  "_help": {
+    "sector_type": "structural | semi_cyclical | cyclical",
+    "auditor_tier": "big4 | top_tier | mid_tier | small",
+    "royalty_recipient": "none | foreign_tech_parent | promoter_entity",
+    "units": "percentages as plain numbers (18.5 = 18.5%); money in Rs crore; leave unknowns null",
+    "fwd_basis": "management guidance | consensus | own estimate (state assumptions)"
+  },
+  "company": "Company name (NSE symbol)",
+  "as_of": "YYYY-MM-DD",
+  "sector_type": null,
+  "is_financial": false,
+  "market": {
+    "price": null,
+    "market_cap_cr": null,
+    "pe_ttm": null,
+    "pat_ttm_cr": null,
+    "exit_pe": null,
+    "dividend_yield_pct": null,
+    "adtv_6m_cr": null,
+    "in_fno": null
+  },
+  "financials": {
+    "revenue_cr": null
+  },
+  "integrity": {
+    "promoter_holding_pct": null,
+    "no_identifiable_promoter": false,
+    "promoter_holding_change_3y_pp": null,
+    "bonus_split_buyback_count_10y": null,
+    "preferential_to_promoters_5y": null,
+    "proposed_dilution_pct": null,
+    "pledge_pct_of_promoter_holding": null,
+    "promoter_remuneration_cr": null,
+    "md_to_median_employee_ratio": null,
+    "auditor_tier": null,
+    "audit_fee_cr": null,
+    "peer_median_audit_fee_pct_revenue": null,
+    "auditor_red_flag": false,
+    "rpt_pct_revenue": null,
+    "sister_concern_same_business": false,
+    "royalty_pct_revenue": null,
+    "royalty_recipient": null
+  },
+  "capability": {
+    "exports_pct_revenue": null,
+    "imports_pct_revenue": null,
+    "net_debt_to_equity": null,
+    "gross_debt_to_equity": null,
+    "unhedged_fx_debt_pct_of_debt": null,
+    "debt_restructurings_count": null,
+    "cost_of_debt_pct": 9.0,
+    "cost_of_equity_pct": 13.0,
+    "tax_rate_pct": 25.0,
+    "execution_hit_rate_pct": null
+  },
+  "wealth": {
+    "payout_ratio_3y_avg_pct": null,
+    "dividend_years_paid_last5": null,
+    "unrelated_investments_pct_networth": null,
+    "largest_acquisition_pct_networth_5y": null
+  },
+  "communication": {
+    "earnings_calls_per_year": null,
+    "investor_presentation": null,
+    "investor_day_or_plant_visit_2y": null,
+    "dedicated_ir": null
+  },
+  "growth": {
+    "roce_3y_avg_pct": null,
+    "pat_cagr_5y_hist_pct": null,
+    "pat_cagr_fwd_pct": null,
+    "fwd_basis": null,
+    "growth_visibility_years": null
+  },
+  "sources": {
+    "market": "e.g. Screener.in / NSE, date",
+    "shareholding": "e.g. BSE shareholding pattern Q2 FY27",
+    "annual_report": "e.g. FY26 annual report, pages ...",
+    "forward_growth": "basis for pat_cagr_fwd_pct"
+  }
+}
