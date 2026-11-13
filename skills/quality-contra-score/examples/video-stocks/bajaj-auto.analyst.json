@@ -1,0 +1,37 @@
+{
+  "business_type": "non_financial",
+  "inputs": {
+    "moat_evidence": {
+      "value": ["lowest_cost_producer", "distribution_or_network_scale"],
+      "source": "Transcript 44:40-44:58: lowest fixed cost, contract manufacturer for KTM/Triumph. 11:37: export markets Colombia, Mexico, Nigeria growing."
+    },
+    "funding_backstop": {
+      "value": ["net_cash_ge_5pct_of_mcap", "strong_group_parent"],
+      "source": "Transcript 11:29 '15,000 crores of cash on the side' vs fetched mcap 3,00,773 cr (5.0%). Bajaj Group."
+    },
+    "governance_pedigree": { "value": "tried_tested_group_or_mnc", "source": "Transcript 21:59-22:10; 29:38." },
+    "crisis_evidence": {
+      "value": ["no_distress_dilution_or_asset_sale", "operated_through_major_shock"],
+      "source": "Transcript 43:43-45:20: Nigeria exports went to zero, stock 3,800 -> 11,000 since; no dilution, buybacks instead."
+    },
+    "capital_allocation_evidence": {
+      "value": ["buyback_or_special_dividend_5y", "capex_funded_internally"],
+      "source": "Transcript 45:20: new buyback at 12,000. Fetched net debt/EBITDA -0.10 (standalone)."
+    },
+    "insider_signals": {
+      "value": ["buyback_promoter_not_tendering_24m"],
+      "source": "Transcript 45:20-45:26: buyback at 12,000, promoter not participating. 12,000 vs fetched price 11,040 = 8.7% premium (< 15%)."
+    },
+    "fall_cause": {
+      "value": "company_specific_fixable",
+      "source": "Transcript 11:02-11:21: lost domestic scooter share; stock fell. Fetched drawdown only 12.8% now."
+    },
+    "temporariness_evidence": {
+      "value": ["revenue_or_volume_base_intact", "positive_catalyst_emerging"],
+      "source": "Transcript 11:37-11:54: exports growing well; electric 3W doing very well. 20:43-20:52: stock already moved."
+    },
+    "sentiment_evidence": { "value": [], "source": "Fetched: 12m return +25.8pp vs Nifty, institutions -0.38pp; no bad-news flow found." },
+    "disruption_risk": { "value": "moderate", "source": "AGENT ASSESSMENT: two-wheeler EV transition (company investing, 11:37)." },
+    "cyclicality": { "value": "secular", "source": "Two/three-wheelers with export diversification." }
+  }
+}

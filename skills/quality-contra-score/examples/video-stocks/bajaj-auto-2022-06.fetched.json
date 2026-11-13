@@ -1,0 +1,95 @@
+{
+  "company": "Bajaj Auto Ltd",
+  "ticker": "BAJAJ-AUTO",
+  "as_of": "2022-06-30",
+  "inputs": {
+    "eps_cagr_5y_pct": {
+      "value": 5.6,
+      "source": "Screener https://www.screener.in/company/BAJAJ-AUTO/ (standalone) [P&L EPS in Rs CAGR Mar 2017 132.27 -> Mar 2022 173.44] fetched 2026-11-12"
+    },
+    "roce_10y_avg_pct": {
+      "value": 33.4,
+      "source": "Screener https://www.screener.in/company/BAJAJ-AUTO/ (standalone) [Ratios ROCE % avg of 8y Mar 2015..Mar 2022: 42, 46, 35, 32, 31, 31, 26, 24] fetched 2026-11-12"
+    },
+    "roce_pct_years_ge_15": {
+      "value": 100,
+      "source": "Screener https://www.screener.in/company/BAJAJ-AUTO/ (standalone) [Ratios ROCE %: 8 of 8 years >= 15%] fetched 2026-11-12"
+    },
+    "cfo_to_pat_10y": {
+      "value": 0.8,
+      "source": "Screener https://www.screener.in/company/BAJAJ-AUTO/ (standalone) [Cash Flow CFO sum 27,078 / P&L Net Profit sum 33,989, Mar 2015..Mar 2022 (8y)] fetched 2026-11-12"
+    },
+    "cfo_positive_years_pct": {
+      "value": 100,
+      "source": "Screener https://www.screener.in/company/BAJAJ-AUTO/ (standalone) [Cash Flow CFO > 0 in 8 of 8 years, Mar 2015..Mar 2022 (8y)] fetched 2026-11-12"
+    },
+    "cfo_5y_cumulative_cr": {
+      "value": 17935,
+      "source": "Screener https://www.screener.in/company/BAJAJ-AUTO/ (standalone) [Cash Flow CFO sum Mar 2018..Mar 2022] fetched 2026-11-12"
+    },
+    "net_debt_to_ebitda": {
+      "value": -0.09,
+      "source": "Screener https://www.screener.in/company/BAJAJ-AUTO/ (standalone) [(Borrowings 123 - leases 0 - cash equivalents 588) Mar 2022 / Operating Profit 5268 Mar 2022; investments not netted (conservative)] fetched 2026-11-12"
+    },
+    "interest_coverage": {
+      "value": 100,
+      "source": "Screener https://www.screener.in/company/BAJAJ-AUTO/ (standalone) [(PBT 6505 + Interest 9) / Interest, Mar 2022; capped at 100] fetched 2026-11-12"
+    },
+    "dividend_payout_5y_avg_pct": {
+      "value": 63.6,
+      "source": "Screener https://www.screener.in/company/BAJAJ-AUTO/ (standalone) [P&L Dividend Payout % avg Mar 2018..Mar 2022: 43, 37, 68, 89, 81] fetched 2026-11-12"
+    },
+    "current_price": {
+      "value": 3624.6,
+      "source": "Yahoo BAJAJ-AUTO.NS daily [close on 2022-07-01] fetched 2026-11-12"
+    },
+    "drawdown_from_3y_high_pct": {
+      "value": 15.6,
+      "source": "Yahoo BAJAJ-AUTO.NS daily [close 3624.60 on 2022-07-01 vs 3y closing high 4295.05] fetched 2026-11-12"
+    },
+    "price_vs_200dma_pct": {
+      "value": 0.6,
+      "source": "Yahoo BAJAJ-AUTO.NS daily [close vs 200-session average to 2022-07-01] fetched 2026-11-12"
+    },
+    "price_cagr_5y_pct": {
+      "value": 5.4,
+      "source": "Yahoo BAJAJ-AUTO.NS daily [close 2791.20 on 2017-06-30 -> 3624.60 on 2022-07-01] fetched 2026-11-12"
+    },
+    "rel_return_12m_vs_nifty_pp": {
+      "value": -14.3,
+      "source": "Yahoo BAJAJ-AUTO.NS 12m return -13.8% minus ^NSEI 0.5% (2021-07-01 -> 2022-07-01), fetched 2026-11-12"
+    },
+    "market_cap_cr": {
+      "value": 104676,
+      "source": "Screener https://www.screener.in/company/BAJAJ-AUTO/ (standalone) [Yahoo close x shares implied by Equity Capital Mar 2022 (approx)] fetched 2026-11-12"
+    },
+    "dividend_yield_pct": {
+      "value": 3.88,
+      "source": "Screener https://www.screener.in/company/BAJAJ-AUTO/ (standalone) [DPS ~ EPS 173.44 x payout 81% (Mar 2022) / price 3624.60] fetched 2026-11-12"
+    },
+    "fcf_yield_pct": {
+      "value": 3.23,
+      "source": "Screener https://www.screener.in/company/BAJAJ-AUTO/ (standalone) [Cash Flow Free Cash Flow avg Mar 2020..Mar 2022 (3582, 2863, 3690) / mcap 104,676] fetched 2026-11-12"
+    },
+    "pe": {
+      "value": 23.1,
+      "source": "Screener https://www.screener.in/company/BAJAJ-AUTO/ (standalone) [P/E chart value at 2022-06-24] fetched 2026-11-12"
+    },
+    "pe_percentile_10y": {
+      "value": 88.9,
+      "source": "Screener https://www.screener.in/company/BAJAJ-AUTO/ (standalone) [percentile of current P/E in P/E chart 2012-07-06..2022-06-24 (521 points, positive P/E only)] fetched 2026-11-12"
+    },
+    "pe_median_10y": {
+      "value": 19.7,
+      "source": "Screener https://www.screener.in/company/BAJAJ-AUTO/ (standalone) [median of P/E chart 2012-07-06..2022-06-24 (521 points, positive P/E only)] fetched 2026-11-12"
+    },
+    "pe_p20_10y": {
+      "value": 17.9,
+      "source": "Screener https://www.screener.in/company/BAJAJ-AUTO/ (standalone) [20th percentile of P/E chart 2012-07-06..2022-06-24 (521 points, positive P/E only)] fetched 2026-11-12"
+    },
+    "pe_p40_10y": {
+      "value": 19.1,
+      "source": "Screener https://www.screener.in/company/BAJAJ-AUTO/ (standalone) [40th percentile of P/E chart 2012-07-06..2022-06-24 (521 points, positive P/E only)] fetched 2026-11-12"
+    }
+  }
+}

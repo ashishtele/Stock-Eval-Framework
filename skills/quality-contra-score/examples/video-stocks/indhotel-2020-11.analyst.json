@@ -1,0 +1,28 @@
+{
+  "business_type": "non_financial",
+  "inputs": {
+    "moat_evidence": {
+      "value": ["brand_leader_top3_share", "regulatory_licence_or_scarce_asset"],
+      "source": "Transcript 28:43-28:52: 'Taj Group has such a strong brand'. AGENT ASSESSMENT: iconic owned/leased hotel locations are scarce assets."
+    },
+    "funding_backstop": { "value": ["strong_group_parent"], "source": "Transcript 28:43: Tata Group company, best management." },
+    "governance_pedigree": { "value": "tried_tested_group_or_mnc", "source": "Transcript 28:43; 29:38." },
+    "crisis_evidence": { "value": null, "source": "" },
+    "capital_allocation_evidence": { "value": null, "source": "" },
+    "insider_signals": { "value": null, "source": "" },
+    "fall_cause": {
+      "value": "market_wide_macro",
+      "source": "Transcript 29:46-30:06: COVID - hotels the most affected and most beaten-down sector."
+    },
+    "temporariness_evidence": {
+      "value": ["positive_catalyst_emerging", "trigger_reversing_or_time_bound"],
+      "source": "Transcript 28:30-28:55 and 30:06-30:15: Pfizer vaccine news (Nov 2020) - people would step out again."
+    },
+    "sentiment_evidence": {
+      "value": ["negative_media_or_sector_out_of_favour"],
+      "source": "Transcript 30:03: 'it had been beaten down the most'. Fetched 12m return -33pp vs Nifty."
+    },
+    "disruption_risk": { "value": "low", "source": "AGENT ASSESSMENT: physical hospitality." },
+    "cyclicality": { "value": "secular", "source": "Hospitality (travel-cycle sensitive, not a commodity)." }
+  }
+}

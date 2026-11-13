@@ -1,0 +1,63 @@
+{
+  "company": "JSW Infrastructure Ltd",
+  "ticker": "JSWINFRA",
+  "as_of": "2023-10-31",
+  "inputs": {
+    "eps_cagr_5y_pct": {
+      "value": 22.0,
+      "source": "Screener https://www.screener.in/company/JSWINFRA/consolidated/ (consolidated) [P&L EPS in Rs CAGR Mar 2018 1.47 -> Mar 2023 3.97] fetched 2026-11-12"
+    },
+    "roce_10y_avg_pct": {
+      "value": 11.3,
+      "source": "Screener https://www.screener.in/company/JSWINFRA/consolidated/ (consolidated) [Ratios ROCE % avg of 6y Mar 2018..Mar 2023: 12, 9, 9, 10, 11, 17] fetched 2026-11-12"
+    },
+    "roce_pct_years_ge_15": {
+      "value": 17,
+      "source": "Screener https://www.screener.in/company/JSWINFRA/consolidated/ (consolidated) [Ratios ROCE %: 1 of 6 years >= 15%] fetched 2026-11-12"
+    },
+    "cfo_to_pat_10y": {
+      "value": 2.38,
+      "source": "Screener https://www.screener.in/company/JSWINFRA/consolidated/ (consolidated) [Cash Flow CFO sum 5,766 / P&L Net Profit sum 2,425, Mar 2017..Mar 2023 (7y)] fetched 2026-11-12"
+    },
+    "cfo_positive_years_pct": {
+      "value": 100,
+      "source": "Screener https://www.screener.in/company/JSWINFRA/consolidated/ (consolidated) [Cash Flow CFO > 0 in 7 of 7 years, Mar 2017..Mar 2023 (7y)] fetched 2026-11-12"
+    },
+    "cfo_5y_cumulative_cr": {
+      "value": 4550,
+      "source": "Screener https://www.screener.in/company/JSWINFRA/consolidated/ (consolidated) [Cash Flow CFO sum Mar 2019..Mar 2023] fetched 2026-11-12"
+    },
+    "net_debt_to_ebitda": {
+      "value": 1.61,
+      "source": "Screener https://www.screener.in/company/JSWINFRA/consolidated/ (consolidated) [(Borrowings 4568 - leases 324 - cash equivalents 1632) Mar 2023 / Operating Profit 1623 Mar 2023; investments not netted (conservative)] fetched 2026-11-12"
+    },
+    "interest_coverage": {
+      "value": 2.4,
+      "source": "Screener https://www.screener.in/company/JSWINFRA/consolidated/ (consolidated) [(PBT 811 + Interest 596) / Interest, Mar 2023; capped at 100] fetched 2026-11-12"
+    },
+    "dividend_payout_5y_avg_pct": {
+      "value": 0.0,
+      "source": "Screener https://www.screener.in/company/JSWINFRA/consolidated/ (consolidated) [P&L Dividend Payout % avg Mar 2019..Mar 2023: 0, 0, 0, 0, 0] fetched 2026-11-12"
+    },
+    "current_price": {
+      "value": 168.15,
+      "source": "Yahoo JSWINFRA.NS daily [close on 2023-11-01] fetched 2026-11-12"
+    },
+    "drawdown_from_3y_high_pct": {
+      "value": 6.0,
+      "source": "Yahoo JSWINFRA.NS daily [close 168.15 on 2023-11-01 vs 3y closing high 178.90] fetched 2026-11-12"
+    },
+    "market_cap_cr": {
+      "value": 30337,
+      "source": "Screener https://www.screener.in/company/JSWINFRA/consolidated/ (consolidated) [Yahoo close x shares implied by Equity Capital Mar 2023 (approx)] fetched 2026-11-12"
+    },
+    "dividend_yield_pct": {
+      "value": 0.0,
+      "source": "Screener https://www.screener.in/company/JSWINFRA/consolidated/ (consolidated) [DPS ~ EPS 3.97 x payout 0% (Mar 2023) / price 168.15] fetched 2026-11-12"
+    },
+    "fcf_yield_pct": {
+      "value": 1.75,
+      "source": "Screener https://www.screener.in/company/JSWINFRA/consolidated/ (consolidated) [Cash Flow Free Cash Flow avg Mar 2021..Mar 2023 (-602, 669, 1528) / mcap 30,337] fetched 2026-11-12"
+    }
+  }
+}

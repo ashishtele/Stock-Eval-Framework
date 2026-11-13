@@ -1,0 +1,71 @@
+{
+  "company": "Tata Motors Passenger Vehicles Ltd",
+  "ticker": "TMPV",
+  "as_of": "2020-11-10",
+  "inputs": {
+    "roce_10y_avg_pct": {
+      "value": 9.3,
+      "source": "Screener https://www.screener.in/company/TMPV/consolidated/ (consolidated) [Ratios ROCE % avg of 6y Mar 2015..Mar 2020: 21, 15, 9, 9, 2, -0] fetched 2026-11-12"
+    },
+    "roce_pct_years_ge_15": {
+      "value": 33,
+      "source": "Screener https://www.screener.in/company/TMPV/consolidated/ (consolidated) [Ratios ROCE %: 2 of 6 years >= 15%] fetched 2026-11-12"
+    },
+    "cfo_to_pat_10y": {
+      "value": 101.77,
+      "source": "Screener https://www.screener.in/company/TMPV/consolidated/ (consolidated) [Cash Flow CFO sum 173,011 / P&L Net Profit sum 1,700, Mar 2015..Mar 2020 (6y)] fetched 2026-11-12"
+    },
+    "cfo_positive_years_pct": {
+      "value": 100,
+      "source": "Screener https://www.screener.in/company/TMPV/consolidated/ (consolidated) [Cash Flow CFO > 0 in 6 of 6 years, Mar 2015..Mar 2020 (6y)] fetched 2026-11-12"
+    },
+    "cfo_5y_cumulative_cr": {
+      "value": 137480,
+      "source": "Screener https://www.screener.in/company/TMPV/consolidated/ (consolidated) [Cash Flow CFO sum Mar 2016..Mar 2020] fetched 2026-11-12"
+    },
+    "net_debt_to_ebitda": {
+      "value": 4.73,
+      "source": "Screener https://www.screener.in/company/TMPV/consolidated/ (consolidated) [(Borrowings 124788 - leases 5977 - cash equivalents 33727) Mar 2020 / Operating Profit 17987 Mar 2020; investments not netted (conservative)] fetched 2026-11-12"
+    },
+    "interest_coverage": {
+      "value": -0.5,
+      "source": "Screener https://www.screener.in/company/TMPV/consolidated/ (consolidated) [(PBT -10580 + Interest 7243) / Interest, Mar 2020; capped at 100] fetched 2026-11-12"
+    },
+    "dividend_payout_5y_avg_pct": {
+      "value": 0.2,
+      "source": "Screener https://www.screener.in/company/TMPV/consolidated/ (consolidated) [P&L Dividend Payout % avg Mar 2016..Mar 2020: 1, 0, 0, 0, 0] fetched 2026-11-12"
+    },
+    "current_price": {
+      "value": 150.95,
+      "source": "Yahoo TMPV.NS daily [close on 2020-11-11] fetched 2026-11-12"
+    },
+    "drawdown_from_3y_high_pct": {
+      "value": 65.6,
+      "source": "Yahoo TMPV.NS daily [close 150.95 on 2020-11-11 vs 3y closing high 439.30] fetched 2026-11-12"
+    },
+    "price_vs_200dma_pct": {
+      "value": 29.4,
+      "source": "Yahoo TMPV.NS daily [close vs 200-session average to 2020-11-11] fetched 2026-11-12"
+    },
+    "price_cagr_5y_pct": {
+      "value": -17.9,
+      "source": "Yahoo TMPV.NS daily [close 403.95 on 2015-11-13 -> 150.95 on 2020-11-11] fetched 2026-11-12"
+    },
+    "rel_return_12m_vs_nifty_pp": {
+      "value": -19.3,
+      "source": "Yahoo TMPV.NS 12m return -12.2% minus ^NSEI 7.0% (2019-11-11 -> 2020-11-11), fetched 2026-11-12"
+    },
+    "market_cap_cr": {
+      "value": 54358,
+      "source": "Screener https://www.screener.in/company/TMPV/consolidated/ (consolidated) [Yahoo close x shares implied by Equity Capital Mar 2020 (approx)] fetched 2026-11-12"
+    },
+    "dividend_yield_pct": {
+      "value": 0.0,
+      "source": "Screener https://www.screener.in/company/TMPV/consolidated/ (consolidated) [DPS ~ EPS -39.08 x payout -0% (Mar 2020) / price 150.95] fetched 2026-11-12"
+    },
+    "fcf_yield_pct": {
+      "value": -18.66,
+      "source": "Screener https://www.screener.in/company/TMPV/consolidated/ (consolidated) [Cash Flow Free Cash Flow avg Mar 2018..Mar 2020 (-11191, -16346, -2898) / mcap 54,358] fetched 2026-11-12"
+    }
+  }
+}

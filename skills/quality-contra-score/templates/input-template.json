@@ -1,0 +1,53 @@
+{
+  "company": "",
+  "ticker": "",
+  "as_of": "",
+  "business_type": "non_financial",
+  "_business_type_note": "banks/NBFCs/insurers are out of scope; use --standalone when consolidation includes a captive lender",
+  "inputs": {
+    "proven_fraud_or_fund_diversion": { "value": null, "source": "true/false; SEBI/ED/court orders, forensic audit, exchange filings" },
+    "auditor_red_flag_3y": { "value": null, "source": "true/false; audit report qualification, CARO, auditor resignation letter" },
+
+    "roce_10y_avg_pct": { "value": null, "source": "fetched" },
+    "roce_pct_years_ge_15": { "value": null, "source": "fetched" },
+    "cfo_to_pat_10y": { "value": null, "source": "fetched" },
+    "cfo_positive_years_pct": { "value": null, "source": "fetched" },
+    "cfo_5y_cumulative_cr": { "value": null, "source": "fetched (gate)" },
+    "moat_evidence": { "value": null, "source": "list from: brand_leader_top3_share, lowest_cost_producer, technology_or_product_leadership, distribution_or_network_scale, pricing_power_passed_cost_inflation, regulatory_licence_or_scarce_asset" },
+
+    "net_debt_to_ebitda": { "value": null, "source": "fetched (gate + score)" },
+    "interest_coverage": { "value": null, "source": "fetched" },
+    "funding_backstop": { "value": null, "source": "list from: net_cash_ge_5pct_of_mcap, promoter_or_parent_infused_capital_in_past_crisis, strong_group_parent, credit_rating_aa_or_better" },
+
+    "governance_pedigree": { "value": null, "source": "one of: tried_tested_group_or_mnc, clean_promoter_record_10y, professional_board_clean_record, limited_record" },
+    "crisis_evidence": { "value": null, "source": "list from: operated_through_major_shock, market_share_held_or_gained_in_downturn, cost_reset_then_recovery, profit_regained_prior_peak_within_3y, no_distress_dilution_or_asset_sale" },
+    "dividend_payout_5y_avg_pct": { "value": null, "source": "fetched" },
+    "capital_allocation_evidence": { "value": null, "source": "list from: buyback_or_special_dividend_5y, capex_funded_internally, no_value_destroying_acquisition_5y" },
+    "insider_signals": { "value": null, "source": "list from: promoter_open_market_buy_24m, promoter_subscribed_rights_or_preferential_24m, buyback_promoter_not_tendering_24m, buyback_price_ge_15pct_above_market_24m" },
+    "promoter_holding_pct": { "value": null, "source": "fetched (today only); number or \"professionally_managed\"" },
+    "promoter_holding_change_3y_pp": { "value": null, "source": "fetched (today only)" },
+    "promoter_pledge_pct": { "value": null, "source": "fetched (today only)" },
+
+    "drawdown_from_3y_high_pct": { "value": null, "source": "fetched" },
+    "price_cagr_5y_pct": { "value": null, "source": "fetched" },
+    "eps_cagr_5y_pct": { "value": null, "source": "fetched" },
+    "fall_cause": { "value": null, "source": "one of: market_wide_macro, input_cost_or_commodity, sector_temporary, company_specific_fixable, prolonged_neglect, no_fall, unknown, structural_disruption" },
+    "temporariness_evidence": { "value": null, "source": "list from: revenue_or_volume_base_intact, management_corrective_actions_announced, precedent_of_recovery, trigger_reversing_or_time_bound, positive_catalyst_emerging" },
+    "rel_return_12m_vs_nifty_pp": { "value": null, "source": "fetched" },
+    "sentiment_evidence": { "value": null, "source": "list from: institutions_cut_ge_1pp_4q, broker_downgrades_or_target_cuts_6m, negative_media_or_sector_out_of_favour, earnings_estimates_cut_6m" },
+
+    "pe": { "value": null, "source": "fetched" },
+    "pe_percentile_10y": { "value": null, "source": "fetched" },
+    "pe_median_10y": { "value": null, "source": "fetched" },
+    "dividend_yield_pct": { "value": null, "source": "fetched" },
+    "fcf_yield_pct": { "value": null, "source": "fetched" },
+
+    "disruption_risk": { "value": null, "source": "one of: low, moderate, high (technology making the product/service less relevant)" },
+    "cyclicality": { "value": null, "source": "secular or cyclical_commodity (caps weight at 3%)" },
+    "group_extension_listing": { "value": null, "source": "optional true/false: new listing of a proven group's business" },
+
+    "position_cost_price": { "value": null, "source": "optional" },
+    "portfolio_weight_pct": { "value": null, "source": "optional" },
+    "holding_months": { "value": null, "source": "optional" }
+  }
+}

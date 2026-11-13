@@ -1,0 +1,111 @@
+{
+  "company": "Sun Pharmaceutical Industries Ltd",
+  "ticker": "SUNPHARMA",
+  "as_of": "2026-11-12",
+  "inputs": {
+    "eps_cagr_5y_pct": {
+      "value": 31.6,
+      "source": "Screener https://www.screener.in/company/SUNPHARMA/consolidated/ (consolidated) [P&L EPS in Rs CAGR Mar 2021 12.1 -> Mar 2026 47.84] fetched 2026-11-12"
+    },
+    "roce_10y_avg_pct": {
+      "value": 15.4,
+      "source": "Screener https://www.screener.in/company/SUNPHARMA/consolidated/ (consolidated) [Ratios ROCE % avg of 10y Mar 2017..Mar 2026: 20, 10, 10, 10, 13, 17, 16, 17, 20, 21] fetched 2026-11-12"
+    },
+    "roce_pct_years_ge_15": {
+      "value": 60,
+      "source": "Screener https://www.screener.in/company/SUNPHARMA/consolidated/ (consolidated) [Ratios ROCE %: 6 of 10 years >= 15%] fetched 2026-11-12"
+    },
+    "cfo_to_pat_10y": {
+      "value": 1.23,
+      "source": "Screener https://www.screener.in/company/SUNPHARMA/consolidated/ (consolidated) [Cash Flow CFO sum 78,480 / P&L Net Profit sum 64,026, Mar 2017..Mar 2026 (10y)] fetched 2026-11-12"
+    },
+    "cfo_positive_years_pct": {
+      "value": 100,
+      "source": "Screener https://www.screener.in/company/SUNPHARMA/consolidated/ (consolidated) [Cash Flow CFO > 0 in 10 of 10 years, Mar 2017..Mar 2026 (10y)] fetched 2026-11-12"
+    },
+    "cfo_5y_cumulative_cr": {
+      "value": 52570,
+      "source": "Screener https://www.screener.in/company/SUNPHARMA/consolidated/ (consolidated) [Cash Flow CFO sum Mar 2022..Mar 2026] fetched 2026-11-12"
+    },
+    "net_debt_to_ebitda": {
+      "value": -0.46,
+      "source": "Screener https://www.screener.in/company/SUNPHARMA/consolidated/ (consolidated) [(Borrowings 4627 - leases 546 - cash equivalents 11603) Mar 2026 / Operating Profit 16501 Mar 2026; investments not netted (conservative)] fetched 2026-11-12"
+    },
+    "interest_coverage": {
+      "value": 45.6,
+      "source": "Screener https://www.screener.in/company/SUNPHARMA/consolidated/ (consolidated) [(PBT 15119 + Interest 339) / Interest, Mar 2026; capped at 100] fetched 2026-11-12"
+    },
+    "dividend_payout_5y_avg_pct": {
+      "value": 41.6,
+      "source": "Screener https://www.screener.in/company/SUNPHARMA/consolidated/ (consolidated) [P&L Dividend Payout % avg Mar 2022..Mar 2026: 73, 33, 34, 35, 33] fetched 2026-11-12"
+    },
+    "current_price": {
+      "value": 1902.3,
+      "source": "Yahoo SUNPHARMA.NS daily [close on 2026-11-11] fetched 2026-11-12"
+    },
+    "drawdown_from_3y_high_pct": {
+      "value": 4.9,
+      "source": "Yahoo SUNPHARMA.NS daily [close 1902.30 on 2026-11-11 vs 3y closing high 2001.10] fetched 2026-11-12"
+    },
+    "price_vs_200dma_pct": {
+      "value": 4.9,
+      "source": "Yahoo SUNPHARMA.NS daily [close vs 200-session average to 2026-11-11] fetched 2026-11-12"
+    },
+    "price_cagr_5y_pct": {
+      "value": 18.7,
+      "source": "Yahoo SUNPHARMA.NS daily [close 806.50 on 2021-11-12 -> 1902.30 on 2026-11-11] fetched 2026-11-12"
+    },
+    "rel_return_12m_vs_nifty_pp": {
+      "value": 12.6,
+      "source": "Yahoo SUNPHARMA.NS 12m return 10.9% minus ^NSEI -1.7% (2025-11-11 -> 2026-11-11), fetched 2026-11-12"
+    },
+    "market_cap_cr": {
+      "value": 452275.0,
+      "source": "Screener https://www.screener.in/company/SUNPHARMA/consolidated/ (consolidated) [Top ratios Market Cap] fetched 2026-11-12"
+    },
+    "dividend_yield_pct": {
+      "value": 0.83,
+      "source": "Screener https://www.screener.in/company/SUNPHARMA/consolidated/ (consolidated) [DPS ~ EPS 47.84 x payout 33% (Mar 2026) / price 1902.30] fetched 2026-11-12"
+    },
+    "fcf_yield_pct": {
+      "value": 2.28,
+      "source": "Screener https://www.screener.in/company/SUNPHARMA/consolidated/ (consolidated) [Cash Flow Free Cash Flow avg Mar 2024..Mar 2026 (9964, 12005, 8906) / mcap 452,275] fetched 2026-11-12"
+    },
+    "pe": {
+      "value": 36.8,
+      "source": "Screener https://www.screener.in/company/SUNPHARMA/consolidated/ (consolidated) [P/E chart value at 2026-11-12] fetched 2026-11-12"
+    },
+    "pe_percentile_10y": {
+      "value": 79.1,
+      "source": "Screener https://www.screener.in/company/SUNPHARMA/consolidated/ (consolidated) [percentile of current P/E in P/E chart 2016-11-18..2026-11-12 (522 points, positive P/E only)] fetched 2026-11-12"
+    },
+    "pe_median_10y": {
+      "value": 31.0,
+      "source": "Screener https://www.screener.in/company/SUNPHARMA/consolidated/ (consolidated) [median of P/E chart 2016-11-18..2026-11-12 (522 points, positive P/E only)] fetched 2026-11-12"
+    },
+    "pe_p20_10y": {
+      "value": 25.8,
+      "source": "Screener https://www.screener.in/company/SUNPHARMA/consolidated/ (consolidated) [20th percentile of P/E chart 2016-11-18..2026-11-12 (522 points, positive P/E only)] fetched 2026-11-12"
+    },
+    "pe_p40_10y": {
+      "value": 29.6,
+      "source": "Screener https://www.screener.in/company/SUNPHARMA/consolidated/ (consolidated) [40th percentile of P/E chart 2016-11-18..2026-11-12 (522 points, positive P/E only)] fetched 2026-11-12"
+    },
+    "promoter_holding_pct": {
+      "value": 52.68,
+      "source": "Screener https://www.screener.in/company/SUNPHARMA/consolidated/ (consolidated) [Shareholding Promoters Sep 2026] fetched 2026-11-12"
+    },
+    "promoter_holding_change_3y_pp": {
+      "value": -1.8,
+      "source": "Screener https://www.screener.in/company/SUNPHARMA/consolidated/ (consolidated) [Shareholding Promoters Dec 2023 -> Sep 2026] fetched 2026-11-12"
+    },
+    "promoter_pledge_pct": {
+      "value": 0.0,
+      "source": "Screener https://www.screener.in/company/SUNPHARMA/consolidated/ (consolidated) [Pros/cons pledge flag absent; verify in exchange shareholding pattern] fetched 2026-11-12"
+    },
+    "institutional_change_4q_pp": {
+      "value": -0.04,
+      "source": "Screener https://www.screener.in/company/SUNPHARMA/consolidated/ (consolidated) [Shareholding FIIs+DIIs Sep 2025 36.67 -> Sep 2026 36.63] fetched 2026-11-12"
+    }
+  }
+}

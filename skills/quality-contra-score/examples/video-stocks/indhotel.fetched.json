@@ -1,0 +1,107 @@
+{
+  "company": "Indian Hotels Co Ltd",
+  "ticker": "INDHOTEL",
+  "as_of": "2026-11-12",
+  "inputs": {
+    "roce_10y_avg_pct": {
+      "value": 8.3,
+      "source": "Screener https://www.screener.in/company/INDHOTEL/consolidated/ (consolidated) [Ratios ROCE % avg of 10y Mar 2017..Mar 2026: 5, 6, 8, 7, -6, 1, 13, 15, 17, 17] fetched 2026-11-12"
+    },
+    "roce_pct_years_ge_15": {
+      "value": 30,
+      "source": "Screener https://www.screener.in/company/INDHOTEL/consolidated/ (consolidated) [Ratios ROCE %: 3 of 10 years >= 15%] fetched 2026-11-12"
+    },
+    "cfo_to_pat_10y": {
+      "value": 1.76,
+      "source": "Screener https://www.screener.in/company/INDHOTEL/consolidated/ (consolidated) [Cash Flow CFO sum 11,133 / P&L Net Profit sum 6,325, Mar 2017..Mar 2026 (10y)] fetched 2026-11-12"
+    },
+    "cfo_positive_years_pct": {
+      "value": 90,
+      "source": "Screener https://www.screener.in/company/INDHOTEL/consolidated/ (consolidated) [Cash Flow CFO > 0 in 9 of 10 years, Mar 2017..Mar 2026 (10y)] fetched 2026-11-12"
+    },
+    "cfo_5y_cumulative_cr": {
+      "value": 8891,
+      "source": "Screener https://www.screener.in/company/INDHOTEL/consolidated/ (consolidated) [Cash Flow CFO sum Mar 2022..Mar 2026] fetched 2026-11-12"
+    },
+    "net_debt_to_ebitda": {
+      "value": -0.56,
+      "source": "Screener https://www.screener.in/company/INDHOTEL/consolidated/ (consolidated) [(Borrowings 2837 - leases 2785 - cash equivalents 1831) Mar 2026 / Operating Profit 3196 Mar 2026; investments not netted (conservative)] fetched 2026-11-12"
+    },
+    "interest_coverage": {
+      "value": 14.2,
+      "source": "Screener https://www.screener.in/company/INDHOTEL/consolidated/ (consolidated) [(PBT 2926 + Interest 221) / Interest, Mar 2026; capped at 100] fetched 2026-11-12"
+    },
+    "dividend_payout_5y_avg_pct": {
+      "value": 10.0,
+      "source": "Screener https://www.screener.in/company/INDHOTEL/consolidated/ (consolidated) [P&L Dividend Payout % avg Mar 2022..Mar 2026: -23, 14, 20, 17, 22] fetched 2026-11-12"
+    },
+    "current_price": {
+      "value": 873.0,
+      "source": "Yahoo INDHOTEL.NS daily [close on 2026-11-11] fetched 2026-11-12"
+    },
+    "drawdown_from_3y_high_pct": {
+      "value": 2.1,
+      "source": "Yahoo INDHOTEL.NS daily [close 873.00 on 2026-11-11 vs 3y closing high 891.65] fetched 2026-11-12"
+    },
+    "price_vs_200dma_pct": {
+      "value": 25.2,
+      "source": "Yahoo INDHOTEL.NS daily [close vs 200-session average to 2026-11-11] fetched 2026-11-12"
+    },
+    "price_cagr_5y_pct": {
+      "value": 32.4,
+      "source": "Yahoo INDHOTEL.NS daily [close 214.30 on 2021-11-12 -> 873.00 on 2026-11-11] fetched 2026-11-12"
+    },
+    "rel_return_12m_vs_nifty_pp": {
+      "value": 26.8,
+      "source": "Yahoo INDHOTEL.NS 12m return 25.1% minus ^NSEI -1.7% (2025-11-11 -> 2026-11-11), fetched 2026-11-12"
+    },
+    "market_cap_cr": {
+      "value": 125547.0,
+      "source": "Screener https://www.screener.in/company/INDHOTEL/consolidated/ (consolidated) [Top ratios Market Cap] fetched 2026-11-12"
+    },
+    "dividend_yield_pct": {
+      "value": 0.37,
+      "source": "Screener https://www.screener.in/company/INDHOTEL/consolidated/ (consolidated) [DPS ~ EPS 14.64 x payout 22% (Mar 2026) / price 873.00] fetched 2026-11-12"
+    },
+    "fcf_yield_pct": {
+      "value": 1.03,
+      "source": "Screener https://www.screener.in/company/INDHOTEL/consolidated/ (consolidated) [Cash Flow Free Cash Flow avg Mar 2024..Mar 2026 (1302, 1133, 1444) / mcap 125,547] fetched 2026-11-12"
+    },
+    "pe": {
+      "value": 62.4,
+      "source": "Screener https://www.screener.in/company/INDHOTEL/consolidated/ (consolidated) [P/E chart value at 2026-11-12] fetched 2026-11-12"
+    },
+    "pe_percentile_10y": {
+      "value": 41.8,
+      "source": "Screener https://www.screener.in/company/INDHOTEL/consolidated/ (consolidated) [percentile of current P/E in P/E chart 2017-08-04..2026-11-12 (380 points, positive P/E only)] fetched 2026-11-12"
+    },
+    "pe_median_10y": {
+      "value": 64.4,
+      "source": "Screener https://www.screener.in/company/INDHOTEL/consolidated/ (consolidated) [median of P/E chart 2017-08-04..2026-11-12 (380 points, positive P/E only)] fetched 2026-11-12"
+    },
+    "pe_p20_10y": {
+      "value": 54.1,
+      "source": "Screener https://www.screener.in/company/INDHOTEL/consolidated/ (consolidated) [20th percentile of P/E chart 2017-08-04..2026-11-12 (380 points, positive P/E only)] fetched 2026-11-12"
+    },
+    "pe_p40_10y": {
+      "value": 61.9,
+      "source": "Screener https://www.screener.in/company/INDHOTEL/consolidated/ (consolidated) [40th percentile of P/E chart 2017-08-04..2026-11-12 (380 points, positive P/E only)] fetched 2026-11-12"
+    },
+    "promoter_holding_pct": {
+      "value": 38.12,
+      "source": "Screener https://www.screener.in/company/INDHOTEL/consolidated/ (consolidated) [Shareholding Promoters Sep 2026] fetched 2026-11-12"
+    },
+    "promoter_holding_change_3y_pp": {
+      "value": 0.0,
+      "source": "Screener https://www.screener.in/company/INDHOTEL/consolidated/ (consolidated) [Shareholding Promoters Dec 2023 -> Sep 2026] fetched 2026-11-12"
+    },
+    "promoter_pledge_pct": {
+      "value": 0.0,
+      "source": "Screener https://www.screener.in/company/INDHOTEL/consolidated/ (consolidated) [Pros/cons pledge flag absent; verify in exchange shareholding pattern] fetched 2026-11-12"
+    },
+    "institutional_change_4q_pp": {
+      "value": 1.04,
+      "source": "Screener https://www.screener.in/company/INDHOTEL/consolidated/ (consolidated) [Shareholding FIIs+DIIs Sep 2025 45.54 -> Sep 2026 46.58] fetched 2026-11-12"
+    }
+  }
+}

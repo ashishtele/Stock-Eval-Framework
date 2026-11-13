@@ -1,0 +1,22 @@
+{
+  "business_type": "non_financial",
+  "inputs": {
+    "moat_evidence": {
+      "value": ["brand_leader_top3_share", "distribution_or_network_scale"],
+      "source": "AGENT ASSESSMENT (unverified): Tata Tea / Tata Salt category leadership and national distribution. Transcript 22:42-23:07: flagship Tata FMCG."
+    },
+    "funding_backstop": { "value": ["strong_group_parent"], "source": "Transcript 22:42-23:07: Tata Sons chairman made it the group's flagship FMCG." },
+    "governance_pedigree": { "value": "tried_tested_group_or_mnc", "source": "Transcript 22:35-22:57." },
+    "crisis_evidence": { "value": null, "source": "" },
+    "capital_allocation_evidence": { "value": null, "source": "" },
+    "insider_signals": { "value": null, "source": "" },
+    "fall_cause": {
+      "value": "prolonged_neglect",
+      "source": "Fetched: price CAGR 5.2% vs EPS CAGR 11.2% over 5y, 12m -3.8pp vs Nifty. Same pattern as the guest's 2019 entry (22:25: 'stock hadn't moved for 5-6 years')."
+    },
+    "temporariness_evidence": { "value": [], "source": "No new catalyst identified." },
+    "sentiment_evidence": { "value": [], "source": "Fetched institutions +0.84pp in 4q: no bad-news flow." },
+    "disruption_risk": { "value": "low", "source": "AGENT ASSESSMENT: packaged staples." },
+    "cyclicality": { "value": "secular", "source": "Consumer staples." }
+  }
+}

@@ -1,0 +1,662 @@
+[
+  {
+    "case": "itc",
+    "as_of": "2026-11-12",
+    "stance": "contra buy now at ~280, 5% yield (9:26)",
+    "total": 77,
+    "coverage": 1.0,
+    "quality": 43,
+    "setup": 29,
+    "quality_mech_32": 30,
+    "setup_mech_26": 21,
+    "verdict": "PROVISIONAL QUALITY CONTRA - ACCUMULATE IN TRANCHES",
+    "flags": [],
+    "price": 285.0,
+    "claim": 280,
+    "pillars": "23/12/8/16/13/5"
+  },
+  {
+    "case": "tcs",
+    "as_of": "2026-11-12",
+    "stance": "strong recent contra call, ~2,200 (11:02, 18:16)",
+    "total": 78,
+    "coverage": 0.958,
+    "quality": 44,
+    "setup": 31,
+    "quality_mech_32": 32,
+    "setup_mech_26": 25,
+    "verdict": "PROVISIONAL QUALITY CONTRA - ACCUMULATE IN TRANCHES",
+    "flags": [
+      "PATIENCE TEST"
+    ],
+    "price": 2472.1,
+    "claim": 2200,
+    "pillars": "23/12/9/16/15/3"
+  },
+  {
+    "case": "infy",
+    "as_of": "2026-11-12",
+    "stance": "IT headwind; contra candidate (16:38, 27:21)",
+    "total": 76,
+    "coverage": 0.875,
+    "quality": 41,
+    "setup": 32,
+    "quality_mech_32": 32,
+    "setup_mech_26": 26,
+    "verdict": "INCOMPLETE - quality unproven; research deep_pockets, trial_by_fire, insider_signals",
+    "flags": [
+      "PATIENCE TEST"
+    ],
+    "price": 1155.0,
+    "claim": null,
+    "pillars": "23/11/7/17/15/3"
+  },
+  {
+    "case": "techm",
+    "as_of": "2026-11-12",
+    "stance": "named as good stock facing AI headwind (16:38)",
+    "total": 44,
+    "coverage": 0.833,
+    "quality": 39,
+    "setup": 2,
+    "quality_mech_32": 32,
+    "setup_mech_26": 2,
+    "verdict": "PROVISIONAL PASS",
+    "flags": [
+      "PATIENCE TEST"
+    ],
+    "price": 1788.5,
+    "claim": null,
+    "pillars": "19/12/8/0/2/3"
+  },
+  {
+    "case": "mphasis",
+    "as_of": "2026-11-12",
+    "stance": "named as good stock facing AI headwind (16:38)",
+    "total": 55,
+    "coverage": 0.792,
+    "quality": 32,
+    "setup": 20,
+    "quality_mech_32": 30,
+    "setup_mech_26": 15,
+    "verdict": "INCOMPLETE - gather sourced evidence before deciding",
+    "flags": [
+      "PATIENCE TEST"
+    ],
+    "price": 2390.0,
+    "claim": null,
+    "pillars": "19/9/4/14/6/3"
+  },
+  {
+    "case": "bajaj-auto",
+    "as_of": "2026-11-12",
+    "stance": "recent contra call, already moved; ~11,000 (11:02, 45:13)",
+    "total": 60,
+    "coverage": 1.0,
+    "quality": 50,
+    "setup": 7,
+    "quality_mech_32": 30,
+    "setup_mech_26": 2,
+    "verdict": "PROVISIONAL WATCHLIST - quality without a contra price",
+    "flags": [
+      "PATIENCE TEST"
+    ],
+    "price": 11040.0,
+    "claim": 11000,
+    "pillars": "21/13/16/5/2/3"
+  },
+  {
+    "case": "bajaj-auto-2022-06",
+    "as_of": "2022-06-30",
+    "stance": "buyback 4,600 vs ~3,800 market (43:09)",
+    "total": 62,
+    "coverage": 0.958,
+    "quality": 47,
+    "setup": 12,
+    "quality_mech_32": 30,
+    "setup_mech_26": 8,
+    "verdict": "PROVISIONAL WATCHLIST - quality without a contra price",
+    "flags": [
+      "PATIENCE TEST",
+      "INSIDER CONTRA"
+    ],
+    "price": 3624.6,
+    "claim": 3800,
+    "pillars": "21/13/13/8/4/3",
+    "forward": {
+      "multiple": 2.95,
+      "cagr_pct": 28.1,
+      "nifty_multiple": 1.6
+    }
+  },
+  {
+    "case": "mm",
+    "as_of": "2026-11-12",
+    "stance": "buy if monsoon hurts (25:23)",
+    "total": 52,
+    "coverage": 0.875,
+    "quality": 37,
+    "setup": 12,
+    "quality_mech_32": 29,
+    "setup_mech_26": 12,
+    "verdict": "PROVISIONAL PASS",
+    "flags": [
+      "PATIENCE TEST"
+    ],
+    "price": 3465.0,
+    "claim": null,
+    "pillars": "19/12/6/4/8/3"
+  },
+  {
+    "case": "tvsmotor",
+    "as_of": "2026-11-12",
+    "stance": "bought ~500 in contra fund (21:27)",
+    "total": 46,
+    "coverage": 0.875,
+    "quality": 39,
+    "setup": 4,
+    "quality_mech_32": 28,
+    "setup_mech_26": 4,
+    "verdict": "PROVISIONAL PASS",
+    "flags": [
+      "PATIENCE TEST"
+    ],
+    "price": 4560.0,
+    "claim": null,
+    "pillars": "23/10/6/0/4/3"
+  },
+  {
+    "case": "tvsmotor-2020-09",
+    "as_of": "2020-09-30",
+    "stance": "bought ~500, 'a bit expensive' (21:27-21:51)",
+    "total": 48,
+    "coverage": 0.833,
+    "quality": 35,
+    "setup": 10,
+    "quality_mech_32": 26,
+    "setup_mech_26": 5,
+    "verdict": "PROVISIONAL PASS",
+    "flags": [
+      "PATIENCE TEST"
+    ],
+    "price": 479.9,
+    "claim": 500,
+    "pillars": "23/7/5/9/1/3",
+    "forward": {
+      "multiple": 9.61,
+      "cagr_pct": 44.7,
+      "nifty_multiple": 2.25
+    }
+  },
+  {
+    "case": "maruti",
+    "as_of": "2026-11-12",
+    "stance": "demonetisation buy, sold early (24:44)",
+    "total": 58,
+    "coverage": 0.875,
+    "quality": 39,
+    "setup": 16,
+    "quality_mech_32": 28,
+    "setup_mech_26": 16,
+    "verdict": "PROVISIONAL PASS",
+    "flags": [
+      "PATIENCE TEST"
+    ],
+    "price": 13185.0,
+    "claim": null,
+    "pillars": "20/12/7/7/9/3"
+  },
+  {
+    "case": "hindalco",
+    "as_of": "2026-11-12",
+    "stance": "Birla backs it; ~950, can double (41:08-41:15)",
+    "total": 44,
+    "coverage": 0.958,
+    "quality": 24,
+    "setup": 15,
+    "quality_mech_32": 12,
+    "setup_mech_26": 14,
+    "verdict": "PROVISIONAL PASS",
+    "flags": [
+      "PATIENCE TEST"
+    ],
+    "price": 962.3,
+    "claim": 950,
+    "pillars": "11/5/8/7/8/5"
+  },
+  {
+    "case": "hindalco-2020-06",
+    "as_of": "2020-06-30",
+    "stance": "metals crushed, tested patience (39:59-40:22)",
+    "total": 53,
+    "coverage": 0.875,
+    "quality": 19,
+    "setup": 29,
+    "quality_mech_32": 9,
+    "setup_mech_26": 23,
+    "verdict": "PROVISIONAL AVOID - cheap is not contra (value-trap risk)",
+    "flags": [
+      "NEAR DEBT LIMIT",
+      "VALUE TRAP RISK",
+      "PATIENCE TEST"
+    ],
+    "price": 147.55,
+    "claim": null,
+    "pillars": "10/3/6/16/13/5",
+    "forward": {
+      "multiple": 6.59,
+      "cagr_pct": 34.4,
+      "nifty_multiple": 2.46
+    }
+  },
+  {
+    "case": "jswsteel",
+    "as_of": "2026-11-12",
+    "stance": "25x since iron-ore ban; lowest-cost converter (7:22-8:20)",
+    "total": 41,
+    "coverage": 0.917,
+    "quality": 28,
+    "setup": 8,
+    "quality_mech_32": 18,
+    "setup_mech_26": 8,
+    "verdict": "PROVISIONAL PASS",
+    "flags": [
+      "PATIENCE TEST"
+    ],
+    "price": 1353.3,
+    "claim": null,
+    "pillars": "14/6/8/3/5/5"
+  },
+  {
+    "case": "tataconsum",
+    "as_of": "2026-11-12",
+    "stance": "bought 2019 at 200, now ~1,100 (23:07-23:16)",
+    "total": 47,
+    "coverage": 0.875,
+    "quality": 31,
+    "setup": 11,
+    "quality_mech_32": 21,
+    "setup_mech_26": 8,
+    "verdict": "PROVISIONAL PASS",
+    "flags": [
+      "PATIENCE TEST"
+    ],
+    "price": 1093.0,
+    "claim": 1100,
+    "pillars": "12/12/7/6/5/5"
+  },
+  {
+    "case": "indhotel",
+    "as_of": "2026-11-12",
+    "stance": "bought post-vaccine at 75, now ~720 (28:30-28:43)",
+    "total": 40,
+    "coverage": 0.833,
+    "quality": 34,
+    "setup": 1,
+    "quality_mech_32": 19,
+    "setup_mech_26": 1,
+    "verdict": "PROVISIONAL PASS",
+    "flags": [],
+    "price": 873.0,
+    "claim": 720,
+    "pillars": "12/12/10/0/1/5"
+  },
+  {
+    "case": "indhotel-2020-11",
+    "as_of": "2020-11-10",
+    "stance": "bought on vaccine news (28:30)",
+    "total": 37,
+    "coverage": 0.708,
+    "quality": 18,
+    "setup": 14,
+    "quality_mech_32": 9,
+    "setup_mech_26": 7,
+    "verdict": "INCOMPLETE - gather sourced evidence before deciding",
+    "flags": [],
+    "price": 105.21,
+    "claim": 75,
+    "pillars": "12/2/4/13/1/5",
+    "forward": {
+      "multiple": 8.0,
+      "cagr_pct": 41.3,
+      "nifty_multiple": 2.0
+    }
+  },
+  {
+    "case": "tatamotors-2020-11",
+    "as_of": "2020-11-10",
+    "stance": "bought ~45 post-vaccine (30:15)",
+    "total": 27,
+    "coverage": 0.667,
+    "quality": 13,
+    "setup": 11,
+    "quality_mech_32": 8,
+    "setup_mech_26": 6,
+    "verdict": "REJECT (gate failed)",
+    "flags": [
+      "PATIENCE TEST"
+    ],
+    "price": 150.95,
+    "claim": 45,
+    "pillars": "8/1/4/11/0/3",
+    "forward": {
+      "multiple": 2.04,
+      "cagr_pct": 12.6,
+      "nifty_multiple": 2.0
+    }
+  },
+  {
+    "case": "motherson-2020-11",
+    "as_of": "2020-11-10",
+    "stance": "bought 45-65 post-vaccine (30:23)",
+    "total": 45,
+    "coverage": 0.667,
+    "quality": 26,
+    "setup": 16,
+    "quality_mech_32": 23,
+    "setup_mech_26": 11,
+    "verdict": "INCOMPLETE - gather sourced evidence before deciding",
+    "flags": [
+      "PATIENCE TEST"
+    ],
+    "price": 35.9,
+    "claim": 55,
+    "pillars": "17/5/4/11/5/3",
+    "forward": {
+      "multiple": 4.76,
+      "cagr_pct": 29.7,
+      "nifty_multiple": 2.0
+    }
+  },
+  {
+    "case": "jswinfra",
+    "as_of": "2026-11-12",
+    "stance": "IPO at 119 was the no-brainer (48:28)",
+    "total": 32,
+    "coverage": 0.833,
+    "quality": 24,
+    "setup": 3,
+    "quality_mech_32": 17,
+    "setup_mech_26": 3,
+    "verdict": "PROVISIONAL PASS",
+    "flags": [
+      "GROUP-EXTENSION LISTING"
+    ],
+    "price": 345.85,
+    "claim": null,
+    "pillars": "13/7/4/0/3/5"
+  },
+  {
+    "case": "jswinfra-2023-10",
+    "as_of": "2023-10-31",
+    "stance": "IPO 119, 22,000 cr mcap, 6% CF yield (48:28-49:43)",
+    "total": 26,
+    "coverage": 0.667,
+    "quality": 20,
+    "setup": 1,
+    "quality_mech_32": 13,
+    "setup_mech_26": 1,
+    "verdict": "INCOMPLETE - gather sourced evidence before deciding",
+    "flags": [
+      "GROUP-EXTENSION LISTING"
+    ],
+    "price": 168.15,
+    "claim": 119,
+    "pillars": "11/5/4/0/1/5",
+    "forward": {
+      "multiple": 2.02,
+      "cagr_pct": 26.0,
+      "nifty_multiple": 1.33
+    }
+  },
+  {
+    "case": "bhartiartl",
+    "as_of": "2026-11-12",
+    "stance": "trial by fire 2016-19, 70k cr FCF ahead (13:52, 38:20)",
+    "total": 41,
+    "coverage": 0.792,
+    "quality": 29,
+    "setup": 7,
+    "quality_mech_32": 17,
+    "setup_mech_26": 7,
+    "verdict": "INCOMPLETE - gather sourced evidence before deciding",
+    "flags": [],
+    "price": 2109.0,
+    "claim": null,
+    "pillars": "12/7/10/0/7/5"
+  },
+  {
+    "case": "sunpharma",
+    "as_of": "2026-11-12",
+    "stance": "governance-issue contra buy (4:30-5:06)",
+    "total": 45,
+    "coverage": 0.833,
+    "quality": 34,
+    "setup": 6,
+    "quality_mech_32": 29,
+    "setup_mech_26": 6,
+    "verdict": "PROVISIONAL PASS",
+    "flags": [],
+    "price": 1902.3,
+    "claim": null,
+    "pillars": "20/11/3/4/2/5"
+  },
+  {
+    "case": "ntpc",
+    "as_of": "2026-11-12",
+    "stance": "8-9% weight, ESG overhang, re-rated 3x to ~350 (36:44-37:50)",
+    "total": 33,
+    "coverage": 0.875,
+    "quality": 16,
+    "setup": 12,
+    "quality_mech_32": 9,
+    "setup_mech_26": 12,
+    "verdict": "REJECT (gate failed)",
+    "flags": [],
+    "price": 327.0,
+    "claim": 350,
+    "pillars": "10/1/5/4/8/5"
+  },
+  {
+    "case": "ntpc-2021-06",
+    "as_of": "2021-06-30",
+    "stance": "stuck at 120-140, tested patience (36:59)",
+    "total": 47,
+    "coverage": 0.833,
+    "quality": 14,
+    "setup": 28,
+    "quality_mech_32": 9,
+    "setup_mech_26": 22,
+    "verdict": "REJECT (gate failed)",
+    "flags": [
+      "VALUE TRAP RISK"
+    ],
+    "price": 117.35,
+    "claim": 130,
+    "pillars": "10/1/3/13/15/5",
+    "forward": {
+      "multiple": 2.77,
+      "cagr_pct": 20.9,
+      "nifty_multiple": 1.61
+    }
+  },
+  {
+    "case": "powergrid",
+    "as_of": "2026-11-12",
+    "stance": "annuity cash flow, tested patience (36:33)",
+    "total": 33,
+    "coverage": 0.875,
+    "quality": 18,
+    "setup": 10,
+    "quality_mech_32": 11,
+    "setup_mech_26": 10,
+    "verdict": "REJECT (gate failed)",
+    "flags": [],
+    "price": 263.75,
+    "claim": null,
+    "pillars": "11/1/6/4/6/5"
+  },
+  {
+    "case": "trent",
+    "as_of": "2026-11-12",
+    "stance": "bought ~1,200, sold early, went to 7,000 (23:43-24:05)",
+    "total": 51,
+    "coverage": 0.792,
+    "quality": 34,
+    "setup": 12,
+    "quality_mech_32": 25,
+    "setup_mech_26": 12,
+    "verdict": "INCOMPLETE - gather sourced evidence before deciding",
+    "flags": [],
+    "price": 3222.7,
+    "claim": null,
+    "pillars": "17/10/7/7/5/5"
+  },
+  {
+    "case": "trent-2022-06",
+    "as_of": "2022-06-30",
+    "stance": "bought ~1,200 (23:48)",
+    "total": 29,
+    "coverage": 0.833,
+    "quality": 21,
+    "setup": 3,
+    "quality_mech_32": 14,
+    "setup_mech_26": 2,
+    "verdict": "PROVISIONAL PASS",
+    "flags": [],
+    "price": 1073.55,
+    "claim": 1200,
+    "pillars": "9/7/5/3/0/5",
+    "forward": {
+      "multiple": 2.96,
+      "cagr_pct": 28.2,
+      "nifty_multiple": 1.6
+    }
+  },
+  {
+    "case": "pidilitind",
+    "as_of": "2026-11-12",
+    "stance": "crude-up contra example (5:30)",
+    "total": 57,
+    "coverage": 0.833,
+    "quality": 40,
+    "setup": 12,
+    "quality_mech_32": 32,
+    "setup_mech_26": 12,
+    "verdict": "PROVISIONAL PASS",
+    "flags": [],
+    "price": 1574.4,
+    "claim": null,
+    "pillars": "23/11/6/4/8/5"
+  },
+  {
+    "case": "pidilitind-2022-06",
+    "as_of": "2022-06-30",
+    "stance": "crude-spike analogue of the 5:30 example",
+    "total": 49,
+    "coverage": 0.792,
+    "quality": 38,
+    "setup": 6,
+    "quality_mech_32": 31,
+    "setup_mech_26": 2,
+    "verdict": "INCOMPLETE - gather sourced evidence before deciding",
+    "flags": [],
+    "price": 1079.18,
+    "claim": null,
+    "pillars": "23/11/4/6/0/5",
+    "forward": {
+      "multiple": 1.51,
+      "cagr_pct": 9.9,
+      "nifty_multiple": 1.6
+    }
+  },
+  {
+    "case": "asianpaint",
+    "as_of": "2026-11-12",
+    "stance": "crude-up contra example (5:30)",
+    "total": 61,
+    "coverage": 0.833,
+    "quality": 39,
+    "setup": 17,
+    "quality_mech_32": 30,
+    "setup_mech_26": 17,
+    "verdict": "PROVISIONAL PASS",
+    "flags": [],
+    "price": 2550.3,
+    "claim": null,
+    "pillars": "23/9/7/8/9/5"
+  },
+  {
+    "case": "asianpaint-2022-06",
+    "as_of": "2022-06-30",
+    "stance": "crude-spike analogue of the 5:30 example",
+    "total": 50,
+    "coverage": 0.792,
+    "quality": 39,
+    "setup": 6,
+    "quality_mech_32": 32,
+    "setup_mech_26": 2,
+    "verdict": "INCOMPLETE - gather sourced evidence before deciding",
+    "flags": [],
+    "price": 2773.15,
+    "claim": null,
+    "pillars": "23/11/5/6/0/5",
+    "forward": {
+      "multiple": 0.94,
+      "cagr_pct": -1.4,
+      "nifty_multiple": 1.6
+    }
+  },
+  {
+    "case": "hindunilvr",
+    "as_of": "2026-11-12",
+    "stance": "best governance; 'cash flow after cash flow' (9:26, 52:22)",
+    "total": 72,
+    "coverage": 0.875,
+    "quality": 43,
+    "setup": 24,
+    "quality_mech_32": 32,
+    "setup_mech_26": 20,
+    "verdict": "PROVISIONAL QUALITY CONTRA - ACCUMULATE IN TRANCHES",
+    "flags": [
+      "PATIENCE TEST"
+    ],
+    "price": 2022.4,
+    "claim": null,
+    "pillars": "23/12/8/13/11/5"
+  },
+  {
+    "case": "titan",
+    "as_of": "2026-11-12",
+    "stance": "RJ's full ride (31:46-32:16)",
+    "total": 45,
+    "coverage": 0.875,
+    "quality": 26,
+    "setup": 14,
+    "quality_mech_32": 17,
+    "setup_mech_26": 14,
+    "verdict": "PROVISIONAL PASS",
+    "flags": [
+      "NEAR DEBT LIMIT"
+    ],
+    "price": 4970.0,
+    "claim": null,
+    "pillars": "15/4/7/4/10/5"
+  },
+  {
+    "case": "mrf",
+    "as_of": "2026-11-12",
+    "stance": "full ride from ~500 (32:33-33:17)",
+    "total": 44,
+    "coverage": 0.833,
+    "quality": 27,
+    "setup": 12,
+    "quality_mech_32": 20,
+    "setup_mech_26": 12,
+    "verdict": "PROVISIONAL PASS",
+    "flags": [],
+    "price": 127125.0,
+    "claim": null,
+    "pillars": "14/8/5/4/8/5"
+  }
+]

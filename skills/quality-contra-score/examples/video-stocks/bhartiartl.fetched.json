@@ -1,0 +1,107 @@
+{
+  "company": "Bharti Airtel Ltd",
+  "ticker": "BHARTIARTL",
+  "as_of": "2026-11-12",
+  "inputs": {
+    "roce_10y_avg_pct": {
+      "value": 9.9,
+      "source": "Screener https://www.screener.in/company/BHARTIARTL/consolidated/ (consolidated) [Ratios ROCE % avg of 10y Mar 2017..Mar 2026: 10, 7, 3, 5, 7, 11, 12, 13, 13, 18] fetched 2026-11-12"
+    },
+    "roce_pct_years_ge_15": {
+      "value": 10,
+      "source": "Screener https://www.screener.in/company/BHARTIARTL/consolidated/ (consolidated) [Ratios ROCE %: 1 of 10 years >= 15%] fetched 2026-11-12"
+    },
+    "cfo_to_pat_10y": {
+      "value": 8.61,
+      "source": "Screener https://www.screener.in/company/BHARTIARTL/consolidated/ (consolidated) [Cash Flow CFO sum 564,340 / P&L Net Profit sum 65,539, Mar 2017..Mar 2026 (10y)] fetched 2026-11-12"
+    },
+    "cfo_positive_years_pct": {
+      "value": 100,
+      "source": "Screener https://www.screener.in/company/BHARTIARTL/consolidated/ (consolidated) [Cash Flow CFO > 0 in 10 of 10 years, Mar 2017..Mar 2026 (10y)] fetched 2026-11-12"
+    },
+    "cfo_5y_cumulative_cr": {
+      "value": 419802,
+      "source": "Screener https://www.screener.in/company/BHARTIARTL/consolidated/ (consolidated) [Cash Flow CFO sum Mar 2022..Mar 2026] fetched 2026-11-12"
+    },
+    "net_debt_to_ebitda": {
+      "value": 0.78,
+      "source": "Screener https://www.screener.in/company/BHARTIARTL/consolidated/ (consolidated) [(Borrowings 195412 - leases 73740 - cash equivalents 30377) Mar 2026 / Operating Profit 116514 Mar 2026; investments not netted (conservative)] fetched 2026-11-12"
+    },
+    "interest_coverage": {
+      "value": 3.1,
+      "source": "Screener https://www.screener.in/company/BHARTIARTL/consolidated/ (consolidated) [(PBT 45173 + Interest 21555) / Interest, Mar 2026; capped at 100] fetched 2026-11-12"
+    },
+    "dividend_payout_5y_avg_pct": {
+      "value": 42.2,
+      "source": "Screener https://www.screener.in/company/BHARTIARTL/consolidated/ (consolidated) [P&L Dividend Payout % avg Mar 2022..Mar 2026: 39, 27, 62, 28, 55] fetched 2026-11-12"
+    },
+    "current_price": {
+      "value": 2109.0,
+      "source": "Yahoo BHARTIARTL.NS daily [close on 2026-11-11] fetched 2026-11-12"
+    },
+    "drawdown_from_3y_high_pct": {
+      "value": 2.5,
+      "source": "Yahoo BHARTIARTL.NS daily [close 2109.00 on 2026-11-11 vs 3y closing high 2162.70] fetched 2026-11-12"
+    },
+    "price_vs_200dma_pct": {
+      "value": 11.6,
+      "source": "Yahoo BHARTIARTL.NS daily [close vs 200-session average to 2026-11-11] fetched 2026-11-12"
+    },
+    "price_cagr_5y_pct": {
+      "value": 23.2,
+      "source": "Yahoo BHARTIARTL.NS daily [close 743.50 on 2021-11-12 -> 2109.00 on 2026-11-11] fetched 2026-11-12"
+    },
+    "rel_return_12m_vs_nifty_pp": {
+      "value": 5.0,
+      "source": "Yahoo BHARTIARTL.NS 12m return 3.3% minus ^NSEI -1.7% (2025-11-11 -> 2026-11-11), fetched 2026-11-12"
+    },
+    "market_cap_cr": {
+      "value": 1308242.0,
+      "source": "Screener https://www.screener.in/company/BHARTIARTL/consolidated/ (consolidated) [Top ratios Market Cap] fetched 2026-11-12"
+    },
+    "dividend_yield_pct": {
+      "value": 1.14,
+      "source": "Screener https://www.screener.in/company/BHARTIARTL/consolidated/ (consolidated) [DPS ~ EPS 43.81 x payout 55% (Mar 2026) / price 2109.00] fetched 2026-11-12"
+    },
+    "fcf_yield_pct": {
+      "value": 4.45,
+      "source": "Screener https://www.screener.in/company/BHARTIARTL/consolidated/ (consolidated) [Cash Flow Free Cash Flow avg Mar 2024..Mar 2026 (38970, 58990, 76683) / mcap 1,308,242] fetched 2026-11-12"
+    },
+    "pe": {
+      "value": 39.1,
+      "source": "Screener https://www.screener.in/company/BHARTIARTL/consolidated/ (consolidated) [P/E chart value at 2026-11-12] fetched 2026-11-12"
+    },
+    "pe_percentile_10y": {
+      "value": 22.4,
+      "source": "Screener https://www.screener.in/company/BHARTIARTL/consolidated/ (consolidated) [percentile of current P/E in P/E chart 2016-11-18..2026-11-12 (419 points, positive P/E only)] fetched 2026-11-12"
+    },
+    "pe_median_10y": {
+      "value": 58.7,
+      "source": "Screener https://www.screener.in/company/BHARTIARTL/consolidated/ (consolidated) [median of P/E chart 2016-11-18..2026-11-12 (419 points, positive P/E only)] fetched 2026-11-12"
+    },
+    "pe_p20_10y": {
+      "value": 38.3,
+      "source": "Screener https://www.screener.in/company/BHARTIARTL/consolidated/ (consolidated) [20th percentile of P/E chart 2016-11-18..2026-11-12 (419 points, positive P/E only)] fetched 2026-11-12"
+    },
+    "pe_p40_10y": {
+      "value": 51.8,
+      "source": "Screener https://www.screener.in/company/BHARTIARTL/consolidated/ (consolidated) [40th percentile of P/E chart 2016-11-18..2026-11-12 (419 points, positive P/E only)] fetched 2026-11-12"
+    },
+    "promoter_holding_pct": {
+      "value": 50.07,
+      "source": "Screener https://www.screener.in/company/BHARTIARTL/consolidated/ (consolidated) [Shareholding Promoters Sep 2026] fetched 2026-11-12"
+    },
+    "promoter_holding_change_3y_pp": {
+      "value": -4.5,
+      "source": "Screener https://www.screener.in/company/BHARTIARTL/consolidated/ (consolidated) [Shareholding Promoters Dec 2023 -> Sep 2026] fetched 2026-11-12"
+    },
+    "promoter_pledge_pct": {
+      "value": 0.0,
+      "source": "Screener https://www.screener.in/company/BHARTIARTL/consolidated/ (consolidated) [Pros/cons pledge flag absent; verify in exchange shareholding pattern] fetched 2026-11-12"
+    },
+    "institutional_change_4q_pp": {
+      "value": 0.24,
+      "source": "Screener https://www.screener.in/company/BHARTIARTL/consolidated/ (consolidated) [Shareholding FIIs+DIIs Sep 2025 46.82 -> Sep 2026 47.06] fetched 2026-11-12"
+    }
+  }
+}

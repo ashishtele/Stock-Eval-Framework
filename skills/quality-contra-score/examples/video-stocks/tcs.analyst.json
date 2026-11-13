@@ -1,0 +1,46 @@
+{
+  "business_type": "non_financial",
+  "inputs": {
+    "moat_evidence": {
+      "value": ["brand_leader_top3_share", "distribution_or_network_scale"],
+      "source": "AGENT ASSESSMENT (unverified): largest Indian IT services firm by revenue; global client base. Transcript 17:07: 'makes fifty thousand crore in profit'."
+    },
+    "funding_backstop": {
+      "value": ["strong_group_parent"],
+      "source": "Transcript 17:07: 'It's a Tata company'."
+    },
+    "governance_pedigree": {
+      "value": "tried_tested_group_or_mnc",
+      "source": "Transcript 8:58-9:17: tried-and-tested groups include the Tatas."
+    },
+    "crisis_evidence": {
+      "value": null,
+      "source": ""
+    },
+    "capital_allocation_evidence": {
+      "value": ["buyback_or_special_dividend_5y", "capex_funded_internally"],
+      "source": "Transcript 18:16: buyback at 4,200. Fetched: net debt/EBITDA -0.18, CFO/PAT 1.01 (asset-light)."
+    },
+    "insider_signals": {
+      "value": [],
+      "source": "Transcript 18:16 buyback at 4,200; AGENT ASSESSMENT: that buyback was Dec-2023, outside the 24-month window."
+    },
+    "fall_cause": {
+      "value": "sector_temporary",
+      "source": "Transcript 16:38-17:16 and 17:33-17:50: AI reduces billable hours (deflationary); guest and management see it as a phase, market does not. Disputed - see disruption_risk."
+    },
+    "temporariness_evidence": {
+      "value": ["revenue_or_volume_base_intact"],
+      "source": "Transcript 17:07: 50,000 cr profit; fetched CFO positive 10/10 years. No corrective action or reversal yet."
+    },
+    "sentiment_evidence": {
+      "value": ["negative_media_or_sector_out_of_favour"],
+      "source": "Transcript 35:25-35:43: Helios zero IT weight; DSP CIO avoiding IT for 3-4 years. 27:21: TCS/Infosys zero 5y returns."
+    },
+    "disruption_risk": {
+      "value": "moderate",
+      "source": "Transcript 38:48-39:20: 'don't fight technology disruption... take a calibrated position'; 17:50-18:06 cap at 10-12%."
+    },
+    "cyclicality": { "value": "secular", "source": "IT services." }
+  }
+}

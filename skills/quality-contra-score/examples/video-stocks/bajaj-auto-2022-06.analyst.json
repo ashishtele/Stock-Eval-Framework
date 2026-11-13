@@ -1,0 +1,46 @@
+{
+  "business_type": "non_financial",
+  "inputs": {
+    "moat_evidence": {
+      "value": ["lowest_cost_producer", "distribution_or_network_scale"],
+      "source": "Transcript 44:40-44:58: lowest fixed cost, KTM and Triumph outsource manufacturing to Bajaj. 11:37: exports to Colombia, Mexico, Nigeria."
+    },
+    "funding_backstop": {
+      "value": ["net_cash_ge_5pct_of_mcap", "strong_group_parent"],
+      "source": "Transcript 44:58: ~15,000 cr cash always on the books vs fetched mcap 1,04,676 cr (14%). 29:38: Bajaj Group."
+    },
+    "governance_pedigree": {
+      "value": "tried_tested_group_or_mnc",
+      "source": "Transcript 21:59-22:10 clean, transparent management; 29:38 Bajaj Group."
+    },
+    "crisis_evidence": {
+      "value": ["no_distress_dilution_or_asset_sale"],
+      "source": "Transcript 43:43-44:12: Nigeria exports (60,000 bikes/month) went to zero; company responded with a buyback, not dilution."
+    },
+    "capital_allocation_evidence": {
+      "value": ["buyback_or_special_dividend_5y", "capex_funded_internally"],
+      "source": "Transcript 11:29-11:37: profits returned via dividends/buybacks; 43:09 buyback up to 4,600. Fetched net debt/EBITDA -0.09."
+    },
+    "insider_signals": {
+      "value": ["buyback_promoter_not_tendering_24m", "buyback_price_ge_15pct_above_market_24m"],
+      "source": "Transcript 43:09-44:23: open-market buyback up to 4,600 vs ~3,700-3,800 market (~24% above); promoters did not participate."
+    },
+    "fall_cause": {
+      "value": "company_specific_fixable",
+      "source": "Transcript 43:33-44:04: Nigeria political/currency issue cut a key export market; management called it temporary."
+    },
+    "temporariness_evidence": {
+      "value": ["management_corrective_actions_announced"],
+      "source": "Transcript 44:04-44:12: management judged it temporary and launched the buyback."
+    },
+    "sentiment_evidence": {
+      "value": [],
+      "source": "Transcript 45:13 notes the market ignored the signal; no specific downgrade/news evidence recorded for June 2022."
+    },
+    "disruption_risk": {
+      "value": "moderate",
+      "source": "AGENT ASSESSMENT: two-wheeler EV transition; transcript 11:37 company investing in EVs (electric 3W doing well)."
+    },
+    "cyclicality": { "value": "secular", "source": "Two/three-wheeler maker with export diversification." }
+  }
+}
