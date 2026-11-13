@@ -1,0 +1,92 @@
+{
+  "version": "1.0",
+  "notes": "All weights, bands and hurdles are tunable. Values marked [T] in references/rubric.md are stated in the source transcript; others are calibrated interpretations.",
+  "missing_data_credit": 0.5,
+  "provisional_if_completeness_below_pct": 80,
+
+  "hurdles": {
+    "roce_min_pct": 15,
+    "fwd_pat_cagr_min_pct": 18,
+    "equal_min_score": 50,
+    "peg_multibagger_max": 1.0,
+    "peg_buy_max": 2.0,
+    "peg_avoid_above": 3.0
+  },
+
+  "valuation": {
+    "horizon_years": 5,
+    "market_dividend_yield_pct": 1.5,
+    "theoretical_pe_min_payout_pct": 50,
+    "cumulative_profit_years": 5
+  },
+
+  "composite_weights": { "equal": 0.40, "growth": 0.30, "price": 0.30 },
+
+  "cap_tiers": [
+    { "name": "Large Cap 1 (Mega)", "min_mcap_cr": 200000, "base_return_pct": 13 },
+    { "name": "Large Cap 2",        "min_mcap_cr": 105000, "base_return_pct": 16 },
+    { "name": "Mid Cap",            "min_mcap_cr": 34700,  "base_return_pct": 19 },
+    { "name": "Small Cap 1",        "min_mcap_cr": 5000,   "base_return_pct": 22 },
+    { "name": "Small Cap 2",        "min_mcap_cr": 0,      "base_return_pct": 25 }
+  ],
+
+  "quality_grades": [
+    { "grade": "AAA", "min_score": 85, "risk_premium_pct": 0 },
+    { "grade": "AA",  "min_score": 70, "risk_premium_pct": 2 },
+    { "grade": "A",   "min_score": 60, "risk_premium_pct": 5 },
+    { "grade": "BBB", "min_score": 50, "risk_premium_pct": 10 },
+    { "grade": "REJECT", "min_score": 0, "risk_premium_pct": null }
+  ],
+
+  "equal_rules": {
+    "I1_promoter_holding":   { "pillar": "integrity", "max": 7.5, "label": "Promoter holding (skin in the game)", "unit": "%", "op": ">=", "steps": [[70, 7.5], [60, 6], [50, 4.5], [40, 3], [26, 1.5]], "else": 0 },
+    "I2_promoter_change":    { "pillar": "integrity", "max": 2.5, "label": "Change in promoter holding, 3y", "unit": "pp", "op": ">=", "steps": [[1, 2.5], [-1, 2], [-5, 1]], "else": 0 },
+    "I3_equity_history":     { "pillar": "integrity", "max": 5.0, "label": "Equity history (bonus/split/buyback vs promoter preferential)", "base": 2.0, "per_event": 1.5, "preferential_penalty": 2.0 },
+    "I4_proposed_dilution":  { "pillar": "integrity", "max": 2.5, "label": "FCCB / warrants / proposed dilution", "unit": "% of equity", "op": "<=", "steps": [[0, 2.5], [5, 1.5], [10, 0.5]], "else": 0 },
+    "I5_pledge":             { "pillar": "integrity", "max": 7.5, "label": "Promoter shares pledged", "unit": "% of promoter holding", "op": "<=", "steps": [[0, 7.5], [5, 6], [10, 4.5], [25, 2], [50, 0.5]], "else": 0 },
+    "I6_promoter_pay":       { "pillar": "integrity", "max": 5.0, "label": "Promoter-group remuneration", "unit": "% of PAT", "op": "<=", "steps": [[2, 5], [5, 3.5], [8, 1.5]], "else": 0, "md_median_ratio_limit": 300, "md_median_ratio_penalty": 1.0 },
+    "I7_auditor":            { "pillar": "integrity", "max": 2.5, "label": "Auditor quality + fee sanity", "tier_points": { "big4": 1.5, "top_tier": 1.25, "mid_tier": 0.75, "small": 0 }, "fee_pct_rev_min": 0.003, "fee_pct_rev_max": 0.3, "peer_ratio_min": 0.33, "peer_ratio_max": 3.0, "fee_points": 1.0 },
+    "I8_rpt":                { "pillar": "integrity", "max": 5.0, "label": "Related-party transactions", "unit": "% of revenue", "op": "<=", "steps": [[2, 5], [5, 3.5], [10, 2], [25, 0.5]], "else": 0, "sister_concern_penalty": 2.0 },
+    "I9_royalty":            { "pillar": "integrity", "max": 2.5, "label": "Royalty / brand / technical fee", "none": 2.5, "foreign_tech_parent_le3": 1.5, "foreign_tech_parent_gt3": 0.5, "promoter_entity": 0 },
+
+    "C1_net_export":         { "pillar": "capability", "max": 3.0, "label": "Net exports (rupee cost -> dollar revenue)", "unit": "% of revenue", "op": ">=", "steps": [[20, 3], [0, 2], [-10, 1]], "else": 0 },
+    "C2_net_debt_equity":    { "pillar": "capability", "max": 5.0, "label": "Net debt / equity", "unit": "x", "op": "<=", "steps": [[0, 5], [0.5, 4], [1, 2.5], [2.5, 1]], "else": 0 },
+    "C3_unhedged_fx_debt":   { "pillar": "capability", "max": 3.0, "label": "Unhedged foreign-currency debt", "unit": "% of total debt", "op": "<=", "steps": [[0, 3], [10, 2], [25, 1]], "else": 0 },
+    "C4_restructuring":      { "pillar": "capability", "max": 4.0, "label": "Debt restructurings / OTS (history)", "unit": "count", "op": "<=", "steps": [[0, 4], [1, 1.5]], "else": 0 },
+    "C5_roce_wacc_spread":   { "pillar": "capability", "max": 5.0, "label": "Capital cost efficiency (ROCE - WACC)", "unit": "pp", "op": ">=", "steps": [[10, 5], [5, 4], [0, 2]], "else": 0 },
+    "C6_execution":          { "pillar": "capability", "max": 5.0, "label": "Execution track record (guidance/capex delivered)", "unit": "% hit rate", "op": ">=", "steps": [[90, 5], [75, 3.5], [50, 2]], "else": 0 },
+
+    "W1_payout":             { "pillar": "wealth", "max": 6.0, "label": "Dividend payout ratio (3y avg)", "unit": "%", "op": ">=", "steps": [[30, 6], [25, 5], [15, 3.5], [10, 2]], "else": 0 },
+    "W2_dividend_consistency": { "pillar": "wealth", "max": 2.0, "label": "Dividend consistency (years paid of last 5)" },
+    "W3_unrelated_investment": { "pillar": "wealth", "max": 4.0, "label": "Investment/loans in unrelated businesses", "unit": "% of net worth", "op": "<=", "steps": [[2, 4], [10, 2.5], [25, 1]], "else": 0 },
+    "W4_large_acquisition":  { "pillar": "wealth", "max": 3.0, "label": "Largest acquisition, last 5y", "unit": "% of net worth", "op": "<=", "steps": [[10, 3], [25, 2], [50, 1]], "else": 0 },
+
+    "K1_investor_comm":      { "pillar": "communication", "max": 10.0, "label": "Investor communication", "per_call": 1.0, "max_calls": 4, "presentation": 2.0, "investor_day": 2.0, "dedicated_ir": 2.0 },
+
+    "L1_liquidity":          { "pillar": "liquidity", "max": 10.0, "label": "Liquidity (6m avg daily traded value)", "unit": "% of mcap/day", "op": ">=", "steps": [[0.05, 10], [0.02, 8], [0.01, 5], [0.005, 2]], "else": 0, "fno_points": 10, "min_adtv_cr": 1.0, "cap_if_below_min": 3 }
+  },
+
+  "growth_rules": {
+    "G1_roce":       { "max": 40, "label": "ROCE (3y avg) vs cost of capital", "unit": "%", "op": ">=", "steps": [[25, 40], [20, 34], [15, 26], [12, 12]], "else": 0 },
+    "G2_fwd_cagr":   { "max": 30, "label": "Forward PAT CAGR (3-5y)", "unit": "%", "op": ">=", "steps": [[26, 30], [22, 26], [18, 22], [15, 12], [10, 5]], "else": 0 },
+    "G3_hist_cagr":  { "max": 15, "label": "Demonstrated PAT CAGR (5y)", "unit": "%", "op": ">=", "steps": [[20, 15], [15, 10], [10, 5]], "else": 0 },
+    "G4_structural": { "max": 15, "label": "Structural vs cyclical growth", "map": { "structural": 15, "semi_cyclical": 7, "cyclical": 0 } }
+  },
+
+  "price_score": {
+    "peg_component_max": 60,
+    "peg_points": [[1.0, 60], [2.0, 40], [3.0, 10]],
+    "margin_component_max": 40,
+    "margin_full_at_pp": 10,
+    "margin_zero_at_pp": -10
+  },
+
+  "kill_switches": {
+    "pledge_pct_ge": 70,
+    "restructurings_ge": 2,
+    "net_debt_equity_gt": 2.5,
+    "acquisition_pct_networth_gt": 50,
+    "unrelated_investment_pct_networth_gt": 25,
+    "black_box_zero_communication": true
+  }
+}
