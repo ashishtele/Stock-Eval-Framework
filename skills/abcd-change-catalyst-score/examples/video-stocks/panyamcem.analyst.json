@@ -1,0 +1,9 @@
+{
+  "inputs": {
+    "fund_diversion_red_flag_3y": {
+      "value": true,
+      "source": "Transcript 58:35-58:59: management met in Hyderabad, everything looked fine, then money was transferred to the promoters' private concern and the stock went to zero. Date of the meeting not stated - verify the related-party/ICD notes in the annual reports."
+    },
+    "business_focus": { "value": "single_product_or_niche", "source": "Cement." }
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "company": "Jyoti Resins and Adhesives Ltd",
+  "ticker": "JYOTIRES",
+  "as_of": "2023-04-15",
+  "inputs": {
+    "sales_cagr_3y_pct": {
+      "value": 38.2,
+      "source": "Screener https://www.screener.in/company/JYOTIRES/ (standalone) [P&L Sales CAGR Mar 2019..Mar 2022: 69 -> 182] fetched 2026-11-12"
+    },
+    "eps_cagr_3y_pct": {
+      "value": 108.0,
+      "source": "Screener https://www.screener.in/company/JYOTIRES/ (standalone) [P&L EPS CAGR Mar 2019..Mar 2022: 1.83 -> 16.47] fetched 2026-11-12"
+    },
+    "pat_cagr_3y_pct": {
+      "value": 115.4,
+      "source": "Screener https://www.screener.in/company/JYOTIRES/ (standalone) [P&L Net Profit CAGR Mar 2019..Mar 2022: 2 -> 20] fetched 2026-11-12"
+    },
+    "sales_cagr_10y_pct": {
+      "value": 32.0,
+      "source": "Screener https://www.screener.in/company/JYOTIRES/ (standalone) [P&L Sales CAGR over 7y Mar 2015 26 -> Mar 2022 182 (longest available up to 10y)] fetched 2026-11-12"
+    },
+    "opm_change_3y_pp": {
+      "value": 8.8,
+      "source": "Screener https://www.screener.in/company/JYOTIRES/ (standalone) [P&L OPM % Mar 2019 4.2 -> Mar 2022 13] fetched 2026-11-12"
+    },
+    "roce_3y_avg_pct": {
+      "value": 47.7,
+      "source": "Screener https://www.screener.in/company/JYOTIRES/ (standalone) [Ratios ROCE % avg of Mar 2020, Mar 2021, Mar 2022: [57.0, 40.0, 46.0]] fetched 2026-11-12"
+    },
+    "cfo_to_pat_3y": {
+      "value": 0.5,
+      "source": "Screener https://www.screener.in/company/JYOTIRES/ (standalone) [Cash Flow CFO sum 20 / Net Profit sum 40, Mar 2020..Mar 2022] fetched 2026-11-12"
+    },
+    "ttm_pat_cr": {
+      "value": 20.0,
+      "source": "Screener https://www.screener.in/company/JYOTIRES/ (standalone) [P&L Net Profit Mar 2022, annual proxy Mar 2022 vs Mar 2021 (fewer than 8 published quarters)] fetched 2026-11-12"
+    },
+    "ttm_sales_cr": {
+      "value": 182.0,
+      "source": "Screener https://www.screener.in/company/JYOTIRES/ (standalone) [P&L Sales Mar 2022, annual proxy Mar 2022 vs Mar 2021 (fewer than 8 published quarters)] fetched 2026-11-12"
+    },
+    "ttm_sales_growth_pct": {
+      "value": 80.2,
+      "source": "Screener https://www.screener.in/company/JYOTIRES/ (standalone) [Sales 182 vs 101, annual proxy Mar 2022 vs Mar 2021 (fewer than 8 published quarters)] fetched 2026-11-12"
+    },
+    "ttm_pat_growth_pct": {
+      "value": 66.7,
+      "source": "Screener https://www.screener.in/company/JYOTIRES/ (standalone) [Net Profit 20 vs 12, annual proxy Mar 2022 vs Mar 2021 (fewer than 8 published quarters)] fetched 2026-11-12"
+    },
+    "debt_to_equity": {
+      "value": 0.0,
+      "source": "Screener https://www.screener.in/company/JYOTIRES/ (standalone) [Balance Sheet Mar 2022: Borrowings 0 - leases 0 / (Equity+Reserves) 63] fetched 2026-11-12"
+    },
+    "drawdown_from_high_pct": {
+      "value": 19.8,
+      "source": "Screener https://www.screener.in/company/JYOTIRES/ (standalone) [Price chart close 1400.2 on 2023-04-13 vs all-time high 1744.85 on 2022-09-23] fetched 2026-11-12"
+    },
+    "market_cap_cr": {
+      "value": 1700,
+      "source": "Screener https://www.screener.in/company/JYOTIRES/ (standalone) [today's mcap 1117 x adjusted price 1400.2 (2023-04-13) / 931.05 (2026-11-12) x share ratio 1.012 (NP/EPS Mar 2022 vs Mar 2026); cross-check MCap/Sales x TTM Sales = 1,674] fetched 2026-11-12"
+    },
+    "pe": {
+      "value": 45.5,
+      "source": "Screener https://www.screener.in/company/JYOTIRES/ (standalone) [P/E chart value at 2023-04-15] fetched 2026-11-12"
+    },
+    "pe_percentile_5y": {
+      "value": 80.8,
+      "source": "Screener https://www.screener.in/company/JYOTIRES/ (standalone) [P/E chart percentile within 5y to 2023-04-15 (261 points)] fetched 2026-11-12"
+    },
+    "current_price": {
+      "value": 1400.2,
+      "source": "Yahoo JYOTIRES.BO daily [close on 2023-04-13] fetched 2026-11-12"
+    },
+    "pct_below_52w_high": {
+      "value": 23.0,
+      "source": "Yahoo JYOTIRES.BO daily [close 1400.20 on 2023-04-13 vs 52w high 1818.45] fetched 2026-11-12"
+    },
+    "volume_ratio_10d_vs_50d": {
+      "value": 1.02,
+      "source": "Yahoo JYOTIRES.BO daily [avg volume last 10 sessions / prior 50 to 2023-04-13] fetched 2026-11-12"
+    },
+    "price_vs_200dma_pct": {
+      "value": 16.9,
+      "source": "Yahoo JYOTIRES.BO daily [close vs 200-session average to 2023-04-13] fetched 2026-11-12"
+    }
+  }
+}

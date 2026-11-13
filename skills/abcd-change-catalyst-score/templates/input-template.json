@@ -1,0 +1,32 @@
+{
+  "company": "",
+  "ticker": "",
+  "as_of": "",
+  "inputs": {
+    "auditor_red_flag_3y": { "value": null, "source": "true/false; auditor report + CARO, resignation letters" },
+    "regulatory_action_against_promoters_or_kmp_3y": { "value": null, "source": "true/false; SEBI orders, exchange announcements" },
+    "fund_diversion_red_flag_3y": { "value": null, "source": "true/false; related-party note: ICDs/loans/advances/guarantees to promoter-group private entities" },
+    "thesis_assumption_broken": { "value": null, "source": "optional true/false; name the written assumption that failed" },
+
+    "incorporation_year": { "value": null, "source": "annual report / MCA master data" },
+
+    "tailwind_evidence": { "value": null, "source": "list; one evidence line per item (budget doc, policy notification, industry data) with date" },
+    "entry_barrier_checks": { "value": null, "source": "list" },
+    "customer_credit_quality": { "value": null, "source": "govt_or_psu_payer | large_rated_corporates | diversified_retail_or_dealers | weak_or_concentrated_private" },
+
+    "change_catalysts": { "value": null, "source": "list; each item dated within 24 months (filing / concall / news URL)" },
+    "order_book_to_ttm_sales": { "value": null, "source": "optional; order book (filing/concall, date) / TTM sales. Leave null for non-order businesses" },
+
+    "capital_allocation_checks": { "value": null, "source": "list; related-party note, investments schedule, shareholding/equity history" },
+    "transparency_checks": { "value": null, "source": "list; e.g. date of e-mail reply, concall transcript URL" },
+    "guidance_hit_pct": { "value": null, "source": "number or \"none_stated\"; list each target, window and outcome" },
+    "reputation_checks": { "value": null, "source": "list; who vouched (role, not name), litigation search, succession disclosure" },
+
+    "business_focus": { "value": null, "source": "single_product_or_niche | focused_few_segments | diversified_conglomerate" },
+    "monetisable_assets_cover_debt": { "value": null, "source": "optional true/false; land/investments with valuation >= borrowings" },
+
+    "ground_checks": { "value": null, "source": "list; date and who/where for each check" },
+
+    "position_cost_price": { "value": null, "source": "optional, for action plan" }
+  }
+}

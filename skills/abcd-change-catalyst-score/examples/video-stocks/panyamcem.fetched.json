@@ -1,0 +1,75 @@
+{
+  "company": "Panyam Cements & Mineral Industries Ltd",
+  "ticker": "PANYAMCEM",
+  "as_of": "2026-11-12",
+  "inputs": {
+    "sales_cagr_3y_pct": {
+      "value": 29.7,
+      "source": "Screener https://www.screener.in/company/PANYAMCEM/ (standalone) [P&L Sales CAGR Mar 2023..Mar 2026: 39 -> 85] fetched 2026-11-12"
+    },
+    "sales_cagr_10y_pct": {
+      "value": -9.2,
+      "source": "Screener https://www.screener.in/company/PANYAMCEM/ (standalone) [P&L Sales CAGR over 10y Mar 2016 223 -> Mar 2026 85 (longest available up to 10y)] fetched 2026-11-12"
+    },
+    "opm_change_3y_pp": {
+      "value": 34.0,
+      "source": "Screener https://www.screener.in/company/PANYAMCEM/ (standalone) [P&L OPM % Mar 2023 -67 -> Mar 2026 -33] fetched 2026-11-12"
+    },
+    "roce_3y_avg_pct": {
+      "value": -18.3,
+      "source": "Screener https://www.screener.in/company/PANYAMCEM/ (standalone) [Ratios ROCE % avg of Mar 2024, Mar 2025, Mar 2026: [-23.0, -34.0, 2.0]] fetched 2026-11-12"
+    },
+    "ttm_pat_cr": {
+      "value": -93.0,
+      "source": "Screener https://www.screener.in/company/PANYAMCEM/ (standalone) [Quarterly Net Profit sum Sep 2025..Jun 2026] fetched 2026-11-12"
+    },
+    "ttm_sales_cr": {
+      "value": 101.0,
+      "source": "Screener https://www.screener.in/company/PANYAMCEM/ (standalone) [Quarterly Sales sum Sep 2025..Jun 2026] fetched 2026-11-12"
+    },
+    "ttm_sales_growth_pct": {
+      "value": 98.0,
+      "source": "Screener https://www.screener.in/company/PANYAMCEM/ (standalone) [TTM Sales 101 vs 51, quarters Sep 2025..Jun 2026 vs Sep 2024..Jun 2025] fetched 2026-11-12"
+    },
+    "drawdown_from_high_pct": {
+      "value": 62.9,
+      "source": "Screener https://www.screener.in/company/PANYAMCEM/ (standalone) [Price chart close 93.73 on 2026-11-12 vs all-time high 252.6 on 2024-07-12] fetched 2026-11-12"
+    },
+    "market_cap_cr": {
+      "value": 75.2,
+      "source": "Screener https://www.screener.in/company/PANYAMCEM/ (standalone) [Top ratios Market Cap] fetched 2026-11-12"
+    },
+    "promoter_holding_pct": {
+      "value": 95.0,
+      "source": "Screener https://www.screener.in/company/PANYAMCEM/ (standalone) [Shareholding Promoters Sep 2026] fetched 2026-11-12"
+    },
+    "promoter_holding_change_3y_pp": {
+      "value": 0.0,
+      "source": "Screener https://www.screener.in/company/PANYAMCEM/ (standalone) [Shareholding Promoters Dec 2023 95 -> Sep 2026 95] fetched 2026-11-12"
+    },
+    "promoter_pledge_pct": {
+      "value": 0.0,
+      "source": "Screener https://www.screener.in/company/PANYAMCEM/ (standalone) [Pros/cons pledge flag absent; verify in exchange shareholding pattern] fetched 2026-11-12"
+    },
+    "institutional_holding_pct": {
+      "value": 0.03,
+      "source": "Screener https://www.screener.in/company/PANYAMCEM/ (standalone) [Shareholding FIIs + DIIs Sep 2026] fetched 2026-11-12"
+    },
+    "current_price": {
+      "value": 93.6,
+      "source": "Yahoo PANCM.BO daily [close on 2026-11-11] fetched 2026-11-12"
+    },
+    "pct_below_52w_high": {
+      "value": 37.6,
+      "source": "Yahoo PANCM.BO daily [close 93.60 on 2026-11-11 vs 52w high 149.90] fetched 2026-11-12"
+    },
+    "volume_ratio_10d_vs_50d": {
+      "value": 0.46,
+      "source": "Yahoo PANCM.BO daily [avg volume last 10 sessions / prior 50 to 2026-11-11] fetched 2026-11-12"
+    },
+    "price_vs_200dma_pct": {
+      "value": -17.3,
+      "source": "Yahoo PANCM.BO daily [close vs 200-session average to 2026-11-11] fetched 2026-11-12"
+    }
+  }
+}

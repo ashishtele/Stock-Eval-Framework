@@ -1,0 +1,75 @@
+{
+  "company": "Shree Renuka Sugars Ltd",
+  "ticker": "RENUKA",
+  "as_of": "2026-11-12",
+  "inputs": {
+    "sales_cagr_3y_pct": {
+      "value": 0.5,
+      "source": "Screener https://www.screener.in/company/RENUKA/consolidated/ (consolidated) [P&L Sales CAGR Mar 2023..Mar 2026: 9017 -> 9160] fetched 2026-11-12"
+    },
+    "sales_cagr_10y_pct": {
+      "value": -0.7,
+      "source": "Screener https://www.screener.in/company/RENUKA/consolidated/ (consolidated) [P&L Sales CAGR over 10y Mar 2016 9849 -> Mar 2026 9160 (longest available up to 10y)] fetched 2026-11-12"
+    },
+    "opm_change_3y_pp": {
+      "value": -6.8,
+      "source": "Screener https://www.screener.in/company/RENUKA/consolidated/ (consolidated) [P&L OPM % Mar 2023 7 -> Mar 2026 0.2] fetched 2026-11-12"
+    },
+    "roce_3y_avg_pct": {
+      "value": 6.0,
+      "source": "Screener https://www.screener.in/company/RENUKA/consolidated/ (consolidated) [Ratios ROCE % avg of Mar 2024, Mar 2025, Mar 2026: [10.0, 11.0, -3.0]] fetched 2026-11-12"
+    },
+    "ttm_pat_cr": {
+      "value": -605.0,
+      "source": "Screener https://www.screener.in/company/RENUKA/consolidated/ (consolidated) [Quarterly Net Profit sum Dec 2025..Sep 2026] fetched 2026-11-12"
+    },
+    "ttm_sales_cr": {
+      "value": 8846.0,
+      "source": "Screener https://www.screener.in/company/RENUKA/consolidated/ (consolidated) [Quarterly Sales sum Dec 2025..Sep 2026] fetched 2026-11-12"
+    },
+    "ttm_sales_growth_pct": {
+      "value": -9.7,
+      "source": "Screener https://www.screener.in/company/RENUKA/consolidated/ (consolidated) [TTM Sales 8846 vs 9793, quarters Dec 2025..Sep 2026 vs Dec 2024..Sep 2025] fetched 2026-11-12"
+    },
+    "drawdown_from_high_pct": {
+      "value": 84.6,
+      "source": "Screener https://www.screener.in/company/RENUKA/consolidated/ (consolidated) [Price chart close 18.6 on 2026-11-12 vs all-time high 120.65 on 2010-01-08] fetched 2026-11-12"
+    },
+    "market_cap_cr": {
+      "value": 3959.0,
+      "source": "Screener https://www.screener.in/company/RENUKA/consolidated/ (consolidated) [Top ratios Market Cap] fetched 2026-11-12"
+    },
+    "promoter_holding_pct": {
+      "value": 62.48,
+      "source": "Screener https://www.screener.in/company/RENUKA/consolidated/ (consolidated) [Shareholding Promoters Sep 2026] fetched 2026-11-12"
+    },
+    "promoter_holding_change_3y_pp": {
+      "value": 0.0,
+      "source": "Screener https://www.screener.in/company/RENUKA/consolidated/ (consolidated) [Shareholding Promoters Dec 2023 62.48 -> Sep 2026 62.48] fetched 2026-11-12"
+    },
+    "promoter_pledge_pct": {
+      "value": 0.0,
+      "source": "Screener https://www.screener.in/company/RENUKA/consolidated/ (consolidated) [Pros/cons pledge flag absent; verify in exchange shareholding pattern] fetched 2026-11-12"
+    },
+    "institutional_holding_pct": {
+      "value": 9.4,
+      "source": "Screener https://www.screener.in/company/RENUKA/consolidated/ (consolidated) [Shareholding FIIs + DIIs Sep 2026] fetched 2026-11-12"
+    },
+    "current_price": {
+      "value": 18.85,
+      "source": "Yahoo RENUKA.NS daily [close on 2026-11-11] fetched 2026-11-12"
+    },
+    "pct_below_52w_high": {
+      "value": 37.8,
+      "source": "Yahoo RENUKA.NS daily [close 18.85 on 2026-11-11 vs 52w high 30.30] fetched 2026-11-12"
+    },
+    "volume_ratio_10d_vs_50d": {
+      "value": 0.33,
+      "source": "Yahoo RENUKA.NS daily [avg volume last 10 sessions / prior 50 to 2026-11-11] fetched 2026-11-12"
+    },
+    "price_vs_200dma_pct": {
+      "value": -20.3,
+      "source": "Yahoo RENUKA.NS daily [close vs 200-session average to 2026-11-11] fetched 2026-11-12"
+    }
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "company": "Transformers & Rectifiers India Ltd",
+  "ticker": "TARIL",
+  "as_of": "2026-11-12",
+  "inputs": {
+    "sales_cagr_3y_pct": {
+      "value": 21.6,
+      "source": "Screener https://www.screener.in/company/TARIL/consolidated/ (consolidated) [P&L Sales CAGR Mar 2023..Mar 2026: 1396 -> 2507] fetched 2026-11-12"
+    },
+    "eps_cagr_3y_pct": {
+      "value": 78.8,
+      "source": "Screener https://www.screener.in/company/TARIL/consolidated/ (consolidated) [P&L EPS CAGR Mar 2023..Mar 2026: 1.54 -> 8.81] fetched 2026-11-12"
+    },
+    "pat_cagr_3y_pct": {
+      "value": 86.4,
+      "source": "Screener https://www.screener.in/company/TARIL/consolidated/ (consolidated) [P&L Net Profit CAGR Mar 2023..Mar 2026: 42 -> 272] fetched 2026-11-12"
+    },
+    "sales_cagr_10y_pct": {
+      "value": 14.3,
+      "source": "Screener https://www.screener.in/company/TARIL/consolidated/ (consolidated) [P&L Sales CAGR over 10y Mar 2016 657 -> Mar 2026 2507 (longest available up to 10y)] fetched 2026-11-12"
+    },
+    "opm_change_3y_pp": {
+      "value": 6.0,
+      "source": "Screener https://www.screener.in/company/TARIL/consolidated/ (consolidated) [P&L OPM % Mar 2023 9 -> Mar 2026 15] fetched 2026-11-12"
+    },
+    "roce_3y_avg_pct": {
+      "value": 22.0,
+      "source": "Screener https://www.screener.in/company/TARIL/consolidated/ (consolidated) [Ratios ROCE % avg of Mar 2024, Mar 2025, Mar 2026: [15.0, 28.0, 23.0]] fetched 2026-11-12"
+    },
+    "cfo_to_pat_3y": {
+      "value": 0.15,
+      "source": "Screener https://www.screener.in/company/TARIL/consolidated/ (consolidated) [Cash Flow CFO sum 81 / Net Profit sum 535, Mar 2024..Mar 2026] fetched 2026-11-12"
+    },
+    "ttm_pat_cr": {
+      "value": 312.0,
+      "source": "Screener https://www.screener.in/company/TARIL/consolidated/ (consolidated) [Quarterly Net Profit sum Dec 2025..Sep 2026] fetched 2026-11-12"
+    },
+    "ttm_sales_cr": {
+      "value": 2831.0,
+      "source": "Screener https://www.screener.in/company/TARIL/consolidated/ (consolidated) [Quarterly Sales sum Dec 2025..Sep 2026] fetched 2026-11-12"
+    },
+    "ttm_sales_growth_pct": {
+      "value": 27.3,
+      "source": "Screener https://www.screener.in/company/TARIL/consolidated/ (consolidated) [TTM Sales 2831 vs 2224, quarters Dec 2025..Sep 2026 vs Dec 2024..Sep 2025] fetched 2026-11-12"
+    },
+    "ttm_pat_growth_pct": {
+      "value": 23.3,
+      "source": "Screener https://www.screener.in/company/TARIL/consolidated/ (consolidated) [TTM Net Profit 312 vs 253, quarters Dec 2025..Sep 2026 vs Dec 2024..Sep 2025] fetched 2026-11-12"
+    },
+    "debt_to_equity": {
+      "value": 0.3,
+      "source": "Screener https://www.screener.in/company/TARIL/consolidated/ (consolidated) [Balance Sheet Mar 2026: Borrowings 457 - leases 0 / (Equity+Reserves) 1515] fetched 2026-11-12"
+    },
+    "drawdown_from_high_pct": {
+      "value": 49.0,
+      "source": "Screener https://www.screener.in/company/TARIL/consolidated/ (consolidated) [Price chart close 315.8 on 2026-11-12 vs all-time high 619.6 on 2025-01-03] fetched 2026-11-12"
+    },
+    "market_cap_cr": {
+      "value": 9479.0,
+      "source": "Screener https://www.screener.in/company/TARIL/consolidated/ (consolidated) [Top ratios Market Cap] fetched 2026-11-12"
+    },
+    "pe": {
+      "value": 31.1,
+      "source": "Screener https://www.screener.in/company/TARIL/consolidated/ (consolidated) [P/E chart value at 2026-11-12] fetched 2026-11-12"
+    },
+    "pe_percentile_5y": {
+      "value": 32.6,
+      "source": "Screener https://www.screener.in/company/TARIL/consolidated/ (consolidated) [P/E chart percentile within 5y to 2026-11-12 (242 points)] fetched 2026-11-12"
+    },
+    "promoter_holding_pct": {
+      "value": 64.36,
+      "source": "Screener https://www.screener.in/company/TARIL/consolidated/ (consolidated) [Shareholding Promoters Sep 2026] fetched 2026-11-12"
+    },
+    "promoter_holding_change_3y_pp": {
+      "value": -5.29,
+      "source": "Screener https://www.screener.in/company/TARIL/consolidated/ (consolidated) [Shareholding Promoters Dec 2023 69.65 -> Sep 2026 64.36] fetched 2026-11-12"
+    },
+    "promoter_pledge_pct": {
+      "value": 0.0,
+      "source": "Screener https://www.screener.in/company/TARIL/consolidated/ (consolidated) [Pros/cons pledge flag absent; verify in exchange shareholding pattern] fetched 2026-11-12"
+    },
+    "institutional_holding_pct": {
+      "value": 8.17,
+      "source": "Screener https://www.screener.in/company/TARIL/consolidated/ (consolidated) [Shareholding FIIs + DIIs Sep 2026] fetched 2026-11-12"
+    },
+    "current_price": {
+      "value": 316.25,
+      "source": "Yahoo TARIL.NS daily [close on 2026-11-11] fetched 2026-11-12"
+    },
+    "pct_below_52w_high": {
+      "value": 15.0,
+      "source": "Yahoo TARIL.NS daily [close 316.25 on 2026-11-11 vs 52w high 372.00] fetched 2026-11-12"
+    },
+    "volume_ratio_10d_vs_50d": {
+      "value": 0.36,
+      "source": "Yahoo TARIL.NS daily [avg volume last 10 sessions / prior 50 to 2026-11-11] fetched 2026-11-12"
+    },
+    "price_vs_200dma_pct": {
+      "value": 5.3,
+      "source": "Yahoo TARIL.NS daily [close vs 200-session average to 2026-11-11] fetched 2026-11-12"
+    }
+  }
+}

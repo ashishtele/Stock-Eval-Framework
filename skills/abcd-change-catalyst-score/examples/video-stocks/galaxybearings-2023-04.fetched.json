@@ -1,0 +1,87 @@
+{
+  "company": "Galaxy Bearings Ltd",
+  "ticker": "526073",
+  "as_of": "2023-04-15",
+  "inputs": {
+    "sales_cagr_3y_pct": {
+      "value": 11.9,
+      "source": "Screener https://www.screener.in/company/526073/ (standalone) [P&L Sales CAGR Mar 2019..Mar 2022: 74.34 -> 104.09] fetched 2026-11-12"
+    },
+    "eps_cagr_3y_pct": {
+      "value": 26.3,
+      "source": "Screener https://www.screener.in/company/526073/ (standalone) [P&L EPS CAGR Mar 2019..Mar 2022: 20.72 -> 41.79] fetched 2026-11-12"
+    },
+    "pat_cagr_3y_pct": {
+      "value": 26.3,
+      "source": "Screener https://www.screener.in/company/526073/ (standalone) [P&L Net Profit CAGR Mar 2019..Mar 2022: 6.59 -> 13.29] fetched 2026-11-12"
+    },
+    "sales_cagr_10y_pct": {
+      "value": 13.3,
+      "source": "Screener https://www.screener.in/company/526073/ (standalone) [P&L Sales CAGR over 7y Mar 2015 43.3 -> Mar 2022 104.09 (longest available up to 10y)] fetched 2026-11-12"
+    },
+    "opm_change_3y_pp": {
+      "value": 3.6,
+      "source": "Screener https://www.screener.in/company/526073/ (standalone) [P&L OPM % Mar 2019 14.1 -> Mar 2022 17.73] fetched 2026-11-12"
+    },
+    "roce_3y_avg_pct": {
+      "value": 24.9,
+      "source": "Screener https://www.screener.in/company/526073/ (standalone) [Ratios ROCE % avg of Mar 2020, Mar 2021, Mar 2022: [17.75, 23.94, 32.94]] fetched 2026-11-12"
+    },
+    "cfo_to_pat_3y": {
+      "value": 0.86,
+      "source": "Screener https://www.screener.in/company/526073/ (standalone) [Cash Flow CFO sum 22.97 / Net Profit sum 26.75, Mar 2020..Mar 2022] fetched 2026-11-12"
+    },
+    "ttm_pat_cr": {
+      "value": 13.29,
+      "source": "Screener https://www.screener.in/company/526073/ (standalone) [P&L Net Profit Mar 2022, annual proxy Mar 2022 vs Mar 2021 (fewer than 8 published quarters)] fetched 2026-11-12"
+    },
+    "ttm_sales_cr": {
+      "value": 104.09,
+      "source": "Screener https://www.screener.in/company/526073/ (standalone) [P&L Sales Mar 2022, annual proxy Mar 2022 vs Mar 2021 (fewer than 8 published quarters)] fetched 2026-11-12"
+    },
+    "ttm_sales_growth_pct": {
+      "value": 66.1,
+      "source": "Screener https://www.screener.in/company/526073/ (standalone) [Sales 104.09 vs 62.67, annual proxy Mar 2022 vs Mar 2021 (fewer than 8 published quarters)] fetched 2026-11-12"
+    },
+    "ttm_pat_growth_pct": {
+      "value": 69.1,
+      "source": "Screener https://www.screener.in/company/526073/ (standalone) [Net Profit 13.29 vs 7.86, annual proxy Mar 2022 vs Mar 2021 (fewer than 8 published quarters)] fetched 2026-11-12"
+    },
+    "debt_to_equity": {
+      "value": 0.06,
+      "source": "Screener https://www.screener.in/company/526073/ (standalone) [Balance Sheet Mar 2022: Borrowings 3.36 - leases 0 / (Equity+Reserves) 58.62] fetched 2026-11-12"
+    },
+    "drawdown_from_high_pct": {
+      "value": 15.4,
+      "source": "Screener https://www.screener.in/company/526073/ (standalone) [Price chart close 1058.45 on 2023-04-13 vs all-time high 1251.2 on 2022-11-18] fetched 2026-11-12"
+    },
+    "market_cap_cr": {
+      "value": 336,
+      "source": "Screener https://www.screener.in/company/526073/ (standalone) [today's mcap 393 x adjusted price 1058.45 (2023-04-13) / 1236.85 (2026-11-12) x share ratio 1.000 (NP/EPS Mar 2022 vs Mar 2026); cross-check MCap/Sales x TTM Sales = 341] fetched 2026-11-12"
+    },
+    "pe": {
+      "value": 23.0,
+      "source": "Screener https://www.screener.in/company/526073/ (standalone) [P/E chart value at 2023-04-15] fetched 2026-11-12"
+    },
+    "pe_percentile_5y": {
+      "value": 92.7,
+      "source": "Screener https://www.screener.in/company/526073/ (standalone) [P/E chart percentile within 5y to 2023-04-15 (261 points)] fetched 2026-11-12"
+    },
+    "current_price": {
+      "value": 1058.45,
+      "source": "Yahoo GALXBRG.BO daily [close on 2023-04-13] fetched 2026-11-12"
+    },
+    "pct_below_52w_high": {
+      "value": 20.9,
+      "source": "Yahoo GALXBRG.BO daily [close 1058.45 on 2023-04-13 vs 52w high 1337.70] fetched 2026-11-12"
+    },
+    "volume_ratio_10d_vs_50d": {
+      "value": 2.06,
+      "source": "Yahoo GALXBRG.BO daily [avg volume last 10 sessions / prior 50 to 2023-04-13] fetched 2026-11-12"
+    },
+    "price_vs_200dma_pct": {
+      "value": 9.9,
+      "source": "Yahoo GALXBRG.BO daily [close vs 200-session average to 2023-04-13] fetched 2026-11-12"
+    }
+  }
+}

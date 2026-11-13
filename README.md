@@ -23,6 +23,7 @@ skills/
   aveek-mitra-framework-score/  bottom-up quality-growth score (ValuePickr)
   momentum-process-score/       price-only momentum ranking ("Process over Prediction")
   equal-stock-framework/        E-QUAL quality/growth/price scorer (Emkay)
+  abcd-change-catalyst-score/   Atul Raval ABCD category + change-catalyst scorer
   frameworks/
     _template/             copy this to start a new framework
     <creator>-<slug>/      one skill per framework, self-contained
@@ -201,6 +202,21 @@ and bands are in `scripts/config.json`; the rubric and data-source map are in
 ```
 python skills/equal-stock-framework/scripts/score.py company.json \
   --out report.md --json result.json
+```
+
+### abcd-change-catalyst-score
+
+Atul Raval's ("Market Ki Baat") ABCD Change-Catalyst Score for Indian
+small/microcaps: top-down sector-tailwind screen, ABCD category classifier
+(A avoid / B stable / C old under-achiever now changing / D fallen, ≤10%
+portfolio), change-catalyst and earnings-inflection scoring, promoter
+integrity gates (fund diversion = zero), P/E re-rating room and ground-research
+checks — verifies against the stocks named in the episode (7/7 label checks
+pass; `python skills/abcd-change-catalyst-score/examples/video-stocks/calibrate.py`)
+(`skills/abcd-change-catalyst-score/`).
+
+```
+python skills/abcd-change-catalyst-score/scripts/score.py fetched.json analyst.json [--json]
 ```
 
 ## Installing into another project

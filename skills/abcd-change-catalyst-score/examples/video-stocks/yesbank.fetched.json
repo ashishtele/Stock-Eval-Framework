@@ -1,0 +1,91 @@
+{
+  "company": "Yes Bank Ltd",
+  "ticker": "YESBANK",
+  "as_of": "2026-11-12",
+  "inputs": {
+    "sales_cagr_3y_pct": {
+      "value": 10.0,
+      "source": "Screener https://www.screener.in/company/YESBANK/consolidated/ (consolidated) [P&L Sales CAGR Mar 2023..Mar 2026: 22702 -> 30208] fetched 2026-11-12"
+    },
+    "eps_cagr_3y_pct": {
+      "value": 62.7,
+      "source": "Screener https://www.screener.in/company/YESBANK/consolidated/ (consolidated) [P&L EPS CAGR Mar 2023..Mar 2026: 0.26 -> 1.12] fetched 2026-11-12"
+    },
+    "pat_cagr_3y_pct": {
+      "value": 68.4,
+      "source": "Screener https://www.screener.in/company/YESBANK/consolidated/ (consolidated) [P&L Net Profit CAGR Mar 2023..Mar 2026: 736 -> 3512] fetched 2026-11-12"
+    },
+    "sales_cagr_10y_pct": {
+      "value": 8.4,
+      "source": "Screener https://www.screener.in/company/YESBANK/consolidated/ (consolidated) [P&L Sales CAGR over 10y Mar 2016 13533 -> Mar 2026 30208 (longest available up to 10y)] fetched 2026-11-12"
+    },
+    "opm_change_3y_pp": {
+      "value": 5.0,
+      "source": "Screener https://www.screener.in/company/YESBANK/consolidated/ (consolidated) [P&L OPM % Mar 2023 -11 -> Mar 2026 -6] fetched 2026-11-12"
+    },
+    "cfo_to_pat_3y": {
+      "value": 5.14,
+      "source": "Screener https://www.screener.in/company/YESBANK/consolidated/ (consolidated) [Cash Flow CFO sum 37248 / Net Profit sum 7244, Mar 2024..Mar 2026] fetched 2026-11-12"
+    },
+    "ttm_pat_cr": {
+      "value": 4195.0,
+      "source": "Screener https://www.screener.in/company/YESBANK/consolidated/ (consolidated) [Quarterly Net Profit sum Dec 2025..Sep 2026] fetched 2026-11-12"
+    },
+    "ttm_sales_cr": {
+      "value": 31919.0,
+      "source": "Screener https://www.screener.in/company/YESBANK/consolidated/ (consolidated) [Quarterly Sales sum Dec 2025..Sep 2026] fetched 2026-11-12"
+    },
+    "ttm_sales_growth_pct": {
+      "value": 4.8,
+      "source": "Screener https://www.screener.in/company/YESBANK/consolidated/ (consolidated) [TTM Sales 31919 vs 30450, quarters Dec 2025..Sep 2026 vs Dec 2024..Sep 2025] fetched 2026-11-12"
+    },
+    "ttm_pat_growth_pct": {
+      "value": 47.9,
+      "source": "Screener https://www.screener.in/company/YESBANK/consolidated/ (consolidated) [TTM Net Profit 4195 vs 2837, quarters Dec 2025..Sep 2026 vs Dec 2024..Sep 2025] fetched 2026-11-12"
+    },
+    "debt_to_equity": {
+      "value": 0.0,
+      "source": "Screener https://www.screener.in/company/YESBANK/consolidated/ (consolidated) [Balance Sheet Mar 2026: Borrowings 0 - leases 0 / (Equity+Reserves) 51158] fetched 2026-11-12"
+    },
+    "drawdown_from_high_pct": {
+      "value": 95.5,
+      "source": "Screener https://www.screener.in/company/YESBANK/consolidated/ (consolidated) [Price chart close 17.69 on 2026-11-12 vs all-time high 393.2 on 2018-08-17] fetched 2026-11-12"
+    },
+    "market_cap_cr": {
+      "value": 55530.0,
+      "source": "Screener https://www.screener.in/company/YESBANK/consolidated/ (consolidated) [Top ratios Market Cap] fetched 2026-11-12"
+    },
+    "pe": {
+      "value": 13.2,
+      "source": "Screener https://www.screener.in/company/YESBANK/consolidated/ (consolidated) [P/E chart value at 2026-11-12] fetched 2026-11-12"
+    },
+    "pe_percentile_5y": {
+      "value": 1.7,
+      "source": "Screener https://www.screener.in/company/YESBANK/consolidated/ (consolidated) [P/E chart percentile within 5y to 2026-11-12 (237 points)] fetched 2026-11-12"
+    },
+    "promoter_holding_pct": {
+      "value": "professionally_managed",
+      "source": "Screener https://www.screener.in/company/YESBANK/consolidated/ (consolidated) [Shareholding: no promoter category] fetched 2026-11-12"
+    },
+    "institutional_holding_pct": {
+      "value": 70.89,
+      "source": "Screener https://www.screener.in/company/YESBANK/consolidated/ (consolidated) [Shareholding FIIs + DIIs Sep 2026] fetched 2026-11-12"
+    },
+    "current_price": {
+      "value": 17.24,
+      "source": "Yahoo YESBANK.NS daily [close on 2026-11-11] fetched 2026-11-12"
+    },
+    "pct_below_52w_high": {
+      "value": 33.1,
+      "source": "Yahoo YESBANK.NS daily [close 17.24 on 2026-11-11 vs 52w high 25.78] fetched 2026-11-12"
+    },
+    "volume_ratio_10d_vs_50d": {
+      "value": 1.81,
+      "source": "Yahoo YESBANK.NS daily [avg volume last 10 sessions / prior 50 to 2026-11-11] fetched 2026-11-12"
+    },
+    "price_vs_200dma_pct": {
+      "value": -18.9,
+      "source": "Yahoo YESBANK.NS daily [close vs 200-session average to 2026-11-11] fetched 2026-11-12"
+    }
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "company": "Yes Bank Ltd",
+  "ticker": "YESBANK",
+  "as_of": "2023-04-15",
+  "inputs": {
+    "sales_cagr_3y_pct": {
+      "value": -13.7,
+      "source": "Screener https://www.screener.in/company/YESBANK/consolidated/ (consolidated) [P&L Sales CAGR Mar 2019..Mar 2022: 29624 -> 19019] fetched 2026-11-12"
+    },
+    "eps_cagr_3y_pct": {
+      "value": -61.5,
+      "source": "Screener https://www.screener.in/company/YESBANK/consolidated/ (consolidated) [P&L EPS CAGR Mar 2019..Mar 2022: 7.38 -> 0.42] fetched 2026-11-12"
+    },
+    "pat_cagr_3y_pct": {
+      "value": -14.6,
+      "source": "Screener https://www.screener.in/company/YESBANK/consolidated/ (consolidated) [P&L Net Profit CAGR Mar 2019..Mar 2022: 1709 -> 1064] fetched 2026-11-12"
+    },
+    "sales_cagr_10y_pct": {
+      "value": 7.4,
+      "source": "Screener https://www.screener.in/company/YESBANK/consolidated/ (consolidated) [P&L Sales CAGR over 7y Mar 2015 11572 -> Mar 2022 19019 (longest available up to 10y)] fetched 2026-11-12"
+    },
+    "opm_change_3y_pp": {
+      "value": -1.0,
+      "source": "Screener https://www.screener.in/company/YESBANK/consolidated/ (consolidated) [P&L OPM % Mar 2019 -7 -> Mar 2022 -8] fetched 2026-11-12"
+    },
+    "ttm_pat_cr": {
+      "value": 1064.0,
+      "source": "Screener https://www.screener.in/company/YESBANK/consolidated/ (consolidated) [P&L Net Profit Mar 2022, annual proxy Mar 2022 vs Mar 2021 (fewer than 8 published quarters)] fetched 2026-11-12"
+    },
+    "ttm_sales_cr": {
+      "value": 19019.0,
+      "source": "Screener https://www.screener.in/company/YESBANK/consolidated/ (consolidated) [P&L Sales Mar 2022, annual proxy Mar 2022 vs Mar 2021 (fewer than 8 published quarters)] fetched 2026-11-12"
+    },
+    "ttm_sales_growth_pct": {
+      "value": -5.1,
+      "source": "Screener https://www.screener.in/company/YESBANK/consolidated/ (consolidated) [Sales 19019 vs 20039, annual proxy Mar 2022 vs Mar 2021 (fewer than 8 published quarters)] fetched 2026-11-12"
+    },
+    "ttm_pat_growth_pct": {
+      "value": 100.0,
+      "source": "Screener https://www.screener.in/company/YESBANK/consolidated/ (consolidated) [Net Profit 1064 vs -3489 (loss -> profit, recorded as 100), annual proxy Mar 2022 vs Mar 2021 (fewer than 8 published quarters)] fetched 2026-11-12"
+    },
+    "debt_to_equity": {
+      "value": 0.0,
+      "source": "Screener https://www.screener.in/company/YESBANK/consolidated/ (consolidated) [Balance Sheet Mar 2022: Borrowings 0 - leases 0 / (Equity+Reserves) 33699] fetched 2026-11-12"
+    },
+    "drawdown_from_high_pct": {
+      "value": 96.1,
+      "source": "Screener https://www.screener.in/company/YESBANK/consolidated/ (consolidated) [Price chart close 15.35 on 2023-04-13 vs all-time high 393.2 on 2018-08-17] fetched 2026-11-12"
+    },
+    "market_cap_cr": {
+      "value": 38928,
+      "source": "Screener https://www.screener.in/company/YESBANK/consolidated/ (consolidated) [today's mcap 55530 x adjusted price 15.35 (2023-04-13) / 17.69 (2026-11-12) x share ratio 0.808 (NP/EPS Mar 2022 vs Mar 2026); cross-check MCap/Sales x TTM Sales = 45,004] fetched 2026-11-12"
+    },
+    "pe": {
+      "value": 49.0,
+      "source": "Screener https://www.screener.in/company/YESBANK/consolidated/ (consolidated) [P/E chart value at 2023-04-15] fetched 2026-11-12"
+    },
+    "pe_percentile_5y": {
+      "value": 90.0,
+      "source": "Screener https://www.screener.in/company/YESBANK/consolidated/ (consolidated) [P/E chart percentile within 5y to 2023-04-15 (130 points)] fetched 2026-11-12"
+    },
+    "current_price": {
+      "value": 15.35,
+      "source": "Yahoo YESBANK.NS daily [close on 2023-04-13] fetched 2026-11-12"
+    },
+    "pct_below_52w_high": {
+      "value": 38.0,
+      "source": "Yahoo YESBANK.NS daily [close 15.35 on 2023-04-13 vs 52w high 24.75] fetched 2026-11-12"
+    },
+    "volume_ratio_10d_vs_50d": {
+      "value": 0.45,
+      "source": "Yahoo YESBANK.NS daily [avg volume last 10 sessions / prior 50 to 2023-04-13] fetched 2026-11-12"
+    },
+    "price_vs_200dma_pct": {
+      "value": -7.7,
+      "source": "Yahoo YESBANK.NS daily [close vs 200-session average to 2023-04-13] fetched 2026-11-12"
+    }
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "company": "Larsen & Toubro Ltd",
+  "ticker": "LT",
+  "as_of": "2026-11-12",
+  "inputs": {
+    "sales_cagr_3y_pct": {
+      "value": 16.0,
+      "source": "Screener https://www.screener.in/company/LT/consolidated/ (consolidated) [P&L Sales CAGR Mar 2023..Mar 2026: 183341 -> 285874] fetched 2026-11-12"
+    },
+    "eps_cagr_3y_pct": {
+      "value": 16.2,
+      "source": "Screener https://www.screener.in/company/LT/consolidated/ (consolidated) [P&L EPS CAGR Mar 2023..Mar 2026: 74.5 -> 116.92] fetched 2026-11-12"
+    },
+    "pat_cagr_3y_pct": {
+      "value": 14.8,
+      "source": "Screener https://www.screener.in/company/LT/consolidated/ (consolidated) [P&L Net Profit CAGR Mar 2023..Mar 2026: 12531 -> 18954] fetched 2026-11-12"
+    },
+    "sales_cagr_10y_pct": {
+      "value": 11.0,
+      "source": "Screener https://www.screener.in/company/LT/consolidated/ (consolidated) [P&L Sales CAGR over 10y Mar 2016 101122 -> Mar 2026 285874 (longest available up to 10y)] fetched 2026-11-12"
+    },
+    "opm_change_3y_pp": {
+      "value": -2.0,
+      "source": "Screener https://www.screener.in/company/LT/consolidated/ (consolidated) [P&L OPM % Mar 2023 15 -> Mar 2026 13] fetched 2026-11-12"
+    },
+    "roce_3y_avg_pct": {
+      "value": 14.3,
+      "source": "Screener https://www.screener.in/company/LT/consolidated/ (consolidated) [Ratios ROCE % avg of Mar 2024, Mar 2025, Mar 2026: [13.0, 15.0, 15.0]] fetched 2026-11-12"
+    },
+    "cfo_to_pat_3y": {
+      "value": 0.85,
+      "source": "Screener https://www.screener.in/company/LT/consolidated/ (consolidated) [Cash Flow CFO sum 44158 / Net Profit sum 52174, Mar 2024..Mar 2026] fetched 2026-11-12"
+    },
+    "ttm_pat_cr": {
+      "value": 20895.0,
+      "source": "Screener https://www.screener.in/company/LT/consolidated/ (consolidated) [Quarterly Net Profit sum Dec 2025..Sep 2026] fetched 2026-11-12"
+    },
+    "ttm_sales_cr": {
+      "value": 300904.0,
+      "source": "Screener https://www.screener.in/company/LT/consolidated/ (consolidated) [Quarterly Sales sum Dec 2025..Sep 2026] fetched 2026-11-12"
+    },
+    "ttm_sales_growth_pct": {
+      "value": 11.1,
+      "source": "Screener https://www.screener.in/company/LT/consolidated/ (consolidated) [TTM Sales 300904 vs 270723, quarters Dec 2025..Sep 2026 vs Dec 2024..Sep 2025] fetched 2026-11-12"
+    },
+    "ttm_pat_growth_pct": {
+      "value": 9.2,
+      "source": "Screener https://www.screener.in/company/LT/consolidated/ (consolidated) [TTM Net Profit 20895 vs 19126, quarters Dec 2025..Sep 2026 vs Dec 2024..Sep 2025] fetched 2026-11-12"
+    },
+    "debt_to_equity": {
+      "value": 1.11,
+      "source": "Screener https://www.screener.in/company/LT/consolidated/ (consolidated) [Balance Sheet Mar 2026: Borrowings 125497 - leases 3814 / (Equity+Reserves) 109290] fetched 2026-11-12"
+    },
+    "drawdown_from_high_pct": {
+      "value": 5.1,
+      "source": "Screener https://www.screener.in/company/LT/consolidated/ (consolidated) [Price chart close 4159.2 on 2026-11-12 vs all-time high 4380.6 on 2026-02-20] fetched 2026-11-12"
+    },
+    "market_cap_cr": {
+      "value": 572271.0,
+      "source": "Screener https://www.screener.in/company/LT/consolidated/ (consolidated) [Top ratios Market Cap] fetched 2026-11-12"
+    },
+    "pe": {
+      "value": 30.3,
+      "source": "Screener https://www.screener.in/company/LT/consolidated/ (consolidated) [P/E chart value at 2026-11-12] fetched 2026-11-12"
+    },
+    "pe_percentile_5y": {
+      "value": 25.7,
+      "source": "Screener https://www.screener.in/company/LT/consolidated/ (consolidated) [P/E chart percentile within 5y to 2026-11-12 (261 points)] fetched 2026-11-12"
+    },
+    "promoter_holding_pct": {
+      "value": "professionally_managed",
+      "source": "Screener https://www.screener.in/company/LT/consolidated/ (consolidated) [Shareholding: no promoter category] fetched 2026-11-12"
+    },
+    "institutional_holding_pct": {
+      "value": 62.07,
+      "source": "Screener https://www.screener.in/company/LT/consolidated/ (consolidated) [Shareholding FIIs + DIIs Sep 2026] fetched 2026-11-12"
+    },
+    "current_price": {
+      "value": 4212.0,
+      "source": "Yahoo LT.NS daily [close on 2026-11-11] fetched 2026-11-12"
+    },
+    "pct_below_52w_high": {
+      "value": 5.1,
+      "source": "Yahoo LT.NS daily [close 4212.00 on 2026-11-11 vs 52w high 4440.00] fetched 2026-11-12"
+    },
+    "volume_ratio_10d_vs_50d": {
+      "value": 1.89,
+      "source": "Yahoo LT.NS daily [avg volume last 10 sessions / prior 50 to 2026-11-11] fetched 2026-11-12"
+    },
+    "price_vs_200dma_pct": {
+      "value": 7.0,
+      "source": "Yahoo LT.NS daily [close vs 200-session average to 2026-11-11] fetched 2026-11-12"
+    }
+  }
+}

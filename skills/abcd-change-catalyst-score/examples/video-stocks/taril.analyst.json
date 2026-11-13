@@ -1,0 +1,27 @@
+{
+  "inputs": {
+    "incorporation_year": { "value": 1994, "source": "AGENT RECALL: TARIL incorporated 1994 (Ahmedabad). Verify in annual report / MCA master data." },
+    "tailwind_evidence": {
+      "value": ["demand_pulled_forward_or_supply_shortage", "sector_order_inflow_rising"],
+      "source": "Transcript 37:50-38:51: solar/new capacity commissions in ~6 months vs 3-4 years for thermal, so transformers, cables and switchgear demand arrives years earlier; 40:52 order book Rs 1,500 cr."
+    },
+    "entry_barrier_checks": {
+      "value": ["approval_or_vendor_registration_required"],
+      "source": "AGENT ASSESSMENT: utility transformers need type-tests and utility vendor approval. Not stated in transcript; verify in DRHP/annual report."
+    },
+    "customer_credit_quality": { "value": "govt_or_psu_payer", "source": "AGENT ASSESSMENT from transcript 37:20-37:37 (government sounded out power utilities). Verify customer mix in annual report." },
+    "change_catalysts": {
+      "value": ["large_order_win"],
+      "source": "Transcript 40:52-40:59 (Apr 2023): 'went through very bad times, now standing on an order book of Rs 1,500 cr'."
+    },
+    "reputation_checks": {
+      "value": ["industry_or_customer_vouches_integrity", "technocrat_or_domain_expert_promoter"],
+      "source": "Transcript 59:40-59:56: friends in the State Electricity Board confirmed the promoter is a highly reputed technocrat with a very good ethical reputation."
+    },
+    "business_focus": { "value": "single_product_or_niche", "source": "Transcript 40:44-40:52: transformers and rectifiers." },
+    "ground_checks": {
+      "value": ["value_chain_peer_confirms_thesis", "customer_or_inspector_feedback", "management_meeting_or_agm"],
+      "source": "Transcript 40:35-40:44 visited transformer and cable makers to test the power-capex thesis; 59:40 State Electricity Board contacts; 40:59-41:31 meetings with promoters."
+    }
+  }
+}

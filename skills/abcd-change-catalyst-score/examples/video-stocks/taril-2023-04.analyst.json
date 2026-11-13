@@ -1,0 +1,8 @@
+{
+  "inputs": {
+    "order_book_to_ttm_sales": {
+      "value": 1.07,
+      "source": "Transcript 40:52 order book Rs 1,500 cr / FY23 sales Rs 1,396 cr (Screener P&L Mar 2023). FY23 sales were published after 2023-04-15, so this ratio carries ~1 month of look-ahead."
+    }
+  }
+}

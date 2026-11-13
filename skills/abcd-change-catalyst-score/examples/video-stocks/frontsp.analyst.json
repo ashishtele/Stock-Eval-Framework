@@ -1,0 +1,23 @@
+{
+  "inputs": {
+    "incorporation_year": { "value": 1981, "source": "AGENT RECALL: Frontier Springs incorporated 1981 (Kanpur). Verify in annual report / MCA master data." },
+    "tailwind_evidence": {
+      "value": ["govt_capex_or_budget_up_ge_15pct", "policy_or_regulatory_mandate"],
+      "source": "Transcript 23:22-23:30 railway budget Rs 2.4 lakh cr (Union Budget Feb 2023; ~1.4 lakh cr prior year - verify in budget documents); 21:16-21:24 government gives railways high priority; 24:09 200 Vande Bharat trains ordered."
+    },
+    "entry_barrier_checks": {
+      "value": ["approval_or_vendor_registration_required", "players_in_niche_le_3", "only_or_one_of_two_listed_players"],
+      "source": "Transcript 21:42-21:51: railway approval needed; only three players, two private, one listed."
+    },
+    "customer_credit_quality": { "value": "govt_or_psu_payer", "source": "Transcript 21:33-21:42: client is the government, no NPA-type payment risk." },
+    "change_catalysts": {
+      "value": ["policy_or_regulation_change"],
+      "source": "Transcript 23:22-24:18: Budget 2023 railway capex Rs 2.4 lakh cr and 200 Vande Bharat trains ordered (both within 24 months of Apr 2023)."
+    },
+    "business_focus": { "value": "single_product_or_niche", "source": "Transcript 21:02-21:10: small railway spring maker." },
+    "ground_checks": {
+      "value": ["management_meeting_or_agm"],
+      "source": "Transcript 22:04-22:21: talked to promoters about their 5-year view; judged genuine."
+    }
+  }
+}
