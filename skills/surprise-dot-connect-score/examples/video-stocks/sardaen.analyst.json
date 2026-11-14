@@ -1,0 +1,15 @@
+{
+  "thesis_type": "cyclical",
+  "inputs": {
+    "trigger_events": {
+      "value": [
+        "distressed_asset_bought_cheap"
+      ],
+      "source": "Transcript 1:06:07-1:06:31 acquired a working power plant via NCLT at a lucrative valuation; backward integration into steel's main cost."
+    },
+    "ai_exposure": {
+      "value": "physical_goods_or_infra",
+      "source": "Steel, ferro-alloys, power."
+    }
+  }
+}

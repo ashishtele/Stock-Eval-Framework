@@ -1,0 +1,50 @@
+{
+  "company": "",
+  "ticker": "",
+  "as_of": "",
+  "thesis_type": null,
+  "_thesis_type_options": "compounder | turnaround | special_situation | cyclical",
+  "inputs": {
+    "auditor_red_flag_3y": { "value": null, "source": "" },
+    "regulatory_action_against_promoters_or_kmp_3y": { "value": null, "source": "" },
+    "related_party_red_flag_3y": { "value": null, "source": "" },
+
+    "trigger_events": { "value": null, "source": "list; one evidence line per item with date" },
+    "institutional_holding_pct": { "value": null, "source": "" },
+    "pct_below_52w_high": { "value": null, "source": "" },
+    "volume_ratio_10d_vs_50d": { "value": null, "source": "" },
+
+    "theme_evidence": { "value": null, "source": "list" },
+    "value_chain_position": { "value": null, "source": "" },
+    "players_in_niche": { "value": null, "source": "count incl. the company (approved vendors / price-competitive players)" },
+    "order_book_or_addressable_revenue_cr": { "value": null, "source": "" },
+    "market_cap_cr": { "value": null, "source": "" },
+
+    "cash_conversion_cycle_days": { "value": null, "source": "" },
+    "opm_change_3y_pp": { "value": null, "source": "" },
+    "spare_capacity_pct": { "value": null, "source": "" },
+    "sales_cagr_3y_pct": { "value": null, "source": "" },
+    "roce_3y_avg_pct": { "value": null, "source": "" },
+
+    "guidance_hit_pct": { "value": null, "source": "number or \"none_stated\"" },
+    "debt_to_equity": { "value": null, "source": "" },
+    "promoter_holding_pct": { "value": null, "source": "number or \"professionally_managed\"" },
+    "promoter_holding_change_3y_pp": { "value": null, "source": "" },
+    "promoter_pledge_pct": { "value": null, "source": "" },
+    "stability_checks": { "value": null, "source": "list" },
+    "scuttlebutt_checks": { "value": null, "source": "list" },
+
+    "pe": { "value": null, "source": "" },
+    "eps_cagr_3y_pct": { "value": null, "source": "" },
+    "multiple_percentile_vs_own_history": { "value": null, "source": "" },
+
+    "ai_exposure": { "value": null, "source": "" },
+    "durability_checks": { "value": null, "source": "list" },
+
+    "drawdown_from_high_pct": { "value": null, "source": "flag only" },
+    "price_vs_200dma_pct": { "value": null, "source": "flag only" },
+    "position_cost_price": { "value": null, "source": "optional, for exit plan" },
+    "current_price": { "value": null, "source": "optional, for exit plan" },
+    "holding_months": { "value": null, "source": "optional, for exit plan" }
+  }
+}

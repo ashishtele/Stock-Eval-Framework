@@ -1,0 +1,30 @@
+{
+  "thesis_type": "compounder",
+  "inputs": {
+    "trigger_events": {
+      "value": ["customer_advances_surge", "blockbuster_product_or_approval"],
+      "source": "Transcript 10:13-13:56: current liabilities rose QoQ from customer advances for sildenafil citrate in LatAm (at entry ~2016). 18:13: series of US FDA injectable approvals. Entry-time triggers, not current."
+    },
+    "theme_evidence": {
+      "value": ["replacement_or_repeat_demand"],
+      "source": "Transcript 16:10-16:40: generic formulations sold through pharmacies in LatAm/Africa = repeat consumable demand."
+    },
+    "value_chain_position": {
+      "value": "niche_end_product_or_channel_edge",
+      "source": "Transcript 15:22-16:47: reverse model - registers products demanded in LatAm/Africa registration markets via own pharmacy network and local partners; peers did not do this."
+    },
+    "guidance_hit_pct": {
+      "value": 25,
+      "source": "Target 'top line becomes bottom line every 6 years' (17:43). Screener consolidated P&L checked 2026-11-12: Sales FY17 402 -> PAT FY23 377 (94%, met), FY18 540 -> FY24 461 (85%), FY19 649 -> FY25 541 (83%), FY20 863 -> FY26 650 (75%). Met (>=90%) in 1 of 4 windows."
+    },
+    "scuttlebutt_checks": {
+      "value": ["product_seen_in_market"],
+      "source": "Transcript 11:39: Spanish-language YouTube ad ending with Caplin's logo, traced to sildenafil product."
+    },
+    "ai_exposure": { "value": "physical_goods_or_infra", "source": "Pharma manufacturing; physical product." },
+    "durability_checks": {
+      "value": ["core_business_unchanged_5y", "avoids_patent_litigation_markets"],
+      "source": "Transcript 40:04 business model unchanged; 15:56-16:19 chose registration markets over regulated US/EU to avoid patent-infringement risk."
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "thesis_type": "compounder",
+  "inputs": {
+    "trigger_events": {
+      "value": [],
+      "source": "Transcript 2:39-3:12: heavily tracked large cap, no surprise left."
+    },
+    "ai_exposure": {
+      "value": "labour_arbitrage_services",
+      "source": "Transcript 1:09:39-1:10:07 and 1:16:02-1:16:28: services exposed to AI; 'elephant' cannot pivot fast."
+    }
+  }
+}

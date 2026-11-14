@@ -1,0 +1,119 @@
+{
+  "_files": "One analyst block per ticker; verify.py writes each to <ticker>.analyst.json. Evidence = transcript timestamps; AGENT ASSESSMENT = unverified judgement.",
+  "INDOTECH": {
+    "thesis_type": "cyclical",
+    "inputs": {
+      "trigger_events": { "value": ["policy_change_beneficiary"], "source": "Transcript 41:07-45:43 rooftop/utility solar pull-forward of transformer demand; 49:34 Indo Tech found in the same top-down sweep." },
+      "theme_evidence": { "value": ["lead_time_compression", "industry_capacity_target_documented", "supply_shortage_or_backlog"], "source": "Transcript 45:19-45:50, 42:52, 47:02." },
+      "value_chain_position": { "value": "essential_component_multi_customer", "source": "Transcript 44:26 transformers needed at every voltage step." },
+      "ai_exposure": { "value": "physical_goods_or_infra", "source": "Transformers." }
+    }
+  },
+  "DYCL": {
+    "thesis_type": "cyclical",
+    "inputs": {
+      "trigger_events": { "value": ["policy_change_beneficiary"], "source": "Transcript 49:49-50:14 power-chain sweep; Jaipur electrical cluster (cables, switches)." },
+      "theme_evidence": { "value": ["industry_capacity_target_documented", "supply_shortage_or_backlog"], "source": "Transcript 42:52 GW targets; 47:02 order surge across power equipment." },
+      "value_chain_position": { "value": "essential_component_multi_customer", "source": "Transcript 43:44-44:09 cables on every transmission/distribution link." },
+      "ai_exposure": { "value": "physical_goods_or_infra", "source": "Cables." }
+    }
+  },
+  "RMC": {
+    "thesis_type": "cyclical",
+    "inputs": {
+      "trigger_events": { "value": ["policy_change_beneficiary"], "source": "Transcript 50:06 RMC Switchgear found in the Jaipur cluster during the power-chain sweep." },
+      "theme_evidence": { "value": ["industry_capacity_target_documented", "supply_shortage_or_backlog"], "source": "Transcript 42:52, 47:02." },
+      "value_chain_position": { "value": "essential_component_multi_customer", "source": "Transcript 44:00 switching equipment needed at every substation." },
+      "ai_exposure": { "value": "physical_goods_or_infra", "source": "Switchgear." }
+    }
+  },
+  "INA": {
+    "thesis_type": "cyclical",
+    "inputs": {
+      "trigger_events": { "value": ["policy_change_beneficiary"], "source": "Transcript 41:07-41:39 rooftop solar adoption; 50:14 Insolation Energy, 'perhaps over-hyped'." },
+      "theme_evidence": { "value": ["lead_time_compression", "industry_capacity_target_documented"], "source": "Transcript 45:19, 42:52." },
+      "value_chain_position": { "value": "commodity_price_taker", "source": "AGENT ASSESSMENT: solar module assembly competes on price with many domestic and Chinese makers." },
+      "ai_exposure": { "value": "physical_goods_or_infra", "source": "Solar modules." }
+    }
+  },
+  "JUBLPHARMA": {
+    "thesis_type": "special_situation",
+    "inputs": {
+      "trigger_events": { "value": ["demerger_or_hidden_asset_unlock"], "source": "Transcript 1:02:53-1:04:27 bought in Covid; demergers of Ingrevia and later the consumer business expected to unlock value." },
+      "ai_exposure": { "value": "physical_goods_or_infra", "source": "Pharma/CDMO." }
+    }
+  },
+  "JUBLINGREA": {
+    "thesis_type": "special_situation",
+    "inputs": {
+      "trigger_events": { "value": ["demerger_or_hidden_asset_unlock"], "source": "Transcript 1:03:23-1:04:43 Ingrevia demerged; agri/consumer and performance chemicals being separated again." },
+      "ai_exposure": { "value": "physical_goods_or_infra", "source": "Speciality chemicals." }
+    }
+  },
+  "JUBLCPL": {
+    "thesis_type": "special_situation",
+    "inputs": {
+      "trigger_events": { "value": ["demerger_or_hidden_asset_unlock", "unknown_brand_preferred_by_users"], "source": "Transcript 1:02:31-1:04:01 Jivanjor hoardings across Lucknow route; AR claims #2 adhesive brand after Pidilite; expected demerger." },
+      "value_chain_position": { "value": "niche_end_product_or_channel_edge", "source": "Transcript 1:03:40 second-largest wood-adhesive brand." },
+      "scuttlebutt_checks": { "value": ["product_seen_in_market"], "source": "Transcript 1:02:31 many Jivanjor boards seen on the road." },
+      "ai_exposure": { "value": "physical_goods_or_infra", "source": "Adhesives, agri inputs." }
+    }
+  },
+  "SARDAEN": {
+    "thesis_type": "cyclical",
+    "inputs": {
+      "trigger_events": { "value": ["distressed_asset_bought_cheap"], "source": "Transcript 1:06:07-1:06:31 acquired a working power plant via NCLT at a lucrative valuation; backward integration into steel's main cost." },
+      "ai_exposure": { "value": "physical_goods_or_infra", "source": "Steel, ferro-alloys, power." }
+    }
+  },
+  "CEINSYS": {
+    "thesis_type": "compounder",
+    "inputs": {
+      "ai_exposure": { "value": "agile_niche_tech_beneficiary", "source": "Transcript 1:12:09-1:13:13 small agile GIS/geospatial niche company." }
+    }
+  },
+  "TERASOFT": {
+    "thesis_type": "special_situation",
+    "inputs": {
+      "trigger_events": { "value": ["large_order_vs_mcap"], "source": "Transcript 1:13:22-1:14:19 BharatNet network-management order with ITI, ~3,000 cr vs ~250 cr market cap." },
+      "order_book_or_addressable_revenue_cr": { "value": 3000, "source": "Transcript 1:13:47 '3000 crore order' (guest's figure; Tera's share of the ITI contract to be verified in filings)." },
+      "ai_exposure": { "value": "agile_niche_tech_beneficiary", "source": "Transcript 1:14:26 niche technology/network management." }
+    }
+  },
+  "MOSCHIP": {
+    "thesis_type": "turnaround",
+    "inputs": {
+      "trigger_events": { "value": ["policy_change_beneficiary"], "source": "Transcript 1:15:03-1:15:30 Indian semiconductor push; loss-making ~600 design engineers; delivered ISRO's first chip." },
+      "ai_exposure": { "value": "agile_niche_tech_beneficiary", "source": "Semiconductor design services." }
+    }
+  },
+  "SUZLON": {
+    "thesis_type": "turnaround",
+    "inputs": {
+      "trigger_events": { "value": ["policy_change_beneficiary"], "source": "Transcript 40:53-41:00 seen as a possible turnaround; 41:07 renewable adoption." },
+      "theme_evidence": { "value": ["industry_capacity_target_documented"], "source": "Transcript 42:52 GW targets to 2030." },
+      "ai_exposure": { "value": "physical_goods_or_infra", "source": "Wind turbines." }
+    }
+  },
+  "INFY": {
+    "thesis_type": "compounder",
+    "inputs": {
+      "trigger_events": { "value": [], "source": "Transcript 2:39-3:12: heavily tracked large cap, no surprise left." },
+      "ai_exposure": { "value": "labour_arbitrage_services", "source": "Transcript 1:09:39-1:10:07 and 1:16:02-1:16:28: services exposed to AI; 'elephant' cannot pivot fast." }
+    }
+  },
+  "INTELLECT": {
+    "thesis_type": "compounder",
+    "inputs": {
+      "ai_exposure": { "value": "agile_niche_tech_beneficiary", "source": "Transcript 1:10:14-1:10:41 own technology platform automating voucher entry. AGENT ASSESSMENT that this makes it a beneficiary." }
+    }
+  },
+  "PIDILITIND": {
+    "thesis_type": "compounder",
+    "inputs": {
+      "trigger_events": { "value": [], "source": "Transcript 55:32 and 59:47: dominant, well-known incumbent; no surprise." },
+      "value_chain_position": { "value": "niche_end_product_or_channel_edge", "source": "Transcript 57:00 large ad budget and brand; Fevicol." },
+      "ai_exposure": { "value": "physical_goods_or_infra", "source": "Adhesives." }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "thesis_type": "turnaround",
+  "inputs": {
+    "trigger_events": {
+      "value": [
+        "policy_change_beneficiary"
+      ],
+      "source": "Transcript 1:15:03-1:15:30 Indian semiconductor push; loss-making ~600 design engineers; delivered ISRO's first chip."
+    },
+    "ai_exposure": {
+      "value": "agile_niche_tech_beneficiary",
+      "source": "Semiconductor design services."
+    }
+  }
+}

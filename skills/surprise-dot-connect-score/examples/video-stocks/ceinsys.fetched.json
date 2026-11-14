@@ -1,0 +1,75 @@
+{
+  "company": "Ceinsys Tech Ltd",
+  "ticker": "CEINSYS",
+  "as_of": "2026-11-12",
+  "inputs": {
+    "sales_cagr_3y_pct": {
+      "value": 44.3,
+      "source": "Screener https://www.screener.in/company/CEINSYS/consolidated/ [P&L Sales CAGR Mar 2023..Mar 2026] fetched 2026-11-12"
+    },
+    "eps_cagr_3y_pct": {
+      "value": 47.1,
+      "source": "Screener https://www.screener.in/company/CEINSYS/consolidated/ [P&L EPS CAGR Mar 2023..Mar 2026] fetched 2026-11-12"
+    },
+    "opm_change_3y_pp": {
+      "value": 8.0,
+      "source": "Screener https://www.screener.in/company/CEINSYS/consolidated/ [P&L OPM % Mar 2023 15 -> Mar 2026 23] fetched 2026-11-12"
+    },
+    "roce_3y_avg_pct": {
+      "value": 25.7,
+      "source": "Screener https://www.screener.in/company/CEINSYS/consolidated/ [Ratios ROCE % avg of Mar 2024, Mar 2025, Mar 2026] fetched 2026-11-12"
+    },
+    "cash_conversion_cycle_days": {
+      "value": -812.0,
+      "source": "Screener https://www.screener.in/company/CEINSYS/consolidated/ [Ratios Cash Conversion Cycle Mar 2026] fetched 2026-11-12"
+    },
+    "debt_to_equity": {
+      "value": 0.07,
+      "source": "Screener https://www.screener.in/company/CEINSYS/consolidated/ [Balance Sheet Mar 2026: Borrowings 57 - leases 10 / (Equity+Reserves) 673] fetched 2026-11-12"
+    },
+    "drawdown_from_high_pct": {
+      "value": 65.1,
+      "source": "Screener https://www.screener.in/company/CEINSYS/consolidated/ [Price chart 2026-11-12 close vs all-time high to date] fetched 2026-11-12"
+    },
+    "market_cap_cr": {
+      "value": 1471.0,
+      "source": "Screener https://www.screener.in/company/CEINSYS/consolidated/ [Top ratios Market Cap] fetched 2026-11-12"
+    },
+    "pe": {
+      "value": 10.5,
+      "source": "Screener https://www.screener.in/company/CEINSYS/consolidated/ [P/E chart value at 2026-11-12] fetched 2026-11-12"
+    },
+    "multiple_percentile_vs_own_history": {
+      "value": 8.8,
+      "source": "Screener https://www.screener.in/company/CEINSYS/consolidated/ [P/E chart percentile within 5y to 2026-11-12] fetched 2026-11-12"
+    },
+    "promoter_holding_pct": {
+      "value": 50.88,
+      "source": "Screener https://www.screener.in/company/CEINSYS/consolidated/ [Shareholding Promoters Sep 2026] fetched 2026-11-12"
+    },
+    "promoter_holding_change_3y_pp": {
+      "value": -7.73,
+      "source": "Screener https://www.screener.in/company/CEINSYS/consolidated/ [Shareholding Promoters Dec 2023 -> Sep 2026] fetched 2026-11-12"
+    },
+    "promoter_pledge_pct": {
+      "value": 0.0,
+      "source": "Screener https://www.screener.in/company/CEINSYS/consolidated/ [Pros/cons pledge flag absent; verify in exchange shareholding pattern] fetched 2026-11-12"
+    },
+    "institutional_holding_pct": {
+      "value": 10.57,
+      "source": "Screener https://www.screener.in/company/CEINSYS/consolidated/ [Shareholding FIIs + DIIs Sep 2026] fetched 2026-11-12"
+    },
+    "pct_below_52w_high": {
+      "value": 46.1,
+      "source": "Yahoo CEINSYS.BO daily: close 725.75 on 2026-11-11 vs 52w high 1345.55, fetched 2026-11-12"
+    },
+    "volume_ratio_10d_vs_50d": {
+      "value": 0.94,
+      "source": "Yahoo CEINSYS.BO daily: avg volume last 10 sessions / prior 50 sessions to 2026-11-11, fetched 2026-11-12"
+    },
+    "price_vs_200dma_pct": {
+      "value": -17.7,
+      "source": "Yahoo CEINSYS.BO daily: close vs 200-session average to 2026-11-11, fetched 2026-11-12"
+    }
+  }
+}

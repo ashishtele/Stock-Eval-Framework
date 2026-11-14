@@ -1,0 +1,71 @@
+{
+  "company": "Jubilant Pharmova Ltd",
+  "ticker": "JUBLPHARMA",
+  "as_of": "2026-11-12",
+  "inputs": {
+    "sales_cagr_3y_pct": {
+      "value": 9.6,
+      "source": "Screener https://www.screener.in/company/JUBLPHARMA/consolidated/ [P&L Sales CAGR Mar 2023..Mar 2026] fetched 2026-11-12"
+    },
+    "opm_change_3y_pp": {
+      "value": 3.0,
+      "source": "Screener https://www.screener.in/company/JUBLPHARMA/consolidated/ [P&L OPM % Mar 2023 12 -> Mar 2026 15] fetched 2026-11-12"
+    },
+    "roce_3y_avg_pct": {
+      "value": 8.7,
+      "source": "Screener https://www.screener.in/company/JUBLPHARMA/consolidated/ [Ratios ROCE % avg of Mar 2024, Mar 2025, Mar 2026] fetched 2026-11-12"
+    },
+    "cash_conversion_cycle_days": {
+      "value": 47.0,
+      "source": "Screener https://www.screener.in/company/JUBLPHARMA/consolidated/ [Ratios Cash Conversion Cycle Mar 2026] fetched 2026-11-12"
+    },
+    "debt_to_equity": {
+      "value": 0.45,
+      "source": "Screener https://www.screener.in/company/JUBLPHARMA/consolidated/ [Balance Sheet Mar 2026: Borrowings 3615 - leases 395 / (Equity+Reserves) 7093] fetched 2026-11-12"
+    },
+    "drawdown_from_high_pct": {
+      "value": 22.1,
+      "source": "Screener https://www.screener.in/company/JUBLPHARMA/consolidated/ [Price chart 2026-11-12 close vs all-time high to date] fetched 2026-11-12"
+    },
+    "market_cap_cr": {
+      "value": 15658.0,
+      "source": "Screener https://www.screener.in/company/JUBLPHARMA/consolidated/ [Top ratios Market Cap] fetched 2026-11-12"
+    },
+    "pe": {
+      "value": 40.4,
+      "source": "Screener https://www.screener.in/company/JUBLPHARMA/consolidated/ [P/E chart value at 2026-11-12] fetched 2026-11-12"
+    },
+    "multiple_percentile_vs_own_history": {
+      "value": 60.9,
+      "source": "Screener https://www.screener.in/company/JUBLPHARMA/consolidated/ [P/E chart percentile within 5y to 2026-11-12] fetched 2026-11-12"
+    },
+    "promoter_holding_pct": {
+      "value": 47.67,
+      "source": "Screener https://www.screener.in/company/JUBLPHARMA/consolidated/ [Shareholding Promoters Sep 2026] fetched 2026-11-12"
+    },
+    "promoter_holding_change_3y_pp": {
+      "value": -3.0,
+      "source": "Screener https://www.screener.in/company/JUBLPHARMA/consolidated/ [Shareholding Promoters Dec 2023 -> Sep 2026] fetched 2026-11-12"
+    },
+    "promoter_pledge_pct": {
+      "value": 0.0,
+      "source": "Screener https://www.screener.in/company/JUBLPHARMA/consolidated/ [Pros/cons pledge flag absent; verify in exchange shareholding pattern] fetched 2026-11-12"
+    },
+    "institutional_holding_pct": {
+      "value": 28.38,
+      "source": "Screener https://www.screener.in/company/JUBLPHARMA/consolidated/ [Shareholding FIIs + DIIs Sep 2026] fetched 2026-11-12"
+    },
+    "pct_below_52w_high": {
+      "value": 15.0,
+      "source": "Yahoo JUBLPHARMA.NS daily: close 987.50 on 2026-11-11 vs 52w high 1162.00, fetched 2026-11-12"
+    },
+    "volume_ratio_10d_vs_50d": {
+      "value": 0.23,
+      "source": "Yahoo JUBLPHARMA.NS daily: avg volume last 10 sessions / prior 50 sessions to 2026-11-11, fetched 2026-11-12"
+    },
+    "price_vs_200dma_pct": {
+      "value": 4.8,
+      "source": "Yahoo JUBLPHARMA.NS daily: close vs 200-session average to 2026-11-11, fetched 2026-11-12"
+    }
+  }
+}

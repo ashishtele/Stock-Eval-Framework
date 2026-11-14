@@ -1,0 +1,19 @@
+{
+  "thesis_type": "special_situation",
+  "inputs": {
+    "trigger_events": {
+      "value": [
+        "large_order_vs_mcap"
+      ],
+      "source": "Transcript 1:13:22-1:14:19 BharatNet network-management order with ITI, ~3,000 cr vs ~250 cr market cap."
+    },
+    "order_book_or_addressable_revenue_cr": {
+      "value": 3000,
+      "source": "Transcript 1:13:47 '3000 crore order' (guest's figure; Tera's share of the ITI contract to be verified in filings)."
+    },
+    "ai_exposure": {
+      "value": "agile_niche_tech_beneficiary",
+      "source": "Transcript 1:14:26 niche technology/network management."
+    }
+  }
+}

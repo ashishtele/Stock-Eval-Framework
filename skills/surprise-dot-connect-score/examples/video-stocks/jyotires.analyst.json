@@ -1,0 +1,27 @@
+{
+  "thesis_type": "compounder",
+  "inputs": {
+    "trigger_events": {
+      "value": ["unknown_brand_preferred_by_users"],
+      "source": "Transcript 54:25-55:09: carpenter insisted on Euro brand over Fevicol, used it 15 years and offered a money-back guarantee."
+    },
+    "theme_evidence": {
+      "value": ["replacement_or_repeat_demand"],
+      "source": "Transcript 1:01:26-1:01:48: younger buyers replace furniture more often."
+    },
+    "value_chain_position": {
+      "value": "niche_end_product_or_channel_edge",
+      "source": "Transcript 57:06-58:01: carpenter loyalty-points model instead of mass advertising."
+    },
+    "spare_capacity_pct": {
+      "value": 50,
+      "source": "Transcript 59:02: MD said 50% spare capacity. Entry-time (~5+ years ago) claim; re-check latest concall."
+    },
+    "scuttlebutt_checks": {
+      "value": ["end_user_or_channel_feedback", "agm_or_management_meeting", "factory_or_office_visit"],
+      "source": "Transcript 54:58 carpenter feedback; 56:04-56:42 1.5h meeting with MD at office; 1:00:35 met again after 5 years."
+    },
+    "ai_exposure": { "value": "physical_goods_or_infra", "source": "Wood adhesives; physical product." },
+    "durability_checks": { "value": ["core_business_unchanged_5y"], "source": "Transcript 1:00:02-1:01:15: same focused adhesives business." }
+  }
+}

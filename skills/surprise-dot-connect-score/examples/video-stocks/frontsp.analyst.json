@@ -1,0 +1,28 @@
+{
+  "thesis_type": "compounder",
+  "inputs": {
+    "trigger_events": {
+      "value": ["first_order_after_vendor_approval", "policy_change_beneficiary"],
+      "source": "Transcript 31:17-32:14: first Rs 2 cr trial order for air springs (Vande Bharat) after product approval; 22:08-23:29 railway capex push after 2014."
+    },
+    "theme_evidence": {
+      "value": ["replacement_or_repeat_demand", "local_preference_or_import_substitution"],
+      "source": "Transcript 26:14: helical spring life ~5 years (replacement + new coaches/wagons); 32:21: imported air spring ~4x cost, Make in India preference."
+    },
+    "value_chain_position": {
+      "value": "essential_component_multi_customer",
+      "source": "AGENT ASSESSMENT from transcript 25:39-27:10: suspension springs needed in every coach and wagon. Verify customer concentration (Railways vs wagon builders) in annual report."
+    },
+    "players_in_niche": { "value": 3, "source": "Transcript 26:27 and 31:27: three approved vendors, two private, Frontier the only listed one." },
+    "stability_checks": {
+      "value": ["cfo_or_cs_tenure_ge_5y", "long_tenured_workforce_evidence", "promoter_no_market_operations"],
+      "source": "Transcript 32:42-32:51 workers with 15-20y tenure, company secretary unchanged for years; 28:04 promoter never sold, no market operations."
+    },
+    "scuttlebutt_checks": {
+      "value": ["quality_feedback_customer_or_inspector", "agm_or_management_meeting", "factory_or_office_visit"],
+      "source": "Transcript 29:06 third-party railway inspector: no technical rejection ever; 29:37 AGM 2023; 32:37 factory visit."
+    },
+    "ai_exposure": { "value": "physical_goods_or_infra", "source": "Rail suspension springs; physical product." },
+    "durability_checks": { "value": ["core_business_unchanged_5y"], "source": "Transcript 40:04: business model unchanged." }
+  }
+}

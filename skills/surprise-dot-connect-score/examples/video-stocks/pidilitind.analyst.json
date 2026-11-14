@@ -1,0 +1,17 @@
+{
+  "thesis_type": "compounder",
+  "inputs": {
+    "trigger_events": {
+      "value": [],
+      "source": "Transcript 55:32 and 59:47: dominant, well-known incumbent; no surprise."
+    },
+    "value_chain_position": {
+      "value": "niche_end_product_or_channel_edge",
+      "source": "Transcript 57:00 large ad budget and brand; Fevicol."
+    },
+    "ai_exposure": {
+      "value": "physical_goods_or_infra",
+      "source": "Adhesives."
+    }
+  }
+}
