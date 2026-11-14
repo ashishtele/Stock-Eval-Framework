@@ -1,0 +1,21 @@
+{
+  "thesis_type": "turnaround",
+  "inputs": {
+    "trigger_events": {
+      "value": [
+        "policy_change_beneficiary"
+      ],
+      "source": "Transcript 40:53-41:00 seen as a possible turnaround; 41:07 renewable adoption."
+    },
+    "theme_evidence": {
+      "value": [
+        "industry_capacity_target_documented"
+      ],
+      "source": "Transcript 42:52 GW targets to 2030."
+    },
+    "ai_exposure": {
+      "value": "physical_goods_or_infra",
+      "source": "Wind turbines."
+    }
+  }
+}

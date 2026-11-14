@@ -1,0 +1,26 @@
+{
+  "thesis_type": "cyclical",
+  "inputs": {
+    "trigger_events": {
+      "value": [
+        "policy_change_beneficiary"
+      ],
+      "source": "Transcript 50:06 RMC Switchgear found in the Jaipur cluster during the power-chain sweep."
+    },
+    "theme_evidence": {
+      "value": [
+        "industry_capacity_target_documented",
+        "supply_shortage_or_backlog"
+      ],
+      "source": "Transcript 42:52, 47:02."
+    },
+    "value_chain_position": {
+      "value": "essential_component_multi_customer",
+      "source": "Transcript 44:00 switching equipment needed at every substation."
+    },
+    "ai_exposure": {
+      "value": "physical_goods_or_infra",
+      "source": "Switchgear."
+    }
+  }
+}

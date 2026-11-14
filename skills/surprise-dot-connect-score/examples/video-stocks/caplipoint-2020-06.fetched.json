@@ -1,0 +1,59 @@
+{
+  "company": "Caplin Point Laboratories Ltd",
+  "ticker": "CAPLIPOINT",
+  "as_of": "2020-06-30",
+  "inputs": {
+    "sales_cagr_3y_pct": {
+      "value": 29.0,
+      "source": "Screener https://www.screener.in/company/CAPLIPOINT/consolidated/ [P&L Sales CAGR Mar 2017..Mar 2020] fetched 2026-11-12"
+    },
+    "eps_cagr_3y_pct": {
+      "value": 31.0,
+      "source": "Screener https://www.screener.in/company/CAPLIPOINT/consolidated/ [P&L EPS CAGR Mar 2017..Mar 2020] fetched 2026-11-12"
+    },
+    "opm_change_3y_pp": {
+      "value": -1.0,
+      "source": "Screener https://www.screener.in/company/CAPLIPOINT/consolidated/ [P&L OPM % Mar 2017 31 -> Mar 2020 30] fetched 2026-11-12"
+    },
+    "roce_3y_avg_pct": {
+      "value": 47.0,
+      "source": "Screener https://www.screener.in/company/CAPLIPOINT/consolidated/ [Ratios ROCE % avg of Mar 2018, Mar 2019, Mar 2020] fetched 2026-11-12"
+    },
+    "cash_conversion_cycle_days": {
+      "value": 251.0,
+      "source": "Screener https://www.screener.in/company/CAPLIPOINT/consolidated/ [Ratios Cash Conversion Cycle Mar 2020] fetched 2026-11-12"
+    },
+    "debt_to_equity": {
+      "value": 0.13,
+      "source": "Screener https://www.screener.in/company/CAPLIPOINT/consolidated/ [Balance Sheet Mar 2020: Borrowings 113 - leases 2.13 / (Equity+Reserves) 873] fetched 2026-11-12"
+    },
+    "drawdown_from_high_pct": {
+      "value": 57.1,
+      "source": "Screener https://www.screener.in/company/CAPLIPOINT/consolidated/ [Price chart 2020-06-26 close vs all-time high to date] fetched 2026-11-12"
+    },
+    "market_cap_cr": {
+      "value": 2389,
+      "source": "Screener https://www.screener.in/company/CAPLIPOINT/consolidated/ [Price 2020-06-26 x shares implied by Equity Capital Mar 2020 (approx)] fetched 2026-11-12"
+    },
+    "pe": {
+      "value": 11.1,
+      "source": "Screener https://www.screener.in/company/CAPLIPOINT/consolidated/ [P/E chart value at 2020-06-30] fetched 2026-11-12"
+    },
+    "multiple_percentile_vs_own_history": {
+      "value": 4.6,
+      "source": "Screener https://www.screener.in/company/CAPLIPOINT/consolidated/ [P/E chart percentile within 5y to 2020-06-30] fetched 2026-11-12"
+    },
+    "pct_below_52w_high": {
+      "value": 24.6,
+      "source": "Yahoo CAPLIPOINT.NS daily: close 346.50 on 2020-07-01 vs 52w high 459.50, fetched 2026-11-12"
+    },
+    "volume_ratio_10d_vs_50d": {
+      "value": 2.75,
+      "source": "Yahoo CAPLIPOINT.NS daily: avg volume last 10 sessions / prior 50 sessions to 2020-07-01, fetched 2026-11-12"
+    },
+    "price_vs_200dma_pct": {
+      "value": 3.7,
+      "source": "Yahoo CAPLIPOINT.NS daily: close vs 200-session average to 2020-07-01, fetched 2026-11-12"
+    }
+  }
+}

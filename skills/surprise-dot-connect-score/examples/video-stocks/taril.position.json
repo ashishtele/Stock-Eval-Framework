@@ -1,0 +1,7 @@
+{
+  "inputs": {
+    "position_cost_price": { "value": 25, "source": "Transcript 47:30: bought around Rs 25 (pre-split basis)" },
+    "current_price": { "value": 1300, "source": "Transcript 47:55: reached Rs 1,300 within ~2.5 years" },
+    "holding_months": { "value": 30, "source": "Transcript 47:55: '2.5 years'" }
+  }
+}

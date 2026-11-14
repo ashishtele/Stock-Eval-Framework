@@ -1,0 +1,22 @@
+{
+  "thesis_type": "cyclical",
+  "inputs": {
+    "trigger_events": {
+      "value": ["policy_change_beneficiary"],
+      "source": "Transcript 41:07-45:43: rooftop solar adoption (~40% in Gandhinagar) compresses generation lead time, pulling transformer demand forward."
+    },
+    "theme_evidence": {
+      "value": ["lead_time_compression", "industry_capacity_target_documented", "supply_shortage_or_backlog"],
+      "source": "Transcript 45:19-45:50 solar 6 months vs thermal 4 years; 42:52 GW targets to 2030; 47:02 transformer makers flooded with orders."
+    },
+    "value_chain_position": {
+      "value": "essential_component_multi_customer",
+      "source": "Transcript 44:26: a transformer is needed at every step-up/step-down point; sold to utilities, developers and EPCs."
+    },
+    "scuttlebutt_checks": {
+      "value": ["industry_expert_or_regulator_feedback"],
+      "source": "Transcript 48:45-49:10: Baroda sources on the promoters' background and the company name."
+    },
+    "ai_exposure": { "value": "physical_goods_or_infra", "source": "Transformers; physical product." }
+  }
+}

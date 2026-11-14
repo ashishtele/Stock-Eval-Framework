@@ -1,0 +1,47 @@
+{
+  "company": "Suzlon Energy Ltd",
+  "ticker": "SUZLON",
+  "as_of": "2023-03-31",
+  "inputs": {
+    "sales_cagr_3y_pct": {
+      "value": 26.2,
+      "source": "Screener https://www.screener.in/company/SUZLON/consolidated/ [P&L Sales CAGR Mar 2020..Mar 2023] fetched 2026-11-12"
+    },
+    "opm_change_3y_pp": {
+      "value": 43.0,
+      "source": "Screener https://www.screener.in/company/SUZLON/consolidated/ [P&L OPM % Mar 2020 -29 -> Mar 2023 14] fetched 2026-11-12"
+    },
+    "roce_3y_avg_pct": {
+      "value": 17.0,
+      "source": "Screener https://www.screener.in/company/SUZLON/consolidated/ [Ratios ROCE % avg of Mar 2021, Mar 2022, Mar 2023] fetched 2026-11-12"
+    },
+    "cash_conversion_cycle_days": {
+      "value": 162.0,
+      "source": "Screener https://www.screener.in/company/SUZLON/consolidated/ [Ratios Cash Conversion Cycle Mar 2023] fetched 2026-11-12"
+    },
+    "debt_to_equity": {
+      "value": 1.73,
+      "source": "Screener https://www.screener.in/company/SUZLON/consolidated/ [Balance Sheet Mar 2023: Borrowings 1938 - leases 33 / (Equity+Reserves) 1099] fetched 2026-11-12"
+    },
+    "drawdown_from_high_pct": {
+      "value": 98.0,
+      "source": "Screener https://www.screener.in/company/SUZLON/consolidated/ [Price chart 2023-03-31 close vs all-time high to date] fetched 2026-11-12"
+    },
+    "market_cap_cr": {
+      "value": 9600,
+      "source": "Screener https://www.screener.in/company/SUZLON/consolidated/ [Price 2023-03-31 x shares implied by Equity Capital Mar 2023 (approx)] fetched 2026-11-12"
+    },
+    "pct_below_52w_high": {
+      "value": 35.0,
+      "source": "Yahoo SUZLON.NS daily: close 7.90 on 2023-03-31 vs 52w high 12.15, fetched 2026-11-12"
+    },
+    "volume_ratio_10d_vs_50d": {
+      "value": 0.73,
+      "source": "Yahoo SUZLON.NS daily: avg volume last 10 sessions / prior 50 sessions to 2023-03-31, fetched 2026-11-12"
+    },
+    "price_vs_200dma_pct": {
+      "value": -3.8,
+      "source": "Yahoo SUZLON.NS daily: close vs 200-session average to 2023-03-31, fetched 2026-11-12"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "thesis_type": "turnaround",
+  "inputs": {
+    "trigger_events": {
+      "value": ["pricing_power_shift", "policy_change_beneficiary"],
+      "source": "Transcript 46:53-47:14: COO said order inflow so high they stopped undercutting BHEL; 45:19 solar-led demand pull-forward."
+    },
+    "theme_evidence": {
+      "value": ["lead_time_compression", "industry_capacity_target_documented", "supply_shortage_or_backlog"],
+      "source": "Transcript 45:19-45:50, 42:52, 47:02."
+    },
+    "value_chain_position": {
+      "value": "essential_component_multi_customer",
+      "source": "Transcript 44:26: transformers needed at every voltage step."
+    },
+    "players_in_niche": {
+      "value": 2,
+      "source": "Transcript 44:41-45:05: in the high-voltage category only BHEL and T&R compete on price; MNCs quote higher. Entry-time structure (~2021)."
+    },
+    "scuttlebutt_checks": {
+      "value": ["industry_expert_or_regulator_feedback", "agm_or_management_meeting"],
+      "source": "Transcript 45:57 Gujarat electricity board officers; 46:26 meeting with COO."
+    },
+    "ai_exposure": { "value": "physical_goods_or_infra", "source": "Transformers; physical product." }
+  }
+}

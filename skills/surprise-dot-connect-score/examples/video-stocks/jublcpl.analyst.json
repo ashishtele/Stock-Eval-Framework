@@ -1,0 +1,26 @@
+{
+  "thesis_type": "special_situation",
+  "inputs": {
+    "trigger_events": {
+      "value": [
+        "demerger_or_hidden_asset_unlock",
+        "unknown_brand_preferred_by_users"
+      ],
+      "source": "Transcript 1:02:31-1:04:01 Jivanjor hoardings across Lucknow route; AR claims #2 adhesive brand after Pidilite; expected demerger."
+    },
+    "value_chain_position": {
+      "value": "niche_end_product_or_channel_edge",
+      "source": "Transcript 1:03:40 second-largest wood-adhesive brand."
+    },
+    "scuttlebutt_checks": {
+      "value": [
+        "product_seen_in_market"
+      ],
+      "source": "Transcript 1:02:31 many Jivanjor boards seen on the road."
+    },
+    "ai_exposure": {
+      "value": "physical_goods_or_infra",
+      "source": "Adhesives, agri inputs."
+    }
+  }
+}

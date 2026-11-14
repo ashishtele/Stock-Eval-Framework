@@ -1,0 +1,75 @@
+{
+  "company": "Suzlon Energy Ltd",
+  "ticker": "SUZLON",
+  "as_of": "2026-11-12",
+  "inputs": {
+    "sales_cagr_3y_pct": {
+      "value": 41.0,
+      "source": "Screener https://www.screener.in/company/SUZLON/consolidated/ [P&L Sales CAGR Mar 2023..Mar 2026] fetched 2026-11-12"
+    },
+    "eps_cagr_3y_pct": {
+      "value": -3.6,
+      "source": "Screener https://www.screener.in/company/SUZLON/consolidated/ [P&L EPS CAGR Mar 2023..Mar 2026] fetched 2026-11-12"
+    },
+    "opm_change_3y_pp": {
+      "value": 4.0,
+      "source": "Screener https://www.screener.in/company/SUZLON/consolidated/ [P&L OPM % Mar 2023 14 -> Mar 2026 18] fetched 2026-11-12"
+    },
+    "roce_3y_avg_pct": {
+      "value": 30.7,
+      "source": "Screener https://www.screener.in/company/SUZLON/consolidated/ [Ratios ROCE % avg of Mar 2024, Mar 2025, Mar 2026] fetched 2026-11-12"
+    },
+    "cash_conversion_cycle_days": {
+      "value": 117.0,
+      "source": "Screener https://www.screener.in/company/SUZLON/consolidated/ [Ratios Cash Conversion Cycle Mar 2026] fetched 2026-11-12"
+    },
+    "debt_to_equity": {
+      "value": 0.03,
+      "source": "Screener https://www.screener.in/company/SUZLON/consolidated/ [Balance Sheet Mar 2026: Borrowings 556 - leases 292 / (Equity+Reserves) 9464] fetched 2026-11-12"
+    },
+    "drawdown_from_high_pct": {
+      "value": 90.0,
+      "source": "Screener https://www.screener.in/company/SUZLON/consolidated/ [Price chart 2026-11-12 close vs all-time high to date] fetched 2026-11-12"
+    },
+    "market_cap_cr": {
+      "value": 52991.0,
+      "source": "Screener https://www.screener.in/company/SUZLON/consolidated/ [Top ratios Market Cap] fetched 2026-11-12"
+    },
+    "pe": {
+      "value": 23.5,
+      "source": "Screener https://www.screener.in/company/SUZLON/consolidated/ [P/E chart value at 2026-11-12] fetched 2026-11-12"
+    },
+    "multiple_percentile_vs_own_history": {
+      "value": 24.9,
+      "source": "Screener https://www.screener.in/company/SUZLON/consolidated/ [P/E chart percentile within 5y to 2026-11-12] fetched 2026-11-12"
+    },
+    "promoter_holding_pct": {
+      "value": 11.7,
+      "source": "Screener https://www.screener.in/company/SUZLON/consolidated/ [Shareholding Promoters Sep 2026] fetched 2026-11-12"
+    },
+    "promoter_holding_change_3y_pp": {
+      "value": -1.58,
+      "source": "Screener https://www.screener.in/company/SUZLON/consolidated/ [Shareholding Promoters Dec 2023 -> Sep 2026] fetched 2026-11-12"
+    },
+    "promoter_pledge_pct": {
+      "value": 0.0,
+      "source": "Screener https://www.screener.in/company/SUZLON/consolidated/ [Pros/cons pledge flag absent; verify in exchange shareholding pattern] fetched 2026-11-12"
+    },
+    "institutional_holding_pct": {
+      "value": 33.87,
+      "source": "Screener https://www.screener.in/company/SUZLON/consolidated/ [Shareholding FIIs + DIIs Sep 2026] fetched 2026-11-12"
+    },
+    "pct_below_52w_high": {
+      "value": 35.7,
+      "source": "Yahoo SUZLON.NS daily: close 38.88 on 2026-11-11 vs 52w high 60.45, fetched 2026-11-12"
+    },
+    "volume_ratio_10d_vs_50d": {
+      "value": 1.81,
+      "source": "Yahoo SUZLON.NS daily: avg volume last 10 sessions / prior 50 sessions to 2026-11-11, fetched 2026-11-12"
+    },
+    "price_vs_200dma_pct": {
+      "value": -18.0,
+      "source": "Yahoo SUZLON.NS daily: close vs 200-session average to 2026-11-11, fetched 2026-11-12"
+    }
+  }
+}

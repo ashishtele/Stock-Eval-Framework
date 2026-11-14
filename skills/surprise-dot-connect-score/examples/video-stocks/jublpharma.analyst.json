@@ -1,0 +1,15 @@
+{
+  "thesis_type": "special_situation",
+  "inputs": {
+    "trigger_events": {
+      "value": [
+        "demerger_or_hidden_asset_unlock"
+      ],
+      "source": "Transcript 1:02:53-1:04:27 bought in Covid; demergers of Ingrevia and later the consumer business expected to unlock value."
+    },
+    "ai_exposure": {
+      "value": "physical_goods_or_infra",
+      "source": "Pharma/CDMO."
+    }
+  }
+}

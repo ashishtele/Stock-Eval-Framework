@@ -25,6 +25,7 @@ skills/
   equal-stock-framework/        E-QUAL quality/growth/price scorer (Emkay)
   abcd-change-catalyst-score/   Atul Raval ABCD category + change-catalyst scorer
   quality-contra-score/         Parag Thakkar "good company, bad time" contra scorer
+  surprise-dot-connect-score/   surprise + value-chain scorer ("Conversation with Kushal")
   frameworks/
     _template/             copy this to start a new framework
     <creator>-<slug>/      one skill per framework, self-contained
@@ -234,6 +235,20 @@ cyclicals/disruption) and a hold-the-full-ride / thesis-break plan
 
 ```
 python skills/quality-contra-score/scripts/score.py fetched.json analyst.json [--json]
+```
+
+### surprise-dot-connect-score
+
+Kushal podcast framework for Indian small/microcaps: spot the surprise
+(premium acquirer, customer advances, life-high volume), connect the value
+chain to the few-approved-vendor ancillary, then test addressable market,
+promoter skill/integrity and valuation — outputs score, evidence coverage,
+gates, verdict, certainty bucket and an exit plan (`skills/surprise-dot-connect-score/`).
+Back-tests 14 podcast names with Spearman 0.76 vs later peak multiple
+(`python skills/surprise-dot-connect-score/examples/video-stocks/verify.py`).
+
+```
+python skills/surprise-dot-connect-score/scripts/score.py fetched.json analyst.json [--json]
 ```
 
 ## Installing into another project

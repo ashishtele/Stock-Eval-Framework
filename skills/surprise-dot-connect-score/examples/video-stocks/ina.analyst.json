@@ -1,0 +1,26 @@
+{
+  "thesis_type": "cyclical",
+  "inputs": {
+    "trigger_events": {
+      "value": [
+        "policy_change_beneficiary"
+      ],
+      "source": "Transcript 41:07-41:39 rooftop solar adoption; 50:14 Insolation Energy, 'perhaps over-hyped'."
+    },
+    "theme_evidence": {
+      "value": [
+        "lead_time_compression",
+        "industry_capacity_target_documented"
+      ],
+      "source": "Transcript 45:19, 42:52."
+    },
+    "value_chain_position": {
+      "value": "commodity_price_taker",
+      "source": "AGENT ASSESSMENT: solar module assembly competes on price with many domestic and Chinese makers."
+    },
+    "ai_exposure": {
+      "value": "physical_goods_or_infra",
+      "source": "Solar modules."
+    }
+  }
+}

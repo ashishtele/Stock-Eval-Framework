@@ -1,0 +1,26 @@
+{
+  "thesis_type": "cyclical",
+  "inputs": {
+    "trigger_events": {
+      "value": [
+        "policy_change_beneficiary"
+      ],
+      "source": "Transcript 49:49-50:14 power-chain sweep; Jaipur electrical cluster (cables, switches)."
+    },
+    "theme_evidence": {
+      "value": [
+        "industry_capacity_target_documented",
+        "supply_shortage_or_backlog"
+      ],
+      "source": "Transcript 42:52 GW targets; 47:02 order surge across power equipment."
+    },
+    "value_chain_position": {
+      "value": "essential_component_multi_customer",
+      "source": "Transcript 43:44-44:09 cables on every transmission/distribution link."
+    },
+    "ai_exposure": {
+      "value": "physical_goods_or_infra",
+      "source": "Cables."
+    }
+  }
+}
