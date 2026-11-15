@@ -1,0 +1,50 @@
+{
+  "symbol": "TICKER",
+  "name": "Company name",
+  "as_of": "YYYY-MM-DD",
+  "industry": "e.g. Telecom - optical fibre",
+  "theme": "e.g. AI data-centre optical fibre",
+  "inputs": {
+    "price": null,
+    "ema50": null,
+    "below_50ema_now": null,
+    "price_above_200dma": null,
+    "rs_rating": null,
+    "avg_turnover_30d_cr": null,
+    "market_cap_cr": null,
+    "rs_resisted_decline": null,
+    "prior_uptrend": null,
+    "base_length_weeks": null,
+    "stop_distance_pct": null,
+    "volume_dryup_ratio": null,
+    "volume_spike_ratio": null,
+    "ema50_breaches": null,
+    "fall_to_recover_ratio": null,
+    "leg_number": null,
+    "gain_from_base_low_pct": null,
+    "rest_days": null,
+    "group_count_in_scan": null,
+    "leader_rank_in_group": null,
+    "theme_revenue_share_pct": null,
+    "global_peer_confirmation": null,
+    "pat_growth_yoy_pct": null,
+    "sales_growth_yoy_pct": null,
+    "catalyst_revenue_uplift_pct": null,
+    "catalyst_months_to_impact": null,
+    "quantified_guidance": null,
+    "upcycle_quarters_elapsed": null
+  },
+  "trade": {
+    "pivot_price": null,
+    "stop_price": null,
+    "entry_price": null,
+    "target_price": null,
+    "risk_pct": null,
+    "max_position_pct": null,
+    "portfolio_value": null
+  },
+  "evidence": {
+    "catalyst_revenue_uplift_pct": "source + page/quote for each judgement field"
+  },
+  "_help": "Leave unknown fields null: they are excluded and reported as missing coverage. Numbers are preferred; descriptive words ('high', 'tight', 'yes') are accepted for the fields listed under 'qualitative' in framework_config.json and are scored at the band floor. Start evidence notes with 'inferred:' or 'ASSUMED' when that applies. See references/data_collection.md for how to source each field."
+}

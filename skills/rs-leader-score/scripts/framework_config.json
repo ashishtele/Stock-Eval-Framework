@@ -1,0 +1,773 @@
+{
+  "version": "1.1",
+  "_note": "All weights and thresholds live here. Bands are evaluated top-down; first match wins. 'high' = value >= threshold, 'low' = value <= threshold, 'range' = lo <= value <= hi.",
+  "gates": {
+    "_source": "RS80 scan (transcript 33:06-34:14 and 1:11:55): price > 200 DMA, RS 80-99, 30-day avg turnover >= 10 Cr (7 Cr soft floor), mcap > 500 Cr, price > Rs 10",
+    "price_above_200dma": {
+      "type": "bool"
+    },
+    "rs_rating": {
+      "type": "min",
+      "value": 80
+    },
+    "avg_turnover_30d_cr": {
+      "type": "min",
+      "value": 10,
+      "soft_min": 7
+    },
+    "market_cap_cr": {
+      "type": "min",
+      "value": 500
+    },
+    "price": {
+      "type": "min",
+      "value": 10
+    }
+  },
+  "pillars": {
+    "relative_strength": {
+      "label": "Relative strength",
+      "weight": 15,
+      "rules": {
+        "rs_rating": {
+          "max": 12,
+          "type": "high",
+          "bands": [
+            [
+              95,
+              12
+            ],
+            [
+              90,
+              10
+            ],
+            [
+              85,
+              8
+            ],
+            [
+              80,
+              6
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        },
+        "rs_resisted_decline": {
+          "max": 3,
+          "type": "bool"
+        }
+      }
+    },
+    "technical_template": {
+      "label": "Technical template of past winners",
+      "weight": 30,
+      "rules": {
+        "prior_uptrend": {
+          "max": 5,
+          "type": "bool"
+        },
+        "base_length_weeks": {
+          "max": 5,
+          "type": "high",
+          "bands": [
+            [
+              26,
+              5
+            ],
+            [
+              8,
+              4
+            ],
+            [
+              4,
+              3
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        },
+        "stop_distance_pct": {
+          "max": 8,
+          "type": "low",
+          "bands": [
+            [
+              5,
+              8
+            ],
+            [
+              6,
+              7
+            ],
+            [
+              8,
+              5
+            ],
+            [
+              1000000000.0,
+              0
+            ]
+          ]
+        },
+        "volume_dryup_ratio": {
+          "max": 4,
+          "type": "low",
+          "bands": [
+            [
+              0.6,
+              4
+            ],
+            [
+              0.8,
+              3
+            ],
+            [
+              1.0,
+              1
+            ],
+            [
+              1000000000.0,
+              0
+            ]
+          ]
+        },
+        "volume_spike_ratio": {
+          "max": 3,
+          "type": "high",
+          "bands": [
+            [
+              3,
+              3
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              1.5,
+              1
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        },
+        "ema50_breaches": {
+          "max": 3,
+          "type": "low",
+          "bands": [
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              1000000000.0,
+              0
+            ]
+          ]
+        },
+        "fall_to_recover_ratio": {
+          "max": 2,
+          "type": "high",
+          "bands": [
+            [
+              6,
+              2
+            ],
+            [
+              3,
+              1
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        }
+      }
+    },
+    "stage_timing": {
+      "label": "Stage / timing",
+      "weight": 15,
+      "rules": {
+        "leg_number": {
+          "max": 11,
+          "type": "low",
+          "bands": [
+            [
+              1,
+              11
+            ],
+            [
+              2,
+              9
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              1000000000.0,
+              0
+            ]
+          ]
+        },
+        "rest_days": {
+          "max": 2,
+          "type": "low",
+          "bands": [
+            [
+              20,
+              2
+            ],
+            [
+              40,
+              1
+            ],
+            [
+              1000000000.0,
+              0
+            ]
+          ]
+        },
+        "market_cap_cr": {
+          "max": 2,
+          "type": "range",
+          "bands": [
+            [
+              1000,
+              10000,
+              2
+            ],
+            [
+              500,
+              1000,
+              1
+            ],
+            [
+              10000,
+              20000,
+              1
+            ]
+          ]
+        }
+      }
+    },
+    "theme_leadership": {
+      "label": "Theme & group leadership",
+      "weight": 20,
+      "rules": {
+        "group_count_in_scan": {
+          "max": 8,
+          "type": "high",
+          "bands": [
+            [
+              6,
+              8
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        },
+        "leader_rank_in_group": {
+          "max": 6,
+          "type": "low",
+          "bands": [
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              1000000000.0,
+              0
+            ]
+          ]
+        },
+        "theme_revenue_share_pct": {
+          "max": 4,
+          "type": "high",
+          "bands": [
+            [
+              40,
+              4
+            ],
+            [
+              20,
+              3
+            ],
+            [
+              10,
+              1
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        },
+        "global_peer_confirmation": {
+          "max": 2,
+          "type": "bool"
+        }
+      }
+    },
+    "catalyst_fundamentals": {
+      "label": "Catalyst & earnings",
+      "weight": 20,
+      "rules": {
+        "pat_growth_yoy_pct": {
+          "max": 5,
+          "type": "high",
+          "bands": [
+            [
+              50,
+              5
+            ],
+            [
+              25,
+              4
+            ],
+            [
+              10,
+              2
+            ],
+            [
+              -1000000000.0,
+              0
+            ]
+          ]
+        },
+        "sales_growth_yoy_pct": {
+          "max": 3,
+          "type": "high",
+          "bands": [
+            [
+              25,
+              3
+            ],
+            [
+              15,
+              2
+            ],
+            [
+              5,
+              1
+            ],
+            [
+              -1000000000.0,
+              0
+            ]
+          ]
+        },
+        "catalyst_revenue_uplift_pct": {
+          "max": 5,
+          "type": "high",
+          "bands": [
+            [
+              50,
+              5
+            ],
+            [
+              25,
+              4
+            ],
+            [
+              10,
+              2
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        },
+        "catalyst_months_to_impact": {
+          "max": 3,
+          "type": "low",
+          "bands": [
+            [
+              6,
+              3
+            ],
+            [
+              12,
+              2
+            ],
+            [
+              24,
+              1
+            ],
+            [
+              1000000000.0,
+              0
+            ]
+          ]
+        },
+        "quantified_guidance": {
+          "max": 2,
+          "type": "bool"
+        },
+        "upcycle_quarters_elapsed": {
+          "max": 2,
+          "type": "low",
+          "bands": [
+            [
+              4,
+              2
+            ],
+            [
+              6,
+              1
+            ],
+            [
+              1000000000.0,
+              0
+            ]
+          ]
+        }
+      }
+    }
+  },
+  "leg_from_gain": {
+    "_note": "Used when leg_number is missing, and as a cross-check (the later/worse leg wins). Gain % measured from the low of the long base.",
+    "bands": [
+      [
+        60,
+        1
+      ],
+      [
+        100,
+        2
+      ],
+      [
+        150,
+        3
+      ],
+      [
+        1000000000.0,
+        4
+      ]
+    ]
+  },
+  "caps": {
+    "loose_base": {
+      "field": "stop_distance_pct",
+      "above": 8,
+      "cap": 59,
+      "msg": "Stop is more than 8% below the pivot: not a proper tight base. Wait for a tighter right side."
+    },
+    "theme_tourist": {
+      "field": "theme_revenue_share_pct",
+      "below": 10,
+      "cap": 59,
+      "msg": "The theme is under 10% of revenue (the 'Paramount: 2% of revenue from OFC' case). Price may trade on the theme but earnings won't follow."
+    },
+    "weak_vs_50ema": {
+      "field": "ema50_breaches",
+      "above": 1,
+      "cap": 69,
+      "msg": "Closed below the 50 EMA more than once during the advance; strong leaders usually don't."
+    }
+  },
+  "classification": {
+    "buy_a": 75,
+    "buy_b": 60,
+    "max_leg_for_investment": 2,
+    "min_coverage_pct": 70,
+    "min_coverage_for_provisional": 20
+  },
+  "market_health": {
+    "_source": "Breadth tools (transcript 12:26-15:45): % above 50 DMA, new highs vs lows, A/D, index-vs-breadth divergence, reaction to news, portfolio and watchlist feedback, false breakouts (1:09:58)",
+    "rules": {
+      "pct_above_50dma": {
+        "max": 15,
+        "type": "high",
+        "bands": [
+          [
+            70,
+            15
+          ],
+          [
+            55,
+            12
+          ],
+          [
+            40,
+            7
+          ],
+          [
+            25,
+            3
+          ],
+          [
+            0,
+            0
+          ]
+        ]
+      },
+      "pct_above_50dma_change_4w": {
+        "max": 5,
+        "type": "high",
+        "bands": [
+          [
+            5,
+            5
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            -5,
+            1
+          ],
+          [
+            -1000000000.0,
+            0
+          ]
+        ]
+      },
+      "new_high_share": {
+        "max": 20,
+        "type": "high",
+        "bands": [
+          [
+            0.7,
+            20
+          ],
+          [
+            0.55,
+            15
+          ],
+          [
+            0.45,
+            10
+          ],
+          [
+            0.3,
+            5
+          ],
+          [
+            0,
+            0
+          ]
+        ]
+      },
+      "adv_decl_ratio_10d": {
+        "max": 20,
+        "type": "high",
+        "bands": [
+          [
+            1.5,
+            20
+          ],
+          [
+            1.2,
+            15
+          ],
+          [
+            1.0,
+            10
+          ],
+          [
+            0.8,
+            5
+          ],
+          [
+            0,
+            0
+          ]
+        ]
+      },
+      "index_above_50dma": {
+        "max": 10,
+        "type": "bool"
+      },
+      "index_above_200dma": {
+        "max": 10,
+        "type": "bool"
+      },
+      "breakout_followthrough_rate": {
+        "max": 10,
+        "type": "high",
+        "bands": [
+          [
+            0.6,
+            10
+          ],
+          [
+            0.4,
+            6
+          ],
+          [
+            0.2,
+            3
+          ],
+          [
+            0,
+            0
+          ]
+        ]
+      },
+      "equity_curve_rising": {
+        "max": 5,
+        "type": "bool"
+      },
+      "positive_reaction_to_news": {
+        "max": 5,
+        "type": "bool"
+      }
+    },
+    "divergence_penalty": 10,
+    "false_breakdown_penalty": 10,
+    "regimes": [
+      {
+        "min": 70,
+        "name": "HEALTHY",
+        "risk_pct": 1.0,
+        "max_position_pct": 30,
+        "max_stocks": 6,
+        "stance": "Be aggressive: win rate and average gain both rise in healthy markets."
+      },
+      {
+        "min": 50,
+        "name": "NEUTRAL",
+        "risk_pct": 0.5,
+        "max_position_pct": 20,
+        "max_stocks": 8,
+        "stance": "Standard size; act on A-grade setups only."
+      },
+      {
+        "min": 30,
+        "name": "WEAK",
+        "risk_pct": 0.25,
+        "max_position_pct": 10,
+        "max_stocks": 4,
+        "stance": "Protect capital. Keep running the RS scan weekly: leaders resisting the tide show up now."
+      },
+      {
+        "min": 0,
+        "name": "HOSTILE",
+        "risk_pct": 0.25,
+        "max_position_pct": 10,
+        "max_stocks": 2,
+        "stance": "Mostly cash. Pilot positions only in names making new highs while the index falls."
+      }
+    ]
+  },
+  "trade_plan": {
+    "default_reward_multiple": 5,
+    "max_stop_pct": 8,
+    "min_reward_multiple": 4
+  },
+  "edge": {
+    "_source": "Edge = (win% / loss%) x (avg gain / avg loss) (transcript 16:26-19:36). Mathematically this is the profit factor.",
+    "no_edge_below": 1.0,
+    "good_above": 2.0
+  },
+  "qualitative": {
+    "_note": "Word inputs are converted to the lowest number of the band they describe, so a word never scores more than the evidence supports. They are tagged 'qualitative' in the report.",
+    "bool_words": {
+      "yes": true,
+      "true": true,
+      "y": true,
+      "no": false,
+      "false": false,
+      "n": false
+    },
+    "maps": {
+      "rs_rating": {
+        "above_80": 80,
+        "above_85": 85,
+        "above_90": 90,
+        "above_95": 95
+      },
+      "volume_spike_ratio": {
+        "huge": 3,
+        "high": 2,
+        "some": 1.5,
+        "none": 1
+      },
+      "volume_dryup_ratio": {
+        "dried_up": 0.6,
+        "lower": 0.8,
+        "normal": 1.0,
+        "rising": 1.2
+      },
+      "base_length_weeks": {
+        "very_long": 26,
+        "long": 8,
+        "short": 4,
+        "none": 0
+      },
+      "stop_distance_pct": {
+        "tight": 6,
+        "moderate": 8,
+        "loose": 12
+      },
+      "ema50_breaches": {
+        "none": 0,
+        "once": 1,
+        "several": 2
+      },
+      "fall_to_recover_ratio": {
+        "fast": 6,
+        "moderate": 3,
+        "slow": 1
+      },
+      "theme_revenue_share_pct": {
+        "core": 40,
+        "major": 20,
+        "minor": 10,
+        "token": 2
+      },
+      "pat_growth_yoy_pct": {
+        "very_strong": 50,
+        "strong": 25,
+        "moderate": 10,
+        "flat": 0,
+        "falling": -10
+      },
+      "sales_growth_yoy_pct": {
+        "very_strong": 25,
+        "strong": 15,
+        "moderate": 5,
+        "flat": 0,
+        "falling": -10
+      },
+      "catalyst_revenue_uplift_pct": {
+        "transformational": 50,
+        "large": 25,
+        "moderate": 10,
+        "small": 3
+      }
+    }
+  }
+}

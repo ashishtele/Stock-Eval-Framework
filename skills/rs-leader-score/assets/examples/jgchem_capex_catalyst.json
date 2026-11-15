@@ -1,0 +1,28 @@
+{
+  "symbol": "JGCHEM", "name": "J.G. Chemicals (illustrative)", "as_of": "2026-09-30",
+  "industry": "Chemicals - zinc oxide", "theme": "Capex-led capacity doubling (Dahej)",
+  "_disclaimer": "Reconstructed from the podcast narrative. Values marked ASSUMED are placeholders for illustration, not real data.",
+  "inputs": {
+    "price": 450, "price_above_200dma": true, "rs_rating": 86,
+    "avg_turnover_30d_cr": 12, "market_cap_cr": 1800,
+    "rs_resisted_decline": null,
+    "prior_uptrend": true, "base_length_weeks": 9, "stop_distance_pct": 5.5,
+    "volume_dryup_ratio": 0.55, "volume_spike_ratio": 2.5, "ema50_breaches": 0,
+    "fall_to_recover_ratio": null,
+    "leg_number": 1, "gain_from_base_low_pct": 25, "rest_days": null,
+    "group_count_in_scan": 2, "leader_rank_in_group": 1,
+    "theme_revenue_share_pct": 100, "global_peer_confirmation": false,
+    "pat_growth_yoy_pct": 30, "sales_growth_yoy_pct": 16,
+    "catalyst_revenue_uplift_pct": 50, "catalyst_months_to_impact": 6,
+    "quantified_guidance": true, "upcycle_quarters_elapsed": 2
+  },
+  "trade": {"pivot_price": 450, "stop_price": 425.25},
+  "evidence": {
+    "catalyst_revenue_uplift_pct": "Podcast 1:25:40: 50 Cr of the 100 Cr capex already spent adds 400-450 Cr on ~900 Cr revenue (~47-50%); full capex potential 900 Cr (100%)",
+    "catalyst_months_to_impact": "Podcast 1:25:30: commissioning H1 FY27, ~6 months away",
+    "sales_growth_yoy_pct": "Podcast 1:23:07: sales 840 -> 973 Cr TTM (+15.8%)",
+    "quantified_guidance": "Podcast 1:24:13: rubber mix 85% -> 70%, 900 Cr potential revenue",
+    "rs_rating": "ASSUMED (illustration)", "stop_distance_pct": "ASSUMED (illustration)",
+    "pat_growth_yoy_pct": "ASSUMED (illustration)"
+  }
+}
