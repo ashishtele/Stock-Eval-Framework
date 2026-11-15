@@ -1,0 +1,16 @@
+{
+  "as_of": "YYYY-MM-DD",
+  "universe": "Nifty 500",
+  "pct_above_50dma": null,
+  "pct_above_50dma_change_4w": null,
+  "new_high_share": null,
+  "adv_decl_ratio_10d": null,
+  "index_above_50dma": null,
+  "index_above_200dma": null,
+  "breakout_followthrough_rate": null,
+  "equity_curve_rising": null,
+  "positive_reaction_to_news": null,
+  "index_near_high_breadth_falling": null,
+  "false_breakdowns_rising": null,
+  "_help": "new_high_share = NH / (NH + NL) of 52-week highs/lows. adv_decl_ratio_10d = 10-day average of advances / declines."
+}

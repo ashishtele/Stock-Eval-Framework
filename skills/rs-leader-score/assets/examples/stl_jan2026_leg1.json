@@ -1,0 +1,31 @@
+{
+  "symbol": "STLTECH", "name": "Sterlite Technologies (illustrative)", "as_of": "2026-01-30",
+  "industry": "Telecom cables - optical fibre", "theme": "AI data-centre optical fibre",
+  "_disclaimer": "Reconstructed from the podcast narrative. Values marked ASSUMED are placeholders for illustration, not real data.",
+  "inputs": {
+    "price": 125, "price_above_200dma": true, "rs_rating": 91,
+    "avg_turnover_30d_cr": 40, "market_cap_cr": 6000,
+    "rs_resisted_decline": true,
+    "prior_uptrend": true, "base_length_weeks": 48, "stop_distance_pct": 6,
+    "volume_dryup_ratio": 0.7, "volume_spike_ratio": 3.5, "ema50_breaches": 0,
+    "fall_to_recover_ratio": 12,
+    "leg_number": 1, "gain_from_base_low_pct": 30, "rest_days": null,
+    "group_count_in_scan": 2, "leader_rank_in_group": 1,
+    "theme_revenue_share_pct": 60, "global_peer_confirmation": true,
+    "pat_growth_yoy_pct": null, "sales_growth_yoy_pct": null,
+    "catalyst_revenue_uplift_pct": null, "catalyst_months_to_impact": 12,
+    "quantified_guidance": true, "upcycle_quarters_elapsed": 1
+  },
+  "trade": {"pivot_price": 125, "stop_price": 117.5, "portfolio_value": 1000000},
+  "evidence": {
+    "rs_rating": "Podcast 38:50: RS 91 at the arrow mark",
+    "base_length_weeks": "Podcast 38:27: took about a year to fall, one month to come back",
+    "fall_to_recover_ratio": "Podcast 38:27: ~12 months down vs ~1 month up",
+    "leader_rank_in_group": "Podcast 52:13: STL moved in Jan-Feb, HFCL only in April",
+    "global_peer_confirmation": "Podcast 30:44: Corning and Lumentum already multibaggers in the US",
+    "quantified_guidance": "Podcast 1:27:23: presentation projected EBITDA equal to today's revenue",
+    "stop_distance_pct": "ASSUMED (illustration)",
+    "avg_turnover_30d_cr": "ASSUMED (illustration)", "market_cap_cr": "ASSUMED (illustration)",
+    "theme_revenue_share_pct": "ASSUMED (illustration)"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "symbol": "PARACABLES", "name": "Paramount Communications (illustrative)", "as_of": "2026-05-15",
+  "industry": "Telecom cables - optical fibre", "theme": "AI data-centre optical fibre",
+  "_disclaimer": "Reconstructed from the podcast narrative. Values marked ASSUMED are placeholders for illustration, not real data.",
+  "inputs": {
+    "price": 80, "price_above_200dma": true, "rs_rating": 84,
+    "avg_turnover_30d_cr": 25, "market_cap_cr": 2500,
+    "rs_resisted_decline": false,
+    "prior_uptrend": true, "base_length_weeks": 6, "stop_distance_pct": 7,
+    "volume_dryup_ratio": 0.9, "volume_spike_ratio": 2.2, "ema50_breaches": 1,
+    "fall_to_recover_ratio": 2,
+    "leg_number": 1, "gain_from_base_low_pct": 35, "rest_days": null,
+    "group_count_in_scan": 4, "leader_rank_in_group": 4,
+    "theme_revenue_share_pct": 2, "global_peer_confirmation": true,
+    "pat_growth_yoy_pct": 15, "sales_growth_yoy_pct": 12,
+    "catalyst_revenue_uplift_pct": 3, "catalyst_months_to_impact": 18,
+    "quantified_guidance": false, "upcycle_quarters_elapsed": 2
+  },
+  "trade": {"pivot_price": 80, "stop_price": 74.4},
+  "evidence": {
+    "theme_revenue_share_pct": "Podcast 53:54: only 2% of revenue is optical fibre cable",
+    "leader_rank_in_group": "Podcast 53:44: a later name the market 'brought out' after STL, HFCL, Tele-link",
+    "rs_rating": "ASSUMED (illustration)", "stop_distance_pct": "ASSUMED (illustration)"
+  }
+}

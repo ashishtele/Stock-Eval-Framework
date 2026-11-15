@@ -1,0 +1,27 @@
+{
+  "symbol": "MTARTECH", "name": "MTAR Technologies (illustrative)", "as_of": "2026-11-05",
+  "industry": "Precision engineering - clean energy / aerospace", "theme": "Fuel cells for data centres (Bloom Energy supplier)",
+  "_disclaimer": "Reconstructed from the podcast narrative. Values marked ASSUMED are placeholders for illustration, not real data.",
+  "inputs": {
+    "price": 8600, "price_above_200dma": true, "rs_rating": 88,
+    "avg_turnover_30d_cr": 150, "market_cap_cr": 26000,
+    "rs_resisted_decline": null,
+    "prior_uptrend": true, "base_length_weeks": 10, "stop_distance_pct": 34,
+    "volume_dryup_ratio": 0.8, "volume_spike_ratio": 2.0, "ema50_breaches": 1,
+    "fall_to_recover_ratio": null,
+    "leg_number": null, "gain_from_base_low_pct": 275, "rest_days": 50,
+    "group_count_in_scan": 3, "leader_rank_in_group": 1,
+    "theme_revenue_share_pct": 45, "global_peer_confirmation": true,
+    "pat_growth_yoy_pct": 60, "sales_growth_yoy_pct": 40,
+    "catalyst_revenue_uplift_pct": 30, "catalyst_months_to_impact": 6,
+    "quantified_guidance": true, "upcycle_quarters_elapsed": 7
+  },
+  "trade": {"pivot_price": 9000, "stop_price": 5940},
+  "evidence": {
+    "gain_from_base_low_pct": "Podcast 1:21:30: discussed from 2400, now almost 9000",
+    "stop_distance_pct": "Podcast 1:21:49: this consolidation is almost 34% deep",
+    "global_peer_confirmation": "Podcast 46:11: supplies fuel-cell containers to Bloom Energy",
+    "pat_growth_yoy_pct": "ASSUMED (illustration)", "sales_growth_yoy_pct": "ASSUMED (illustration)",
+    "market_cap_cr": "ASSUMED (illustration)", "upcycle_quarters_elapsed": "ASSUMED (illustration)"
+  }
+}
