@@ -28,6 +28,7 @@ skills/
   surprise-dot-connect-score/   surprise + value-chain scorer ("Conversation with Kushal")
   rs-leader-score/              relative-strength "leader" setup scorer (RS80 / Minervini-ish)
   ath-momentum-score/           Rohan Mehta ATH momentum scorer (3 binary tests + gates)
+  capital-efficiency-at-a-price/ Kenneth Andrade "capital efficiency at a price" scorer
   frameworks/
     _template/             copy this to start a new framework
     <creator>-<slug>/      one skill per framework, self-contained
@@ -280,6 +281,23 @@ Bundled example runs clean (exit 0):
 
 ```
 python skills/ath-momentum-score/scripts/score.py skills/ath-momentum-score/assets/input_template.json
+```
+
+### capital-efficiency-at-a-price
+
+Kenneth Andrade's (Old Bridge Capital) "buy capital efficiency at a price" score
+for Indian non-financial companies and lenders: earnings/FCF yield vs the bond
+hurdle, capital efficiency (ROCE, cash conversion), balance sheet, dominance
+(rank, share gain, margin premium/resilience), capital-cycle positioning, gates
+(cash flows, leverage, overpaying, hot industry) and a sell-discipline check —
+deterministic stdlib-only scorer, absolute price tested before relative price
+(`skills/capital-efficiency-at-a-price/`; files installed from the embedded
+attachments of `capital-efficiency-at-a-price_skill.pdf`, v1.1). Bundled
+illustrative samples (one non-financial, one lender) run clean, exit 0,
+max_total == 100 both models:
+
+```
+python skills/capital-efficiency-at-a-price/scripts/score.py skills/capital-efficiency-at-a-price/assets/input_template.json
 ```
 
 ## Installing into another project
