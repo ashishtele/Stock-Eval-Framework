@@ -27,6 +27,7 @@ skills/
   quality-contra-score/         Parag Thakkar "good company, bad time" contra scorer
   surprise-dot-connect-score/   surprise + value-chain scorer ("Conversation with Kushal")
   rs-leader-score/              relative-strength "leader" setup scorer (RS80 / Minervini-ish)
+  ath-momentum-score/           Rohan Mehta ATH momentum scorer (3 binary tests + gates)
   frameworks/
     _template/             copy this to start a new framework
     <creator>-<slug>/      one skill per framework, self-contained
@@ -265,6 +266,20 @@ size and reward multiple. Deterministic scripts, every weight in
 
 ```
 python skills/rs-leader-score/scripts/score_setup.py skills/rs-leader-score/assets/examples/stl_jan2026_leg1.json --market skills/rs-leader-score/assets/examples/market/market_healthy.json --md report.md
+```
+
+### ath-momentum-score
+
+Rule-based momentum screen from Rohan Mehta's talk: three binary tests (price within
+5% of lifetime ATH, TTM PAT ex one-offs at ATH, 52-week return beating Nifty 500 and
+the sector index), top-750 universe, 18-point governance gate, optional sin-business
+filter, pre-decided 200-EMA exit and risk-budget sizing (`skills/ath-momentum-score/`).
+Deterministic stdlib-only scorer; commodity-ETF variant uses demand > supply for C2.
+Yahoo/Screener chart APIs are blocked for fetching; use the substitutes in SKILL.md.
+Bundled example runs clean (exit 0):
+
+```
+python skills/ath-momentum-score/scripts/score.py skills/ath-momentum-score/assets/input_template.json
 ```
 
 ## Installing into another project

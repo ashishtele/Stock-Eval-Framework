@@ -1,0 +1,91 @@
+{
+  "_comment": "ILLUSTRATIVE NUMBERS ONLY - replace with sourced data. Delete keys you don't have; the script marks missing criteria UNKNOWN rather than guessing.",
+  "as_of": "2026-11-10",
+  "benchmark_return_52w_pct": 8.5,
+  "universe_size": 750,
+  "config": {
+    "ath_tolerance_pct": 5,
+    "outperformance_margin_pct": 0,
+    "portfolio_value": 10000000,
+    "max_portfolio_drawdown_pct": 18,
+    "target_positions": 15,
+    "max_position_pct": 25,
+    "apply_sin_filter": true
+  },
+  "portfolio": {
+    "benchmark_return_mtd_pct": 2.1,
+    "cash_pct": 6
+  },
+  "stocks": [
+    {
+      "name": "Example Chem Ltd",
+      "ticker": "EXCHEM",
+      "sector": "Specialty Chemicals",
+      "sector_index": "Nifty Chemicals",
+      "held": false,
+      "asset_type": "equity",
+      "mcap_rank": 410,
+      "em_rank": 7,
+      "business_tags": [],
+      "price": {
+        "close": 2100,
+        "ath": 2150,
+        "ema200": 1620,
+        "return_52w_pct": 92.0
+      },
+      "sector_return_52w_pct": 14.0,
+      "quarterly_pat": [
+        {"period": "Q2FY25", "pat": 60, "exceptional": 0},
+        {"period": "Q3FY25", "pat": 66, "exceptional": 0},
+        {"period": "Q4FY25", "pat": 80, "exceptional": 12},
+        {"period": "Q1FY26", "pat": 74, "exceptional": 0},
+        {"period": "Q2FY26", "pat": 82, "exceptional": 0},
+        {"period": "Q3FY26", "pat": 90, "exceptional": 0},
+        {"period": "Q4FY26", "pat": 98, "exceptional": 0},
+        {"period": "Q1FY27", "pat": 105, "exceptional": 0}
+      ],
+      "governance": {
+        "litigation": "good", "regulatory_action": "good", "promoter_conduct": "good",
+        "related_party_mergers": "good", "excess_debt": "good", "duplicate_business": "good",
+        "promoter_pledge": "good", "auditor_issues": "good"
+      },
+      "position": {},
+      "sources": {
+        "price": "NSE historical data, downloaded 2026-11-10",
+        "quarterly_pat": "Screener.in quarterly results (exceptional items row)",
+        "sector_index": "niftyindices.com index returns"
+      }
+    },
+    {
+      "name": "Example Bank Ltd",
+      "held": true,
+      "weight_pct": 7.5,
+      "return_mtd_pct": 1.2,
+      "sector": "Banks",
+      "sector_index": "Nifty Bank",
+      "mcap_rank": 5,
+      "em_rank": 160,
+      "price": {
+        "series": {"csv": "example_bank_prices.csv", "date_col": "Date", "close_col": "Close"}
+      },
+      "sector_return_52w_pct": 6.0,
+      "ttm_pat_history": [
+        {"period": "Q4FY26", "ttm_pat": 70000},
+        {"period": "Q1FY27", "ttm_pat": 72500}
+      ],
+      "governance": {"excess_debt": "good", "litigation": "good"},
+      "position": {"exit_price": 760}
+    },
+    {
+      "name": "Silver ETF (example)",
+      "asset_type": "commodity_etf",
+      "held": true,
+      "weight_pct": 10,
+      "return_mtd_pct": -3.0,
+      "em_rank": 40,
+      "price": {"close": 140, "ath": 150, "ema200": 128, "return_52w_pct": 35},
+      "demand_exceeds_supply": true,
+      "demand_source": "Silver Institute World Silver Survey (deficit year)"
+    }
+  ]
+}
