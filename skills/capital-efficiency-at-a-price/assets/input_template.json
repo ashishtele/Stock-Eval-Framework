@@ -1,0 +1,73 @@
+[
+  {
+    "_comment": "ILLUSTRATIVE SAMPLE - not a real company. All money in Rs crore. Series are annual, OLDEST -> NEWEST, aligned to 'years'. Use null for unknown values (the rule is then flagged MISSING and scores 0).",
+    "company": "Sample Tyre Co (illustrative)",
+    "industry": "Tyres",
+    "business_type": "non_financial",
+    "as_of": "2026-11-12",
+    "hurdle_yield_pct": 7.0,
+    "market_cap": 52000,
+    "pe_10y_median": 24,
+    "market_cap_n_years_ago": 38000,
+    "price_lookback_years": 5,
+    "financials": {
+      "years": ["FY21", "FY22", "FY23", "FY24", "FY25", "FY26"],
+      "revenue": [16000, 19300, 23000, 25200, 27500, 29800],
+      "ebitda": [2900, 2300, 2500, 4300, 4100, 4400],
+      "ebit": [2000, 1350, 1500, 3200, 2950, 3200],
+      "pat": [1800, 1100, 1250, 2600, 2400, 2650],
+      "ocf": [3100, 900, 2400, 4200, 3300, 3900],
+      "capex": [1100, 1500, 1700, 1600, 1800, 1900],
+      "borrowings": [1500, 2200, 2400, 1800, 1500, 1200],
+      "cash_and_investments": [3200, 2600, 2900, 4100, 4600, 5600],
+      "equity": [13000, 13900, 15000, 17400, 19600, 22000],
+      "shares_outstanding": [4.24, 4.24, 4.24, 4.24, 4.24, 4.24]
+    },
+    "industry_data": {
+      "rank_by_revenue": 1,
+      "market_share_pct": [26.0, 26.5, 27.1, 27.8, 28.4],
+      "industry_revenue": null,
+      "industry_ebitda_margin_pct": [13.5, 10.0, 9.5, 14.0, 12.5],
+      "industry_roe_pct": [14.0, 9.0, 8.5, 15.0, 12.0, 11.0],
+      "new_large_entrant": false,
+      "industry_capacity_addition_high": false
+    },
+    "sources": {
+      "financials": "Screener.in consolidated P&L / cash flow / balance sheet (fill in URL)",
+      "market_share_pct": "ATMA / company investor presentation (fill in)",
+      "industry_roe_pct": "median ROE of top-5 listed peers, computed from Screener (fill in)",
+      "hurdle_yield_pct": "India 10Y G-sec yield on as_of date (fill in source)"
+    }
+  },
+  {
+    "_comment": "ILLUSTRATIVE SAMPLE lender. Use business_type=lender for banks, NBFCs, HFCs, MFIs (no free cash flow, so a separate model is used).",
+    "company": "Sample Finance Ltd (illustrative)",
+    "industry": "Vehicle finance NBFC",
+    "business_type": "lender",
+    "as_of": "2026-11-12",
+    "hurdle_yield_pct": 7.0,
+    "cost_of_equity_pct": 12.5,
+    "long_term_growth_pct": 8,
+    "market_cap": 30000,
+    "pb_10y_median": 2.0,
+    "lender": {
+      "years": ["FY22", "FY23", "FY24", "FY25", "FY26"],
+      "pat": [1500, 2100, 2600, 2900, 3100],
+      "net_worth": [12000, 13800, 16000, 18500, 21000],
+      "total_assets": [80000, 92000, 108000, 125000, 140000],
+      "loan_book": [72000, 84000, 99000, 114000, 128000],
+      "gnpa_pct": [5.5, 4.8, 3.9, 3.6, 3.4],
+      "nnpa_pct": [2.8, 2.2, 1.6, 1.4, 1.3],
+      "car_pct": [22.0, 21.0, 19.5, 18.8, 18.2],
+      "shares_outstanding": [82.0, 82.0, 82.5, 82.5, 82.6]
+    },
+    "industry_data": {
+      "rank_by_loan_book": 2,
+      "market_share_pct": [9.0, 9.4, 9.9, 10.3, 10.6],
+      "industry_loan_book": null,
+      "industry_roe_pct": [9.0, 12.0, 14.5, 13.0, 11.5],
+      "new_large_entrant": false
+    },
+    "sources": {}
+  }
+]
