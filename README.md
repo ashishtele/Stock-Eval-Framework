@@ -29,6 +29,7 @@ skills/
   rs-leader-score/              relative-strength "leader" setup scorer (RS80 / Minervini-ish)
   ath-momentum-score/           Rohan Mehta ATH momentum scorer (3 binary tests + gates)
   capital-efficiency-at-a-price/ Kenneth Andrade "capital efficiency at a price" scorer
+  evidence-stock-screen/       evidence-ledger + gates screen for Indian non-financial co's (Model 1.0)
   frameworks/
     _template/             copy this to start a new framework
     <creator>-<slug>/      one skill per framework, self-contained
@@ -114,7 +115,7 @@ Snapshots land in `data/screener/<TICKER>/<date>/` and
 ## Standalone scorer skills
 
 Self-contained scorers that do not use the `metrics/` registry. Each is a
-`SKILL.md` + deterministic Python script + JSON config; run the bundled example
+`SKILL.md` + deterministic script + JSON assets; run the bundled example
 first. All are research checklists, not investment advice.
 
 ### stock-cycle-scorer
@@ -298,6 +299,25 @@ max_total == 100 both models:
 
 ```
 python skills/capital-efficiency-at-a-price/scripts/score.py skills/capital-efficiency-at-a-price/assets/input_template.json
+```
+
+### evidence-stock-screen
+
+Evidence-based screen for Indian non-financial operating companies (Model 1.0,
+12 Nov 2026): 17 metrics across six pillars (Governance 25 / Business 20 /
+Finances 20 / Runway 15 / Valuation 15 / Downside 5), five governance gates
+that veto before any score counts, an evidence ledger with source-quality
+discounts, a dated commitment-vs-outcome ledger (G1) and a five-year
+no-multiple-expansion bear/base/bull valuation. Unlike the other scorers the
+calculator is Node (20+), dependency-free. Score is a research-prioritization
+tool, not a return probability; no out-of-sample backtest has been performed
+(`skills/evidence-stock-screen/`; distilled from `Evidence-Stock-Screen.pdf`,
+the portable export of the skill). The bundled synthetic fixture reproduces
+the documented outputs (score 100, fair value 172.09, MOS 41.89%):
+
+```
+node skills/evidence-stock-screen/scripts/score.mjs skills/evidence-stock-screen/assets/example.json
+node --test skills/evidence-stock-screen/scripts/score.test.mjs
 ```
 
 ## Installing into another project
