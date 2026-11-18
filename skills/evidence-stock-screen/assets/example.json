@@ -1,0 +1,97 @@
+{
+  "schemaVersion": "1.0",
+  "company": "SYNTHETIC_DEMO_NOT_A_REAL_STOCK",
+  "synthetic": true,
+  "sectorClass": "non-financial",
+  "asOf": "2026-11-12",
+  "sources": [
+    {
+      "id": "annual",
+      "kind": "audited",
+      "url": "https://example.invalid/annual-report",
+      "publishedAt": "2026-05-01",
+      "accessedAt": "2026-11-12",
+      "locator": "SYNTHETIC: consolidated five-year financial statements, notes and share-count reconciliation"
+    },
+    {
+      "id": "disclosures",
+      "kind": "exchange",
+      "url": "https://example.invalid/disclosures",
+      "publishedAt": "2026-11-11",
+      "accessedAt": "2026-11-12",
+      "locator": "SYNTHETIC: governance disclosures, original commitments, realized outcomes and runway evidence"
+    },
+    {
+      "id": "price",
+      "kind": "exchange",
+      "url": "https://example.invalid/price-and-multiples",
+      "publishedAt": "2026-11-11",
+      "accessedAt": "2026-11-12",
+      "locator": "SYNTHETIC: closing price, historical P/E observations and fixed peer list"
+    }
+  ],
+  "gates": {
+    "auditIntegrity": { "status": "pass", "sourceIds": ["annual", "disclosures"], "checkedAt": "2026-11-12",
+      "note": "Synthetic pass; not evidence about an actual issuer." },
+    "reportingIntegrity": { "status": "pass", "sourceIds": ["annual", "disclosures"], "checkedAt": "2026-11-12",
+      "note": "Synthetic pass; no actual regulatory search performed." },
+    "solvency": { "status": "pass", "sourceIds": ["annual", "disclosures"], "checkedAt": "2026-11-12",
+      "note": "Synthetic pass; no actual credit opinion." },
+    "filingCurrency": { "status": "pass", "sourceIds": ["disclosures"], "checkedAt": "2026-11-12",
+      "note": "Synthetic pass; latest interim results and events assumed checked." },
+    "liquidity": { "status": "pass", "sourceIds": ["disclosures", "price"], "checkedAt": "2026-11-12",
+      "note": "Synthetic pass; no actual trading or circuit history." }
+  },
+  "financials": [
+    { "yearEnd": "2022-03-31", "revenue": 100, "ebit": 25, "ebitda": 30, "pat": 20, "cfo": 20, "capex": 5,
+      "capitalEmployed": 100, "netDebt": 0, "interest": 1, "dilutedShares": 4.1472 },
+    { "yearEnd": "2023-03-31", "revenue": 120, "ebit": 30, "ebitda": 36, "pat": 24, "cfo": 24, "capex": 6,
+      "capitalEmployed": 110, "netDebt": 0, "interest": 1, "dilutedShares": 4.1472 },
+    { "yearEnd": "2024-03-31", "revenue": 144, "ebit": 36, "ebitda": 43.2, "pat": 28.8, "cfo": 28.8, "capex": 7,
+      "capitalEmployed": 120, "netDebt": 0, "interest": 1, "dilutedShares": 4.1472 },
+    { "yearEnd": "2025-03-31", "revenue": 172.8, "ebit": 43.2, "ebitda": 51.84, "pat": 34.56, "cfo": 34.56,
+      "capex": 8, "capitalEmployed": 135, "netDebt": 0, "interest": 1, "dilutedShares": 4.1472 },
+    { "yearEnd": "2026-03-31", "revenue": 207.36, "ebit": 51.84, "ebitda": 62.208, "pat": 41.472, "cfo": 41.472,
+      "capex": 9, "capitalEmployed": 150, "netDebt": 0, "interest": 1, "dilutedShares": 4.1472 }
+  ],
+  "business": {
+    "dueCommitments": 10,
+    "deliveredCommitments": 10,
+    "promoterPledgePct": 0,
+    "relatedPartySalesPct": 1,
+    "largestCustomerPct": 5,
+    "runwayChecks": [true, true, true, true]
+  },
+  "valuation": {
+    "price": 100,
+    "priceDate": "2026-11-11",
+    "normalizedEps": 10,
+    "discountRate": 0.12,
+    "peerMedianPe": 20,
+    "historyMedianPe": 20,
+    "scenarios": {
+      "bear": { "epsGrowth": 0, "terminalPe": 10, "payoutRatio": 0.5 },
+      "base": { "epsGrowth": 0.2, "terminalPe": 10, "payoutRatio": 0.5 },
+      "bull": { "epsGrowth": 0.25, "terminalPe": 12, "payoutRatio": 0.5 }
+    }
+  },
+  "evidence": {
+    "G1": ["disclosures"],
+    "G2": ["annual"],
+    "G3": ["disclosures"],
+    "G4": ["annual"],
+    "B1": ["annual"],
+    "B2": ["annual"],
+    "B3": ["annual"],
+    "F1": ["annual"],
+    "F2": ["annual"],
+    "F3": ["annual"],
+    "F4": ["annual"],
+    "R1": ["annual"],
+    "R2": ["annual"],
+    "R3": ["disclosures"],
+    "V1": ["annual", "price"],
+    "V2": ["annual", "price"],
+    "D1": ["annual", "price"]
+  }
+}
